@@ -1,0 +1,62 @@
+# WordPress Core & Standard Environment .gitignore
+
+# Local Environment & Server Configurations
+.ddev/
+wp-config-ddev.php
+.env
+.env.*
+
+# IDE, Editor & Tooling Files
+.vscode/
+.history/
+.ionide/
+.superpowers/
+
+# Project Tooling, Workflow & Documentation Folders
+Workflow/
+docs/
+scripts/
+
+# Compressed Archives & Bundles
+*.zip
+*.tar
+*.gz
+*.tgz
+*.rar
+
+# Image & Screenshot files in root
+/*.png
+/*.jpg
+/*.jpeg
+/*.gif
+*:Zone.Identifier
+Zone.Identifier
+
+# WordPress Uploads, Cache, Backups & Temporary Plugin Storage
+wp-content/uploads/
+wp-content/updraft/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/backup-db/
+wp-content/litespeed/
+wp-content/.litespeed_conf.dat
+wp-content/fluent-snippet-storage/
+wp-content/blogs.dir/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+# Database Dumps & Logs
+*.sql
+*.sql.gz
+*.log
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini

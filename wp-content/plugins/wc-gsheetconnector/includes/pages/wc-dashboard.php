@@ -1,0 +1,599 @@
+<?php
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly
+}
+?>
+<div class="wrap w-100 m-0">
+    <div class="inner-wrap  w-100 bg-white p-40">
+        <div class="gsc-dashboard">
+
+            <div class="row">
+                <div class="col-6">
+                    <div class="dashboard-left-wrapper mr-15">
+                        <!---Start Welcome-Header Section--->
+                        <div class="welcome-wrapper mb-30">
+                            <div class="welcome-content">
+                                <div class="welcome-heading mb-20">
+                                    <span><?php echo esc_html__('Welcome To GSheetConnector', 'wc-gsheetconnector'); ?></span>
+                                </div>
+                                <p>
+                                    <?php echo esc_html__('GSheetConnector is a powerful automation plugin that syncs WordPress data with Google Sheets in real time. It supports WooCommerce, Easy Digital Downloads, and popular form plugins such as Contact Form 7, Gravity Forms, Elementor Forms, along with 10+ additional WordPress integrations for efficient data management.', 'wc-gsheetconnector'); ?>
+                                </p>
+                            </div>
+                            <?php
+                           
+                            $wcgsc_selected_method = '';
+                            $wcgsc_authenticated = get_option('wcgsc_token');
+                            $wcgsc_manual_setting          = get_option('wcgsc_manual_setting');
+                            $wcgsc_per = get_option('wcgsc_verify');
+                            $wcgsc_email_account = "";
+
+                            // Check if the user is authenticated when saving existing API method
+                            if ($wcgsc_manual_setting == 0 && !empty($wcgsc_authenticated) && $wcgsc_per == 'valid') {
+                                $wcgsc_google_sheet = new GSCWOO_googlesheet();
+                                $wcgsc_email_account = $wcgsc_google_sheet->gsheet_print_google_account_email();
+                                if ($wcgsc_email_account) {
+                                $wcgsc_selected_method = esc_html(__('Existing Client / Secret Key (Auto Setup)', 'wc-gsheetconnector'));
+                                }
+                            } else {
+                                $wcgsc_selected_method = esc_html(__('Auth Required', 'wc-gsheetconnector'));
+                            }
+                            ?>
+                            <div class="unlock-pro-button-sections mt-20">
+                                <?php if ($wcgsc_email_account) { ?>
+                                    <div class="wcgsc-integration-box">
+                                        <div class="gsc-google-auth-card mt-30 mb-30">
+                                            <div>
+                                                <div class="heading mt-0 mb-30"> <?php echo esc_html(__('Google Account Connection', 'wc-gsheetconnector')); ?>
+                                                <span class="badge"><?php echo esc_attr($wcgsc_selected_method); ?></span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-wrap gap-20 justify-between align-center">
+
+                                            <div class="gsc-google-auth-left d-flex flex-wrap align-center gap-15">
+
+                                                <div class="gsc-google-icon">G</div>
+
+                                                <div class="connected-account">
+
+                                                    <div class="gsc-connected-left d-flex">
+
+                                                        <span class="gsc-connected-label">
+                                                            <?php echo esc_html(__('Connected Email Account', 'wc-gsheetconnector')); ?>
+
+                                                        </span>
+
+                                                        <span class="connected-account-manual gsc-connected-email">
+
+                                                            <?php echo esc_html($wcgsc_email_account); ?>
+                                                        </span>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="gsc-google-auth-right">
+
+                                                <div class="gsc-connected-pill">
+
+                                                    <span class="dot"></span>
+
+                                                    <?php echo esc_html(__(' Connected', 'wc-gsheetconnector')); ?>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wcgsc-feed-table-wrap">
+                                    <table class="widefat" id="wcgsc-feed-table" data-page="1">
+                                        <thead>
+                                            <tr>
+                                               
+                                                <th><?php esc_html_e('Feed Name', 'wc-gsheetconnector'); ?></th>
+                                                <th><?php esc_html_e('Sheet Name', 'wc-gsheetconnector'); ?></th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody id="wcgsc-feed-table-body">
+                                            <tr class="wcgsc-feed-loading-row">
+
+                                                <td colspan="2">
+                                                    <span class="wcgsc-loader"></span>
+                                                    <span class="wcgsc-loader-text"><?php esc_html_e('Loading...', 'wc-gsheetconnector'); ?>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <div id="wcgsc-pagination-wrap" class="d-flex justify-center gap-10 mt-15"></div>
+
+                                <input type="hidden"
+                                id="wcgsc-pagination-nonce"
+                                value="<?php echo esc_attr(wp_create_nonce('wcgsc-pagination')); ?>">
+                            </div>
+                            <?php
+                        } else { ?>
+                            <a class="btn btn-primary link-hover-white" href="<?php echo esc_html(admin_url('admin.php?page=wc-gsheetconnector-config&tab=integration')); ?>">
+                                <?php echo esc_html__("Let's Connect", 'wc-gsheetconnector'); ?>
+                            </a>
+                        <?php } ?>
+                    </div>
+
+
+                </div>
+                <!---End Welcome-Header Section--->
+
+                <!-- HERO -->
+                <div class="set-up-guid-wrapper welcome-wrapper">
+                    <div class="welcome-content">
+                        <div class="welcome-heading mb-10">
+                            <span><?php echo esc_html__('Setup Guide & Troubleshooting', 'wc-gsheetconnector'); ?></span>
+                        </div>
+                        <p>
+                            <?php echo esc_html__('Sync WooCommerce data with Google Sheets in real-time effortlessly and accurately.', 'wc-gsheetconnector'); ?>
+                        </p>
+                    </div>
+
+                    <div class="setup-content-data mt-20">
+                        <div class="setup-row d-flex justify-between gap-20">
+                            <div class="google-api-setting-guide">
+                                <div class="dashboard-pro-small-head"><?php echo esc_html__('Getting Started', 'wc-gsheetconnector'); ?></div>
+                                <ul>
+                                    <li><a href="https://www.gsheetconnector.com/docs/woocommerce-gsheetconnector/installation-process-free-version" target="_blank"><?php echo esc_html__('Installation Process', 'wc-gsheetconnector'); ?></a></li>
+                                    <li><a href="https://www.gsheetconnector.com/docs/woocommerce-gsheetconnector/integration-with-google-existing-method" target="_blank"><?php echo esc_html__('Integration with Google (Existing Method)', 'wc-gsheetconnector'); ?></a></li>
+                                    <li><a href="https://www.gsheetconnector.com/docs/woocommerce-gsheetconnector/woocommerce-data-settings-free-version" target="_blank"><?php echo esc_html__('Integration of WooCommerce with Google Sheet', 'wc-gsheetconnector'); ?></a></li>
+                                </ul>
+                            </div>
+                            <div class="google-api-setting-guide">
+                                <div class="dashboard-pro-small-head"><?php echo esc_html__('Docs & Troubleshooting', 'wc-gsheetconnector'); ?></div>
+                                <ul>
+                                    <li><a href="https://www.gsheetconnector.com/docs/general/how-to-enable-debugging-in-wordpress" target="_blank"><?php echo esc_html__('How to Enable Debugging in WordPress', 'wc-gsheetconnector'); ?></a></li>
+                                    <li><a href="https://www.gsheetconnector.com/docs/general/common-errors-issues#toc-heading-1" target="_blank"><?php echo esc_html__('Invalid OAuth2 token', 'wc-gsheetconnector'); ?></a></li>
+                                    <li><a href="https://www.gsheetconnector.com/docs/general/how-to-change-date-time-format-and-time-zone-in-google-sheets" target="_blank"><?php echo esc_html__('Change Date/Time Format and Time Zone in Google Sheets', 'wc-gsheetconnector'); ?></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="setup-row">
+                            <div class="google-api-setting-guide">
+                                <div class="dashboard-pro-small-head"><?php echo esc_html__('Additional Resources', 'wc-gsheetconnector'); ?></div>
+                                <ul>
+                                    <li><a href="https://www.gsheetconnector.com/docs/woocommerce-gsheetconnector/integration-with-google-manual-method" target="_blank"><?php echo esc_html__('Integration with Google (Manual Method)', 'wc-gsheetconnector'); ?></a></li>
+                                    <li><a href="https://www.gsheetconnector.com/docs/woocommerce-gsheetconnector/service-account-setting-pro-version" target="_blank"><?php echo esc_html__('Integration with Google (Service Method)', 'wc-gsheetconnector'); ?></a></li>
+                                    <li><a href="https://www.gsheetconnector.com/docs/woocommerce-gsheetconnector/woocommerce-data-settings-pro-version" target="_blank"><?php echo esc_html__('WooCommerce Data Settings – PRO Version', 'wc-gsheetconnector'); ?></a></li>
+                                    <li><a href="https://www.gsheetconnector.com/docs/woocommerce-gsheetconnector/pro-version-feed-settings" target="_blank"><?php echo esc_html__('Feed Settings  – PRO Version', 'wc-gsheetconnector'); ?></a></li>
+                                    <li><a href="https://www.gsheetconnector.com/docs/woocommerce-gsheetconnector/settings-tab-pro-version" target="_blank"><?php echo esc_html__('Settings Tab – PRO Version', 'wc-gsheetconnector'); ?></a></li>
+                                    <li><a href="https://www.gsheetconnector.com/docs/woocommerce-gsheetconnector/role-settings-pro-version" target="_blank"><?php echo esc_html__('Role Settings – PRO Version', 'wc-gsheetconnector'); ?></a></li>
+                                    <li><a href="https://www.gsheetconnector.com/docs/woocommerce-gsheetconnector/2-way-sync-pro-version" target="_blank"><?php echo esc_html__('2-Way Sync - PRO Version', 'wc-gsheetconnector'); ?></a></li>
+                                    <li><a href="https://www.gsheetconnector.com/docs/woocommerce-gsheetconnector/third-party-plugins-compatibility" target="_blank"><?php echo esc_html__('Third-Party Plugins Compatibility', 'wc-gsheetconnector'); ?></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="plugin-category-wrapper welcome-wrapper ml-15">
+                <div class="welcome-heading mb-10">
+                    <span><?php echo esc_html__('Plugins by Category', 'wc-gsheetconnector'); ?></span>
+                </div>
+                <p>
+                    <?php echo esc_html__('Find the perfect connector for your WordPress workflow.', 'wc-gsheetconnector'); ?>
+                </p>
+                <div class="plugin-category-section mt-30">
+                    <a href="https://www.gsheetconnector.com/plugins#contactform" target="_blank" class="plugin-category-box text-decoration-none">
+                        <div class="plugin-category-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text w-6 h-6 text-emerald-600" aria-hidden="true">
+                                <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
+                                <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
+                                <path d="M10 9H8"></path>
+                                <path d="M16 13H8"></path>
+                                <path d="M16 17H8"></path>
+                            </svg>
+                        </div>
+                        <div class="plugin-category-content">
+                            <div class="plugin-category-name fw-600">
+                                <?php echo esc_html__('Contact Form Connectors', 'wc-gsheetconnector'); ?>
+                            </div>
+                            <div class="plugin-category-badge">
+                                <?php echo esc_html__('6 plugins available', 'wc-gsheetconnector'); ?>
+                            </div>
+                        </div>
+                        <div class="plugin-category-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-5 h-5 text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-0.5 transition-all" aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg>
+                        </div>
+                    </a>
+
+                    <a href="https://www.gsheetconnector.com/plugins#ecommerce" target="_blank" class="plugin-category-box text-decoration-none">
+                        <div class="plugin-category-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart w-6 h-6 text-emerald-600" aria-hidden="true">
+                                <circle cx="8" cy="21" r="1"></circle>
+                                <circle cx="19" cy="21" r="1"></circle>
+                                <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path>
+                            </svg>
+                        </div>
+                        <div class="plugin-category-content">
+                            <div class="plugin-category-name fw-600">
+                                <?php echo esc_html__('eCommerce Connectors', 'wc-gsheetconnector'); ?>
+                            </div>
+                            <div class="plugin-category-badge">
+                                <?php echo esc_html__('2 plugins available', 'wc-gsheetconnector'); ?>
+                            </div>
+                        </div>
+                        <div class="plugin-category-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-5 h-5 text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-0.5 transition-all" aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg>
+                        </div>
+                    </a>
+
+                    <a href="https://www.gsheetconnector.com/plugins#pagebuilderform" target="_blank" class="plugin-category-box text-decoration-none">
+                        <div class="plugin-category-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-panels-top-left w-6 h-6 text-emerald-600" aria-hidden="true">
+                                <rect width="18" height="18" x="3" y="3" rx="2"></rect>
+                                <path d="M3 9h18"></path>
+                                <path d="M9 21V9"></path>
+                            </svg>
+                        </div>
+                        <div class="plugin-category-content">
+                            <div class="plugin-category-name fw-600">
+                                <?php echo esc_html__('Page Builder Forms', 'wc-gsheetconnector'); ?>
+                            </div>
+                            <div class="plugin-category-badge">
+                                <?php echo esc_html__('3 plugins available', 'wc-gsheetconnector'); ?>
+                            </div>
+                        </div>
+                        <div class="plugin-category-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-5 h-5 text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-0.5 transition-all" aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg>
+                        </div>
+                    </a>
+
+                            <!-- <a href="#" class="plugin-category-box text-decoration-none">
+                                <div class="plugin-category-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rectangle-ellipsis w-6 h-6 text-emerald-600" aria-hidden="true">
+                                        <rect width="20" height="12" x="2" y="6" rx="2"></rect>
+                                        <path d="M12 12h.01"></path>
+                                        <path d="M17 12h.01"></path>
+                                        <path d="M7 12h.01"></path>
+                                    </svg>
+                                </div>
+                                <div class="plugin-category-content">
+                                    <div class="plugin-category-name fw-600">
+                                        < ?php echo esc_html__('Form Builders', 'wc-gsheetconnector'); ?>
+                                    </div>
+                                    <div class="plugin-category-badge">
+                                        < ?php echo esc_html__('4 plugins available', 'wc-gsheetconnector'); ?>
+                                    </div>
+                                </div>
+                                <div class="plugin-category-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-5 h-5 text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-0.5 transition-all" aria-hidden="true">
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </div>
+                            </a> -->
+
+                            <a href="https://www.gsheetconnector.com/gsheetconnector-for-wp-core" target="_blank" class="plugin-category-box text-decoration-none">
+                                <div class="plugin-category-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-database w-6 h-6 text-emerald-600" aria-hidden="true">
+                                        <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                        <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
+                                        <path d="M3 12A9 3 0 0 0 21 12"></path>
+                                    </svg>
+                                </div>
+                                <div class="plugin-category-content">
+                                    <div class="plugin-category-name fw-600">
+                                        <?php echo esc_html__('WP Core Connector', 'wc-gsheetconnector'); ?>
+                                    </div>
+                                    <div class="plugin-category-badge">
+                                        <?php echo esc_html__('1 plugin available', 'wc-gsheetconnector'); ?>
+                                    </div>
+                                </div>
+                                <div class="plugin-category-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-5 h-5 text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-0.5 transition-all" aria-hidden="true">
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </div>
+                            </a>
+
+                            <a href="https://profiles.wordpress.org/gsheetconnector/" target="_blank" class="plugin-category-box text-decoration-none">
+                                <div class="plugin-category-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gift w-6 h-6 text-emerald-600" aria-hidden="true">
+                                        <rect x="3" y="8" width="18" height="4" rx="1"></rect>
+                                        <path d="M12 8v13"></path>
+                                        <path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"></path>
+                                        <path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"></path>
+                                    </svg>
+                                </div>
+                                <div class="plugin-category-content">
+                                    <div class="plugin-category-name fw-600">
+                                        <?php echo esc_html__('Free Plugins', 'wc-gsheetconnector'); ?>
+                                    </div>
+                                    <div class="plugin-category-badge">
+                                        <?php echo esc_html__('12 plugins available', 'wc-gsheetconnector'); ?>
+                                    </div>
+                                </div>
+                                <div class="plugin-category-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-5 h-5 text-slate-400 group-hover:text-emerald-600 group-hover:translate-x-0.5 transition-all" aria-hidden="true">
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!---Start Support  ticket--->
+
+                    <div class="gsc-support-card mt-30 welcome-wrapper ml-15">
+
+                        <!-- LEFT SIDE -->
+                        <div class="gsc-support-left">
+
+                            <div class="gsc-support-icon d-flex justify-center align-center">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.8335 14V3.50004C19.8335 3.19062 19.7106 2.89388 19.4918 2.67508C19.273 2.45629 18.9762 2.33337 18.6668 2.33337H3.50016C3.19074 2.33337 2.894 2.45629 2.6752 2.67508C2.45641 2.89388 2.3335 3.19062 2.3335 3.50004V19.8334L7.00016 15.1667H18.6668C18.9762 15.1667 19.273 15.0438 19.4918 14.825C19.7106 14.6062 19.8335 14.3095 19.8335 14ZM24.5002 7.00004H22.1668V17.5H7.00016V19.8334C7.00016 20.1428 7.12308 20.4395 7.34187 20.6583C7.56066 20.8771 7.85741 21 8.16683 21H21.0002L25.6668 25.6667V8.16671C25.6668 7.85729 25.5439 7.56054 25.3251 7.34175C25.1063 7.12296 24.8096 7.00004 24.5002 7.00004Z" fill="#141B38"></path>
+                                </svg>
+                            </div>
+
+                            <div class="gsc-content">
+                                <div class="support-headings"><?php echo esc_html__('Need more support? We\'re here to help.', 'wc-gsheetconnector'); ?></div>
+
+                                <a href="https://wordpress.org/support/plugin/wc-gsheetconnector" target="_blank" class="btn btn-primary mt-10 link-hover-white">
+                                    <?php echo esc_html__('Submit a Support Ticket', 'wc-gsheetconnector'); ?>
+                                    <svg width="10" height="10" viewBox="0 0 6 8" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.66681 0L0.726807 0.94L3.78014 4L0.726807 7.06L1.66681 8L5.66681 4L1.66681 0Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <!-- RIGHT SIDE -->
+                        <div class="gsc-support-right">
+
+                            <div class="gsc-avatars justify-center">
+                                <img src="<?php echo esc_url(WC_GSHEETCONNECTOR_URL); ?>/assets/img/avatar-2.jfif" alt="">
+                                <img src="<?php echo esc_url(WC_GSHEETCONNECTOR_URL); ?>/assets/img/avatar-3.png" alt="">
+                                <img src="<?php echo esc_url(WC_GSHEETCONNECTOR_URL); ?>/assets/img/avatar-5.jfif" alt="">
+                                <img src=" <?php echo esc_url(WC_GSHEETCONNECTOR_URL); ?>/assets/img/avatar-4.png" alt="">
+                                <img src="<?php echo esc_url(WC_GSHEETCONNECTOR_URL); ?>/assets/img/avatar.jpeg" alt="">
+                            </div>
+
+                            <p class="text-center"><?php echo esc_html__('Our fast and friendly support team is always happy to help!', 'wc-gsheetconnector'); ?></p>
+
+                        </div>
+
+                    </div>
+
+                    <!---End Support  ticket--->
+                </div>
+            </div>
+
+
+            <!---Start PRO FEATURE--->
+            <div class="pro-container mt-30 welcome-wrapper">
+                <span class="pro-badge"><?php echo esc_html(__('Amazing Key Features', 'wc-gsheetconnector')); ?></span>
+                <div class="welcome-heading mb-15 mt-20"><?php echo esc_html(__('Everything You Need to Sync Data', 'wc-gsheetconnector')); ?></div>
+                <p>
+                    <?php echo esc_html(__('Common features shared across every GSheetConnector Pro add-on built for reliability, flexibility, and scale.', 'wc-gsheetconnector')); ?>
+                </p>
+
+                <!-- LEFT -->
+                <div class="d-flex gap-30 mt-30 d-flex-responsiveness">
+                    <div class="pro-left w-50">
+                        <div class="list dashboard-pro-features">
+                            <ul>
+                                <li><?php echo esc_html__('Google Sheets API v4', 'wc-gsheetconnector'); ?></li>
+                                <li><?php echo esc_html__('One-Click Authentication', 'wc-gsheetconnector'); ?></li>
+                                <li><?php echo esc_html__('Authenticated Email Display', 'wc-gsheetconnector'); ?></li>
+                                <li><?php echo esc_html__('Click & Fetch Automation', 'wc-gsheetconnector'); ?></li>
+                                <li><?php echo esc_html__('Create New Spreadsheet', 'wc-gsheetconnector'); ?></li>
+                                <li><?php echo esc_html__('Manual Sheet / Tab Name', 'wc-gsheetconnector'); ?></li>
+                            </ul>
+                            <ul>
+                                <li><?php echo esc_html__('Automated Sheet & Tab', 'wc-gsheetconnector'); ?></li>
+                                <li><?php echo esc_html__('Multiple Feeds to Sheets', 'wc-gsheetconnector'); ?></li>
+                                <li><?php echo esc_html__('Drag-and-Drop Column Order', 'wc-gsheetconnector'); ?></li>
+                                <li><?php echo esc_html__('Headers On / Off + Rename', 'wc-gsheetconnector'); ?></li>
+                                <li><?php echo esc_html__('Image / PDF Attachment Link', 'wc-gsheetconnector'); ?></li>
+                                <li><?php echo esc_html__('Freeze & Color Headers', 'wc-gsheetconnector'); ?></li>
+                            </ul>
+                            <ul>
+                                <li><?php echo esc_html__('Sync Past Entries', 'wc-gsheetconnector'); ?></li>
+                                <li><?php echo esc_html__('Role Management', 'wc-gsheetconnector'); ?></li>
+                                <li><?php echo esc_html__('Quick Configuration', 'wc-gsheetconnector'); ?></li>
+                                <li><?php echo esc_html__('Multi-Language Support', 'wc-gsheetconnector'); ?></li>
+                                <li><?php echo esc_html__('Multi-Site Support', 'wc-gsheetconnector'); ?></li>
+                                <li><?php echo esc_html__('Latest WP & PHP Support', 'wc-gsheetconnector'); ?></li>
+                            </ul>
+                        </div>
+                        <!-- <div class="pro-features">
+                            <div class="feature-card">
+                                <div>
+                                    <div class="pro-feature-sub-head">< ?php echo esc_html(__('Google Sheets API v4', 'wc-gsheetconnector')); ?></div>
+                                    <p>< ?php echo esc_html(__('Latest Google Sheets API for enhanced performance and reliability.', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div>
+                                    <div class="pro-feature-sub-head">< ?php echo esc_html(__('One Click Authentication', 'wc-gsheetconnector')); ?></div>
+                                    <p>< ?php echo esc_html(__('Connect WordPress to Google Sheets with a single click. No complex setup.', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div>
+                                    <div class="pro-feature-sub-head">< ?php echo esc_html(__('Authenticated Email Display', 'wc-gsheetconnector')); ?></div>
+                                    <p>< ?php echo esc_html(__('Confirm which account has access to your sheet data and prevent risks.', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div>
+                                    <div class="pro-feature-sub-head">< ?php echo esc_html(__('Click & Fetch Automated', 'wc-gsheetconnector')); ?></div>
+                                    <p>< ?php echo esc_html(__('Automate the data flow between forms and Google Sheets seamlessly.', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div>
+                                    <div class="pro-feature-sub-head">< ?php echo esc_html(__('Create New Spreadsheet', 'wc-gsheetconnector')); ?></div>
+                                    <p>< ?php echo esc_html(__('Create a brand new spreadsheet directly within your connected Google Account.', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div>
+                                    <div class="pro-feature-sub-head">< ?php echo esc_html(__('Manual Sheet & Tab Name', 'wc-gsheetconnector')); ?></div>
+                                    <p>< ?php echo esc_html(__('Manually add Sheet Name, Sheet ID, Tab Name and Tab ID for full control.', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div>
+                                    <div class="pro-feature-sub-head">< ?php echo esc_html(__('Multiple Feeds to Sheets', 'wc-gsheetconnector')); ?></div>
+                                    <p>< ?php echo esc_html(__('Connect one form to various Google Sheets and organize data efficiently.', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div>
+                                    <div class="pro-feature-sub-head">< ?php echo esc_html(__('Custom Column Ordering', 'wc-gsheetconnector')); ?></div>
+                                    <p>< ?php echo esc_html(__('Rearrange columns within Google Sheets using a simple drag-and-drop interface.', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div>
+                                    <div class="pro-feature-sub-head">< ?php echo esc_html(__('Enable/Disable Headers', 'wc-gsheetconnector')); ?></div>
+                                    <p>< ?php echo esc_html(__('Manage Google Sheet headers with on/off toggle and rename fields easily.', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div>
+                                    <div class="pro-feature-sub-head">< ?php echo esc_html(__('Image / PDF Attachments', 'wc-gsheetconnector')); ?></div>
+                                    <p>< ?php echo esc_html(__('Retrieve attachment paths from forms and store URLs in your Google Sheet.', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div>
+                                    <div class="pro-feature-sub-head">< ?php echo esc_html(__('Freeze Header & Color', 'wc-gsheetconnector')); ?></div>
+                                    <p>< ?php echo esc_html(__('Customize sheet headers with freeze rows and color options for readability.', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div>
+                                    <div class="pro-feature-sub-head">< ?php echo esc_html(__('Sync Settings', 'wc-gsheetconnector')); ?></div>
+                                    <p>< ?php echo esc_html(__('Auto capture new entries and import past data to a selected spreadsheet.', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div>
+                                    <div class="pro-feature-sub-head">< ?php echo esc_html(__('Role Management', 'wc-gsheetconnector')); ?></div>
+                                    <p>< ?php echo esc_html(__('Define user permissions for accessing Google Sheet tabs from forms.', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div>
+                                    <div class="pro-feature-sub-head">< ?php echo esc_html(__('Multi Language Support', 'wc-gsheetconnector')); ?></div>
+                                    <p>< ?php echo esc_html(__('Reach a wider audience and works perfectly in any language.', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div>
+                                    <div class="pro-feature-sub-head">< ?php echo esc_html(__('Multisite Support', 'wc-gsheetconnector')); ?></div>
+                                    <p>< ?php echo esc_html(__('Seamlessly integrates with your WordPress Multisite setup.', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                            </div>
+
+                            <div class="feature-card">
+                                <div>
+                                    <div class="pro-feature-sub-head">< ?php echo esc_html(__('Priority Support', 'wc-gsheetconnector')); ?></div>
+                                    <p>< ?php echo esc_html(__('Free priority support via online chat, email and step-by-step guides.', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                            </div>
+
+                        </div> -->
+
+                        <div class="pro-actions mt-30 gap-20">
+                            <a href="https://www.gsheetconnector.com/woocommerce-google-sheet-connector-pro" target="_blank" class="pro-btn text-decoration-none link-hover-white"><?php echo esc_html(__('Upgrade to Pro', 'wc-gsheetconnector')); ?></a>
+                            <a href="https://www.gsheetconnector.com/woocommerce-google-sheet-connector-pro#features" target="_blank"><?php echo esc_html(__('View Full Features', 'wc-gsheetconnector')); ?></a>
+                        </div>
+
+                    </div>
+
+                    <!-- RIGHT -->
+                    <div class="pro-right w-50">
+
+                        <div class="right-card">
+
+                            <!-- FLOW -->
+                            <div class="flow-ui">
+                                <div class="flow-step"><?php echo esc_html(__('Form', 'wc-gsheetconnector')); ?></div>
+                                <div class="line"></div>
+                                <div class="flow-step mid"><?php echo esc_html(__('Processing', 'wc-gsheetconnector')); ?></div>
+                                <div class="line"></div>
+                                <div class="flow-step success"><?php echo esc_html(__('Sheet', 'wc-gsheetconnector')); ?></div>
+                            </div>
+
+                            <!-- STATS -->
+                            <div class="sync-stats">
+                                <div>
+                                    <strong><?php echo esc_html(__('Instant', 'wc-gsheetconnector')); ?></strong>
+                                    <p><?php echo esc_html(__('Real-time updates', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                                <div>
+                                    <strong><?php echo esc_html(__('100%', 'wc-gsheetconnector')); ?></strong>
+                                    <p><?php echo esc_html(__('Accuracy', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                                <div>
+                                    <strong><?php echo esc_html(__('Flexible', 'wc-gsheetconnector')); ?></strong>
+                                    <p><?php echo esc_html(__('Custom mapping', 'wc-gsheetconnector')); ?></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <!---End PRO FEATURE--->
+
+
+            <!---Start Video Tutorial Section--->
+            <div class="video-section-wrapper mt-30 welcome-wrapper">
+                <div class="welcome-heading mb-30">
+                    <span><?php echo esc_html__('Video Tutorials', 'wc-gsheetconnector'); ?></span>
+                </div>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <iframe class="w-100" height="400" src="https://www.youtube.com/embed/8qGZtSzL8YY" title="WooCommerce Google Sheet Connector - Send all your Woo Orders, Products, Variations and Lot more" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <!---End Video Tutorial Section--->
+
+        </div>
+    </div>
+</div>

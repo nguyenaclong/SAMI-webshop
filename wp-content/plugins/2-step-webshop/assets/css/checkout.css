@@ -1,0 +1,463 @@
+/* --- WooCommerce Messages & Order Paragraph Font Size (Desktop mode: 1000px and up) --- */
+@media (min-width: 1000px) {
+    .woocommerce-message,
+    .woocommerce-error,
+    .woocommerce-info,
+    .woocommerce-message *,
+    .woocommerce-error *,
+    .woocommerce-info *,
+    .woocommerce-order p {
+        font-size: 18px !important;
+    }
+}
+
+/* --- Box Sizing Normalization to prevent horizontal scrolling on mobile --- */
+.woocommerce-checkout *,
+.woocommerce-cart * {
+    box-sizing: border-box !important;
+}
+
+/* --- Hide Shipping Totals, Methods & Fields on Checkout during Local Pickup / Webshop Checkout --- */
+.woocommerce-shipping-totals,
+tr.shipping,
+#shipping_method,
+.woocommerce-shipping-methods,
+.woocommerce-shipping-fields,
+#ship-to-different-address,
+.woocommerce-shipping-fields__field-wrapper,
+.shipping_address,
+.woocommerce-shipping-calculator,
+.tsw-pickup-only .woocommerce-shipping-totals,
+.tsw-pickup-only tr.shipping,
+.tsw-pickup-only #shipping_method,
+.tsw-pickup-only .woocommerce-shipping-methods,
+.tsw-pickup-only .woocommerce-shipping-fields,
+.tsw-pickup-only #ship-to-different-address,
+.tsw-pickup-only .shipping_address,
+.tsw-pickup-only .woocommerce-shipping-calculator,
+body.tsw-fulfillment-pickup .woocommerce-shipping-totals,
+body.tsw-fulfillment-pickup tr.shipping,
+body.tsw-fulfillment-pickup #shipping_method,
+body.tsw-fulfillment-pickup .woocommerce-shipping-methods,
+body.tsw-fulfillment-pickup .woocommerce-shipping-fields,
+body.tsw-fulfillment-pickup #ship-to-different-address,
+body.tsw-fulfillment-pickup .shipping_address {
+    display: none !important;
+}
+
+/* --- Cart Page: Force Single-Column Layout on All Viewports --- */
+.woocommerce-cart .woocommerce {
+    display: block !important;
+    width: 100% !important;
+}
+.woocommerce-cart .ct-woocommerce-cart-form,
+.ct-woocommerce-cart-form {
+    display: flex !important;
+    flex-direction: column !important;
+    grid-template-columns: none !important; /* Disables Blocksy's default columns */
+    gap: 30px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    float: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.woocommerce-cart .ct-woocommerce-cart-form form.woocommerce-cart-form,
+.woocommerce-cart .ct-woocommerce-cart-form .cart_totals {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    float: none !important;
+    margin: 0 !important;
+}
+
+
+/* --- Checkout Page: Stays Single Column on All Layouts --- */
+form.checkout.woocommerce-checkout,
+form[name="checkout"] {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+#customer_details,
+.ct-order-review,
+#order_review_heading,
+#order_review {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    float: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    box-sizing: border-box !important;
+}
+#order_review_heading {
+    margin-top: 30px !important;
+}
+
+/* Adjusts Blocksy's order review container padding to prevent misalignment */
+.ct-order-review {
+    padding: 10px !important; /* Reduced from 25px to prevent overflow on mobile devices */
+}
+
+/* Force tables inside checkout and cart to fit precisely on Desktop only (1000px and up) */
+@media (min-width: 1000px) {
+    .woocommerce-checkout table.shop_table,
+    .woocommerce-cart table.shop_table {
+        word-wrap: break-word !important;
+    }
+}
+
+/* Optimize cart table spacing on Tablet & smaller viewports to prevent overflow */
+@media (max-width: 820px) {
+    .woocommerce-cart table.shop_table th.product-thumbnail,
+    .woocommerce-cart table.shop_table td.product-thumbnail {
+        display: none !important;
+    }
+    .woocommerce-cart table.shop_table th,
+    .woocommerce-cart table.shop_table td {
+        padding: 10px 8px !important;
+        font-size: 14px !important;
+    }
+}
+
+/* Keep base widths matching on cart & checkout tables across all screen sizes */
+.woocommerce-checkout table.shop_table,
+.woocommerce-cart table.shop_table {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* --- Checkout Billing & Additional Info Side-By-Side (Desktop & Tablet) --- */
+@media (min-width: 691px) {
+    .woocommerce-checkout .col2-set {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        gap: 30px !important;
+        width: 100% !important;
+    }
+    .woocommerce-checkout .col2-set .col-1,
+    .woocommerce-checkout .col2-set .col-2 {
+        flex: 1 !important;
+        width: 50% !important;
+        margin: 0 !important;
+        float: none !important;
+    }
+}
+
+/* --- Cart Page: Horizontal, Bottom-Right Aligned, Fit-to-Content Buttons --- */
+.wc-proceed-to-checkout {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: row-reverse !important; /* Displays 'Weiter Einkaufen' on left, 'Weiter zur Kasse' on right */
+    justify-content: flex-start !important; /* Aligns both buttons to right side of totals box */
+    align-items: center !important;
+    gap: 15px !important;
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+/* Ensures the pickup time dropdown wraps completely above the side-by-side buttons */
+.wc-proceed-to-checkout .cart-pickup-time-select {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+    margin-bottom: 15px !important;
+}
+
+/* Overrides cart buttons to sit inline and size to their text content */
+.wc-proceed-to-checkout .button {
+    display: inline-block !important;
+    width: auto !important;
+    max-width: none !important;
+    flex: none !important;
+    margin: 0 !important;
+}
+
+/* --- Cart Table Action Bar Alignment (Coupon + Update Button Alignment) --- */
+.woocommerce-cart td.actions {
+    padding: 20px 0px !important;
+    box-sizing: border-box !important;
+}
+
+/* Desktop Layout (default): Flexbox layout to align coupon left, update cart right */
+.woocommerce-cart td.actions .actions-wrapper {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 16px !important;
+}
+
+.woocommerce-cart td.actions .actions-wrapper .coupon {
+    display: inline-flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 16px !important;
+    flex-wrap: nowrap !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.woocommerce-cart td.actions .actions-wrapper .coupon input#coupon_code {
+    width: 240px !important;
+    margin: 0 !important;
+}
+
+.woocommerce-cart td.actions .coupon button[name="apply_coupon"] {
+    width: auto !important;
+    margin: 0 !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+}
+
+.woocommerce-cart td.actions button[name="update_cart"] {
+    width: auto !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+    margin-left: auto !important; /* Pushes to far right in flex context */
+}
+
+.woocommerce-cart td.actions input[type="hidden"] {
+    display: none !important;
+}
+
+/* --- Tablet Layout (768px - 1024px) --- */
+@media (min-width: 768px) and (max-width: 999.98px) {
+    .woocommerce-cart td.actions .actions-wrapper {
+        display: grid !important;
+        grid-template-columns: 1fr auto !important;
+        grid-template-rows: auto auto !important;
+        gap: 16px !important;
+    }
+    .woocommerce-cart td.actions .actions-wrapper .coupon {
+        display: contents !important;
+    }
+    .woocommerce-cart td.actions .actions-wrapper .coupon input#coupon_code {
+        grid-column: 1 !important;
+        grid-row: 1 / span 1 !important;
+        width: 100% !important;
+        max-width: 400px !important;
+        align-self: center !important;
+    }
+    .woocommerce-cart td.actions .actions-wrapper .coupon button[name="apply_coupon"] {
+        grid-column: 2 !important;
+        grid-row: 1 !important;
+        justify-self: end !important;
+        width: auto !important;
+    }
+    .woocommerce-cart td.actions .actions-wrapper button[name="update_cart"] {
+        grid-column: 2 !important;
+        grid-row: 2 !important;
+        justify-self: end !important;
+        width: auto !important;
+        margin-left: 0 !important; /* Reset desktop margin */
+    }
+}
+
+/* --- Mobile Layout (Up to 767px) --- */
+@media (max-width: 767px) {
+    .woocommerce-cart td.actions .actions-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        gap: 12px !important;
+    }
+    .woocommerce-cart td.actions .actions-wrapper .coupon {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        gap: 12px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .woocommerce-cart td.actions .actions-wrapper .coupon input#coupon_code {
+        width: 100% !important;
+        max-width: none !important;
+    }
+    .woocommerce-cart td.actions .actions-wrapper .coupon button[name="apply_coupon"] {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .woocommerce-cart td.actions .actions-wrapper button[name="update_cart"] {
+        width: 100% !important;
+        margin-left: 0 !important; /* Reset desktop margin */
+    }
+}
+
+/* --- Checkout Page: Horizontal, Bottom-Right Aligned, Fit-to-Content Buttons --- */
+#payment .form-row.place-order {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: row-reverse !important; /* Displays 'Zurück' on left, 'Zahlungspflichtig bestellen' on right */
+    justify-content: flex-start !important; /* Aligns both buttons to the right-hand side of the box */
+    align-items: center !important;
+    gap: 15px !important;
+    width: 100% !important;
+    padding: 20px !important; /* Restored generous padding on all sides so content does not press against the edges */
+    box-sizing: border-box !important;
+}
+
+/* Prevent payment wrapper from breaking out of container width bounds */
+.woocommerce-checkout-payment,
+#payment {
+    margin: 0 !important; /* Resets theme negative margins */
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* Ensures the privacy text container wraps completely above the side-by-side buttons */
+#payment .form-row.place-order .woocommerce-terms-and-conditions-wrapper {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+    margin-bottom: 15px !important;
+}
+
+/* Overrides checkout buttons to sit inline and size to their text content */
+#payment .form-row.place-order .button {
+    display: inline-block !important;
+    width: auto !important;
+    max-width: none !important;
+    flex: none !important;
+    margin: 0 !important;
+}
+
+/* --- Global Button Styling (Normal State) --- */
+.woocommerce-cart .button,
+.woocommerce-checkout .button,
+.woocommerce-cart button.button,
+.woocommerce-checkout button.button,
+.woocommerce-cart a.button,
+.woocommerce-checkout a.button {
+    padding: 16px 24px !important;
+    background-color: #00000000 !important;
+    font-size: 1rem !important;
+    line-height: 1.5em !important;
+    letter-spacing: .009375em !important;
+    font-weight: 500 !important;
+    color: var(--wp--preset--color--palette-color-2, var(--theme-palette-color-2, #C29B70)) !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: var(--wp--preset--color--palette-color-2, var(--theme-palette-color-2, #C29B70)) !important;
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+    border-bottom-left-radius: 16px !important;
+    transition: all 0.25s ease-in-out !important;
+    box-shadow: none !important;
+}
+
+/* --- Global Button Styling (Hover State) --- */
+.woocommerce-cart .button:hover,
+.woocommerce-checkout .button:hover,
+.woocommerce-cart button.button:hover,
+.woocommerce-checkout button.button:hover,
+.woocommerce-cart a.button:hover,
+.woocommerce-checkout a.button:hover {
+    background-color: var(--wp--preset--color--palette-color-2, var(--theme-palette-color-2, #C29B70)) !important;
+    color: var(--wp--preset--color--palette-color-8, var(--theme-palette-color-8, #FFFFFF)) !important;
+    border-color: var(--wp--preset--color--palette-color-2, var(--theme-palette-color-2, #C29B70)) !important;
+}
+
+/* --- Coupon Code Input Fields (Symmetrical Height & Corners) --- */
+.woocommerce-cart #coupon_code,
+.woocommerce-checkout #coupon_code,
+.woocommerce-cart .coupon input#coupon_code,
+.woocommerce-checkout .checkout_coupon input#coupon_code {
+    padding: 16px 24px !important;
+    font-size: 1rem !important;
+    line-height: 1.5em !important;
+    height: auto !important;
+    box-sizing: border-box !important;
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+    border-bottom-left-radius: 16px !important;
+}
+
+/* --- Checkout Custom Options Layout --- */
+.custom-checkout-options {
+    width: 100% !important;
+    margin-bottom: 25px !important;
+}
+
+/* --- Hide Required Address Fields Visually --- */
+.hidden-field {
+    display: none !important;
+}
+
+/* --- Card Payment Visual Disabling Layout CSS --- */
+body.card-payment-disabled .payment_method_bacs,
+body.card-payment-disabled .payment_method_cheque {
+    opacity: 0.55 !important;
+    pointer-events: none !important;
+    cursor: not-allowed !important;
+}
+
+/* --- Mobile & Tablet Layout Customizations (Scale down by factor of 0.875) --- */
+@media (max-width: 690px) {
+    /* Scale font size on root elements of Cart and Checkout */
+    .woocommerce-checkout, 
+    .woocommerce-cart {
+        font-size: 0.875em !important;
+    }
+    /* Explicitly scale down headings */
+    .woocommerce-checkout h3, 
+    .woocommerce-cart h2,
+    #order_review_heading {
+        font-size: 18px !important;
+    }
+    /* Explicitly scale down table columns and content */
+    .woocommerce-checkout table.shop_table th,
+    .woocommerce-cart table.shop_table th,
+    .woocommerce-checkout table.shop_table td,
+    .woocommerce-cart table.shop_table td {
+        font-size: 13px !important;
+    }
+    /* Explicitly scale down labels and fields */
+    .woocommerce-checkout label, 
+    .woocommerce-cart label {
+        font-size: 13px !important;
+    }
+    .woocommerce-checkout input.input-text,
+    .woocommerce-checkout select,
+    .woocommerce-checkout textarea,
+    .woocommerce-cart select {
+        font-size: 13px !important;
+    }
+    /* Explicitly scale down buttons & compact their spacing */
+    .woocommerce-cart .button,
+    .woocommerce-checkout .button {
+        font-size: 0.875rem !important;
+        padding: 12px 20px !important;
+    }
+}
+
+/* Primary / Secondary Checkout Buttons hierarchy */
+.woocommerce-checkout #place_order {
+    background-color: var(--wp--preset--color--palette-color-2, var(--theme-palette-color-2, #C29B70)) !important;
+    color: var(--wp--preset--color--palette-color-8, var(--theme-palette-color-8, #FFFFFF)) !important;
+    border-color: var(--wp--preset--color--palette-color-2, var(--theme-palette-color-2, #C29B70)) !important;
+}
+
+.woocommerce-checkout #place_order:hover {
+    background-color: color-mix(in srgb, var(--wp--preset--color--palette-color-2, var(--theme-palette-color-2, #C29B70)) 85%, black) !important;
+    border-color: color-mix(in srgb, var(--wp--preset--color--palette-color-2, var(--theme-palette-color-2, #C29B70)) 85%, black) !important;
+}
+
+.woocommerce-checkout .checkout-back-button {
+    background-color: transparent !important;
+    color: #64748b !important;
+    border: 1px solid #cbd5e1 !important;
+}
+
+.woocommerce-checkout .checkout-back-button:hover {
+    background-color: #f1f5f9 !important;
+    color: #334155 !important;
+    border-color: #94a3b8 !important;
+}

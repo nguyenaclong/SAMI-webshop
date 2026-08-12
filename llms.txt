@@ -1,0 +1,142 @@
+﻿# 84kitchen-kempten.de
+
+
+## Posts
+
+- [Test Blog](https://webshop-wp.ddev.site/test-blog/): The Good Wines Club is back, and we’re taking it global: 4 sessions, 4 grapes, 1 journey into discovering how much where a wine is made actually matters. For each session, we&#8217;ll explore how the same grape, from different countries, can have completely different expressions. Sunday, April 12th &#8211; Cabernet SauvignonSunday, May 17th &#8211; Sauvignon Blanc4–6pm | 6 wines | 850,000 VND12 seats only Each session stands alone (so no pressure if you can only make one), but if you follow the full series, you’ll start to really see the world through your glass. Swing by, sip up, and go global. [&hellip;]
+- [Hello world!](https://webshop-wp.ddev.site/hello-world/): Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
+
+## Pages
+
+- [Blog](https://webshop-wp.ddev.site/blog-de/)
+- [Cookie Policy (EU)](https://webshop-wp.ddev.site/en/cookie-policy-eu-2/)
+- [Cookie Policy (EU)](https://webshop-wp.ddev.site/cookie-policy-eu/)
+- [Reservation Manager](https://webshop-wp.ddev.site/reservation-manager/)
+- [Webshop](https://webshop-wp.ddev.site/webshop/)
+- [Impressum &amp; Datenschutz](https://webshop-wp.ddev.site/impressum-datenschutz/): IMPRESSUM Angaben gemäß § 5 TMG +84 KitchenKönigstraße 26,87435 Kempten Umsatzsteuer-ID gemäß § 27 a Umsatzsteuergesetz:Ust-IdNr : DE462908795 Kontakt Phone: 0831 70498168Email:&nbsp;Info@84kitchen-kempten.deWebsite: https://webshop-wp.ddev.site Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV +84 KitchenKönigstraße 2687435 KemptenDeutschland Social-Media-Profile Dieses Impressum gilt auch für folgende Social-Media-Profile: Instagram: 84kitchen.kemptenFacebook: 84 Kitchen Kempten Urheberrecht und Bildnachweise Sofern nicht anders angegeben, sind alle Inhalte auf&nbsp;https://webshop-wp.ddev.site urheberrechtlich geschützt. Die auf dieser Website verwendeten Fotografien wurden vom Autor oder von Partnern erstellt, die mit +84 Kitchen zusammenarbeiten. Die Verwendung dieser Fotografien auf Websites Dritter ist nur im Rahmen der jeweiligen vom Urheber eingeräumten Lizenz gestattet. EU-Streitbeilegung Die [&hellip;]
+- [Legal Notice &amp; Privacy Policy](https://webshop-wp.ddev.site/en/legal-notice-privacy-policy/): LEGAL NOTICE Information according to Section 5 TMG +84 KitchenKönigstraße 26,87435 Kempten VAT ID according to §27 a German VAT Act:Ust-IdNr : DE462908795 Contact Phone: 0831 70498168Email:&nbsp;Info@84kitchen-kempten.deWebsite: https://webshop-wp.ddev.site Responsible for Content according to Section 55 Abs. 2 RStV +84 KitchenKönigstraße 2687435 KemptenGermany Social media profiles This legal notice also applies to the following social media profiles: Instagram: 84kitchen.kemptenFacebook: 84 Kitchen Kempten Copyright and image credits Unless otherwise stated, all content published on&nbsp;https://webshop-wp.ddev.site is protected by copyright.Photographs used on this website were created by the author or partners collaborating with +84 Kitchen. Use of these photographs on third-party websites is only permitted [&hellip;]
+- [MENU](https://webshop-wp.ddev.site/en/menu/)
+- [GIFT CARDS](https://webshop-wp.ddev.site/en/gift-cards/)
+- [RESERVATIONS](https://webshop-wp.ddev.site/en/reservations/)
+- [FAQ](https://webshop-wp.ddev.site/en/faq/)
+- [CONTACT](https://webshop-wp.ddev.site/en/contact/)
+- [ABOUT](https://webshop-wp.ddev.site/en/about/)
+- [Homepage](https://webshop-wp.ddev.site/en/)
+- [Startseite](https://webshop-wp.ddev.site/)
+- [KONTAKT](https://webshop-wp.ddev.site/kontakt/)
+- [My account](https://webshop-wp.ddev.site/my-account/)
+- [Checkout](https://webshop-wp.ddev.site/checkout/)
+- [Cart](https://webshop-wp.ddev.site/cart/)
+- [Shop](https://webshop-wp.ddev.site/shop/)
+- [GUTSCHEINE](https://webshop-wp.ddev.site/gutscheine/)
+- [RESERVIERUNGEN](https://webshop-wp.ddev.site/reservierungen/)
+- [FAQ](https://webshop-wp.ddev.site/faqs/)
+- [SPEISEKARTE](https://webshop-wp.ddev.site/speisekarte/)
+- [ÜBER UNS](https://webshop-wp.ddev.site/ueber-uns/)
+
+## Products
+
+- [P48. BUDDHA ROLL](https://webshop-wp.ddev.site/product/p48-buddha-roll/): Gurke, Rucola, Avocado, umwickelt mit eingelegtem Tofu, Teriyaki-Soße, Sesam, vegane scharfe Mayonnaise
+- [SESAM SAUCE](https://webshop-wp.ddev.site/product/sesam-sauce/): Sesam Sauce
+- [UNAGI SAUCE](https://webshop-wp.ddev.site/product/unagi-sauce/): Unagi Sauce
+- [CREAM CHEESE](https://webshop-wp.ddev.site/product/cream-cheese/): Cream Cheese
+- [GEMISCHTER SALAT](https://webshop-wp.ddev.site/product/gemischter-salat/): Gemischter Salat
+- [REISBANDNUDELN](https://webshop-wp.ddev.site/product/reisbandnudeln/): Reisbandnudeln
+- [REISNUDELN](https://webshop-wp.ddev.site/product/reisnudeln/): Reisnudeln
+- [SUSHI REIS](https://webshop-wp.ddev.site/product/sushi-reis/): Sushi Reis
+- [REIS](https://webshop-wp.ddev.site/product/reis/): Reis
+- [CLIQUE](https://webshop-wp.ddev.site/product/clique/): FÜR 4 PERS. - 6 Stk. Nigiri, 10 Stk. Sashimi, 8 Stk. Maki, 16 Stk. Premium Rolls, 16 Stk. Crunchy Rolls
+- [COUPLE](https://webshop-wp.ddev.site/product/couple/): FÜR 2 PERS. - 4 Stk. Nigiri, 6 Stk. Sashimi, 8 Stk. Maki, 8 Stk. Premium Inside-Out, 8 Stk. Crunchy Big Roll
+- [VEGAN SET FOR TWO](https://webshop-wp.ddev.site/product/vegan-set-for-two/): FÜR 2 PERS. - Avocado Sashimi, 16 Stk. Maki, 4 Stk. Nigiri, 8 Stk. Inside Out, 8 Stk. Veggie Crunchy
+- [VEGAN SET FOR ONE](https://webshop-wp.ddev.site/product/vegan-set-for-one/): FÜR 1 PERS. - 8 Stk. Maki, 2 Stk. Avocado Nigiri, 8 Stk. Veggie Crunchy
+- [OMAKASE 3](https://webshop-wp.ddev.site/product/omakase-3/): 8 Stk. Premium Roll, 6 Nigiri
+- [OMAKASE 2](https://webshop-wp.ddev.site/product/omakase-2/): 8 Stk. Crunchy Roll, 3 Sashimi, 8 Stk. Maki
+- [OMAKASE 1](https://webshop-wp.ddev.site/product/omakase-1/): 8 Stk. Premium Roll, 2 Nigiri, 8 Stk. Maki
+- [S53. MORIAWASE](https://webshop-wp.ddev.site/product/s53-moriawase/): 15 Stk. Deluxe Mix Sashimi
+- [S52. JAKOBSMUSCHELN](https://webshop-wp.ddev.site/product/s52-jakobsmuscheln/): Jakobsmuscheln
+- [S51. TUNA](https://webshop-wp.ddev.site/product/s51-tuna/): 3 Stk. Thunfisch
+- [S50. SALMON](https://webshop-wp.ddev.site/product/s50-salmon/): 3 Stk. Lachs
+- [P47. TUNA SAMBA](https://webshop-wp.ddev.site/product/p47-tuna-samba/): Thunfisch, Avocado, Gurke, Thunfisch Tartar, Tobiko
+- [P46. FUTO MAKI](https://webshop-wp.ddev.site/product/p46-futo-maki/): Lachs, Thunfisch, Avocado, Gurke, Tobiko
+- [P45. DELUXE SALMON](https://webshop-wp.ddev.site/product/p45-deluxe-salmon/): Lachs, Avocado, Gurke, Rucola, Meister Sauce, Lachs Tartar
+- [P44. CHEF'S RECOMMENDATION <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">1,C,G</sup>](https://webshop-wp.ddev.site/product/p44-chefs-recommendation-1cg/): Empfehlung vom Chef
+- [P43. SURF AND TURF ROLL](https://webshop-wp.ddev.site/product/p43-surf-and-turf-roll/): Tempura Garnelen, flambiertes Rindfleisch, Avocado, Gurke, Cream Cheese
+- [P42. EBIFURAI SALMON](https://webshop-wp.ddev.site/product/p42-ebifurai-salmon/): Tempura Garnelen, Avocado, Gurke, flambierter Lachs, Cream Cheese
+- [P41. GYUNIKU TORYUFU](https://webshop-wp.ddev.site/product/p41-gyuniku-toryufu/): Rucola, Tempura Spargel, flambiertes Entrecôte, Trüffelöl, Miso-Sauce
+- [P40. AVOCADO TOKUNI](https://webshop-wp.ddev.site/product/p40-avocado-tokuni/): Avocado, Rucola, Gurke, Trüffelöl, Miso-Sauce
+- [T36. CHICKEN CRUNCHY](https://webshop-wp.ddev.site/product/t36-chicken-crunchy/): Tempura Chicken, Gurke, Frischkäse, Mayo-Käse Sauce
+- [T35. EBI CRUNCHY <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">B,14</sup>](https://webshop-wp.ddev.site/product/t35-ebi-crunchy-b14/): Garnelen, Gurke, Avocado, Tobiko, Frischkäse, Spicy-Mayonnaise
+- [T34. CRUNCHY SPECIAL](https://webshop-wp.ddev.site/product/t34-crunchy-special/): Lachs, Thunfisch, Avocado, Frischkäse, Tobiko
+- [T33. HOTATEGAI CRUNCHY <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">1,C,G</sup>](https://webshop-wp.ddev.site/product/t33-hotategai-crunchy-1cg/): Jakobsmuscheln, Avocado, Tobiko, Frischkäse, Cheese-Sauce
+- [T32. TUNA CRUNCHY](https://webshop-wp.ddev.site/product/t32-tuna-crunchy/): Thunfisch, Avocado, Gurke, Tobiko, Frischkäse, Spicy-Mayonnaise
+- [T31. SALMON CRUNCHY](https://webshop-wp.ddev.site/product/t31-salmon-crunchy/): Lachs, Avocado, Tobiko, Frischkäse, Unagi-Sauce
+- [T30. VEGGIE CRUNCHY](https://webshop-wp.ddev.site/product/t30-veggie-crunchy/): Avocado, Gurke, Babyspargel, Miso-Sauce
+- [i29. SALMON SKIN I.O.](https://webshop-wp.ddev.site/product/i29-salmon-skin-i-o/): Gegrillte Lachshaut, Gurke, Sesam, Cream Cheese
+- [i28. INARI I.O.](https://webshop-wp.ddev.site/product/i28-inari-i-o/): Avocado, mit süßem frittiertem Tofu, Sesam, Unagi Sauce
+- [i27. CHICKEN I.O.](https://webshop-wp.ddev.site/product/i27-chicken-i-o/): Avocado, Hähnchen, Cream Cheese, Sesam
+- [i26. VEGGIE I.O.](https://webshop-wp.ddev.site/product/i26-veggie-i-o/): Avocado, Gurke, Sesam, Rucola
+- [i25. EBI TEMPURA I.O.](https://webshop-wp.ddev.site/product/i25-ebi-tempura-i-o/): Tempura Großgarnelen, Gurke, Sesam, Cream Cheese
+- [i24. EBI I.O. <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">B,14</sup>](https://webshop-wp.ddev.site/product/i24-ebi-i-o-b14/): Großgarnelen, Gurke, Sesam, Cream Cheese
+- [i23. ANAGO I.O.](https://webshop-wp.ddev.site/product/i23-anago-i-o/): Gegrillter Aal, Gurke
+- [i22. HOTATEGAI I.O.](https://webshop-wp.ddev.site/product/i22-hotategai-i-o/): Jakobsmuscheln, Avocado, Tobiko
+- [i21. MAGURO I.O.](https://webshop-wp.ddev.site/product/i21-maguro-i-o/): Tuna, Gurke, Tobiko
+- [i20. ALASKA I.O.](https://webshop-wp.ddev.site/product/i20-alaska-i-o/): Lachs, Avocado und Tobiko
+- [N15. HOTATEGAI](https://webshop-wp.ddev.site/product/n15-hotategai/): Jakobsmuscheln flambiert
+- [N14. ANAGO](https://webshop-wp.ddev.site/product/n14-anago/): Gegrillter Aal
+- [N13. EBI](https://webshop-wp.ddev.site/product/n13-ebi/): Tigergarnele
+- [N12. TUNA](https://webshop-wp.ddev.site/product/n12-tuna/): Thunfisch
+- [N11. SALMON](https://webshop-wp.ddev.site/product/n11-salmon/): Lachs
+- [M9. INARI MAKI](https://webshop-wp.ddev.site/product/m9-inari-maki/): Süßer frittierter Tofu
+- [M8. CHICKEN](https://webshop-wp.ddev.site/product/m8-chicken/): Hähnchen
+- [M7. ANAGO](https://webshop-wp.ddev.site/product/m7-anago/): Gegrillter Aal
+- [M6. FRY EBI](https://webshop-wp.ddev.site/product/m6-fry-ebi/): Tempura Tigergarnelen
+- [M5. EBI <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">B,14</sup>](https://webshop-wp.ddev.site/product/m5-ebi-b14/): Gekochte Tigergarnelen
+- [M4. TEKKA](https://webshop-wp.ddev.site/product/m4-tekka/): Thunfisch
+- [M3. SAKE](https://webshop-wp.ddev.site/product/m3-sake/): Lachs
+- [M2. KAPPA](https://webshop-wp.ddev.site/product/m2-kappa/): Gurke
+- [M1. AVOCADO](https://webshop-wp.ddev.site/product/m1-avocado/): Avocado
+- [39. BOOBA](https://webshop-wp.ddev.site/product/39-booba/): Gegrillter Lachs, Teriyaki-Sauce, Reis
+- [38. COCOMELON <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">C,F,E</sup>](https://webshop-wp.ddev.site/product/38-cocomelon-cfe/): Bratreis mit Ei, Gemüse und Hühnerfleisch
+- [37. BABY SHARK <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">A</sup>](https://webshop-wp.ddev.site/product/37-baby-shark-a/): 3 Stk. Garnelen Tempura, Teriyaki Sauce, Reis
+- [36. MAMA MANGO](https://webshop-wp.ddev.site/product/36-mama-mango/): Reisbandnudeln, serviert mit gemischtem Salat, Gemüse der Saison, Erdnüssen und einer Mango-Kokos-Sauce.
+- [35. MAGURO POWER <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">A,D,F,K</sup>](https://webshop-wp.ddev.site/product/35-maguro-power-adfk/): Thunfischsteak, serviert mit gemischtem Salat, Reis, Guacamole, Salsa und Sesam Sauce
+- [34. SALMON STEAK ON FRY PAN <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">A,D,K</sup>](https://webshop-wp.ddev.site/product/34-salmon-steak-on-fry-pan-adk/): Lachssteak gegrillt auf einer gusseisenen Platte, verschiedenes Gemüse, gebraten mit Chili-Knoblauch-Sauce, serviert mit Reis.
+- [33. YAKI UDON <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">A,B,C,D,E,F,G,P</sup>](https://webshop-wp.ddev.site/product/33-yaki-udon-abcdefgp/): Jap. Udonnudeln gebraten mit Gemüse, Zwiebeln, Spiegelei, Röstzwiebeln, Koriander.
+- [32. SAIGON • <span style="font-size: 0.75em;font-family:'Inter';font-weight:400 !important;font-style:italic">leicht scharf</span> <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">A,B,D,E,F,K,P</sup>](https://webshop-wp.ddev.site/product/32-saigon-leicht-scharf-abdefkp/): Gemüse gebraten mit Chili, Knoblauch, Shitakepilz-Sauce, Reis, Salat, Koriander, Erdnüssen. (leicht scharf)
+- [31. LOMBOK <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">A,B,D,E,F,G,P</sup>](https://webshop-wp.ddev.site/product/31-lombok-abdefgp/): Sate-Erdnuss-Sauce, Gemüse, Salat, Reis. (leicht scharf)
+- [30. BANGKOK • <span style="font-size: 0.75em;font-family:'Inter';font-weight:400 !important;font-style:italic">leicht scharf</span> <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">A,B,D,E,F,G,P</sup>](https://webshop-wp.ddev.site/product/30-bangkok-leicht-scharf-abdefgp/): Thai Curry mit Kokosmilch, Zitronengras, Gemüse, Salat, Erdnüssen. (leicht scharf)
+- [29. HOI AN GARLIC BUTTER PRAWNS <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">14</sup>](https://webshop-wp.ddev.site/product/29-hoi-an-garlic-butter-prawns-14/): GARNELEN IN KNOBLAUCH-BUTTER-SAUCE - Saftig gebratene Garnelen in Knoblauch-Butter, Kräuter, serviert mit Baguette
+- [28. NASI GORENG <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">14</sup>](https://webshop-wp.ddev.site/product/28-nasi-goreng-14/): Indonesisches Reisgericht. Gebratener Reis mit Hühnerfleisch, Rindfleisch, Garnelen, Erbsen, Karotten, dazu ein Spiegelei, Röstzwiebeln und Curry Pulver
+- [27. BUN CHA (NEW) <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">4,C,D,E,K,P</sup>](https://webshop-wp.ddev.site/product/27-bun-cha-new-4cdekp/): VIETNAMESISCHE GRILL DELIKATESSE - Zart gegrilltes Schweinefleisch trifft auf leichte Reisnudeln, frische Kräuter und hausgemachte Pickles, Nuoc-Mam-Sauce
+- [26. SA OT • <span style="font-size: 0.75em;font-family:'Inter';font-weight:400 !important;font-style:italic">leicht scharf</span> <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">4,B,D,E,F,K,P</sup>](https://webshop-wp.ddev.site/product/26-sa-ot-leicht-scharf-4bdefkp/): Zwiebeln, Lauchzwiebeln, Karotten gebraten with Zitronengras, Chili, dazu Reisnudeln, Salat, Kräuter, Erdnüsse, Röstzwiebeln, Limetten-Dressing. (leicht scharf)
+- [25. BUN NEM <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">4,C,D,E,K,P</sup>](https://webshop-wp.ddev.site/product/25-bun-nem-4cdekp/): Hausgemachte Frühlingsrollen, gefüllt mit gehacktem Schweinefleisch, Glasnudeln, Shiitake Pilzen, Gemüse, serviert auf Salat, Röstzwiebeln, Kräutern, Erdnüssen, Reisnudeln, Limetten-Dressing
+- [24. PAD THAI • <span style="font-size: 0.75em;font-family:'Inter';font-weight:400 !important;font-style:italic">leicht scharf</span> <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">4,B,D,E,F,K,P</sup>](https://webshop-wp.ddev.site/product/24-pad-thai-leicht-scharf-4bdefkp/): Gebratene Reisbandnudeln mit Tamarindensauce, Karotten, Erdnüssen, Sojasprossen. (leicht scharf)
+- [23. PHO SOUP <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">4,D,F</sup>](https://webshop-wp.ddev.site/product/23-pho-soup-4df/): Traditionelle Suppe der Hauptstadt Hanoi mit Reisbandnudeln, Zwiebeln und ausgewählten Kräutern – klar im Geschmack, aromatisch und angenehm wohltuend.
+- [22. SIZZLING BEEF • <span style="font-size: 0.75em;font-family:'Inter';font-weight:400 !important;font-style:italic">leicht scharf</span> (NEW) <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">4,A,C,D,E,K,P</sup>](https://webshop-wp.ddev.site/product/22-sizzling-beef-leicht-scharf-new-4acdekp/): BÒ NÉ - Mariniertes Rindfleisch in heißer Pfanne, Spiegelei, hausgemachte Pastete, Zwiebeln, Tomaten, Gurken, Sesam, dazu Brötchen oder Reis. (leicht scharf)
+- [21. BO LA LOT <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">4,A,C,D,E,K,P</sup>](https://webshop-wp.ddev.site/product/21-bo-la-lot-4acdekp/): Saftiges Rindfleisch wird in würzig-grüne Betelblätter eingerollt und gegrillt. Dazu Reisnudelsalat, Erdnüsse, Röstzwiebeln, Kräuter und Limetten-Dressing.
+- [20. VIETNAMESE NOODLES (NEW) <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">A,B,D,E,F,G,P</sup>](https://webshop-wp.ddev.site/product/20-vietnamese-noodles-new-abdefgp/): Gebratene Nudeln und Gemüse in Shitakepilz-Sauce
+- [19. MIX TAPAS](https://webshop-wp.ddev.site/product/19-mix-tapas/): Verschiedene kleine Vorspeisen aus unserem Appetizer-Menü
+- [18. TAKO KARAAGE (NEW) <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">A,D</sup>](https://webshop-wp.ddev.site/product/18-tako-karaage-new-ad/): Knusprig frittierter Oktopus serviert mit cremiger Mayo
+- [17. SWEET POTATO FRIES (NEW)](https://webshop-wp.ddev.site/product/17-sweet-potato-fries-new/): Süßkartoffelpommes serviert mit Cheese-Mayo
+- [16. SOMMER ROLLE](https://webshop-wp.ddev.site/product/16-sommer-rolle/): Sommerrollen gefüllt mit gemischtem Salat, Gurken, Erdnüssen, Reisnudeln, serviert mit einer leichten Limetten-Fischsauce
+- [15. ALMOND COATED PRAWNS (NEW) <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">A,B,C,G,H,1,14</sup>](https://webshop-wp.ddev.site/product/15-almond-coated-prawns-new-abcgh114/): Riesengarnelen mit Tempuramantel, serviert mit Cheese Mayo
+- [14. WOW CHICKEN (NEW) <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">A,C,G,K</sup>](https://webshop-wp.ddev.site/product/14-wow-chicken-new-acgk/): Knusprig frittierte Hähnchenbrust, Cheddar-Käsepulver, Spicy-Mayonnaise, Sesam (Korean Style)
+- [13. SEETANG SALAT <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">D,F,G,J,K,N</sup>](https://webshop-wp.ddev.site/product/13-seetang-salat-dfgjkn/): Seetang Salat (Auf Wunsch auch kurz gegrillt!)
+- [12. NEM CHAY (NEW)](https://webshop-wp.ddev.site/product/12-nem-chay-new/): Frühlingsrollen gefüllt Gemüse
+- [11. HA CAO <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">A,D,F,K</sup>](https://webshop-wp.ddev.site/product/11-ha-cao-adfk/): 4 Stk. hausgemachte Teigtaschen gefüllt mit Garnelen
+- [10. COCONUT SOUP (NEW) <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">1,3,4,8,K</sup>](https://webshop-wp.ddev.site/product/10-coconut-soup-new-1348k/): Gemüse, Kokosmilch, Zitronengras
+- [09. VEGGIE GYOZA <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">1,A,K</sup>](https://webshop-wp.ddev.site/product/09-veggie-gyoza-1ak/): 4 Stk. japanische Teigtaschen gefüllt mit Gemüse, dazu Ponzu-Sauce
+- [08. NEM HA NOI (NEW) <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">4,C,D,E,K,P</sup>](https://webshop-wp.ddev.site/product/08-nem-ha-noi-new-4cdekp/): 2 Stk. hausgemachte knusprige Frühlingsrollen gefüllt mit Schweinenacken, Gemüse, dazu Limetten-Dressing
+- [07. LA LOT BETEL LEAVES (NEW) <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">A,C,D,E,K,P</sup>](https://webshop-wp.ddev.site/product/07-la-lot-betel-leaves-new-acdekp/): Saftiges Rindfleisch wird in würzig-grüne Betelblätter, auch bekannt als Pfefferblätter, eingerollt und gegrillt, dazu Limetten-Dressing
+- [06. WANTAN LEAF <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">A,D,14</sup>](https://webshop-wp.ddev.site/product/06-wantan-leaf-ad14/): 4 Stk. geb. Wantan gefüllt mit Garnelen, Hühnerfleisch und Gemüse, dazu Süß-Sauer-Dip
+- [05. FISH TARTAR <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">D,F,J,K</sup>](https://webshop-wp.ddev.site/product/05-fish-tartar-dfjk/): Fein gewürfelter Fisch-Tatar auf cremiger Avocado, veredelt mit Tobiko und unserer hausgemachten Meister-Sauce.
+- [04. MANGO SALAD <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">B,D,E,F,K,P</sup> (NEW)](https://webshop-wp.ddev.site/product/04-mango-salad-bdefkp-new/): Mango, Gurke, Karotten, Kräuter, Erdnüsse, Limetten-Sauce
+- [03. BABY SPINAT SALAT <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">A,B,K</sup> (NEW)](https://webshop-wp.ddev.site/product/03-baby-spinat-salat-abk-new/): Baby Spinat Salat
+- [02. SOM TAM <sup style="font-style: italic; font-weight: 400; font-family: 'Inter'; font-size: 0.67em;">A,B,K</sup> • <span style="font-size: 0.75em;font-family:'Inter';font-weight:400 !important;font-style:italic">scharf</span> (NEW)](https://webshop-wp.ddev.site/product/02-som-tam-abk-scharf-new/): Fein abgestimmter Salat aus frischer grüner Papaya mit Limettensaft, Fischsauce, Chili, Tomaten und gerösteten Erdnüssen – knackig und angenehm leicht. (scharf)
+- [01. EDAMAME](https://webshop-wp.ddev.site/product/01-edamame/): Sojabohnen, Meersalz, Chilipulver
+
+## Optional
+
+- [Agent (MCP protocol)](websites-agents.hostinger.com/webshop-wp.ddev.site/mcp)
+
+[comment]: # (Generated by Hostinger Tools Plugin)

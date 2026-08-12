@@ -1,0 +1,3194 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce GSheetConnector\n"
+"POT-Creation-Date: 2026-07-30 19:12+0530\n"
+"PO-Revision-Date: 2024-02-20 18:46+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wc-gsheetconnector.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-wc-gsheetconnector-error-logs.php:216
+msgid "Invalid log table name."
+msgstr ""
+
+#: includes/class-wc-gsheetconnector-error-logs.php:236
+msgid "Log table not found."
+msgstr ""
+
+#: includes/class-wc-gsheetconnector-error-logs.php:266
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:879
+msgid "Error Log"
+msgstr ""
+
+#: includes/class-wc-gsheetconnector-error-logs.php:268
+msgid ""
+"Error logs are saved in the database. Please clear them regularly to avoid "
+"increasing the database size."
+msgstr ""
+
+#: includes/class-wc-gsheetconnector-error-logs.php:278
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:887
+msgid "Clear Logs"
+msgstr ""
+
+#: includes/class-wc-gsheetconnector-error-logs.php:287
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:892
+msgid "Download CSV"
+msgstr ""
+
+#: includes/class-wc-gsheetconnector-error-logs.php:291
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:897
+msgid "Copy Logs"
+msgstr ""
+
+#: includes/class-wc-gsheetconnector-error-logs.php:303
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1583
+msgid "Date"
+msgstr ""
+
+#: includes/class-wc-gsheetconnector-error-logs.php:304
+msgid "Error ID"
+msgstr ""
+
+#: includes/class-wc-gsheetconnector-error-logs.php:305
+msgid "Code"
+msgstr ""
+
+#: includes/class-wc-gsheetconnector-error-logs.php:306
+msgid "Message"
+msgstr ""
+
+#: includes/class-wc-gsheetconnector-error-logs.php:307
+msgid "Details"
+msgstr ""
+
+#: includes/class-wc-gsheetconnector-error-logs.php:367
+msgid "No logs found."
+msgstr ""
+
+#: includes/class-wc-gsheetconnector-error-logs.php:502
+msgid "Permission denied."
+msgstr ""
+
+#: includes/class-wc-gsheetconnector-utility.php:95
+msgid "There's something wrong with your code..."
+msgstr ""
+
+#: includes/class-wc-gsheetconnector-utility.php:228
+#: includes/pages/wc-gsheetconnector-dashboard-widget.php:67
+#: includes/pages/wc-gsheetconnector-dashboard-widget.php:76
+msgid "Administrator"
+msgstr ""
+
+#: includes/pages/admin-footer.php:14
+msgid "Please rate"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/pages/admin-footer.php:17
+#: includes/pages/google-sheet-settings.php:341
+msgid "GSheetConnector for WooCommerce"
+msgstr ""
+
+#: includes/pages/admin-footer.php:22
+msgid "on"
+msgstr ""
+
+#: includes/pages/admin-footer.php:25
+msgid "WordPress.org"
+msgstr ""
+
+#: includes/pages/admin-footer.php:28
+msgid "to help us spread the word."
+msgstr ""
+
+#. translators: %s: Plugin version number.
+#: includes/pages/admin-footer.php:99
+#, php-format
+msgid "Version: %s"
+msgstr ""
+
+#: includes/pages/admin-footer.php:128 wc-gsheetconnector.php:184
+msgid "Docs"
+msgstr ""
+
+#: includes/pages/admin-footer.php:138
+msgid "Plugins"
+msgstr ""
+
+#: includes/pages/admin-footer.php:148 wc-gsheetconnector.php:185
+msgid "Support"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:17
+msgid "About GSheetConnector"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:20
+msgid "Built by Experts. Trusted by Thousands."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:25
+msgid ""
+"Led by experienced developers and powered by a passionate team, "
+"GSheetConnector helps WordPress users automate their workflows with "
+"confidence."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:32
+msgid ""
+"We focus on building tools that are fast, secure, and easy to use - so you "
+"can spend less time managing data."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:53
+msgid "Meet Our Core Team"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:77
+msgid "Our Mission"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:82
+msgid ""
+"Our mission is to make form automation simple, secure, and reliable for "
+"every WordPress user - from beginners to enterprise teams."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:90
+msgid "Fast & Reliable Data Sync"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:92
+msgid "100% Secure Authentication"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:94
+msgid "Real-Time Google Sheets Updates"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:96
+msgid "Easy Setup & Configuration"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:98
+msgid "Dedicated Support Team"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:113
+msgid "Forms Successfully Synced"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:120
+msgid "Trusted by Active Users"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:127
+msgid "Reliable Uptime"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:134
+msgid "Dedicated Support"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:142
+msgid "Add-ons & Extensions"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:143
+msgid ""
+"Extend your Google Sheets integration with powerful add-ons. Install, "
+"manage, and activate extensions to unlock advanced features."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:153
+msgid "CF7 Google Sheet Connector"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:158
+msgid ""
+"Easily connect Contact Form 7 to Google Sheets and automatically sync form "
+"submissions in real-time. Every entry is instantly added to your selected "
+"spreadsheet, helping you manage leads, inquiries, and customer data "
+"efficiently without manual export."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:163
+#: includes/pages/extensions/wc-extension.php:183
+#: includes/pages/extensions/wc-extension.php:203
+#: includes/pages/extensions/wc-extension.php:223
+#: includes/pages/extensions/wc-extension.php:243
+#: includes/pages/extensions/wc-extension.php:262
+#: includes/pages/extensions/wc-extension.php:282
+#: includes/pages/extensions/wc-extension.php:302
+#: includes/pages/extensions/wc-extension.php:321
+#: includes/pages/extensions/wc-extension.php:341
+#: includes/pages/extensions/wc-extension.php:361
+#: includes/pages/extensions/wc-extension.php:381
+#: includes/pages/extensions/wc-extension.php:401
+msgid "Install"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:164
+#: includes/pages/extensions/wc-extension.php:184
+#: includes/pages/extensions/wc-extension.php:204
+#: includes/pages/extensions/wc-extension.php:224
+#: includes/pages/extensions/wc-extension.php:303
+#: includes/pages/extensions/wc-extension.php:362
+#: includes/pages/extensions/wc-extension.php:382
+#: includes/pages/extensions/wc-extension.php:402
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:10
+#: includes/pages/integration/wc-gsheetconnector-integration.php:295
+#: includes/pages/settings/wc-general-settings.php:115
+#: includes/pages/wc-product-sheet.php:13
+#: includes/pages/wc-product-sheet.php:48
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:252
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:360
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:411
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:480
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:547
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:590
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:650
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:709
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:793
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1501
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1625
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1808
+msgid "PRO"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:177
+msgid "WPForms Google Sheet Connector"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:180
+msgid ""
+"Integrate WPForms with Google Sheets and send form entries directly to your "
+"spreadsheet automatically. Track leads, manage customer data, and streamline "
+"reporting with seamless Google Sheets integration and real-time sync."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:197
+msgid "Gravity Forms Google Sheet Connector"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:200
+msgid ""
+"Connect Gravity Forms to Google Sheets and automatically push form "
+"submissions to your spreadsheet. Simplify data management, improve workflow "
+"automation, and keep all entries organized in one secure location."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:217
+msgid "Ninja Forms Google Sheet Connector"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:220
+msgid ""
+"Automatically sync Ninja Forms submissions to Google Sheets with one-click "
+"integration. Capture leads, monitor responses, and manage data efficiently "
+"with instant spreadsheet updates and easy reporting."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:237
+msgid "Forminator Forms Google Sheet Connector"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:240
+msgid ""
+"Integrate Forminator Forms with Google Sheets to automatically store form "
+"entries in your spreadsheet. Eliminate manual data entry and ensure "
+"accurate, real-time syncing for better data tracking and analysis."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:244
+#: includes/pages/extensions/wc-extension.php:263
+#: includes/pages/extensions/wc-extension.php:283
+#: includes/pages/extensions/wc-extension.php:545
+#: includes/pages/extensions/wc-extension.php:670
+#: includes/pages/extensions/wc-extension.php:807
+msgid "Free"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:256
+msgid "Formidable Forms Google Sheet Connector"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:259
+msgid ""
+"Automatically sync Formidable Forms entries to Google Sheets. Manage leads, "
+"track submissions, and simplify data reporting with real-time integration."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:276
+msgid "Fluent Forms Google Sheet Connector"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:279
+msgid ""
+"Automatically sync Fluent Forms submissions to Google Sheets in real-time. "
+"Every form entry is instantly added to your selected spreadsheet, helping "
+"you manage leads, customer inquiries, and business data without manual "
+"export. Streamline your workflow, improve reporting accuracy, and keep all "
+"submissions organized with seamless Google Sheets integration."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:296
+msgid "Elementor Forms Google Sheet Connector"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:299
+msgid ""
+"Sync Elementor Forms with Google Sheets instantly. Automatically add new "
+"form submissions to your spreadsheet, manage leads efficiently, and simplify "
+"reporting with real-time data synchronization."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:315
+msgid "Avada Forms Google Sheet Connector"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:318
+msgid ""
+"Connect Avada Forms to Google Sheets and automatically transfer form entries "
+"to your spreadsheet. Streamline lead management, automate data collection, "
+"and improve business reporting with seamless integration."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:322
+#: includes/pages/extensions/wc-extension.php:342
+msgid "Available PRO Version"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:335
+msgid "Divi Forms Google Sheet Connector"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:338
+msgid ""
+"Integrate Divi Forms with Google Sheets and automatically sync submissions "
+"in real-time. Store customer data securely, track inquiries efficiently, and "
+"eliminate manual spreadsheet updates."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:355
+msgid "WP Core Google Sheet Connector"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:358
+msgid ""
+"Automatically send WordPress core data (like comments or custom submissions) "
+"to Google Sheets. Simplify website data tracking, automate record keeping, "
+"and centralize important information in one organized spreadsheet."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:375
+msgid "WooCommerce Google Sheet Connector"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:378
+msgid ""
+"Sync WooCommerce orders with Google Sheets automatically. Store order "
+"details, customer information, and transaction data in real-time for easy "
+"reporting, accounting, and business analysis."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:395
+msgid "Easy Digital Downloads Google Sheet Connector"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:398
+msgid ""
+"Automatically send Easy Digital Downloads (EDD) order details to Google "
+"Sheets. Track digital product sales, monitor transactions, and manage "
+"customer data effortlessly with real-time spreadsheet integration."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:414
+msgid "Installed & Active Plugins"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:416
+msgid ""
+"View and manage all currently installed and active connectors on your site. "
+"You can activate, deactivate, or upgrade plugins from here."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:490
+#: includes/pages/extensions/wc-extension.php:631
+#: includes/pages/extensions/wc-extension.php:666
+#: includes/pages/extensions/wc-extension.php:810
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:230
+msgid "Pro"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:512
+#: includes/pages/extensions/wc-extension.php:567
+#: includes/pages/extensions/wc-extension.php:688
+#: includes/pages/extensions/wc-extension.php:835
+msgid "View Docs"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:519
+#: includes/pages/extensions/wc-extension.php:574
+#: includes/pages/extensions/wc-extension.php:886
+#: includes/pages/integration/wc-gsheetconnector-integration.php:168
+#: includes/pages/integration/wc-gsheetconnector-integration.php:331
+msgid "Deactivate"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:588
+msgid "Recommended Plugins"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:590
+msgid ""
+"Discover recommended plugins that enhance your workflow and help you get "
+"more value from your Google Sheets integration."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:693
+#: includes/pages/extensions/wc-extension.php:699
+#: includes/pages/extensions/wc-extension.php:712
+msgid "Activate"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:731
+msgid "Explore More Plugins"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:733
+msgid ""
+"Discover the right connector for your workflow and automate data syncing."
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:739
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:43
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:66
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:550
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1847
+msgid "All"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:740
+msgid "Forms"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:741
+msgid "Page Builders"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:742
+msgid "eCommerce"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:842
+msgid "View Demo"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:869
+msgid "Deactivate Plugin"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:873
+msgid "Are you sure you want to deactivate this plugin?"
+msgstr ""
+
+#: includes/pages/extensions/wc-extension.php:880
+#: includes/pages/extensions/wc-extension.php:906
+#: includes/pages/integration/wc-gsheetconnector-integration.php:325
+#: includes/pages/settings/wc-general-settings.php:95
+msgid "Cancel"
+msgstr ""
+
+#: includes/pages/extensions/wcgsc-extension-service.php:73
+msgid "You do not have permission to install plugin."
+msgstr ""
+
+#: includes/pages/extensions/wcgsc-extension-service.php:79
+msgid "Missing required parameters."
+msgstr ""
+
+#: includes/pages/extensions/wcgsc-extension-service.php:98
+msgid "Installation failed: "
+msgstr ""
+
+#: includes/pages/extensions/wcgsc-extension-service.php:103
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: includes/pages/extensions/wcgsc-extension-service.php:114
+msgid "Invalid security token."
+msgstr ""
+
+#: includes/pages/extensions/wcgsc-extension-service.php:121
+msgid "You do not have permission to activate plugin."
+msgstr ""
+
+#: includes/pages/extensions/wcgsc-extension-service.php:128
+msgid "Plugin slug is missing."
+msgstr ""
+
+#: includes/pages/extensions/wcgsc-extension-service.php:142
+msgid "Plugin is already activated."
+msgstr ""
+
+#: includes/pages/extensions/wcgsc-extension-service.php:156
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:9
+msgid "Sheet Sync Feeds"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:12
+msgid ""
+"Create, connect, manage, and monitor how your form submissions are "
+"automatically synced to Google Sheets in real time."
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:16
+msgid "- Close Feeds"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:25
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:102
+#: includes/pages/wc-dashboard.php:95
+msgid "Feed Name"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:33
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:104
+msgid "Feed Type"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:36
+msgid "Select Feed Type"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:37
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:160
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:805
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1835
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1877
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1910
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1939
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1997
+msgid "Orders"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:38
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:225
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:806
+msgid "Products"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:39
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:290
+msgid "Products Variation"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:40
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:355
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:808
+msgid "Customers"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:41
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:420
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:809
+msgid "Coupons"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:42
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:485
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:811
+msgid "Subscriptions"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:52
+msgid "Submit"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:71
+msgid "Inactive"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:76
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:149
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:214
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:279
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:344
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:409
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:474
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:539
+msgid "Trash"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:101
+msgid "Feed ID"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:103
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:297
+msgid "Author"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:105
+msgid "Timestamp"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:108
+msgid "Status"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:114
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1685
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1744
+msgid "15"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:119
+msgid "feed"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:122
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:141
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:184
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:206
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:249
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:271
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:314
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:336
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:379
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:401
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:444
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:466
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:509
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:531
+msgid "Rename Feed"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:124
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:186
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:251
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:316
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:381
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:446
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:511
+msgid "Save"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:131
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:196
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:261
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:326
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:391
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:456
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:521
+msgid "Edit"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:158
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:223
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:288
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:353
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:418
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:483
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:548
+msgid "admin"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:162
+msgid "2026-04-27 09:30:53"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:176
+msgid "16"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:181
+msgid "feed1"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:227
+msgid "2026-04-27 09:31:18"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:241
+msgid "17"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:246
+msgid "feed2"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:292
+msgid "2026-04-27 09:31:35"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:306
+msgid "18"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:311
+msgid "feed3"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:357
+msgid "2026-04-27 09:31:47"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:371
+msgid "19"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:376
+msgid "feed4"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:422
+msgid "2026-04-27 09:32:00"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:436
+msgid "20"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:441
+msgid "feed5"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:487
+msgid "2026-04-27 09:32:17"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:501
+msgid "21"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:506
+msgid "feed6"
+msgstr ""
+
+#: includes/pages/feeds/wc-gsheetconnector-feed-settings.php:552
+msgid "2026-04-27 09:32:27"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:29
+#: includes/pages/google-sheet-settings.php:394
+msgid "Integration"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:31
+#: includes/pages/google-sheet-settings.php:395
+#: includes/pages/integration/class-wc-gsheetconnector-processes.php:101
+msgid "WooCommerce Data Settings"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:33
+#: includes/pages/google-sheet-settings.php:397 wc-gsheetconnector.php:825
+msgid "Settings"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:35
+#: includes/pages/google-sheet-settings.php:398
+msgid "System Status"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:37
+#: includes/pages/google-sheet-settings.php:399
+msgid "Extensions"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:39
+msgid "Form Feed Settings"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:50
+msgid ""
+"You`re using GSheetConnector for WooCommerce Lite. To unlock more features "
+"consider "
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:50
+msgid "upgrading to Pro"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:72
+msgid "Existing"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:74
+#: includes/pages/wc-dashboard.php:39
+msgid "Auth Required"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:136
+#: includes/pages/integration/wc-gsheetconnector-integration.php:60
+msgid "Authenticate with Your Google Account"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:140
+msgid "Your connection has expired or hasn’t been set up yet."
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:144
+msgid ""
+"Your Google connection is missing or expired. Please authenticate to "
+"continue syncing data without interruptions."
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:151
+msgid "Authenticate Now"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:158
+msgid "Learn How"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:178
+msgid "Enjoying the Plugin?"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:182
+msgid ""
+"If you are enjoying the plugin, please consider leaving a 5-star review. "
+"Your support helps us improve and grow."
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:191
+msgid "Ok, you deserve it!"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:195
+msgid "I already did"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:202
+msgid "I need help"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:206
+#: includes/pages/google-sheet-settings.php:252
+#: includes/pages/google-sheet-settings.php:303
+msgid "Maybe Later"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:226
+msgid "Enhance Your Setup"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:230
+msgid "Extend your workflow with our add-ons."
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:234
+msgid "Discover tools that integrate seamlessly and help you get more done."
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:242
+msgid "Explore Add-ons"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:248
+msgid "View Details"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:276
+msgid "Unlock Advance Features of GSheetConnector for WooCommerce Pro"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:280
+msgid ""
+"Use advanced features like Manual Authentication and automatic field "
+"mapping, no need to create columns in Google Sheets manually. Choose only "
+"the fields you need with simple toggles, use advanced tags, sync past form "
+"entries, and get priority support."
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:290
+msgid "View License Types"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:298
+msgid "Compare Features"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:345
+msgid "v"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:384
+msgid "Google Sheet"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:393
+msgid "Dashboard"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:396
+msgid "Feed Settings (PRO)"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:487
+msgid "Advanced Tools for Easy Spreadsheet Control"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:488
+msgid ""
+"Improve your sheet management with smart automation and flexible "
+"customization features."
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:491
+#: includes/pages/wc-dashboard.php:399
+msgid "Google Sheets API v4"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:492
+#: includes/pages/wc-dashboard.php:400
+msgid "One-Click Authentication"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:493
+#: includes/pages/wc-dashboard.php:401
+msgid "Authenticated Email Display"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:494
+#: includes/pages/wc-dashboard.php:402
+msgid "Click & Fetch Automation"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:495
+#: includes/pages/wc-dashboard.php:403
+msgid "Create New Spreadsheet"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:496
+#: includes/pages/wc-dashboard.php:407
+msgid "Automated Sheet & Tab"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:497
+#: includes/pages/wc-dashboard.php:408
+msgid "Multiple Feeds to Sheets"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:498
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:185
+msgid "Order Status Sheet Tabs"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:502
+msgid "Language Translation "
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:503
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:359
+msgid "Custom Order Sheet Tabs"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:504
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:410
+msgid "Sync Additional Sheet Tabs"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:505
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:479
+msgid "How Orders Are Synced"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:506
+msgid "Order & Product Category Filter"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:507
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:708
+msgid "2-Way Sync"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:508
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:792
+msgid "Add Extra Google Sheet Columns"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:509
+msgid "Cron Settings "
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:513
+#: includes/pages/wc-dashboard.php:409
+msgid "Drag-and-Drop Column Order"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:514
+#: includes/pages/wc-dashboard.php:412
+msgid "Freeze & Color Headers"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:515
+#: includes/pages/wc-dashboard.php:415
+msgid "Sync Past Entries"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:516
+#: includes/pages/wc-dashboard.php:416
+msgid "Role Management"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:517
+#: includes/pages/wc-dashboard.php:417
+msgid "Quick Configuration"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:518
+#: includes/pages/wc-dashboard.php:418
+msgid "Multi-Language Support"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:519
+#: includes/pages/wc-dashboard.php:419
+msgid "Multi-Site Support"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:520
+#: includes/pages/wc-dashboard.php:420
+msgid "Latest WP & PHP Support"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:524
+msgid "Upgrad Now"
+msgstr ""
+
+#: includes/pages/google-sheet-settings.php:525
+msgid "Free vs Pro"
+msgstr ""
+
+#: includes/pages/integration/class-wc-gsheetconnector-processes.php:87
+#: includes/pages/wc-gsheetconnector-dashboard-widget.php:21
+msgid "Google Sheet Not Connected"
+msgstr ""
+
+#: includes/pages/integration/class-wc-gsheetconnector-processes.php:114
+msgid "Not connected"
+msgstr ""
+
+#: includes/pages/integration/class-wc-gsheetconnector-processes.php:231
+msgid "WooCommerce - GSheetConnector"
+msgstr ""
+
+#: includes/pages/integration/class-wc-gsheetconnector-processes.php:423
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:86
+msgid "Select"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:19
+msgid " Google Sheets Integration for WooCommerce"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:25
+msgid "Choose Google API Setting"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:29
+#: includes/pages/wc-dashboard.php:36
+msgid "Existing Client / Secret Key (Auto Setup)"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:32
+msgid "Manual Client/Secret Key (Use Your Google API Configuration)"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:35
+msgid "Service Account (Recommended)"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:53
+#: includes/pages/wc-dashboard.php:47
+msgid "Google Account Connection"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:53
+msgid "Auto Setup"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:55
+msgid ""
+"Sign in with your Google account to connect WooCommerce with Google Sheets. "
+"Once connected, your data syncs based on your settings. Learn more in the "
+"documentation"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:55
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:142
+msgid "Click here"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:66
+msgid "Click on the <strong>Sign in with Google</strong> button."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:71
+msgid "Log in using your Google account."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:74
+msgid "Select the Google account where your Sheets are stored."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:77
+msgid "Grant access to:"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:80
+msgid "Google Drive"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:83
+msgid "Google Sheets"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:90
+msgid "Click <strong>Allow</strong> to finish authorization."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:95
+msgid "Save the authentication code if prompted."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:99
+msgid ""
+"This allows the plugin to securely sync your form data with Google Sheets."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:111
+msgid ""
+"<p class=\"fw-400 text-dark\"><strong>Google Drive</strong> and "
+"<strong>Google Sheets</strong> permissions were not granted during "
+"authentication with Google.</p>\n"
+"                  <p class=\"fw-400 text-dark\"><strong>Refer to Step 4 in "
+"the Connection Guide shown alongside.</strong><br> Then, deactivate the "
+"connection and re-authorize it, ensuring both Google Drive and Google Sheets "
+"permissions are enabled.</p>"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:134
+msgid "Connected Google Account"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:142
+msgid "Connected"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:150
+msgid ""
+"Authentication failed. Your Google access token may be expired or invalid. "
+"Please re-authenticate your account with the required permissions."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:183
+msgid "Connect Your Google Account"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:184
+msgid ""
+"Securely link your Google account to start syncing form entries "
+"automatically."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:196
+#: includes/pages/integration/wc-gsheetconnector-integration.php:359
+msgid "Sign in with Google"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:212
+msgid "Client Token"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:229
+msgid "Save Client Token"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:247
+msgid ""
+"We do not store any of the data from your Google account on our servers, "
+"everything is processed & stored on your server. We take your privacy "
+"extremely seriously and ensure it is never misused. Learn more in the "
+"documentation"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:249
+msgid "click here."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:261
+msgid "Connection Status & Next Steps"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:266
+msgid ""
+"Your Google account has been successfully connected. You are now ready to "
+"sync your WooCommerce data with Google Sheets securely and automatically."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:276
+msgid "Create New Feed"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:282
+msgid "Select Google Spreadsheet"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:288
+msgid "Map WooCommerce Fields"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:294
+msgid "Enable Order Sync"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:299
+msgid "Upgrade to unlock"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:313
+msgid "Deactivate Integration"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:317
+msgid "Are you sure you want to deactivate Google Sheets integration?"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:343
+msgid "Connection Guide"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:344
+msgid "Step-by-Step"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:346
+msgid ""
+"Follow these steps to connect your Google account and start syncing your "
+"form data with Google Sheets."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:352
+msgid "Step-1 Connect Your Google Account"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:353
+msgid ""
+"Sign in with your Google account to start the automatic Google Sheets "
+"integration."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:364
+msgid "Step-2 Choose Google Account"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:365
+msgid "Choose the Google account where your Sheets are stored."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:372
+#: includes/pages/integration/wc-gsheetconnector-integration.php:385
+#: includes/pages/integration/wc-gsheetconnector-integration.php:398
+#: includes/pages/integration/wc-gsheetconnector-integration.php:411
+#: includes/pages/integration/wc-gsheetconnector-integration.php:424
+msgid "check our detailed guideline"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:377
+msgid "Step-3 Review Access Information"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:378
+msgid "Google will show what information the plugin can access."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:390
+msgid "Step-4 Grant Required Permissions"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:391
+msgid "Allow required permissions for Google Sheets and Drive access."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:403
+msgid "Step-5 Save Authentication Code"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:404
+msgid "Save the authentication code to complete the Google account connection."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:416
+msgid "Step-6 Integration Completed"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:417
+msgid "Your Google account is now successfully connected."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:449
+msgid "Manual Google Sheets Integration"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:450
+msgid ""
+"Connect WooCommerce to Google Sheets using your own Google Cloud project. "
+"Ideal for advanced users who need full API control and custom OAuth setup."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:462
+msgid "Custom API Credentials"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:463
+msgid ""
+"Connect using your own Google Cloud Client ID and Client Secret for full "
+"authentication control."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:475
+msgid "Secure Authentication"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:476
+msgid ""
+"Authenticate directly with Google using a secure Authentication flow without "
+"third-party dependency."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:490
+msgid "Advanced Configuration"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:491
+msgid ""
+"Set custom Redirect URIs, manage scopes, and configure API settings based on "
+"your project needs."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:504
+msgid "Priority Technical Support"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:505
+msgid ""
+"Get fast assistance from our expert team for setup, troubleshooting, and "
+"optimization."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:510
+#: includes/pages/integration/wc-gsheetconnector-integration.php:592
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:155
+#: includes/pages/settings/wc-beta-version.php:84
+msgid "Upgrade to Unlock"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:511
+#: includes/pages/integration/wc-gsheetconnector-integration.php:593
+msgid "View Pro Features"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:524
+msgid "Service Account Google Sheets Integration"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:525
+msgid ""
+"Connect WooCommerce to Google Sheets using a Service Account for automated "
+"syncing without manual login."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:539
+msgid "Secure JSON Authentication"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:540
+msgid ""
+"Authenticate using a secure Google Cloud JSON key file for direct and "
+"encrypted communication with Google Sheets."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:554
+msgid "No Authentication Login Required"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:555
+msgid ""
+"Enable automatic background syncing without requiring Google account sign-in "
+"during setup."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:570
+msgid "Direct Spreadsheet Access"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:571
+msgid ""
+"Share your Google Sheet with the service account email to enable automatic "
+"data transfer."
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:586
+msgid "Production-Ready & Reliable"
+msgstr ""
+
+#: includes/pages/integration/wc-gsheetconnector-integration.php:587
+msgid ""
+"Built for stable, uninterrupted syncing in professional and high-traffic "
+"environments."
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:71
+msgid "Permission Not Allowed"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:93
+msgid "Unlock Role-Based Access Control"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:94
+msgid "Advanced options are available in PRO"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:102
+msgid "Role Permissions"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:105
+msgid "Allow specific WordPress roles"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:106
+msgid "Enable/disable integration access"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:107
+msgid "Control WooCommerce sync visibility"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:108
+msgid "Restrict settings management"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:114
+msgid "Security Control"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:117
+msgid "Prevent unauthorized changes"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:118
+msgid "Secure Google Sheet credentials"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:119
+msgid "Role-based configuration control"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:120
+msgid "Protect integration settings"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:126
+msgid "Management Benefits"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:129
+msgid "Grant access to trusted editors"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:130
+msgid "Hide settings from subscribers"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:131
+msgid "Team-based permission structure"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:132
+msgid "Improved dashboard security"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:138
+msgid "Audit & Monitoring"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:141
+msgid "Track role-based changes"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:142
+msgid "Monitor integration access"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:143
+msgid "Review permission updates"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:144
+msgid "Maintain admin accountability"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:165
+msgid "Access Management"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:166
+msgid ""
+"Control which user roles can access and manage WooCommerce Google Sheets "
+"integration."
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:172
+msgid "Plugin Access Control"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:185
+msgid "Permission Guidelines"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:187
+msgid "Control which user roles can access the GSheetConnector plugin"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:188
+msgid "Allow selected users to manage Google Sheets integration settings"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:189
+msgid ""
+"Restrict access to sensitive features like feeds, logs, and configurations"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:190
+msgid "Only enabled roles will see the plugin menu in the admin panel"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:191
+msgid "Recommended: Allow only Administrators and trusted Editors"
+msgstr ""
+
+#: includes/pages/settings/class-wc-gsheetconnector-role-settings-free.php:203
+#: includes/pages/settings/wc-beta-version.php:160
+#: includes/pages/settings/wc-general-settings.php:66
+#: includes/pages/settings/wc-general-settings.php:163
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1799
+msgid "Save Settings"
+msgstr ""
+
+#: includes/pages/settings/google-sheet-inner-settings.php:21
+msgid "General Settings"
+msgstr ""
+
+#: includes/pages/settings/google-sheet-inner-settings.php:22
+msgid "Role Settings"
+msgstr ""
+
+#: includes/pages/settings/google-sheet-inner-settings.php:23
+msgid "Version Control"
+msgstr ""
+
+#: includes/pages/settings/google-sheet-inner-settings.php:68
+#: includes/pages/wc-dashboard.php:352
+msgid "Need more support? We're here to help."
+msgstr ""
+
+#: includes/pages/settings/google-sheet-inner-settings.php:71
+#: includes/pages/wc-dashboard.php:355
+msgid "Submit a Support Ticket"
+msgstr ""
+
+#: includes/pages/settings/google-sheet-inner-settings.php:91
+#: includes/pages/wc-dashboard.php:375
+msgid "Our fast and friendly support team is always happy to help!"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:23
+msgid "Unlock Beta Version Control"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:24
+msgid "Test upcoming features before official release"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:31
+msgid "Early Access"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:34
+msgid "Get updates before public release"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:35
+msgid "Test new features in advance"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:36
+msgid "Try improvements early"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:37
+msgid "Stay ahead with new changes"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:43
+msgid "Testing Purpose"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:46
+msgid "Features may still be under testing"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:47
+msgid "Some options may change later"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:48
+msgid "Minor issues may occur"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:49
+msgid "Used for feedback and improvements"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:55
+msgid "Safety Notice"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:58
+msgid "Recommended for staging sites"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:59
+msgid "Avoid enabling on live websites"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:60
+msgid "Take backup before testing"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:61
+msgid "Disable anytime if needed"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:67
+msgid "Update Control"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:70
+msgid "Receive beta notifications"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:71
+msgid "Updates are not installed automatically"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:72
+msgid "You control when to update"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:73
+msgid "Switch on/off anytime"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:101
+msgid "Beta Program Access"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:105
+msgid ""
+"Get early access to upcoming features and improvements before they are "
+"officially released. Beta versions may include experimental updates and "
+"should be used for testing purposes only."
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:112
+msgid "Enable Beta Updates"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:116
+msgid ""
+"Receive notifications and access to beta releases. Updates will not be "
+"installed automatically."
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:141
+msgid "Beta Usage Notice"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:145
+msgid "Beta versions may include unfinished or experimental features"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:146
+msgid "Some features may change or be removed in future updates"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:147
+msgid "Minor bugs or performance issues may occur"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:148
+msgid "We recommend enabling beta only on test or staging sites"
+msgstr ""
+
+#: includes/pages/settings/wc-beta-version.php:149
+msgid "Do not enable on live production websites without proper backups."
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:18
+msgid "Plugin Preferences"
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:20
+msgid ""
+"Manage how plugin settings and data are handled when the plugin is "
+"uninstalled."
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:24
+msgid "Delete Plugin Data on Uninstall"
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:27
+msgid "Removes all plugin data (options, metadata) when the plugin is deleted."
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:46
+msgid "Uninstall Data Notice"
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:49
+msgid "Enable this option only if you want a complete cleanup"
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:52
+msgid "All plugin settings and data will be permanently removed"
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:55
+msgid "Incorrect settings can delete all sensitive form and user data"
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:82
+msgid "Confirm Data Deletion"
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:83
+msgid ""
+"Enabling this option will permanently delete all plugin data, including "
+"settings and integrations, when the plugin is uninstalled."
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:85
+msgid ""
+"If you plan to upgrade from Free to Pro, you may lose your existing "
+"configuration data."
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:88
+msgid ""
+"Proceed only if you want a complete cleanup. This action cannot be undone."
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:98
+msgid "Enable Deletion"
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:114
+msgid "Description Input Format Settings"
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:117
+msgid ""
+"Enable this option to allow HTML formatting in Product Description and Short "
+"Description fields. When enabled, HTML content from the sheet will be "
+"imported as is. Disable it to use plain text only."
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:121
+msgid "Enable HTML Formatting for Description Fields"
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:124
+msgid ""
+"Allow HTML content in Product Description and Short Description fields "
+"during import."
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:141
+msgid "HTML Formatting Guide"
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:145
+msgid ""
+"Enable this option to allow HTML content in Product Description and Short "
+"Description fields."
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:148
+msgid ""
+"When enabled, HTML tags from the sheet (e.g., <p>, <br>, <strong>) will be "
+"imported as is."
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:151
+msgid "Disable this option to import plain text without HTML formatting."
+msgstr ""
+
+#: includes/pages/settings/wc-general-settings.php:154
+msgid "Use this option only if your sheet contains valid HTML content."
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:10
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:16
+msgid "System Information"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:17
+msgid ""
+"View detailed information about your plugin, server, and WordPress setup for "
+"troubleshooting and support.\n"
+"        "
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:25
+msgid "Copy System Info"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:75
+msgid "GSheetConnector Status"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:83
+msgid "Plugin Name"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:88
+msgid "Plugin Version"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:95
+msgid "Plugin Subscription Plan"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:102
+#: includes/pages/wc-dashboard.php:62
+msgid "Connected Email Account"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:109
+msgid "Authentication method for connecting to Google Sheets"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:120
+msgid "Google Drive Permission"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:127
+msgid "Google Sheet Permission"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:137
+msgid "WordPress"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:147
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:290
+msgid "Version"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:154
+msgid "Site Language"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:161
+msgid "Debug Mode"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:163
+msgid "Enabled"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:163
+msgid "Disabled"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:168
+msgid "Home URL"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:175
+msgid "Site URL"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:182
+msgid "Permalink structure"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:189
+msgid "Is this site using HTTPS?"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:191
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:198
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:206
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:214
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:261
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:498
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:506
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:514
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:715
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:722
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:729
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:736
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:743
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:750
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:757
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:775
+msgid "Yes"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:191
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:198
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:206
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:214
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:261
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:498
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:506
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:514
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:715
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:722
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:729
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:736
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:743
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:750
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:757
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:775
+msgid "No"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:196
+msgid "Is this a multisite?"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:203
+msgid "Can anyone register on this site?"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:211
+msgid "Is this site discouraging search engines?"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:219
+msgid "Default comment status"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:228
+msgid "Unknown"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:233
+msgid "Localhost"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:234
+msgid "Production"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:239
+msgid "Environment type"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:251
+msgid "User Count"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:258
+msgid "Communication with WordPress.org"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:274
+msgid "Active Theme"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:283
+msgid "Name"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:304
+msgid "Author website"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:311
+msgid "Theme directory location"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:330
+msgid "Network Active plugins"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:355
+msgid "Active Plugins"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:407
+msgid "Server"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:416
+msgid ""
+"The options shown below relate to your server setup. If changes are "
+"required, you may need your web host’s assistance."
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:424
+msgid "Server Architecture"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:435
+msgid "Web Server"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:440
+msgid "PHP Version"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:445
+msgid "PHP SAPI"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:450
+msgid "PHP Max Input Variables"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:455
+msgid "PHP Time Limit"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:458
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:471
+msgid "seconds"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:463
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:468
+msgid "Max Input Time"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:476
+msgid "Upload Max Filesize"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:481
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:487
+msgid "Not Installed"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:491
+msgid "cURL Version"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:496
+msgid "Is SUHOSIN Installed?"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:503
+msgid "Is the Imagick Library Available?"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:511
+msgid "Are Pretty Permalinks Supported?"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:531
+msgid ".htaccess Rules"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:533
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:846
+msgid "Writable"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:533
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:847
+msgid "Not Writable"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:538
+msgid "Current Time"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:543
+msgid "Current UTC Time"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:548
+msgid "Current Server Time"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:559
+msgid "Database"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:583
+msgid "Extension"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:590
+msgid "Server Version"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:597
+msgid "Client Version"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:604
+msgid "Database Username"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:611
+msgid "Database Host"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:618
+msgid "Database Name"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:625
+msgid "Table Prefix"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:632
+msgid "Database Charset"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:639
+msgid "Database Collation"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:646
+msgid "Max Allowed Packet Size"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:653
+msgid "Max Connections Number"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:667
+msgid "WordPress Constants"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:797
+msgid "Filesystem Permission"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:806
+msgid ""
+"Shows whether WordPress is able to write to the directories it needs access "
+"to."
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:825
+msgid "The main WordPress directory"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:826
+msgid "The wp-content directory"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:827
+msgid "The uploads directory"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:828
+msgid "The plugins directory"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:829
+msgid "The themes directory"
+msgstr ""
+
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:957
+msgid "No error logs found."
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:17
+msgid "Welcome To GSheetConnector"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:20
+msgid ""
+"GSheetConnector is a powerful automation plugin that syncs WordPress data "
+"with Google Sheets in real time. It supports WooCommerce, Easy Digital "
+"Downloads, and popular form plugins such as Contact Form 7, Gravity Forms, "
+"Elementor Forms, along with 10+ additional WordPress integrations for "
+"efficient data management."
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:83
+msgid " Connected"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:96
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:84
+msgid "Sheet Name"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:105
+msgid "Loading..."
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:121
+msgid "Let's Connect"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:134
+msgid "Setup Guide & Troubleshooting"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:137
+msgid ""
+"Sync WooCommerce data with Google Sheets in real-time effortlessly and "
+"accurately."
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:144
+msgid "Getting Started"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:146
+msgid "Installation Process"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:147
+msgid "Integration with Google (Existing Method)"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:148
+msgid "Integration of WooCommerce with Google Sheet"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:152
+msgid "Docs & Troubleshooting"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:154
+msgid "How to Enable Debugging in WordPress"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:155
+msgid "Invalid OAuth2 token"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:156
+msgid "Change Date/Time Format and Time Zone in Google Sheets"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:163
+msgid "Additional Resources"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:165
+msgid "Integration with Google (Manual Method)"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:166
+msgid "Integration with Google (Service Method)"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:167
+msgid "WooCommerce Data Settings – PRO Version"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:168
+msgid "Feed Settings  – PRO Version"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:169
+msgid "Settings Tab – PRO Version"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:170
+msgid "Role Settings – PRO Version"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:171
+msgid "2-Way Sync - PRO Version"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:172
+msgid "Third-Party Plugins Compatibility"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:183
+msgid "Plugins by Category"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:186
+msgid "Find the perfect connector for your WordPress workflow."
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:201
+msgid "Contact Form Connectors"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:204
+msgid "6 plugins available"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:225
+msgid "eCommerce Connectors"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:228
+msgid "2 plugins available"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:249
+msgid "Page Builder Forms"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:252
+msgid "3 plugins available"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:298
+msgid "WP Core Connector"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:301
+msgid "1 plugin available"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:323
+msgid "Free Plugins"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:326
+msgid "12 plugins available"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:388
+msgid "Amazing Key Features"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:389
+msgid "Everything You Need to Sync Data"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:391
+msgid ""
+"Common features shared across every GSheetConnector Pro add-on built for "
+"reliability, flexibility, and scale."
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:404
+msgid "Manual Sheet / Tab Name"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:410
+msgid "Headers On / Off + Rename"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:411
+msgid "Image / PDF Attachment Link"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:539 wc-gsheetconnector.php:835
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:540
+msgid "View Full Features"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:552
+msgid "Form"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:554
+msgid "Processing"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:556
+msgid "Sheet"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:562
+msgid "Instant"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:563
+msgid "Real-time updates"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:566
+msgid "100%"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:567
+msgid "Accuracy"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:570
+msgid "Flexible"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:571
+msgid "Custom mapping"
+msgstr ""
+
+#: includes/pages/wc-dashboard.php:587
+msgid "Video Tutorials"
+msgstr ""
+
+#: includes/pages/wc-gsheetconnector-dashboard-widget.php:45
+msgid "Sheet URL"
+msgstr ""
+
+#: includes/pages/wc-gsheetconnector-dashboard-widget.php:60
+msgid "Permission To Access GSheetConnector WooCommerce"
+msgstr ""
+
+#: includes/pages/wc-product-sheet.php:12
+msgid "Google Sheet to WooCommerce Sync Configuration"
+msgstr ""
+
+#: includes/pages/wc-product-sheet.php:21
+msgid "Connected WooCommerce Google Sheet"
+msgstr ""
+
+#: includes/pages/wc-product-sheet.php:25
+msgid "Google Spreadsheet Name"
+msgstr ""
+
+#: includes/pages/wc-product-sheet.php:30
+msgid "Google Spreadsheet URL"
+msgstr ""
+
+#: includes/pages/wc-product-sheet.php:32
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:118
+msgid "View Spreadsheet"
+msgstr ""
+
+#: includes/pages/wc-product-sheet.php:47
+msgid "Sync Settings for Two-Way Sync - Insert & Updates"
+msgstr ""
+
+#: includes/pages/wc-product-sheet.php:58
+#: includes/pages/wc-product-sheet.php:71
+#: includes/pages/wc-product-sheet.php:104
+#: includes/pages/wc-product-sheet.php:137
+msgid "Enter Rows Range - from"
+msgstr ""
+
+#: includes/pages/wc-product-sheet.php:61
+#: includes/pages/wc-product-sheet.php:74
+#: includes/pages/wc-product-sheet.php:107
+#: includes/pages/wc-product-sheet.php:140
+msgid "to"
+msgstr ""
+
+#: includes/pages/wc-product-sheet.php:65
+msgid "Click to Sync Insert"
+msgstr ""
+
+#: includes/pages/wc-product-sheet.php:78
+msgid "Click to Sync Update"
+msgstr ""
+
+#: includes/pages/wc-product-sheet.php:94
+msgid "Sync Settings for Two-Way Sync - Order Status Updates"
+msgstr ""
+
+#: includes/pages/wc-product-sheet.php:111
+msgid "Click to Order Status Sync Update"
+msgstr ""
+
+#: includes/pages/wc-product-sheet.php:127
+msgid "Sync Settings for Two-Way Sync - Insert Orders"
+msgstr ""
+
+#: includes/pages/wc-product-sheet.php:144
+msgid "Click to Sync Order"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/class-wc-gsheetconnector-services.php:653
+msgid "WooCommerce Data Settings saved successfully."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/class-wc-gsheetconnector-services.php:741
+msgid "Please select Google Sheet Name and Check Atleast on Google Sheet Tab !"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:43
+msgid "Google Sheets Setup Required"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:47
+msgid "Your selected method is: "
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:62
+msgid "Go to Integration Setup"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:74
+msgid "Choose Google Spreadsheet"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:76
+msgid ""
+"Select a Google Sheets to connect your data. If your sheet is not listed, "
+"fetch the latest sheets or create a new one. Then complete the setup and "
+"save your changes to start syncing."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:136
+msgid "Fetch Sheets"
+msgstr ""
+
+#. translators: %s is the HTML <a> link for syncing WooCommerce settings.
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:141
+#, php-format
+msgid "If your sheets is not listed,  %s to fetch all Google Sheets. "
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:166
+msgid "Last synced :"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:187
+msgid ""
+"Choose which order statuses should create separate tabs in your Google "
+"Sheet; when enabled, a new tab will be created for each selected status to "
+"help organize your data more clearly."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:229
+msgid "All Orders"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:233
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:296
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:332
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:341
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:388
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:424
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:434
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:444
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:454
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:465
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:627
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:688
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1010
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1024
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1046
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1057
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1076
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1085
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1181
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1190
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1250
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1260
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1357
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1367
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1413
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1421
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1467
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1477
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:250
+msgid "Translate Google Sheets Tab Names"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:256
+msgid ""
+"This setting displays tab names according to your WordPress site language."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:292
+msgid "Enable Language Translation"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:293
+msgid ""
+"When enabled, Google Sheet tab names will be displayed in the language "
+"selected for your WordPress site."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:318
+msgid "Headers"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:363
+msgid ""
+"Custom order statuses will appear here. Turn them on to create a new tab for "
+"each in your Google Sheet."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:398
+msgid "No custom order statuses are currently available."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:414
+msgid ""
+"Enable additional Sheet tabs to sync more WooCommerce information to your "
+"Google Sheet. Each selected option will create and update its own tab "
+"automatically."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:422
+msgid "All Products"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:432
+msgid "All Products Variation"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:442
+msgid "All Customers"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:452
+msgid "All Coupons"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:463
+msgid "All Subscriptions"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:491
+msgid "Choose how orders should appear in your Google Sheet:"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:498
+msgid "Order Wise :"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:500
+msgid ""
+"Each order is added as a single row, even if it contains multiple products."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:505
+msgid "Product Wise :"
+msgstr ""
+
+#. translators: Explains that each product in an order will be saved separately with the same order ID
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:509
+msgid ""
+"Each product in an order is added as a separate row, so you can see details "
+"for every item."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:516
+msgid ""
+"You can also choose how the entries are sorted (ascending or descending). "
+"Your selected format and sorting will be applied across all tabs in the "
+"sheet."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:525
+msgid "Select Sync Format"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:535
+msgid "Order Wise"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:545
+msgid "Product Wise"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:552
+msgid "Sorting"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:562
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1838
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1880
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1912
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1942
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1969
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1999
+msgid "Ascending"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:574
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1840
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1881
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1913
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1943
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1970
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:2000
+msgid "Descending"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:589
+msgid "Order Category Filter"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:593
+msgid ""
+"Filter orders by category before syncing to your Google Sheet. When enabled, "
+"only selected categories will be synced. When disabled, all orders will be "
+"included. This applies to adding, updating, and syncing orders."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:612
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:673
+msgid "Select Category"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:648
+msgid "Product Category Filter"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:654
+msgid ""
+"Filter products by category before syncing to your Google Sheet. When "
+"enabled, only selected categories will be synced. When disabled, all "
+"products will be included. This applies to adding, updating, and syncing "
+"products."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:712
+msgid ""
+"Sync data between WooCommerce and Google Sheets in real-time. Enable this "
+"feature to manage orders, products, and more directly from your spreadsheet."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:717
+msgid "Enable 2-Way Sync"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:718
+msgid "Allow Google Sheets to update WooCommerce data."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:736
+msgid "Select Sync Modules"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:757
+msgid "Allowed Actions"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:759
+msgid "Insert"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:765
+msgid "Update"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:771
+msgid "Delete"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:796
+msgid ""
+"Select fields to add as new columns in your sheet. Enter a column name for "
+"each field. These columns will be included when your data syncs."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:807
+msgid "Product Variation"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:821
+msgid "Additional Order Columns"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:850
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:898
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:951
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1002
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1136
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1309
+msgid "Enter Column Name"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:857
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:905
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:958
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1009
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1143
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1316
+msgid "Add"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:858
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:906
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:959
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1144
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1317
+msgid " Upgrade To Pro"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:867
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1106
+msgid "Additional Product Columns"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:917
+msgid "Additional Custom Columns"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:969
+msgid "Additional Empty Columns"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1023
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1156
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1221
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1328
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1386
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1440
+msgid "Enable All Columns"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1279
+msgid "Additional Product Variation Columns"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1500
+msgid "Cron Settings"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1509
+msgid "Enable Cron Sync"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1510
+msgid "Turn on automatic scheduling"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1525
+msgid "Set Schedule"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1528
+msgid "No Schedule"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1536
+msgid "Choose Schedule Type"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1539
+msgid "Repeat Weekly"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1542
+msgid "Run Once"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1549
+msgid "How Often"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1565
+msgid "Select Day"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1588
+msgid "Time"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1598
+msgid "Real-Time Sync"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1599
+msgid "Sync instantly when new orders are created"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1624
+msgid "Header Settings"
+msgstr ""
+
+#. translators: Explains advanced Google Sheet settings like freezing headers and background colors.
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1629
+msgid ""
+"Customize the appearance and behavior of your sheet headers and rows for "
+"better readability and organization."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1640
+msgid "Header Behavior"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1643
+msgid "Freeze Header"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1651
+msgid "Header Style"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1655
+msgid "Header Appearance"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1665
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1724
+msgid "Font Style"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1668
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1727
+msgid "Normal"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1670
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1729
+msgid "Italic"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1671
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1730
+msgid "Bold"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1676
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1735
+msgid "Font Size"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1680
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1739
+msgid "Select size"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1681
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1740
+msgid "11"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1682
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1741
+msgid "12"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1683
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1742
+msgid "13"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1684
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1743
+msgid "14"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1692
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1751
+msgid "Font Color"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1698
+msgid "Header Background"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1711
+msgid "Row Style"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1714
+msgid "Row Appearance"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1758
+msgid "Odd Row Color"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1764
+msgid "Even Row Color"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1775
+msgid "Spreadsheet Download"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1784
+msgid "Download"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1807
+msgid "Google Sheets Data Sync"
+msgstr ""
+
+#. translators: Explains advanced Google Sheet settings like freezing headers and background colors.
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1812
+msgid ""
+"Effortlessly sync your WooCommerce data with Google Sheets. Available "
+"options include Orders, Products, Product Variations, Customers, Coupons, "
+"and Subscriptions. Select only the sync types that best suit your needs. "
+"This ensures seamless integration and real-time updates for efficient data "
+"management."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1820
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1853
+msgid "Sync Orders"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1821
+msgid ""
+"Initiate the synchronization of your WooCommerce orders seamlessly with a "
+"single click. This ensures that your Google Sheet stays up-to-date with the "
+"latest order information, based on your configuration done above, providing "
+"you with real-time insights and streamlined data management. Optimize your "
+"workflow with the convenience of synchronized orders."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1824
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1865
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1898
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1928
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1957
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1986
+msgid "From Date"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1828
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1870
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1903
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1933
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1962
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1991
+msgid "To Date"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1844
+msgid "Order Status"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1861
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1887
+msgid "Sync Products"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1862
+msgid ""
+"Initiate the synchronization of your WooCommerce products seamlessly with a "
+"single click. This ensures that your Google Sheet stays up-to-date with the "
+"latest product information, based on your configuration done above, "
+"providing you with real-time insights and streamlined data management. "
+"Before starting the sync, ensure that the products tab toggle is enabled to "
+"optimize your workflow with the convenience of synchronized product data."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1894
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1918
+msgid "Sync Products Variation"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1895
+msgid ""
+"Initiate the synchronization of your WooCommerce products variations "
+"seamlessly with a single click. This ensures that your Google Sheet stays up-"
+"to-date with the latest product information, based on your configuration "
+"done above. If you are using variable products, then only data will be shown "
+"in the sheet. Before starting the sync, ensure that the products variation "
+"tab toggle is enabled to optimize your workflow with the convenience of "
+"synchronized product data."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1924
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1948
+msgid "Sync Customers"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1925
+msgid ""
+"Initiate the synchronization of your WooCommerce Customers seamlessly with a "
+"single click. This ensures that your Google Sheet stays up-to-date with the "
+"latest order information, based on your configuration done above, providing "
+"you with real-time insights and streamlined data management. Optimize your "
+"workflow with the convenience of synchronized orders."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1953
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1975
+msgid "Sync Coupons"
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1954
+msgid ""
+"Initiate the synchronization of your WooCommerce coupons seamlessly with a "
+"single click. This process ensures that your Google Sheet reflects the "
+"latest coupon information, following the configuration set above. Benefit "
+"from real-time insights and streamlined data management. Before starting the "
+"sync, confirm that the coupons tab toggle is enabled enhancing your workflow "
+"with the convenience of synchronized coupon data."
+msgstr ""
+
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:1982
+#: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:2006
+msgid "Sync Subscriptions"
+msgstr ""
+
+#: wc-gsheetconnector.php:184
+msgid "View Documentation"
+msgstr ""
+
+#: wc-gsheetconnector.php:185
+msgid "Get Support"
+msgstr ""
+
+#: wc-gsheetconnector.php:541
+msgid ""
+"GSheetConnector WooCommerce Add-on requires WooCommerce plugin to be "
+"installed and activated."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wc-gsheetconnector/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Send your WooCommerce data to your Google Sheets spreadsheet."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "GSheetConnector"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.gsheetconnector.com/"
+msgstr ""

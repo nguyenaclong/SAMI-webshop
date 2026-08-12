@@ -1,0 +1,2166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce GSheetConnector\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-16 10:56+0530\n"
+"PO-Revision-Date: 2026-07-30 19:14+0530\n"
+"Last-Translator: POForge <noreply@poforge.com>\n"
+"Language-Team: gu <noreply@poforge.com>\n"
+"Language: gu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+msgid "11"
+msgstr "૧૧"
+
+msgid "12"
+msgstr "૧૨"
+
+msgid "13"
+msgstr "૧૩"
+
+msgid "14"
+msgstr "૧૪"
+
+msgid "15"
+msgstr "૧૫"
+
+msgid "16"
+msgstr "16"
+
+msgid "17"
+msgstr "17"
+
+msgid "18"
+msgstr "18"
+
+msgid "19"
+msgstr "19"
+
+msgid "20"
+msgstr "20"
+
+msgid "21"
+msgstr "21"
+
+msgid "You do not have permission to install plugin."
+msgstr "તમને plugin ઇન્સ્ટોલ કરવાની પરવાનગી નથી."
+
+msgid "Missing required parameters."
+msgstr "આવશ્યક પરિમાણો ગુમ છે."
+
+msgid "Plugin installed successfully."
+msgstr "Plugin સફળતાપૂર્વક ઇન્સ્ટોલ થયું."
+
+msgid "Invalid security token."
+msgstr "અમાન્ય સુરક્ષા ટોકન."
+
+msgid "You do not have permission to activate plugin."
+msgstr "તમને plugin સક્રિય કરવાની પરવાનગી નથી."
+
+msgid "Plugin slug is missing."
+msgstr "Plugin slug ગુમ છે."
+
+msgid "Plugin is already activated."
+msgstr "Plugin પહેલેથી જ સક્રિય છે."
+
+msgid "Plugin activated successfully."
+msgstr "Plugin સફળતાપૂર્વક સક્રિય થયું."
+
+msgid "feed"
+msgstr "ફીડ"
+
+msgid "feed6"
+msgstr "ફીડ6"
+
+msgid "Invalid log table name."
+msgstr "અમાન્ય લોગ ટેબલ નામ."
+
+msgid "Log table not found."
+msgstr "લોગ ટેબલ મળ્યું નથી."
+
+msgid "Error Log"
+msgstr "ભૂલ લોગ"
+
+msgid "Error logs are saved in the database. Please clear them regularly to avoid increasing the database size."
+msgstr "ભૂલ લોગ્સ ડેટાબેસમાં સાચવવામાં આવ્યા છે. કૃપા કરીને ડેટાબેસના કદ વધારવા ટાળવા માટે નિયમિત રીતે તેમને સાફ કરો."
+
+msgid "Clear Logs"
+msgstr "લોગ્સ સાફ કરો"
+
+msgid "Download CSV"
+msgstr "CSV ડાઉનલોડ કરો"
+
+msgid "Copy Logs"
+msgstr "લોગ્સ નકલ કરો"
+
+msgid "Date"
+msgstr "તારીખ"
+
+msgid "Error ID"
+msgstr "ભૂલ ID"
+
+msgid "Code"
+msgstr "કોડ"
+
+msgid "Message"
+msgstr "સંદેશ"
+
+msgid "Details"
+msgstr "વિગતો"
+
+msgid "No logs found."
+msgstr "કોઈ લોગ મળ્યા નથી."
+
+msgid "Permission denied."
+msgstr "પરવાનગી નકારી."
+
+msgid "There's something wrong with your code..."
+msgstr "તમારા કોડમાં કંઈક ખોટું છે..."
+
+msgid "Administrator"
+msgstr "પ્રશાસક"
+
+msgid "Please rate"
+msgstr "કૃપા કરીને રેટ કરો"
+
+msgid "GSheetConnector for WooCommerce"
+msgstr "WooCommerce માટે GSheetConnector"
+
+msgid "on"
+msgstr "પર"
+
+msgid "WordPress.org"
+msgstr "WordPress.org"
+
+msgid "to help us spread the word."
+msgstr "અમને માહિતી ફેલાવવા માટે મદદ કરવા માટે."
+
+msgid "Version: %s"
+msgstr "સંસ્કરણ: %s"
+
+msgid "Docs"
+msgstr "દસ્તાવેજો"
+
+msgid "Plugins"
+msgstr "પ્લગઇન્સ"
+
+msgid "Support"
+msgstr "સમર્થન"
+
+msgid "About GSheetConnector"
+msgstr "GSheetConnector વિશે"
+
+msgid "Built by Experts. Trusted by Thousands."
+msgstr "વિશેષજ્ઞો દ્વારા બનાવેલ. હજારો દ્વારા વિશ્વસનીય."
+
+msgid ""
+"Led by experienced developers and powered by a passionate team, GSheetConnector helps WordPress users automate their workflows "
+"with confidence."
+msgstr ""
+"અનુભવી ડેવલપર્સ દ્વારા નેતૃત્વ અને ઉત્સાહી ટીમ દ્વારા શક્તિશાળી, GSheetConnector વોર્ડપ્રેસ વપરાશકર્તાઓને તેમના કાર્યપ્રવાહને આત્મવિશ્વાસ સાથે સ્વચાલિત "
+"કરવામાં મદદ કરે છે."
+
+msgid "We focus on building tools that are fast, secure, and easy to use - so you can spend less time managing data."
+msgstr "અમે એવા સાધનો બનાવવામાં ધ્યાન કેન્દ્રિત કરીએ છીએ જે ઝડપી, સુરક્ષિત અને ઉપયોગમાં સરળ હોય - જેથી તમે ડેટા વ્યવસ્થાપનમાં ઓછો સમય વિતાવી શકો."
+
+msgid "Meet Our Core Team"
+msgstr "અમારી મુખ્ય ટીમને મળો"
+
+msgid "Our Mission"
+msgstr "અમારી મિશન"
+
+msgid ""
+"Our mission is to make form automation simple, secure, and reliable for every WordPress user - from beginners to enterprise teams."
+msgstr "અમારી મિશન એ છે કે દરેક વોર્ડપ્રેસ વપરાશકર્તા માટે ફોર્મ ઓટોમેશનને સરળ, સુરક્ષિત અને વિશ્વસનીય બનાવવું - શરુઆતથી એન્ટરપ્રાઇઝ ટીમો સુધી."
+
+msgid "Fast & Reliable Data Sync"
+msgstr "ઝડપી અને વિશ્વસનીય ડેટા સિંક"
+
+msgid "100% Secure Authentication"
+msgstr "100% સુરક્ષિત પ્રમાણપત્ર"
+
+msgid "Real-Time Google Sheets Updates"
+msgstr "વાસ્તવિક-સમય ગૂગલ શીટ્સ અપડેટ"
+
+msgid "Easy Setup & Configuration"
+msgstr "સરળ સેટઅપ અને રૂપરેખાંકન"
+
+msgid "Dedicated Support Team"
+msgstr "નિષ્ઠાવાન સપોર્ટ ટીમ"
+
+msgid "Forms Successfully Synced"
+msgstr "ફોર્મ સફળતાપૂર્વક સિંક કરાયા"
+
+msgid "Trusted by Active Users"
+msgstr "સક્રિય વપરાશકર્તાઓ દ્વારા વિશ્વસનીય"
+
+msgid "Reliable Uptime"
+msgstr "વિશ્વસનીય અપટાઇમ"
+
+msgid "Dedicated Support"
+msgstr "નિષ્ઠાવાન સપોર્ટ"
+
+msgid "Add-ons & Extensions"
+msgstr "એડ-ઓન્સ અને એક્સટેંશન્સ"
+
+msgid ""
+"Extend your Google Sheets integration with powerful add-ons. Install, manage, and activate extensions to unlock advanced features."
+msgstr ""
+"તમારા ગૂગલ શીટ્સ ઇન્ટિગ્રેશનને શક્તિશાળી એડ-ઓન્સ સાથે વિસ્તારો. સ્થાપિત કરો, વ્યવસ્થાપિત કરો અને વિસ્તરણોને સક્રિય કરો જેથી અદ્યતન સુવિધાઓ અનલોક થાય."
+
+msgid "CF7 Google Sheet Connector"
+msgstr "CF7 ગૂગલ શીટ કનેક્ટર"
+
+msgid ""
+"Easily connect Contact Form 7 to Google Sheets and automatically sync form submissions in real-time. Every entry is instantly "
+"added to your selected spreadsheet, helping you manage leads, inquiries, and customer data efficiently without manual export."
+msgstr ""
+"સહેલાઈથી કોન્ટેક્ટ ફોર્મ 7 ને ગૂગલ શીટ્સ સાથે જોડો અને વાસ્તવિક-સમયમાં ફોર્મ સબમિશન આપોઆપ સિંક કરો. દરેક પ્રવેશ તરત જ તમારી પસંદ કરેલી સ્પ્રેડશીટમાં "
+"ઉમેરવામાં આવે છે, જે તમને નેતૃત્વ, પૂછપરછ અને ગ્રાહક ડેટાને કાર્યક્ષમ રીતે વ્યવસ્થાપિત કરવામાં મદદ કરે છે."
+
+msgid "Install"
+msgstr "સ્થાપિત કરો"
+
+msgid "PRO"
+msgstr "PRO"
+
+msgid "WPForms Google Sheet Connector"
+msgstr "WPForms ગૂગલ શીટ કનેક્ટર"
+
+msgid ""
+"Integrate WPForms with Google Sheets and send form entries directly to your spreadsheet automatically. Track leads, manage "
+"customer data, and streamline reporting with seamless Google Sheets integration and real-time sync."
+msgstr ""
+"WPForms ને ગૂગલ શીટ્સ સાથે એકીકૃત કરો અને ફોર્મ પ્રવેશોને આપોઆપ તમારા સ્પ્રેડશીટમાં મોકલો. લીડ્સને ટ્રેક કરો, ગ્રાહક ડેટાને સંચાલિત કરો, અને સરળ ગૂગલ "
+"શીટ્સ એકીકરણ અને વાસ્તવિક સમય સમન્વય સાથે અહેવાલને સરળ બનાવો."
+
+msgid "Gravity Forms Google Sheet Connector"
+msgstr "ગ્રેવિટી ફોર્મ્સ ગૂગલ શીટ કનેક્ટર"
+
+msgid ""
+"Connect Gravity Forms to Google Sheets and automatically push form submissions to your spreadsheet. Simplify data management, "
+"improve workflow automation, and keep all entries organized in one secure location."
+msgstr ""
+"ગ્રેવિટી ફોર્મ્સને ગૂગલ શીટ્સ સાથે જોડો અને આપોઆપ ફોર્મ સબમિશન્સને તમારા સ્પ્રેડશીટમાં મોકલો. ડેટા વ્યવસ્થાપનને સરળ બનાવો, વર્કફ્લો ઓટોમેશનમાં સુધારો, અને "
+"તમામ પ્રવેશોને એક સુરક્ષિત સ્થાનમાં ગોઠવો."
+
+msgid "Ninja Forms Google Sheet Connector"
+msgstr "નinja ફોર્મ્સ ગૂગલ શીટ કનેક્ટર"
+
+msgid ""
+"Automatically sync Ninja Forms submissions to Google Sheets with one-click integration. Capture leads, monitor responses, and "
+"manage data efficiently with instant spreadsheet updates and easy reporting."
+msgstr ""
+"નinja ફોર્મ્સ સબમિશન્સને ગૂગલ શીટ્સમાં એક ક્લિકના એકીકરણ સાથે આપોઆપ સમન્વયિત કરો. લીડ્સને કેચ કરો, પ્રતિસાદોને મોનિટર કરો, અને તાત્કાલિક સ્પ્રેડશીટ "
+"અપડેટ્સ અને સરળ અહેવાલ સાથે ડેટાને અસરકારક રીતે સંચાલિત કરો."
+
+msgid "Forminator Forms Google Sheet Connector"
+msgstr "ફોર્મિનેટર ફોર્મ્સ ગૂગલ શીટ કનેક્ટર"
+
+msgid ""
+"Integrate Forminator Forms with Google Sheets to automatically store form entries in your spreadsheet. Eliminate manual data "
+"entry and ensure accurate, real-time syncing for better data tracking and analysis."
+msgstr ""
+"ફોર્મિનેટર ફોર્મ્સને ગૂગલ શીટ્સ સાથે એકીકૃત કરો જેથી ફોર્મ પ્રવેશોને આપોઆપ તમારા સ્પ્રેડશીટમાં સંગ્રહિત કરી શકાય. મેન્યુઅલ ડેટા એન્ટ્રીને દૂર કરો અને વધુ સારી "
+"ડેટા ટ્રેકિંગ અને વિશ્લેષણ માટે ચોક્કસ, વાસ્તવિક સમય સમન્વય સુનિશ્ચિત કરો."
+
+msgid "Free"
+msgstr "મફત"
+
+msgid "Formidable Forms Google Sheet Connector"
+msgstr "ફોર્મિડેબલ ફોર્મ્સ ગૂગલ શીટ કનેક્ટર"
+
+msgid ""
+"Automatically sync Formidable Forms entries to Google Sheets. Manage leads, track submissions, and simplify data reporting with "
+"real-time integration."
+msgstr ""
+"ફોર્મિડેબલ ફોર્મ્સના પ્રવેશોને ગૂગલ શીટ્સમાં આપોઆપ સમન્વયિત કરો. લીડ્સને સંચાલિત કરો, સબમિશન્સને ટ્રેક કરો, અને વાસ્તવિક સમયના એકીકરણ સાથે ડેટા અહેવાલને "
+"સરળ બનાવો."
+
+msgid "Fluent Forms Google Sheet Connector"
+msgstr "ફ્લુએન્ટ ફોર્મ્સ ગૂગલ શીટ કનેક્ટર"
+
+msgid ""
+"Automatically sync Fluent Forms submissions to Google Sheets in real-time. Every form entry is instantly added to your selected "
+"spreadsheet, helping you manage leads, customer inquiries, and business data without manual export. Streamline your workflow, "
+"improve reporting accuracy, and keep all submissions organized with seamless Google Sheets integration."
+msgstr ""
+"ફ્લુએન્ટ ફોર્મ્સના સબમિશન્સને વાસ્તવિક સમયમાં ગૂગલ શીટ્સમાં આપોઆપ સમન્વયિત કરો. દરેક ફોર્મ પ્રવેશ તરત જ તમારા પસંદ કરેલા સ્પ્રેડશીટમાં ઉમેરવામાં આવે છે, જે "
+"તમને મેન્યુઅલ નિકાસ વિના લીડ્સ, ગ્રાહક પૂછપરછ અને વ્યવસાય ડેટાને સંચાલિત કરવામાં મદદ કરે છે. તમારા વર્કફ્લોને સરળ બનાવો, અહેવાલની ચોકસાઈમાં સુધારો, અને "
+"સરળ ગૂગલ શીટ્સ એકીકરણ સાથે તમામ સબમિશન્સને ગોઠવો."
+
+msgid "Elementor Forms Google Sheet Connector"
+msgstr "એલિમેન્ટર ફોર્મ્સ ગૂગલ શીટ કનેક્ટર"
+
+msgid ""
+"Sync Elementor Forms with Google Sheets instantly. Automatically add new form submissions to your spreadsheet, manage leads "
+"efficiently, and simplify reporting with real-time data synchronization."
+msgstr ""
+"એલિમેન્ટર ફોર્મ્સને ગૂગલ શીટ્સ સાથે તરત જ સમન્વયિત કરો. આપોઆપ નવા ફોર્મ સબમિશન્સને તમારા સ્પ્રેડશીટમાં ઉમેરો, લીડ્સને અસરકારક રીતે સંચાલિત કરો, અને "
+"વાસ્તવિક સમયના ડેટા સમન્વય સાથે અહેવાલને સરળ બનાવો."
+
+msgid "Avada Forms Google Sheet Connector"
+msgstr "અવાડા ફોર્મ્સ ગૂગલ શીટ કનેક્ટર"
+
+msgid ""
+"Connect Avada Forms to Google Sheets and automatically transfer form entries to your spreadsheet. Streamline lead management, "
+"automate data collection, and improve business reporting with seamless integration."
+msgstr ""
+"અવાડા ફોર્મ્સને ગૂગલ શીટ્સ સાથે જોડો અને આપોઆપ ફોર્મ પ્રવેશોને તમારા સ્પ્રેડશીટમાં ટ્રાન્સફર કરો. લીડ મેનેજમેન્ટને સરળ બનાવો, ડેટા એકત્રિત કરવા માટે ઓટોમેટ "
+"કરો, અને સરળ એકીકરણ સાથે વ્યવસાય અહેવાલમાં સુધારો."
+
+msgid "Available PRO Version"
+msgstr "ઉપલબ્ધ PRO સંસ્કરણ"
+
+msgid "Divi Forms Google Sheet Connector"
+msgstr "ડિવી ફોર્મ્સ ગૂગલ શીટ કનેક્ટર"
+
+msgid ""
+"Integrate Divi Forms with Google Sheets and automatically sync submissions in real-time. Store customer data securely, track "
+"inquiries efficiently, and eliminate manual spreadsheet updates."
+msgstr ""
+"ડિવી ફોર્મ્સને ગૂગલ શીટ્સ સાથે એકીકૃત કરો અને આપોઆપ સબમિશન્સને વાસ્તવિક સમયમાં સમન્વયિત કરો. ગ્રાહક ડેટાને સુરક્ષિત રીતે સંગ્રહિત કરો, પૂછપરછને અસરકારક "
+"રીતે ટ્રેક કરો, અને મેન્યુઅલ સ્પ્રેડશીટ અપડેટ્સને દૂર કરો."
+
+msgid "WP Core Google Sheet Connector"
+msgstr "WP કોર ગૂગલ શીટ કનેક્ટર"
+
+msgid ""
+"Automatically send WordPress core data (like comments or custom submissions) to Google Sheets. Simplify website data tracking, "
+"automate record keeping, and centralize important information in one organized spreadsheet."
+msgstr ""
+"વર્ડપ્રેસ કોર ડેટા (જેમ કે ટિપ્પણો અથવા કસ્ટમ સબમિશન્સ) ને ગૂગલ શીટ્સમાં આપોઆપ મોકલો. વેબસાઇટ ડેટા ટ્રેકિંગને સરળ બનાવો, રેકોર્ડ રાખવાની પ્રક્રિયાને "
+"ઓટોમેટ કરો, અને એક ગોઠવેલા સ્પ્રેડશીટમાં મહત્વપૂર્ણ માહિતી કેન્દ્રિત કરો."
+
+msgid "WooCommerce Google Sheet Connector"
+msgstr "વૂકોમર્સ ગૂગલ શીટ કનેક્ટર"
+
+msgid ""
+"Sync WooCommerce orders with Google Sheets automatically. Store order details, customer information, and transaction data in real-"
+"time for easy reporting, accounting, and business analysis."
+msgstr ""
+"વૂકોમર્સ ઓર્ડરોને ગૂગલ શીટ્સ સાથે આપોઆપ સમન્વયિત કરો. ઓર્ડર વિગતો, ગ્રાહક માહિતી, અને વ્યવહાર ડેટાને વાસ્તવિક સમયમાં સરળ અહેવાલ, હિસાબ, અને વ્યવસાય "
+"વિશ્લેષણ માટે સંગ્રહિત કરો."
+
+msgid "Easy Digital Downloads Google Sheet Connector"
+msgstr "ઇઝી ડિજિટલ ડાઉનલોડ્સ ગૂગલ શીટ કનેક્ટર"
+
+msgid ""
+"Automatically send Easy Digital Downloads (EDD) order details to Google Sheets. Track digital product sales, monitor "
+"transactions, and manage customer data effortlessly with real-time spreadsheet integration."
+msgstr ""
+"ઇઝી ડિજિટલ ડાઉનલોડ્સ (EDD) ઓર્ડર વિગતોને ગૂગલ શીટ્સમાં આપોઆપ મોકલો. ડિજિટલ ઉત્પાદન વેચાણને ટ્રેક કરો, વ્યવહારોને મોનિટર કરો, અને વાસ્તવિક સમયના "
+"સ્પ્રેડશીટ એકીકરણ સાથે ગ્રાહક ડેટાને સરળતાથી સંચાલિત કરો."
+
+msgid "Installed & Active Plugins"
+msgstr "સ્થાપિત અને સક્રિય પ્લગઇન્સ"
+
+msgid ""
+"View and manage all currently installed and active connectors on your site. You can activate, deactivate, or upgrade plugins from "
+"here."
+msgstr "તમારી સાઇટ પર હાલમાં સ્થાપિત અને સક્રિય કનેક્ટર્સને જુઓ અને સંચાલિત કરો. તમે અહીંથી પ્લગઇન્સને સક્રિય, નિષ્ક્રિય અથવા અપગ્રેડ કરી શકો છો."
+
+msgid "Pro"
+msgstr "પ્રો"
+
+msgid "View Docs"
+msgstr "દસ્તાવેજો જુઓ"
+
+msgid "Deactivate"
+msgstr "અક્ષમ કરો"
+
+msgid "Recommended Plugins"
+msgstr "સૂચવેલ પ્લગઇન્સ"
+
+msgid "Discover recommended plugins that enhance your workflow and help you get more value from your Google Sheets integration."
+msgstr "તમારા કાર્યપ્રવાહને સુધારવા અને તમારા Google Sheets ઇન્ટિગ્રેશનમાંથી વધુ મૂલ્ય મેળવવામાં મદદ કરવા માટેની સૂચવેલ પ્લગઇન્સ શોધો."
+
+msgid "Activate"
+msgstr "સક્રિય કરો"
+
+msgid "Explore More Plugins"
+msgstr "વધુ પ્લગઇન્સ શોધો"
+
+msgid "Discover the right connector for your workflow and automate data syncing."
+msgstr "તમારા કાર્યપ્રવાહ માટે યોગ્ય કનેક્ટર શોધો અને ડેટા સમન્વયને સ્વચાલિત કરો."
+
+msgid "All"
+msgstr "બધા"
+
+msgid "Forms"
+msgstr "ફોર્મ"
+
+msgid "Page Builders"
+msgstr "પેજ બિલ્ડર્સ"
+
+msgid "eCommerce"
+msgstr "ઇ-કોમર્સ"
+
+msgid "View Demo"
+msgstr "ડેમો જુઓ"
+
+msgid "Deactivate Plugin"
+msgstr "પ્લગિન અક્ષક્ર કરો"
+
+msgid "Are you sure you want to deactivate this plugin?"
+msgstr "શું તમે ખરેખર આ પ્લગિન અક્ષક્ર કરવા માંગો છો?"
+
+msgid "Cancel"
+msgstr "રદ કરવું"
+
+msgid "Installation failed: "
+msgstr "ઇન્સ્ટોલેશન નિષ્ફળ ગયું: "
+
+msgid "Sheet Sync Feeds"
+msgstr "શીટ સિંક ફીડ્સ"
+
+msgid "Create, connect, manage, and monitor how your form submissions are automatically synced to Google Sheets in real time."
+msgstr "તમારા ફોર્મ સબમિશન્સને વાસ્તવિક સમયમાં ગૂગલ શીટ્સ સાથે આપોઆપ કેવી રીતે સિંક કરવામાં આવે છે તે બનાવો, કનેક્ટ કરો, મેનેજ કરો અને મોનિટર કરો."
+
+msgid "- Close Feeds"
+msgstr "- ફીડ બંધ કરો"
+
+msgid "Feed Name"
+msgstr "ફીડ નામ"
+
+msgid "Feed Type"
+msgstr "ફીડ પ્રકાર"
+
+msgid "Select Feed Type"
+msgstr "ફીડ પ્રકાર પસંદ કરો"
+
+msgid "Orders"
+msgstr "ઓર્ડર્સ"
+
+msgid "Products"
+msgstr "ઉત્પાદનો"
+
+msgid "Products Variation"
+msgstr "ઉત્પાદનો ભિન્નતા"
+
+msgid "Customers"
+msgstr "ગ્રાહકો"
+
+msgid "Coupons"
+msgstr "કૂપન"
+
+msgid "Subscriptions"
+msgstr "સબ્સ્ક્રિપ્શન"
+
+msgid "Submit"
+msgstr "સબમિટ કરો"
+
+msgid "Inactive"
+msgstr "નિષ્ક્રિય"
+
+msgid "Trash"
+msgstr "કચરો"
+
+msgid "Feed ID"
+msgstr "ફીડ ID"
+
+msgid "Author"
+msgstr "લેખક"
+
+msgid "Timestamp"
+msgstr "ટાઈમસ્ટેમ્પ"
+
+msgid "Status"
+msgstr "સ્થિતિ"
+
+msgid "Rename Feed"
+msgstr "ફીડનું નામ બદલો"
+
+msgid "Save"
+msgstr "સાચવો"
+
+msgid "Edit"
+msgstr "સંપાદિત કરો"
+
+msgid "admin"
+msgstr "admin"
+
+msgid "2026-04-27 09:30:53"
+msgstr "2026-04-27 09:30:53"
+
+msgid "feed1"
+msgstr "feed1"
+
+msgid "2026-04-27 09:31:18"
+msgstr "2026-04-27 09:31:18"
+
+msgid "feed2"
+msgstr "feed2"
+
+msgid "2026-04-27 09:31:35"
+msgstr "2026-04-27 09:31:35"
+
+msgid "feed3"
+msgstr "feed3"
+
+msgid "2026-04-27 09:31:47"
+msgstr "2026-04-27 09:31:47"
+
+msgid "feed4"
+msgstr "feed4"
+
+msgid "2026-04-27 09:32:00"
+msgstr "2026-04-27 09:32:00"
+
+msgid "feed5"
+msgstr "feed5"
+
+msgid "2026-04-27 09:32:17"
+msgstr "2026-04-27 09:32:17"
+
+msgid "2026-04-27 09:32:27"
+msgstr "2026-04-27 09:32:27"
+
+msgid "Integration"
+msgstr "એકીકરણ"
+
+msgid "WooCommerce Data Settings"
+msgstr "WooCommerce ડેટા સેટિંગ્સ"
+
+msgid "Settings"
+msgstr "સેટિંગ્સ"
+
+msgid "System Status"
+msgstr "સિસ્ટમ સ્થિતિ"
+
+msgid "Extensions"
+msgstr "વિસ્તરણ"
+
+msgid "Form Feed Settings"
+msgstr "ફોર્મ ફીડ સેટિંગ્સ"
+
+msgid "You`re using GSheetConnector for WooCommerce Lite. To unlock more features consider "
+msgstr "તમે WooCommerce Lite માટે GSheetConnector નો ઉપયોગ કરી રહ્યા છો. વધુ સુવિધાઓ અનલૉક કરવા માટે વિચાર કરો "
+
+msgid "upgrading to Pro"
+msgstr "પ્રો માટે અપગ્રેડ કરવાનું"
+
+msgid "Existing"
+msgstr "અસ્તિત્વમાં"
+
+msgid "Auth Required"
+msgstr "પ્રમાણિત કરવાની જરૂર છે"
+
+msgid "Authenticate with Your Google Account"
+msgstr "તમારા Google એકાઉન્ટ સાથે પ્રમાણિત કરો"
+
+msgid "Your connection has expired or hasn’t been set up yet."
+msgstr "તમારો કનેક્શન સમાપ્ત થઈ ગયો છે અથવા હજુ સેટઅપ કરવામાં આવ્યો નથી."
+
+msgid "Your Google connection is missing or expired. Please authenticate to continue syncing data without interruptions."
+msgstr "તમારો Google કનેક્શન ગાયબ છે અથવા સમાપ્ત થઈ ગયો છે. કૃપા કરીને ડેટા સિંક કરવા માટે માન્યતા આપો."
+
+msgid "Authenticate Now"
+msgstr "હવે પ્રમાણિત કરો"
+
+msgid "Learn How"
+msgstr "શીખો કેવી રીતે"
+
+msgid "Enjoying the Plugin?"
+msgstr "પ્લગિનનો આનંદ માણી રહ્યા છો?"
+
+msgid "If you are enjoying the plugin, please consider leaving a 5-star review. Your support helps us improve and grow."
+msgstr ""
+"જો તમે પ્લગિનનો આનંદ માણી રહ્યા છો, તો કૃપા કરીને 5-તારાની સમીક્ષા છોડી દેવા પર વિચાર કરો. તમારો સમર્થન અમને સુધારવા અને વધારવામાં મદદ કરે છે."
+
+msgid "Ok, you deserve it!"
+msgstr "બરાબર, તમે આને હકદાર છો!"
+
+msgid "I already did"
+msgstr "મેં પહેલેથી જ કર્યું"
+
+msgid "I need help"
+msgstr "મને મદદની જરૂર છે"
+
+msgid "Maybe Later"
+msgstr "શાયદ પછી"
+
+msgid "Enhance Your Setup"
+msgstr "તમારો સેટઅપ સુધારો"
+
+msgid "Extend your workflow with our add-ons."
+msgstr "અમારા એડ-ઓન સાથે તમારા વર્કફ્લોને વિસ્તૃત કરો."
+
+msgid "Discover tools that integrate seamlessly and help you get more done."
+msgstr "સુગમ રીતે એકીકૃત થતી સાધનો શોધો અને વધુ કાર્ય કરો."
+
+msgid "Explore Add-ons"
+msgstr "એડ-ઓન્સ શોધો"
+
+msgid "View Details"
+msgstr "વિગતો જુઓ"
+
+msgid "Unlock Advance Features of GSheetConnector for WooCommerce Pro"
+msgstr "GSheetConnector for WooCommerce Pro ની અદ્યતન સુવિધાઓ અનલૉક કરો"
+
+msgid ""
+"Use advanced features like Manual Authentication and automatic field mapping, no need to create columns in Google Sheets "
+"manually. Choose only the fields you need with simple toggles, use advanced tags, sync past form entries, and get priority "
+"support."
+msgstr ""
+"મેન્યુઅલ ઓથેન્ટિકેશન અને આપોઆપ ફીલ્ડ મેપિંગ જેવી અદ્યતન સુવિધાઓનો ઉપયોગ કરો, Google Sheets માં કૉલમ્સ મેન્યુઅલી બનાવવાની જરૂર નથી. સરળ ટૉગલ્સથી તમને "
+"જરૂરી માત્ર ફીલ્ડ્સ પસંદ કરો, અદ્યતન ટૅગ્સનો ઉપયોગ કરો, અગાઉના ફોર્મ એન્ટ્રીઓ સિંક કરો, અને પ્રાથમિકતા આધારિત સપોર્ટ મેળવો."
+
+msgid "View License Types"
+msgstr "લાઇસન્સ પ્રકારો જુઓ"
+
+msgid "Compare Features"
+msgstr "ફીચર્સની તુલના કરો"
+
+msgid "v"
+msgstr "v"
+
+msgid "Google Sheet"
+msgstr "ગૂગલ શીટ"
+
+msgid "Dashboard"
+msgstr "ડેશબોર્ડ"
+
+msgid "Feed Settings (PRO)"
+msgstr "ફીડ સેટિંગ્સ (PRO)"
+
+msgid "Advanced Tools for Easy Spreadsheet Control"
+msgstr "સરળ સ્પ્રેડશીટ નિયંત્રણ માટે અદ્યતન સાધનો"
+
+msgid "Improve your sheet management with smart automation and flexible customization features."
+msgstr "સ્માર્ટ ઓટોમેશન અને લવચીક કસ્ટમાઇઝેશન ફીચર્સ સાથે તમારા શીટ મેનેજમેન્ટને સુધારો."
+
+msgid "Google Sheets API v4"
+msgstr "Google Sheets API v4"
+
+msgid "One-Click Authentication"
+msgstr "એક-ક્લિક પ્રમાણન"
+
+msgid "Authenticated Email Display"
+msgstr "પ્રમાણિત ઇમેઇલ પ્રદર્શિત"
+
+msgid "Click & Fetch Automation"
+msgstr "ક્લિક અને ફેચ ઓટોમેશન"
+
+msgid "Create New Spreadsheet"
+msgstr "નવી સ્પ્રેડશીટ બનાવો"
+
+msgid "Automated Sheet & Tab"
+msgstr "ઓટોમેટેડ શીટ અને ટેબ"
+
+msgid "Multiple Feeds to Sheets"
+msgstr "બહુવિધ ફીડ્સથી શીટ્સ"
+
+msgid "Order Status Sheet Tabs"
+msgstr "ઓર્ડર સ્થિતિ શીટ ટેબ"
+
+msgid "Language Translation "
+msgstr "ભાષા અનુવાદ"
+
+msgid "Custom Order Sheet Tabs"
+msgstr "કસ્ટમ ઓર્ડર શીટ ટેબ"
+
+msgid "Sync Additional Sheet Tabs"
+msgstr "અતિરિક્ત શીટ ટેબ સમન્વય"
+
+msgid "How Orders Are Synced"
+msgstr "ઓર્ડર કેવી રીતે સમન્વયિત થાય છે"
+
+msgid "Order & Product Category Filter"
+msgstr "ઓર્ડર અને ઉત્પાદન શ્રેણી ફિલ્ટર"
+
+msgid "2-Way Sync"
+msgstr "૨-માર્ગી સમન્વય"
+
+msgid "Add Extra Google Sheet Columns"
+msgstr "અતિરિક્ત Google Sheet કૉલમ ઉમેરો"
+
+msgid "Cron Settings "
+msgstr "ક્રોન સેટિંગ્સ"
+
+msgid "Drag-and-Drop Column Order"
+msgstr "ડ્રેગ-એન્ડ-ડ્રોપ કૉલમ ઓર્ડર"
+
+msgid "Freeze & Color Headers"
+msgstr "ફ્રીઝ અને રંગ હેડર્સ"
+
+msgid "Sync Past Entries"
+msgstr "ગયા એન્ટ્રીઓ સમંકલન"
+
+msgid "Role Management"
+msgstr "ભૂમિકા વ્યવસ્થાપન"
+
+msgid "Quick Configuration"
+msgstr "ઝડપી રૂપરેખાંકન"
+
+msgid "Multi-Language Support"
+msgstr "બહુભાષી સપોર્ટ"
+
+msgid "Multi-Site Support"
+msgstr "બહુસાઇટ સપોર્ટ"
+
+msgid "Latest WP & PHP Support"
+msgstr "તાજેતરના WP & PHP સપોર્ટ"
+
+msgid "Upgrad Now"
+msgstr "હવે અપગ્રેડ કરો"
+
+msgid "Free vs Pro"
+msgstr "ફ્રી સામે Pro"
+
+msgid "WooCommerce - GSheetConnector"
+msgstr "WooCommerce - GSheetConnector"
+
+msgid "Select"
+msgstr "ચૂંટો"
+
+msgid " Google Sheets Integration for WooCommerce"
+msgstr "WooCommerce માટે Google Sheets એકીકરણ"
+
+msgid "Choose Google API Setting"
+msgstr "Google API સેટિંગ પસંદ કરો"
+
+msgid "Existing Client / Secret Key (Auto Setup)"
+msgstr "અસ્તિત્વમાં ક્લાયન્ટ / સિક્રેટ કી (ઓટો સેટઅપ)"
+
+msgid "Manual Client/Secret Key (Use Your Google API Configuration)"
+msgstr "મેન્યુઅલ ક્લાયન્ટ/સિક્રેટ કી (તમારી Google API કન્ફિગરેશનનો ઉપયોગ કરો)"
+
+msgid "Service Account (Recommended)"
+msgstr "સેવા ખાતું (સૂચવાયું)"
+
+msgid "Google Account Connection"
+msgstr "Google ખાતા કનેક્શન"
+
+msgid "Auto Setup"
+msgstr "ઓટો સેટઅપ"
+
+msgid ""
+"Sign in with your Google account to connect WooCommerce with Google Sheets. Once connected, your data syncs based on your "
+"settings. Learn more in the documentation"
+msgstr ""
+"તમારા Google એકાઉન્ટથી સાઇન ઇન કરીને WooCommerce ને Google Sheets સાથે કનેક્ટ કરો. એકવાર કનેક્ટ થઈ જાય પછી, તમારો ડેટા તમારી સેટિંગ્સ પ્રમાણે "
+"સિંક થશે. વધુ માહિતી માટે ડોક્યુમેન્ટેશન જુઓ"
+
+msgid "Click here"
+msgstr "અહીં ક્લિક કરો"
+
+msgid "Click on the <strong>Sign in with Google</strong> button."
+msgstr "<strong>Google સાથે સાઇન ઇન</strong> બટન પર ક્લિક કરો."
+
+msgid "Log in using your Google account."
+msgstr "તમારા Google ખાતાનો ઉપયોગ કરીને લોગ ઇન કરો."
+
+msgid "Select the Google account where your Sheets are stored."
+msgstr "તે Google ખાતા પસંદ કરો જ્યાં તમારી Sheets સંગ્રહિત છે."
+
+msgid "Grant access to:"
+msgstr "પ્રવેશ પરવાનગી આપો:"
+
+msgid "Google Drive"
+msgstr "ગૂગલ ડ્રાઇવ"
+
+msgid "Google Sheets"
+msgstr "ગૂગલ શીટ્સ"
+
+msgid "Click <strong>Allow</strong> to finish authorization."
+msgstr "પ્રમાણિકરણ પૂર્ણ કરવા માટે <strong>આગે વધો</strong> પર ક્લિક કરો."
+
+msgid "Save the authentication code if prompted."
+msgstr "જો સૂચવવામાં આવે તો પ્રમાણિકરણ કોડ સાચવો."
+
+msgid "This allows the plugin to securely sync your form data with Google Sheets."
+msgstr "આ પ્લગિનને તમારા ફોર્મ ડેટાને Google Sheets સાથે સુરક્ષિત રીતે સમન્વયિત કરવાની મંજૂરી આપે છે."
+
+msgid ""
+"<p class=\"fw-400 text-dark\"><strong>Google Drive</strong> and <strong>Google Sheets</strong> permissions were not granted "
+"during authentication with Google.</p>\n"
+"                  <p class=\"fw-400 text-dark\"><strong>Refer to Step 4 in the Connection Guide shown alongside.</strong><br> "
+"Then, deactivate the connection and re-authorize it, ensuring both Google Drive and Google Sheets permissions are enabled.</p>"
+msgstr ""
+"<p class=\"fw-400 text-dark\"><strong>Google Drive</strong> અને <strong>Google Sheets</strong> માટેની પરવાનગીઓ Google સાથેની "
+"ઓથેન્ટિકેશન દરમિયાન આપવામાં આવી નહોતી.</p>\n"
+"                  <p class=\"fw-400 text-dark\"><strong>આસપાસ દર્શાવેલા કનેક્શન માર્ગદર્શિકામાં Step 4 જુઓ.</strong><br> ત્યારબાદ, કનેક્શનને "
+"નિષ્ક્રિય કરો અને ફરીથી ઓથોરાઈઝ કરો, ખાતરી કરો કે Google Drive અને Google Sheets બંને પરવાનગીઓ સક્રિય છે.</p>"
+
+msgid "Connected Google Account"
+msgstr "જોડાયેલ Google ખાતું"
+
+msgid "Connected"
+msgstr "જોડાયેલ"
+
+msgid ""
+"Authentication failed. Your Google access token may be expired or invalid. Please re-authenticate your account with the required "
+"permissions."
+msgstr ""
+"ઓથેન્ટિકેશન નિષ્ફળ થયું. તમારો Google ઍક્સેસ ટોકન કદાચ સમાપ્ત થઈ ગયો છે અથવા અમાન્ય છે. કૃપા કરીને જરૂરી પરવાનગીઓ સાથે તમારા એકાઉન્ટને ફરીથી "
+"ઓથેન્ટિકેટ કરો."
+
+msgid "Connect Your Google Account"
+msgstr "તમારો ગૂગલ એકાઉન્ટ કનેક્ટ કરો"
+
+msgid "Securely link your Google account to start syncing form entries automatically."
+msgstr "ફોર્મ એન્ટ્રીઓને આપમેળે સમંકલન કરવા માટે તમારા ગૂગલ એકાઉન્ટને સુરક્ષિત રીતે લિંક કરો."
+
+msgid "Sign in with Google"
+msgstr "Google સાથે સાઇન ઇન કરો"
+
+msgid "Client Token"
+msgstr "ક્લાયન્ટ ટોકન"
+
+msgid "Save Client Token"
+msgstr "ક્લાયન્ટ ટોકન સાચવો"
+
+msgid ""
+"We do not store any of the data from your Google account on our servers, everything is processed & stored on your server. We take "
+"your privacy extremely seriously and ensure it is never misused. Learn more in the documentation"
+msgstr ""
+"અમે તમારા ગૂગલ એકાઉન્ટમાંથી કોઈપણ ડેટા અમારી સર્વર્સ પર સંગ્રહિત નથી કરતા, બધું તમારા સર્વર પર પ્રક્રિયા અને સંગ્રહિત થાય છે. અમે તમારી ગોપનીયતા ખૂબ "
+"જ ગંભીરતાથી લેતા છીએ અને ખાતરી કરીએ છીએ કે તેનો ક્યારેય દુરૂપયોગ ન થાય. દસ્તાવેજોમાં વધુ જાણો"
+
+msgid "click here."
+msgstr "અહીં ક્લિક કરો."
+
+msgid "Connection Status & Next Steps"
+msgstr "કનેક્શન સ્થિતિ & આગામી પગલાં"
+
+msgid ""
+"Your Google account has been successfully connected. You are now ready to sync your WooCommerce data with Google Sheets securely "
+"and automatically."
+msgstr ""
+"તમારો Google ખાતો સફળતાપૂર્વક જોડાયો છે. તમે હવે તમારા WooCommerce ડેટાને Google Sheets સાથે સુરક્ષિત અને સ્વચાલિત રીતે સમન્વયિત કરવા માટે તૈયાર "
+"છો."
+
+msgid "Create New Feed"
+msgstr "નવું ફીડ બનાવો"
+
+msgid "Select Google Spreadsheet"
+msgstr "ગૂગલ સ્પ્રેડશીટ પસંદ કરો"
+
+msgid "Map WooCommerce Fields"
+msgstr "WooCommerce ફીલ્ડ્સને નકશો બનાવો"
+
+msgid "Enable Order Sync"
+msgstr "ઓર્ડર સમન્વય સક્રિય કરો"
+
+msgid "Upgrade to unlock"
+msgstr "અનલોક કરવા માટે અપગ્રેડ કરો"
+
+msgid "Deactivate Integration"
+msgstr "એકીકરણ અક્ષમ કરો"
+
+msgid "Are you sure you want to deactivate Google Sheets integration?"
+msgstr "શું તમે ખરેખર Google Sheets ઇન્ટિગ્રેશન નિષ્ક્રિય કરવા માંગો છો?"
+
+msgid "Connection Guide"
+msgstr "કનેક્શન માર્ગદર્શિકા"
+
+msgid "Step-by-Step"
+msgstr "પગલું-દ્વારા-પગલું"
+
+msgid "Follow these steps to connect your Google account and start syncing your form data with Google Sheets."
+msgstr "તમારા ગૂગલ એકાઉન્ટને કનેક્ટ કરવા અને તમારા ફોર્મ ડેટાને ગૂગલ શીટ્સ સાથે સમંકલન કરવા માટે આ પગલાં અનુસરો."
+
+msgid "Step-1 Connect Your Google Account"
+msgstr "પગલું-1 તમારો ગૂગલ એકાઉન્ટ કનેક્ટ કરો"
+
+msgid "Sign in with your Google account to start the automatic Google Sheets integration."
+msgstr "આપમેળે ગૂગલ શીટ્સ ઇન્ટિગ્રેશન શરૂ કરવા માટે તમારા ગૂગલ એકાઉન્ટ સાથે સાઇન ઇન કરો."
+
+msgid "Step-2 Choose Google Account"
+msgstr "પગલું-2 ગૂગલ એકાઉન્ટ પસંદ કરો"
+
+msgid "Choose the Google account where your Sheets are stored."
+msgstr "તે ગૂગલ એકાઉન્ટ પસંદ કરો જ્યાં તમારી શીટ્સ સંગ્રહિત છે."
+
+msgid "check our detailed guideline"
+msgstr "અમારી વિગતવાર માર્ગદર્શિકા તપાસો"
+
+msgid "Step-3 Review Access Information"
+msgstr "પગલું-3 ઍક્સેસ માહિતી સમીક્ષા કરો"
+
+msgid "Google will show what information the plugin can access."
+msgstr "ગૂગલ બતાવશે કે પ્લગઇન કઈ માહિતી ઍક્સેસ કરી શકે છે."
+
+msgid "Step-4 Grant Required Permissions"
+msgstr "પગલું-4 જરૂરી પરવાનગીઓ આપો"
+
+msgid "Allow required permissions for Google Sheets and Drive access."
+msgstr "ગૂગલ શીટ્સ અને ડ્રાઈવ ઍક્સેસ માટે જરૂરી પરવાનગીઓ મંજૂર કરો."
+
+msgid "Step-5 Save Authentication Code"
+msgstr "પગલું-5 માન્યતા કોડ સાચવો"
+
+msgid "Save the authentication code to complete the Google account connection."
+msgstr "ગૂગલ એકાઉન્ટ કનેક્શન પૂર્ણ કરવા માટે માન્યતા કોડ સાચવો."
+
+msgid "Step-6 Integration Completed"
+msgstr "પગલું-6 એકીકરણ પૂર્ણ થયું"
+
+msgid "Your Google account is now successfully connected."
+msgstr "તમારો Google ખાતો હવે સફળતાપૂર્વક જોડાયો છે."
+
+msgid "Manual Google Sheets Integration"
+msgstr "હસ્તચાલિત Google Sheets એકીકરણ"
+
+msgid ""
+"Connect WooCommerce to Google Sheets using your own Google Cloud project. Ideal for advanced users who need full API control and "
+"custom OAuth setup."
+msgstr ""
+"તમારા પોતાના Google Cloud પ્રોજેક્ટનો ઉપયોગ કરીને WooCommerce ને Google Sheets સાથે જોડો. સંપૂર્ણ API નિયંત્રણ અને કસ્ટમ OAuth સેટઅપની જરૂરિયાત "
+"ધરાવતા અદ્યતન વપરાશકર્તાઓ માટે આદર્શ."
+
+msgid "Custom API Credentials"
+msgstr "કસ્ટમ API પ્રમાણપત્રો"
+
+msgid "Connect using your own Google Cloud Client ID and Client Secret for full authentication control."
+msgstr "પૂર્ણ પ્રમાણિકતા નિયંત્રણ માટે તમારા પોતાના Google Cloud Client ID અને Client Secret નો ઉપયોગ કરીને જોડાઓ."
+
+msgid "Secure Authentication"
+msgstr "સુરક્ષિત પ્રમાણિકતા"
+
+msgid "Authenticate directly with Google using a secure Authentication flow without third-party dependency."
+msgstr "ત્રણમૂળ આધાર વિના સુરક્ષિત પ્રમાણિકતા પ્રવાહ સાથે સીધા Google સાથે પ્રમાણિત કરો."
+
+msgid "Advanced Configuration"
+msgstr "અદ્યતન કન્ફિગરેશન"
+
+msgid "Set custom Redirect URIs, manage scopes, and configure API settings based on your project needs."
+msgstr "તમારા પ્રોજેક્ટની જરૂરિયાતો આધારિત કસ્ટમ રીડાયરેક્ટ URI સેટ કરો, સ્કોપ્સને સંચાલિત કરો, અને API સેટિંગ્સને કન્ફિગર કરો."
+
+msgid "Priority Technical Support"
+msgstr "પ્રાથમિક ટેકનિકલ સપોર્ટ"
+
+msgid "Get fast assistance from our expert team for setup, troubleshooting, and optimization."
+msgstr "સેટઅપ, સમસ્યાનો ઉકેલ અને ઑપ્ટિમાઇઝેશન માટે અમારી નિષ્ણાત ટીમ પાસેથી ઝડપી સહાય મેળવો."
+
+msgid "Upgrade to Unlock"
+msgstr "અનલોક કરવા માટે અપગ્રેડ કરો"
+
+msgid "View Pro Features"
+msgstr "પ્રો ફીચર્સ જુઓ"
+
+msgid "Service Account Google Sheets Integration"
+msgstr "સેવા ખાતા Google Sheets એકીકરણ"
+
+msgid "Connect WooCommerce to Google Sheets using a Service Account for automated syncing without manual login."
+msgstr "મેન્યુઅલ લૉગિન વિના સ્વચાલિત સમન્વય માટે સેવા ખાતાનો ઉપયોગ કરીને WooCommerce ને Google Sheets સાથે જોડો."
+
+msgid "Secure JSON Authentication"
+msgstr "સુરક્ષિત JSON પ્રમાણિકતા"
+
+msgid "Authenticate using a secure Google Cloud JSON key file for direct and encrypted communication with Google Sheets."
+msgstr "Google Sheets સાથે સીધી અને એન્ક્રિપ્ટેડ સંવાદ માટે સુરક્ષિત Google Cloud JSON કી ફાઇલનો ઉપયોગ કરીને પ્રમાણિત કરો."
+
+msgid "No Authentication Login Required"
+msgstr "કોઈ પ્રમાણિકતા લોગિનની જરૂર નથી"
+
+msgid "Enable automatic background syncing without requiring Google account sign-in during setup."
+msgstr "સેટઅપ દરમિયાન Google ખાતા સાઇન-ઇનની જરૂર વગર સ્વચાલિત પૃષ્ઠભૂમિ સમન્વય સક્રિય કરો."
+
+msgid "Direct Spreadsheet Access"
+msgstr "સિધા સ્પ્રેડશીટ ઍક્સેસ"
+
+msgid "Share your Google Sheet with the service account email to enable automatic data transfer."
+msgstr "તમારા Google Sheet ને સેવા ખાતા ઈમેઇલ સાથે શેર કરો જેથી આપોઆપ ડેટા ટ્રાન્સફર સક્રિય થાય."
+
+msgid "Production-Ready & Reliable"
+msgstr "ઉત્પાદન-તૈયાર અને વિશ્વસનીય"
+
+msgid "Built for stable, uninterrupted syncing in professional and high-traffic environments."
+msgstr "વ્યવસાયિક અને ઉચ્ચ ટ્રાફિક પર્યાવરણમાં સ્થિર, અવિરત સમન્વય માટે બનાવવામાં આવ્યું."
+
+msgid "Permission Not Allowed"
+msgstr "પરવાનગી મંજૂર નથી"
+
+msgid "Unlock Role-Based Access Control"
+msgstr "રોલ આધારિત ઍક્સેસ નિયંત્રણ અનલોક કરો"
+
+msgid "Advanced options are available in PRO"
+msgstr "અદ્યતન વિકલ્પો PRO માં ઉપલબ્ધ છે"
+
+msgid "Role Permissions"
+msgstr "રોલ પરવાનગીઓ"
+
+msgid "Allow specific WordPress roles"
+msgstr "વિશિષ્ટ WordPress રોલને મંજૂરી આપો"
+
+msgid "Enable/disable integration access"
+msgstr "એકીકરણ ઍક્સેસ સક્રિય/નિષ્ક્રિય કરો"
+
+msgid "Control WooCommerce sync visibility"
+msgstr "WooCommerce સમન્વય દૃશ્યતા નિયંત્રિત કરો"
+
+msgid "Restrict settings management"
+msgstr "સેટિંગ્સ મેનેજમેન્ટને પ્રતિબંધિત કરો"
+
+msgid "Security Control"
+msgstr "સુરક્ષા નિયંત્રણ"
+
+msgid "Prevent unauthorized changes"
+msgstr "અધિકૃત ફેરફારોને રોકો"
+
+msgid "Secure Google Sheet credentials"
+msgstr "ગૂગલ શીટના પ્રમાણપત્રોને સુરક્ષિત કરો"
+
+msgid "Role-based configuration control"
+msgstr "ભૂમિકા આધારિત કન્ફિગરેશન નિયંત્રણ"
+
+msgid "Protect integration settings"
+msgstr "ઇન્ટિગ્રેશન સેટિંગ્સને સુરક્ષિત કરો"
+
+msgid "Management Benefits"
+msgstr "મેનેજમેન્ટ ફાયદા"
+
+msgid "Grant access to trusted editors"
+msgstr "વિશ્વસનીય સંપાદકોને ઍક્સેસ આપો"
+
+msgid "Hide settings from subscribers"
+msgstr "સબ્સ્ક્રાઇબર્સથી સેટિંગ્સ છુપાવો"
+
+msgid "Team-based permission structure"
+msgstr "ટીમ આધારિત પરવાનગીની રચના"
+
+msgid "Improved dashboard security"
+msgstr "સુધારેલ ડેશબોર્ડ સુરક્ષા"
+
+msgid "Audit & Monitoring"
+msgstr "ઓડિટ અને મોનિટરિંગ"
+
+msgid "Track role-based changes"
+msgstr "ભૂમિકા આધારિત ફેરફારોને ટ્રેક કરો"
+
+msgid "Monitor integration access"
+msgstr "ઇન્ટિગ્રેશન ઍક્સેસને મોનિટર કરો"
+
+msgid "Review permission updates"
+msgstr "પરવાનગીના અપડેટ્સની સમીક્ષા કરો"
+
+msgid "Maintain admin accountability"
+msgstr "એડમિન જવાબદારી જાળવો"
+
+msgid "Access Management"
+msgstr "ઍક્સેસ મેનેજમેન્ટ"
+
+msgid "Control which user roles can access and manage WooCommerce Google Sheets integration."
+msgstr "કયા વપરાશકર્તા ભૂમિકાઓ WooCommerce Google Sheets એકીકરણને ઍક્સેસ અને વ્યવસ્થિત કરી શકે છે તે નિયંત્રિત કરો."
+
+msgid "Plugin Access Control"
+msgstr "પ્લગિન ઍક્સેસ નિયંત્રણ"
+
+msgid "Permission Guidelines"
+msgstr "પરવાનગી માર્ગદર્શિકા"
+
+msgid "Control which user roles can access the GSheetConnector plugin"
+msgstr "કંટ્રોલ કરો કે કયા યુઝર ભૂમિકાઓ GSheetConnector પ્લગિનને ઍક્સેસ કરી શકે છે"
+
+msgid "Allow selected users to manage Google Sheets integration settings"
+msgstr "ચૂંટાયેલા યુઝર્સને ગૂગલ શીટ્સ ઇન્ટિગ્રેશન સેટિંગ્સને મેનેજ કરવાની મંજૂરી આપો"
+
+msgid "Restrict access to sensitive features like feeds, logs, and configurations"
+msgstr "ફીડ્સ, લોગ્સ અને કન્ફિગરેશન્સ જેવી સંવેદનશીલ સુવિધાઓને ઍક્સેસને પ્રતિબંધિત કરો"
+
+msgid "Only enabled roles will see the plugin menu in the admin panel"
+msgstr "ફક્ત સક્રિય ભૂમિકાઓને એડમિન પેનલમાં પ્લગિન મેનુ જોવા મળશે"
+
+msgid "Recommended: Allow only Administrators and trusted Editors"
+msgstr "સૂચવવામાં આવ્યું: ફક્ત એડમિનિસ્ટ્રેટર્સ અને વિશ્વસનીય સંપાદકોને મંજૂરી આપો"
+
+msgid "Save Settings"
+msgstr "સેટિંગ્સ સાચવો"
+
+msgid "General Settings"
+msgstr "સામાન્ય સેટિંગ્સ"
+
+msgid "Role Settings"
+msgstr "ભૂમિકા સેટિંગ્સ"
+
+msgid "Version Control"
+msgstr "વર્ષન નિયંત્રણ"
+
+msgid "Need more support? We're here to help."
+msgstr "વધુ સહાયની જરૂર છે? અમે અહીં મદદ કરવા માટે છીએ."
+
+msgid "Submit a Support Ticket"
+msgstr "સહાય ટિકિટ સબમિટ કરો"
+
+msgid "Our fast and friendly support team is always happy to help!"
+msgstr "અમારી ઝડપી અને મિત્રતા સહાય ટીમ હંમેશા મદદ કરવા માટે ખુશ છે!"
+
+msgid "Unlock Beta Version Control"
+msgstr "બેટા વર્ઝન કંટ્રોલ અનલોક કરો"
+
+msgid "Test upcoming features before official release"
+msgstr "આધિકારીક રિલીઝ પહેલાં આવનારા ફીચર્સનું પરીક્ષણ કરો"
+
+msgid "Early Access"
+msgstr "અગાઉની ઍક્સેસ"
+
+msgid "Get updates before public release"
+msgstr "જાહેર રિલીઝ પહેલાં અપડેટ્સ મેળવો"
+
+msgid "Test new features in advance"
+msgstr "નવા ફીચર્સનું પૂર્વે પરીક્ષણ કરો"
+
+msgid "Try improvements early"
+msgstr "સુધારાઓને વહેલા અજમાવો"
+
+msgid "Stay ahead with new changes"
+msgstr "નવા ફેરફારો સાથે આગળ રહો"
+
+msgid "Testing Purpose"
+msgstr "પરીક્ષણનો ઉદ્દેશ"
+
+msgid "Features may still be under testing"
+msgstr "ફીચર્સ હજુ પણ પરીક્ષણ હેઠળ હોઈ શકે છે"
+
+msgid "Some options may change later"
+msgstr "કેટલાક વિકલ્પો પછી બદલાઈ શકે છે"
+
+msgid "Minor issues may occur"
+msgstr "નાના મુદ્દા થઈ શકે છે"
+
+msgid "Used for feedback and improvements"
+msgstr "ફીડબેક અને સુધારાઓ માટે ઉપયોગમાં લેવાય છે"
+
+msgid "Safety Notice"
+msgstr "સુરક્ષા સૂચના"
+
+msgid "Recommended for staging sites"
+msgstr "સ્ટેજિંગ સાઇટ્સ માટે ભલામણ કરવામાં આવે છે"
+
+msgid "Avoid enabling on live websites"
+msgstr "લાઇવ વેબસાઇટ્સ પર સક્રિય કરવા ટાળો"
+
+msgid "Take backup before testing"
+msgstr "ટેસ્ટિંગ પહેલાં બેકઅપ લો"
+
+msgid "Disable anytime if needed"
+msgstr "જરૂર પડે ત્યારે ક્યારે પણ નિષ્ક્રિય કરો"
+
+msgid "Update Control"
+msgstr "અપડેટ નિયંત્રણ"
+
+msgid "Receive beta notifications"
+msgstr "બેટા સૂચનાઓ મેળવો"
+
+msgid "Updates are not installed automatically"
+msgstr "અપડેટ્સ આપોઆપ ઇન્સ્ટોલ નથી થાય"
+
+msgid "You control when to update"
+msgstr "તમે અપડેટ ક્યારે કરવું તે નિયંત્રિત કરો"
+
+msgid "Switch on/off anytime"
+msgstr "ક્યારે પણ ચાલુ/બંધ કરો"
+
+msgid "Beta Program Access"
+msgstr "બેટા પ્રોગ્રામ ઍક્સેસ"
+
+msgid ""
+"Get early access to upcoming features and improvements before they are officially released. Beta versions may include "
+"experimental updates and should be used for testing purposes only."
+msgstr ""
+"આગામી ફીચર્સ અને સુધારાઓ માટે સત્તાવાર રિલીઝ પહેલા વહેલી ઍક્સેસ મેળવો. બેટા વર્ઝન્સમાં પ્રયોગાત્મક અપડેટ્સ હોઈ શકે છે અને તે માત્ર ટેસ્ટિંગના હેતુઓ માટે "
+"ઉપયોગમાં લેવાય જોઈએ."
+
+msgid "Enable Beta Updates"
+msgstr "બેટા અપડેટ્સ સક્રિય કરો"
+
+msgid "Receive notifications and access to beta releases. Updates will not be installed automatically."
+msgstr "સૂચનાઓ મેળવો અને બેટા રિલીઝમાં ઍક્સેસ મેળવો. અપડેટ્સ આપોઆપ ઇન્સ્ટોલ નહીં થાય."
+
+msgid "Beta Usage Notice"
+msgstr "બેટા ઉપયોગ સૂચના"
+
+msgid "Beta versions may include unfinished or experimental features"
+msgstr "બેટા વર્ઝન્સમાં અધૂરી અથવા પ્રયોગાત્મક ફીચર્સ હોઈ શકે છે"
+
+msgid "Some features may change or be removed in future updates"
+msgstr "કેટલાક ફીચર્સ ભવિષ્યના અપડેટ્સમાં બદલાઈ શકે છે અથવા દૂર થઈ શકે છે"
+
+msgid "Minor bugs or performance issues may occur"
+msgstr "નાના બગ્સ અથવા પ્રદર્શનના મુદ્દા થઈ શકે છે"
+
+msgid "We recommend enabling beta only on test or staging sites"
+msgstr "અમે ભલામણ કરીએ છીએ કે બેટા માત્ર ટેસ્ટ અથવા સ્ટેજિંગ સાઇટ્સ પર સક્રિય કરો"
+
+msgid "Do not enable on live production websites without proper backups."
+msgstr "યોગ્ય બેકઅપ વિના જીવંત ઉત્પાદન વેબસાઇટ્સ પર સક્રિય ન કરો."
+
+msgid "Plugin Preferences"
+msgstr "પ્લગિન પસંદગીઓ"
+
+msgid "Manage how plugin settings and data are handled when the plugin is uninstalled."
+msgstr "જ્યારે પ્લગિન અનઇન્સ્ટોલ થાય ત્યારે પ્લગિનની સેટિંગ્સ અને ડેટા કેવી રીતે સંચાલિત થાય છે તે મેનેજ કરો."
+
+msgid "Delete Plugin Data on Uninstall"
+msgstr "અનઇન્સ્ટોલ પર પ્લગિન ડેટા કાઢી નાખો"
+
+msgid "Removes all plugin data (options, metadata) when the plugin is deleted."
+msgstr "જ્યારે પ્લગિન કાઢી નાખવામાં આવે છે ત્યારે તમામ પ્લગિન ડેટા (વિકલ્પો, મેટાડેટા) દૂર કરે છે."
+
+msgid "Uninstall Data Notice"
+msgstr "અનઇન્સ્ટોલ ડેટા સૂચના"
+
+msgid "Enable this option only if you want a complete cleanup"
+msgstr "આ વિકલ્પને માત્ર ત્યારે જ સક્રિય કરો જ્યારે તમે સંપૂર્ણ સફાઈ કરવા માંગતા હો."
+
+msgid "All plugin settings and data will be permanently removed"
+msgstr "બધા પ્લગિન સેટિંગ્સ અને ડેટા શાશ્વત રીતે દૂર કરવામાં આવશે"
+
+msgid "Incorrect settings can delete all sensitive form and user data"
+msgstr "અસત્ય સેટિંગ્સ તમામ સંવેદનશીલ ફોર્મ અને યુઝર ડેટા કાઢી નાખી શકે છે"
+
+msgid "Confirm Data Deletion"
+msgstr "ડેટા કાઢી નાખવાની પુષ્ટિ કરો"
+
+msgid ""
+"Enabling this option will permanently delete all plugin data, including settings and integrations, when the plugin is uninstalled."
+msgstr "આ વિકલ્પને સક્રિય કરવાથી પ્લગિન અનઇન્સ્ટોલ કરતી વખતે તમામ પ્લગિન ડેટા, સેટિંગ્સ અને ઇન્ટિગ્રેશન્સ સહિત, શાશ્વત રીતે કાઢી નાખવામાં આવશે."
+
+msgid "If you plan to upgrade from Free to Pro, you may lose your existing configuration data."
+msgstr "જો તમે ફ્રીથી પ્રો અપગ્રેડ કરવાની યોજના બનાવતા હો, તો તમે તમારી હાલની કન્ફિગરેશન ડેટા ગુમાવી શકો છો."
+
+msgid "Proceed only if you want a complete cleanup. This action cannot be undone."
+msgstr "ફક્ત ત્યારે જ આગળ વધો જ્યારે તમે સંપૂર્ણ સફાઈ કરવા માંગતા હો. આ ક્રિયા પાછી ખેંચી શકાતી નથી."
+
+msgid "Enable Deletion"
+msgstr "કાઢી નાખવાની સક્રિયતા"
+
+msgid "Description Input Format Settings"
+msgstr "વર્ણન ઇનપુટ ફોર્મેટ સેટિંગ્સ"
+
+msgid ""
+"Enable this option to allow HTML formatting in Product Description and Short Description fields. When enabled, HTML content from "
+"the sheet will be imported as is. Disable it to use plain text only."
+msgstr ""
+"Product Description અને Short Description ફીલ્ડ્સમાં HTML ફોર્મેટિંગને મંજૂરી આપવા માટે આ વિકલ્પ સક્રિય કરો. સક્રિય કર્યા પછી, શીટમાંથી આવેલ HTML "
+"સામગ્રી જેમની તેમ ઇમ્પોર્ટ થશે. માત્ર સાદો ટેક્સ્ટ ઉપયોગ કરવા માટે તેને નિષ્ક્રિય કરો."
+
+msgid "Enable HTML Formatting for Description Fields"
+msgstr "વર્ણન ફીલ્ડ્સ માટે HTML ફોર્મેટિંગ સક્રિય કરો"
+
+msgid "Allow HTML content in Product Description and Short Description fields during import."
+msgstr "ઇમ્પોર્ટ દરમિયાન Product Description અને Short Description ફીલ્ડ્સમાં HTML સામગ્રીની મંજૂરી આપો."
+
+msgid "HTML Formatting Guide"
+msgstr "HTML ફોર્મેટિંગ માર્ગદર્શિકા"
+
+msgid "Enable this option to allow HTML content in Product Description and Short Description fields."
+msgstr "Product Description અને Short Description ફીલ્ડ્સમાં HTML સામગ્રીની મંજૂરી આપવા માટે આ વિકલ્પ સક્રિય કરો."
+
+msgid "When enabled, HTML tags from the sheet (e.g., <p>, <br>, <strong>) will be imported as is."
+msgstr "સક્રિય કર્યા પછી, શીટમાંથી HTML ટૅગ્સ (જેમ કે <p>, <br>, <strong>) જેમની તેમ ઇમ્પોર્ટ થશે."
+
+msgid "Disable this option to import plain text without HTML formatting."
+msgstr "HTML ફોર્મેટિંગ વિના માત્ર સાદો ટેક્સ્ટ ઇમ્પોર્ટ કરવા માટે આ વિકલ્પ નિષ્ક્રિય કરો."
+
+msgid "Use this option only if your sheet contains valid HTML content."
+msgstr "આ વિકલ્પનો ઉપયોગ માત્ર ત્યારે કરો જ્યારે તમારી શીટમાં માન્ય HTML સામગ્રી હોય."
+
+msgid "Permission not allowed."
+msgstr "પરવાનગી મંજૂર નથી."
+
+msgid "Roles that can access Google Sheet Page"
+msgstr "જેઓ Google Sheet પેજ પર ઍક્સેસ કરી શકે છે તે ભૂમિકા"
+
+msgid "You do not have permission to access this page."
+msgstr "આ પૃષ્ઠ પર ઍક્સેસ કરવાની તમારી પાસે પરવાનગી નથી."
+
+msgid "System Information"
+msgstr "સિસ્ટમ માહિતી"
+
+msgid ""
+"View detailed information about your plugin, server, and WordPress setup for troubleshooting and support.\n"
+"        "
+msgstr ""
+"સમસ્યા નિવારણ અને સપોર્ટ માટે તમારા plugin, server, અને WordPress setup વિશે વિગતવાર માહિતી જુઓ.\n"
+"        "
+
+msgid "Copy System Info"
+msgstr "સિસ્ટમ માહિતી નકલ કરો"
+
+msgid "GSheetConnector Status"
+msgstr "GSheetConnector સ્થિતિ"
+
+msgid "Plugin Name"
+msgstr "પ્લગિન નામ"
+
+msgid "Plugin Version"
+msgstr "પ્લગિન સંસ્કરણ"
+
+msgid "Plugin Subscription Plan"
+msgstr "પ્લગિન સબ્સ્ક્રિપ્શન યોજના"
+
+msgid "Connected Email Account"
+msgstr "જોડાયેલ ઇમેઇલ ખાતું"
+
+msgid "Authentication method for connecting to Google Sheets"
+msgstr "ગૂગલ શીટ્સ સાથે જોડાવા માટેની માન્યતા પદ્ધતિ"
+
+msgid "Google Drive Permission"
+msgstr "ગૂગલ ડ્રાઇવ પરવાનગી"
+
+msgid "Google Sheet Permission"
+msgstr "ગૂગલ શીટ પરવાનગી"
+
+msgid "WordPress"
+msgstr "WordPress"
+
+msgid "Version"
+msgstr "સંસ્કરણ"
+
+msgid "Site Language"
+msgstr "સાઇટ ભાષા"
+
+msgid "Debug Mode"
+msgstr "ડિબગ મોડ"
+
+msgid "Enabled"
+msgstr "સક્રિય"
+
+msgid "Disabled"
+msgstr "નિષ્ક્રિય"
+
+msgid "Home URL"
+msgstr "હોમ URL"
+
+msgid "Site URL"
+msgstr "સાઇટ URL"
+
+msgid "Permalink structure"
+msgstr "પરમલિંક બંધારણ"
+
+msgid "Is this site using HTTPS?"
+msgstr "શું આ સાઇટ HTTPS નો ઉપયોગ કરી રહી છે?"
+
+msgid "Yes"
+msgstr "હા"
+
+msgid "No"
+msgstr "ના"
+
+msgid "Is this a multisite?"
+msgstr "શું આ એક મલ્ટીસાઇટ છે?"
+
+msgid "Can anyone register on this site?"
+msgstr "શું કોઈ પણ આ સાઇટ પર નોંધણી કરી શકે છે?"
+
+msgid "Is this site discouraging search engines?"
+msgstr "શું આ સાઇટ શોધ એન્જિનને નકારતી છે?"
+
+msgid "Default comment status"
+msgstr "ડિફોલ્ટ ટિપ્પણી સ્થિતિ"
+
+msgid "Unknown"
+msgstr "અજ્ઞાત"
+
+msgid "Localhost"
+msgstr "સ્થાનિક હોસ્ટ"
+
+msgid "Production"
+msgstr "ઉત્પાદન"
+
+msgid "Environment type"
+msgstr "પર્યાવરણ પ્રકાર"
+
+msgid "User Count"
+msgstr "વપરાશકર્તા સંખ્યા"
+
+msgid "Communication with WordPress.org"
+msgstr "WordPress.org સાથે સંવાદ"
+
+msgid "Active Theme"
+msgstr "સક્રિય થીમ"
+
+msgid "Name"
+msgstr "નામ"
+
+msgid "Author website"
+msgstr "લેખકની વેબસાઇટ"
+
+msgid "Theme directory location"
+msgstr "થિમ ડિરેક્ટરી સ્થાન"
+
+msgid "Active Plugins"
+msgstr "સક્રિય પ્લગઇન્સ"
+
+msgid "Server"
+msgstr "સર્વર"
+
+msgid "The options shown below relate to your server setup. If changes are required, you may need your web host’s assistance."
+msgstr "નીચે દર્શાવેલ વિકલ્પો તમારા સર્વર સેટઅપ સાથે સંબંધિત છે. જો બદલાવની જરૂર હોય, તો તમને તમારા વેબ હોસ્ટની મદદની જરૂર પડી શકે છે."
+
+msgid "Server Architecture"
+msgstr "સર્વર આર્કિટેક્ચર"
+
+msgid "Web Server"
+msgstr "વેબ સર્વર"
+
+msgid "PHP Version"
+msgstr "PHP આવૃત્તિ"
+
+msgid "PHP SAPI"
+msgstr "PHP SAPI"
+
+msgid "PHP Max Input Variables"
+msgstr "PHP મહત્તમ ઇનપુટ ચલ"
+
+msgid "PHP Time Limit"
+msgstr "PHP સમય મર્યાદા"
+
+msgid "seconds"
+msgstr "સેકંડ"
+
+msgid "PHP Memory Limit"
+msgstr "PHP મેમરી મર્યાદા"
+
+msgid "Max Input Time"
+msgstr "મહત્તમ ઇનપુટ સમય"
+
+msgid "Upload Max Filesize"
+msgstr "અપલોડ મહત્તમ ફાઇલ કદ"
+
+msgid "PHP Post Max Size"
+msgstr "PHP પોસ્ટ મહત્તમ કદ"
+
+msgid "Not Installed"
+msgstr "ઇન્સ્ટોલ કરવામાં આવ્યું નથી"
+
+msgid "cURL Version"
+msgstr "cURL આવૃત્તિ"
+
+msgid "Is SUHOSIN Installed?"
+msgstr "SUHOSIN ઇન્સ્ટોલ કરવામાં આવ્યું છે?"
+
+msgid "Is the Imagick Library Available?"
+msgstr "Imagick લાઇબ્રેરી ઉપલબ્ધ છે?"
+
+msgid "Are Pretty Permalinks Supported?"
+msgstr "પ્રેટી પર્માલિંક્સ સમર્થિત છે?"
+
+msgid ".htaccess Rules"
+msgstr ".હ્ટアクセス નિયમો"
+
+msgid "Writable"
+msgstr "લખવા યોગ્ય"
+
+msgid "Not Writable"
+msgstr "લખવા યોગ્ય નથી"
+
+msgid "Current Time"
+msgstr "વર્તમાન સમય"
+
+msgid "Current UTC Time"
+msgstr "વર્તમાન UTC સમય"
+
+msgid "Current Server Time"
+msgstr "વર્તમાન સર્વર સમય"
+
+msgid "Database"
+msgstr "ડેટાબેસ"
+
+msgid "Extension"
+msgstr "વિસ્તાર"
+
+msgid "Server Version"
+msgstr "સર્વર આવૃત્તિ"
+
+msgid "Client Version"
+msgstr "ક્લાયન્ટ આવૃત્તિ"
+
+msgid "Database Username"
+msgstr "ડેટાબેસ યુઝરનેમ"
+
+msgid "Database Host"
+msgstr "ડેટાબેસ હોસ્ટ"
+
+msgid "Database Name"
+msgstr "ડેટાબેસ નામ"
+
+msgid "Table Prefix"
+msgstr "ટેબલ પ્રિફિક્સ"
+
+msgid "Database Charset"
+msgstr "ડેટાબેસ કૅરેક્ટર સેટ"
+
+msgid "Database Collation"
+msgstr "ડેટાબેસ કોલેશન"
+
+msgid "Max Allowed Packet Size"
+msgstr "મહત્તમ મંજૂર પેકેટ કદ"
+
+msgid "Max Connections Number"
+msgstr "મહત્તમ કનેક્શન સંખ્યા"
+
+msgid "WordPress Constants"
+msgstr "WordPress સ્થિરક"
+
+msgid "Filesystem Permission"
+msgstr "ફાઇલસિસ્ટમ પરમિશન"
+
+msgid "Shows whether WordPress is able to write to the directories it needs access to."
+msgstr "આ બતાવે છે કે WordPress તે ડિરેક્ટરીઝમાં લખવા માટે સક્ષમ છે, જેમાં તેને ઍક્સેસની જરૂર છે."
+
+msgid "The main WordPress directory"
+msgstr "મુખ્ય વર્ડપ્રેસ ડિરેક્ટરી"
+
+msgid "The wp-content directory"
+msgstr "wp-content ડિરેક્ટરી"
+
+msgid "The uploads directory"
+msgstr "અપલોડ્સ ડિરેક્ટરી"
+
+msgid "The plugins directory"
+msgstr "પ્લગિન ડિરેક્ટરી"
+
+msgid "The themes directory"
+msgstr "થિમ્સ ડિરેક્ટરી"
+
+msgid "No error logs found."
+msgstr "કોઈ ભૂલ લોગ્સ મળ્યા નથી."
+
+msgid "Welcome To GSheetConnector"
+msgstr "GSheetConnector માં આપનું સ્વાગત છે"
+
+msgid ""
+"GSheetConnector is a powerful automation plugin that syncs WordPress data with Google Sheets in real time. It supports "
+"WooCommerce, Easy Digital Downloads, and popular form plugins such as Contact Form 7, Gravity Forms, Elementor Forms, along with "
+"10+ additional WordPress integrations for efficient data management."
+msgstr ""
+"GSheetConnector એ એક શક્તિશાળી ઓટોમેશન પ્લગિન છે જે વોર્ડપ્રેસ ડેટાને ગૂગલ શીટ્સ સાથે વાસ્તવિક સમયમાં સમન્વયિત કરે છે. તે વૂકોમર્સ, ઈઝી ડિજિટલ ડાઉનલોડ "
+"અને કોન્ટેક્ટ ફોર્મ 7, ગ્રાવિટી ફોર્મ્સ, એલિમેન્ટર ફોર્મ્સ જેવા લોકપ્રિય ફોર્મ પ્લગિનને સપોર્ટ કરે છે, સાથે જ અસરકારક ડેટા મેનેજમેન્ટ માટે 10+ વધારાના "
+"વોર્ડપ્રેસ ઇન્ટિગ્રેશન્સ છે."
+
+msgid "Let's Connect"
+msgstr "ચાલો જોડાઈએ"
+
+msgid "Setup Guide & Troubleshooting"
+msgstr "સેટઅપ માર્ગદર્શિકા અને સમસ્યાનો ઉકેલ"
+
+msgid "Sync WooCommerce data with Google Sheets in real-time effortlessly and accurately."
+msgstr "Google Sheets સાથે WooCommerce ડેટાને વાસ્તવિક સમયમાં સરળતાથી અને ચોક્કસતા સાથે સમન્વયિત કરો."
+
+msgid "Getting Started"
+msgstr "શરૂઆત કરવી"
+
+msgid "Installation Process"
+msgstr "ઇન્સ્ટોલેશન પ્રક્રિયા"
+
+msgid "Integration with Google (Existing Method)"
+msgstr "ગૂગલ સાથે ઇન્ટિગ્રેશન (હાલની પદ્ધતિ)"
+
+msgid "Integration of WooCommerce with Google Sheet"
+msgstr "WooCommerce સાથે Google Sheet નું એકીકરણ"
+
+msgid "Docs & Troubleshooting"
+msgstr "દસ્તાવેજો અને સમસ્યાનો ઉકેલ"
+
+msgid "How to Enable Debugging in WordPress"
+msgstr "WordPress માં ડિબગિંગ કેવી રીતે સક્રિય કરવું"
+
+msgid "Invalid OAuth2 token"
+msgstr "અમાન્ય OAuth2 ટોકન"
+
+msgid "Change Date/Time Format and Time Zone in Google Sheets"
+msgstr "Google Sheets માં તારીખ/સમય ફોર્મેટ અને સમય ઝોન બદલવો"
+
+msgid "Additional Resources"
+msgstr "વધારાના સ્ત્રોતો"
+
+msgid "Integration with Google (Manual Method)"
+msgstr "Google સાથે એકીકરણ (હાથથી પદ્ધતિ)"
+
+msgid "Integration with Google (Service Method)"
+msgstr "Google સાથે એકીકરણ (સેવા પદ્ધતિ)"
+
+msgid "WooCommerce Data Settings – PRO Version"
+msgstr "WooCommerce ડેટા સેટિંગ્સ – PRO સંસ્કરણ"
+
+msgid "Feed Settings  – PRO Version"
+msgstr "ફીડ સેટિંગ્સ – PRO સંસ્કરણ"
+
+msgid "Settings Tab – PRO Version"
+msgstr "સેટિંગ્સ ટેબ – PRO સંસ્કરણ"
+
+msgid "Role Settings – PRO Version"
+msgstr "ભૂમિકા સેટિંગ્સ – PRO સંસ્કરણ"
+
+msgid "2-Way Sync - PRO Version"
+msgstr "૨-માર્ગી સમન્વય - PRO સંસ્કરણ"
+
+msgid "Third-Party Plugins Compatibility"
+msgstr "તૃતીય-પક્ષ પ્લગઇન્સની સુસંગતતા"
+
+msgid "Plugins by Category"
+msgstr "શ્રેણી દ્વારા પ્લગઇન્સ"
+
+msgid "Find the perfect connector for your WordPress workflow."
+msgstr "તમારા WordPress કાર્યપ્રવાહ માટે યોગ્ય કનેક્ટર શોધો."
+
+msgid "Contact Form Connectors"
+msgstr "સંપર્ક ફોર્મ કનેક્ટર્સ"
+
+msgid "6 plugins available"
+msgstr "6 પ્લગઇન્સ ઉપલબ્ધ"
+
+msgid "eCommerce Connectors"
+msgstr "eCommerce કનેક્ટર્સ"
+
+msgid "2 plugins available"
+msgstr "2 પ્લગઇન્સ ઉપલબ્ધ"
+
+msgid "Page Builder Forms"
+msgstr "પેજ બિલ્ડર ફોર્મ્સ"
+
+msgid "3 plugins available"
+msgstr "3 પ્લગઇન્સ ઉપલબ્ધ"
+
+msgid "WP Core Connector"
+msgstr "WP કોર કનેક્ટર"
+
+msgid "1 plugin available"
+msgstr "1 પ્લગઇન ઉપલબ્ધ"
+
+msgid "Free Plugins"
+msgstr "મફત પ્લગઇન્સ"
+
+msgid "12 plugins available"
+msgstr "12 પ્લગિન્સ ઉપલબ્ધ"
+
+msgid "Amazing Key Features"
+msgstr "આશ્ચર્યજનક મુખ્ય વિશેષતાઓ"
+
+msgid "Everything You Need to Sync Data"
+msgstr "ડેટા સમકક્ષ કરવા માટેની તમારી જરૂરિયાતો"
+
+msgid "Common features shared across every GSheetConnector Pro add-on built for reliability, flexibility, and scale."
+msgstr "વિશ્વસનીયતા, લવચીકતા અને સ્કેલ માટે બનાવવામાં આવેલા દરેક GSheetConnector Pro એડ-ઓનમાં શેર કરેલ સામાન્ય વિશેષતાઓ."
+
+msgid "Manual Sheet / Tab Name"
+msgstr "હાથથી શીટ / ટેબ નામ"
+
+msgid "Headers On / Off + Rename"
+msgstr "હેડર્સ ચાલુ / બંધ + નામ બદલો"
+
+msgid "Image / PDF Attachment Link"
+msgstr "છબી / PDF સંલગ્નતા લિંક"
+
+msgid "Upgrade to Pro"
+msgstr "પ્રો માટે અપગ્રેડ કરો"
+
+msgid "View Full Features"
+msgstr "પૂર્ણ વિશેષતાઓ જુઓ"
+
+msgid "Form"
+msgstr "ફોર્મ"
+
+msgid "Processing"
+msgstr "પ્રોસેસિંગ"
+
+msgid "Sheet"
+msgstr "શીટ"
+
+msgid "Instant"
+msgstr "તાત્કાલિક"
+
+msgid "Real-time updates"
+msgstr "વાસ્તવિક સમયના અપડેટ"
+
+msgid "100%"
+msgstr "100%"
+
+msgid "Accuracy"
+msgstr "સચોટતા"
+
+msgid "Flexible"
+msgstr "લવચીક"
+
+msgid "Custom mapping"
+msgstr "કસ્ટમ મેપિંગ"
+
+msgid "Video Tutorials"
+msgstr "વિડિયો ટ્યુટોરિયલ"
+
+msgid "Google Sheet Not Connected"
+msgstr "ગૂગલ શીટ જોડાયેલ નથી"
+
+msgid "Sheet URL"
+msgstr "શીટ URL"
+
+msgid "Permission To Access GSheetConnector WooCommerce"
+msgstr "GSheetConnector WooCommerce માટે પ્રવેશની પરવાનગી"
+
+msgid "Google Sheet to WooCommerce Sync Configuration"
+msgstr "ગૂગલ શીટને વૂકોમર્સ સિંક કન્ફિગરેશન"
+
+msgid "Connected WooCommerce Google Sheet"
+msgstr "જોડાયેલ વૂકોમર્સ ગૂગલ શીટ"
+
+msgid "Google Spreadsheet Name"
+msgstr "ગૂગલ સ્પ્રેડશીટ નામ"
+
+msgid "Google Spreadsheet URL"
+msgstr "ગૂગલ સ્પ્રેડશીટ URL"
+
+msgid "View Spreadsheet"
+msgstr "સ્પ્રેડશીટ જુઓ"
+
+msgid "Sync Settings for Two-Way Sync - Insert & Updates"
+msgstr "બહુ-માર્ગી સમન્વય માટેની સેટિંગ્સ - દાખલ અને અપડેટ"
+
+msgid "Enter Rows Range - from"
+msgstr "પંક્તિઓની શ્રેણી દાખલ કરો - થી"
+
+msgid "to"
+msgstr " સુધી"
+
+msgid "Click to Sync Insert"
+msgstr "સમન્વય કરવા માટે ક્લિક કરો"
+
+msgid "Click to Sync Update"
+msgstr "અપડેટ માટે સમન્વય કરવા માટે ક્લિક કરો"
+
+msgid "Sync Settings for Two-Way Sync - Order Status Updates"
+msgstr "બહુ-માર્ગી સમન્વય માટેની સેટિંગ્સ - ઓર્ડર સ્થિતિ અપડેટ"
+
+msgid "Click to Order Status Sync Update"
+msgstr "ઓર્ડર સ્થિતિ સમન્વય અપડેટ કરવા માટે ક્લિક કરો"
+
+msgid "Sync Settings for Two-Way Sync - Insert Orders"
+msgstr "બહુ-માર્ગી સમન્વય માટેની રૂપરેખા - ઓર્ડર ઉમેરો"
+
+msgid "Click to Sync Order"
+msgstr "ઓર્ડર સમન્વય કરવા માટે ક્લિક કરો"
+
+msgid "WooCommerce Data Settings saved successfully."
+msgstr "WooCommerce ડેટા સેટિંગ્સ સફળતાપૂર્વક સાચવવામાં આવી."
+
+msgid "Please select Google Sheet Name and Check Atleast on Google Sheet Tab !"
+msgstr "કૃપા કરીને Google Sheet નામ પસંદ કરો અને Google Sheet ટેબ પર ઓછામાં ઓછું તપાસો!"
+
+msgid "Google Sheets Setup Required"
+msgstr "ગૂગલ શીટ્સ સેટઅપ જરૂરી છે"
+
+msgid "Your selected method is: "
+msgstr "તમારો પસંદ કરેલો પદ્ધતિ છે: "
+
+msgid "Go to Integration Setup"
+msgstr "ઇન્ટિગ્રેશન સેટઅપ પર જાઓ"
+
+msgid "Choose Google Spreadsheet"
+msgstr "Google સ્પ્રેડશીટ પસંદ કરો"
+
+msgid ""
+"Select a Google Sheets to connect your data. If your sheet is not listed, fetch the latest sheets or create a new one. Then "
+"complete the setup and save your changes to start syncing."
+msgstr ""
+"તમારા ડેટાને જોડવા માટે Google Sheets પસંદ કરો. જો તમારી શીટ યાદીમાં નથી, તો નવીનતમ શીટ્સ મેળવો અથવા નવી બનાવો. પછી સેટઅપ પૂર્ણ કરો અને "
+"સમન્વય શરૂ કરવા માટે તમારા ફેરફારો સાચવો."
+
+msgid "Sheet Name"
+msgstr "શીટનું નામ"
+
+msgid "Fetch Sheets"
+msgstr "શીટ્સ મેળવો"
+
+msgid "If your sheets is not listed,  %s to fetch all Google Sheets. "
+msgstr "જો તમારી શીટ યાદીમાં નથી, તો %s તમામ Google Sheets મેળવવા માટે."
+
+msgid "Last synced :"
+msgstr "છેલ્લે સિંક કર્યું :"
+
+msgid ""
+"Choose which order statuses should create separate tabs in your Google Sheet; when enabled, a new tab will be created for each "
+"selected status to help organize your data more clearly."
+msgstr ""
+"પસંદ કરો કે કયા ઓર્ડર સ્થિતિઓ તમારા Google Sheet માં અલગ ટેબ બનાવે છે; જ્યારે સક્રિય કરવામાં આવે છે, ત્યારે દરેક પસંદ કરેલી સ્થિતિ માટે એક નવી ટેબ "
+"બનાવવામાં આવશે જેથી તમારા ડેટાને વધુ સ્પષ્ટ રીતે ગોઠવવામાં મદદ મળે."
+
+msgid "All Orders"
+msgstr "બધા ઓર્ડર"
+
+msgid "Upgrade To Pro"
+msgstr "પ્રો માટે અપગ્રેડ કરો"
+
+msgid "Translate Google Sheets Tab Names"
+msgstr "Google Sheets Tab Names નું અનુવાદ કરો"
+
+msgid "This setting displays tab names according to your WordPress site language."
+msgstr "આ સેટિંગ તમારા WordPress સાઇટની ભાષા અનુસાર ટેબ નામો દર્શાવે છે."
+
+msgid "Enable Language Translation"
+msgstr "ભાષા અનુવાદ સક્રિય કરો"
+
+msgid "When enabled, Google Sheet tab names will be displayed in the language selected for your WordPress site."
+msgstr "સક્રિય કર્યા પછી, Google Sheet tab names તમારી WordPress સાઇટ માટે પસંદ કરેલી ભાષામાં દર્શાવવામાં આવશે."
+
+msgid "Headers"
+msgstr "હેડર્સ"
+
+msgid "Custom order statuses will appear here. Turn them on to create a new tab for each in your Google Sheet."
+msgstr "કસ્ટમ ઓર્ડર સ્થિતિઓ અહીં દેખાશે. તમારા Google Sheet માં દરેક માટે નવી ટેબ બનાવવા માટે તેમને સક્રિય કરો."
+
+msgid "No custom order statuses are currently available."
+msgstr "કોઈ કસ્ટમ ઓર્ડર સ્થિતિ હાલમાં ઉપલબ્ધ નથી."
+
+msgid ""
+"Enable additional Sheet tabs to sync more WooCommerce information to your Google Sheet. Each selected option will create and "
+"update its own tab automatically."
+msgstr ""
+"તમારા Google Sheet માં વધુ WooCommerce માહિતી સમન્વયિત કરવા માટે વધારાના શીટ ટેબ સક્રિય કરો. દરેક પસંદ કરેલ વિકલ્પ આપોઆપ તેની própria ટેબ "
+"બનાવશે અને અપડેટ કરશે."
+
+msgid "All Products"
+msgstr "બધા ઉત્પાદનો"
+
+msgid "All Products Variation"
+msgstr "બધા ઉત્પાદનોના ફેરફાર"
+
+msgid "All Customers"
+msgstr "બધા ગ્રાહકો"
+
+msgid "All Coupons"
+msgstr "બધા કૂપન"
+
+msgid "All Subscriptions"
+msgstr "બધા સબ્સ્ક્રિપ્શન"
+
+msgid "Choose how orders should appear in your Google Sheet:"
+msgstr "તમારા Google Sheet માં ઓર્ડર કેવી રીતે દેખાવા જોઈએ તે પસંદ કરો:"
+
+msgid "Order Wise :"
+msgstr "ઓર્ડર મુજબ :"
+
+msgid "Each order is added as a single row, even if it contains multiple products."
+msgstr "દરેક ઓર્ડર એક જ પંક્તિ તરીકે ઉમેરવામાં આવે છે, ભલે તેમાં અનેક ઉત્પાદનો હોય."
+
+msgid "Product Wise :"
+msgstr "ઉત્પાદન મુજબ :"
+
+msgid "Each product in an order is added as a separate row, so you can see details for every item."
+msgstr "એક ઓર્ડરમાં દરેક ઉત્પાદન અલગ પંક્તિ તરીકે ઉમેરવામાં આવે છે, જેથી તમે દરેક વસ્તુની વિગતો જોઈ શકો."
+
+msgid ""
+"You can also choose how the entries are sorted (ascending or descending). Your selected format and sorting will be applied across "
+"all tabs in the sheet."
+msgstr ""
+"તમે એન્ટ્રીઓ કેવી રીતે સોર્ટ કરવી તે પણ પસંદ કરી શકો છો (ઉપરથી નીચે અથવા નીચેથી ઉપર). તમારું પસંદ કરેલું ફોર્મેટ અને સોર્ટિંગ શીટના તમામ ટેબ્સમાં લાગુ "
+"કરવામાં આવશે."
+
+msgid "Select Sync Format"
+msgstr "સિંક ફોર્મેટ પસંદ કરો"
+
+msgid "Order Wise"
+msgstr "ઓર્ડર મુજબ"
+
+msgid "Product Wise"
+msgstr "ઉત્પાદન મુજબ"
+
+msgid "Sorting"
+msgstr "સોર્ટિંગ"
+
+msgid "Ascending"
+msgstr "ઉપરવાળા"
+
+msgid "Descending"
+msgstr "નીચેવાળા"
+
+msgid "Order Category Filter"
+msgstr "ઓર્ડર શ્રેણી ફિલ્ટર"
+
+msgid ""
+"Filter orders by category before syncing to your Google Sheet. When enabled, only selected categories will be synced. When "
+"disabled, all orders will be included. This applies to adding, updating, and syncing orders."
+msgstr ""
+"તમારા Google Sheet પર સિંક કરવા માટે શ્રેણી મુજબ ઓર્ડરોને ફિલ્ટર કરો. જ્યારે સક્રિય હોય, ત્યારે ફક્ત પસંદ કરેલ શ્રેણીઓ જ સિંક કરવામાં આવશે. જ્યારે "
+"નિષ્ક્રિય હોય, ત્યારે તમામ ઓર્ડરો સામેલ કરવામાં આવશે. આ ઉમેરવા, અપડેટ કરવા અને ઓર્ડરોને સિંક કરવા માટે લાગુ થાય છે."
+
+msgid "Select Category"
+msgstr "શ્રેણી પસંદ કરો"
+
+msgid "Product Category Filter"
+msgstr "ઉત્પાદન શ્રેણી ફિલ્ટર"
+
+msgid ""
+"Filter products by category before syncing to your Google Sheet. When enabled, only selected categories will be synced. When "
+"disabled, all products will be included. This applies to adding, updating, and syncing products."
+msgstr ""
+"તમારા Google Sheet પર સિંક કરવા માટે ઉત્પાદનોને શ્રેણી મુજબ ફિલ્ટર કરો. જ્યારે સક્રિય હોય, ત્યારે ફક્ત પસંદ કરેલ શ્રેણીઓ જ સિંક કરવામાં આવશે. જ્યારે "
+"નિષ્ક્રિય હોય, ત્યારે તમામ ઉત્પાદનો સામેલ કરવામાં આવશે. આ ઉમેરવા, અપડેટ કરવા અને ઉત્પાદનોને સિંક કરવા માટે લાગુ થાય છે."
+
+msgid ""
+"Sync data between WooCommerce and Google Sheets in real-time. Enable this feature to manage orders, products, and more directly "
+"from your spreadsheet."
+msgstr ""
+"વૂકોમર્સ અને Google Sheets વચ્ચે રિયલ-ટાઇમમાં ડેટા સિંક કરો. આ ફીચર સક્રિય કરો જેથી તમે તમારા સ્પ્રેડશીટમાંથી સીધા ઓર્ડરો, ઉત્પાદનો અને વધુને સંચાલિત "
+"કરી શકો."
+
+msgid "Enable 2-Way Sync"
+msgstr "2-માર્ગી સિંક સક્રિય કરો"
+
+msgid "Allow Google Sheets to update WooCommerce data."
+msgstr "Google Sheets ને વૂકોમર્સ ડેટા અપડેટ કરવાની મંજૂરી આપો."
+
+msgid "Select Sync Modules"
+msgstr "સિંક મોડ્યુલ્સ પસંદ કરો"
+
+msgid "Allowed Actions"
+msgstr "મંજૂર કરેલ ક્રિયાઓ"
+
+msgid "Insert"
+msgstr "સમાવિષ્ટ કરો"
+
+msgid "Update"
+msgstr "અપડેટ કરો"
+
+msgid "Delete"
+msgstr "મિટાવો"
+
+msgid ""
+"Select fields to add as new columns in your sheet. Enter a column name for each field. These columns will be included when your "
+"data syncs."
+msgstr ""
+"તમારા શીટમાં નવા કૉલમ તરીકે ઉમેરવા માટે ક્ષેત્રો પસંદ કરો. દરેક ક્ષેત્ર માટે એક કૉલમ નામ દાખલ કરો. જ્યારે તમારું ડેટા સિંક થાય ત્યારે આ કૉલમ સામેલ "
+"કરવામાં આવશે."
+
+msgid "Product Variation"
+msgstr "ઉત્પાદન ભિન્નતા"
+
+msgid "Additional Order Columns"
+msgstr "વધારાના ઓર્ડર કૉલમ"
+
+msgid "Enter Column Name"
+msgstr "કૉલમ નામ દાખલ કરો"
+
+msgid "Add"
+msgstr "ઉમેરો"
+
+msgid " Upgrade To Pro"
+msgstr "પ્રો માં અપગ્રેડ કરો"
+
+msgid "Additional Product Columns"
+msgstr "વધારાના ઉત્પાદન કૉલમ"
+
+msgid "Additional Custom Columns"
+msgstr "વધારાના કસ્ટમ કૉલમ"
+
+msgid "Additional Empty Columns"
+msgstr "વધારાના ખાલી કૉલમ"
+
+msgid "Enable All Columns"
+msgstr "બધા કૉલમ સક્રિય કરો"
+
+msgid "Additional Product Variation Columns"
+msgstr "વધારાના ઉત્પાદન ભિન્નતા કૉલમ"
+
+msgid "Cron Settings"
+msgstr "ક્રોન સેટિંગ્સ"
+
+msgid "Enable Cron Sync"
+msgstr "ક્રોન સિંક સક્રિય કરો"
+
+msgid "Turn on automatic scheduling"
+msgstr "આપોઆપ શેડ્યૂલિંગ ચાલુ કરો"
+
+msgid "Set Schedule"
+msgstr "શેડ્યૂલ સેટ કરો"
+
+msgid "No Schedule"
+msgstr "કોઈ શેડ્યૂલ નથી"
+
+msgid "Choose Schedule Type"
+msgstr "શેડ્યૂલ પ્રકાર પસંદ કરો"
+
+msgid "Repeat Weekly"
+msgstr "સાપ્તાહિક પુનરાવર્તન"
+
+msgid "Run Once"
+msgstr "એકવાર ચલાવો"
+
+msgid "How Often"
+msgstr "કેટલાં વાર"
+
+msgid "Select Day"
+msgstr "દિવસ પસંદ કરો"
+
+msgid "Time"
+msgstr "સમય"
+
+msgid "Real-Time Sync"
+msgstr "વાસ્તવિક-સમય સમન્વય"
+
+msgid "Sync instantly when new orders are created"
+msgstr "નવા ઓર્ડર બનાવતી વખતે તરત જ સમન્વય કરો"
+
+msgid "Header Settings"
+msgstr "હેડર સેટિંગ્સ"
+
+msgid "Customize the appearance and behavior of your sheet headers and rows for better readability and organization."
+msgstr "તમારા શીટના હેડર અને પંક્તિઓની દેખાવ અને વર્તનને કસ્ટમાઇઝ કરો જેથી વધુ વાંચનીયતા અને આયોજન થાય."
+
+msgid "Header Behavior"
+msgstr "હેડર વર્તન"
+
+msgid "Freeze Header"
+msgstr "હેડર જમાવવો"
+
+msgid "Header Style"
+msgstr "હેડર શૈલી"
+
+msgid "Header Appearance"
+msgstr "હેડર દેખાવ"
+
+msgid "Font Style"
+msgstr "ફૉન્ટ શૈલી"
+
+msgid "Normal"
+msgstr "સામાન્ય"
+
+msgid "Italic"
+msgstr "ઈટાલિક"
+
+msgid "Bold"
+msgstr "બોલ્ડ"
+
+msgid "Font Size"
+msgstr "ફૉન્ટ કદ"
+
+msgid "Select size"
+msgstr "આકાર પસંદ કરો"
+
+msgid "Font Color"
+msgstr "ફૉન્ટ રંગ"
+
+msgid "Header Background"
+msgstr "હેડર પૃષ્ઠભૂમિ"
+
+msgid "Row Style"
+msgstr "પંક્તિ શૈલી"
+
+msgid "Row Appearance"
+msgstr "પંક્તિ દેખાવ"
+
+msgid "Odd Row Color"
+msgstr "વિશિષ્ટ પંક્તિ રંગ"
+
+msgid "Even Row Color"
+msgstr "જોડ પંક્તિ રંગ"
+
+msgid "Spreadsheet Download"
+msgstr "સ્પ્રેડશીટ ડાઉનલોડ"
+
+msgid "Download"
+msgstr "ડાઉનલોડ"
+
+msgid "Google Sheets Data Sync"
+msgstr "ગૂગલ શીટ્સ ડેટા સિંક"
+
+msgid ""
+"Effortlessly sync your WooCommerce data with Google Sheets. Available options include Orders, Products, Product Variations, "
+"Customers, Coupons, and Subscriptions. Select only the sync types that best suit your needs. This ensures seamless integration "
+"and real-time updates for efficient data management."
+msgstr ""
+"તમારા WooCommerce ડેટાને Google Sheets સાથે સરળતાથી સમન્વયિત કરો. ઉપલબ્ધ વિકલ્પોમાં ઓર્ડર, ઉત્પાદનો, ઉત્પાદન ભિન્નતાઓ, ગ્રાહકો, કૂપન અને "
+"સબ્સ્ક્રિપ્શન શામેલ છે. ફક્ત તે સમન્વય પ્રકારો પસંદ કરો જે તમારી જરૂરિયાતોને શ્રેષ્ઠ રીતે અનુરૂપ હોય. આ સુલભ સંકલન અને અસરકારક ડેટા વ્યવસ્થાપન માટે વાસ્તવિક-"
+"સમયના અપડેટ્સ સુનિશ્ચિત કરે છે."
+
+msgid "Sync Orders"
+msgstr "ઓર્ડર સિંક"
+
+msgid ""
+"Initiate the synchronization of your WooCommerce orders seamlessly with a single click. This ensures that your Google Sheet stays "
+"up-to-date with the latest order information, based on your configuration done above, providing you with real-time insights and "
+"streamlined data management. Optimize your workflow with the convenience of synchronized orders."
+msgstr ""
+"તમારા WooCommerce ઓર્ડરોનું સમન્વય એક જ ક્લિકથી સરળતાથી શરૂ કરો. આ સુનિશ્ચિત કરે છે કે તમારું Google Sheet તમારા ઉપરના કન્ફિગરેશનના આધારે તાજા "
+"ઓર્ડર માહિતી સાથે અપડેટ રહે, તમને વાસ્તવિક-સમયની માહિતી અને સરળ ડેટા વ્યવસ્થાપન પ્રદાન કરે છે. સમન્વયિત ઓર્ડરોની સુવિધા સાથે તમારા કાર્યપ્રવાહને વધુ "
+"સારી રીતે ઓપ્ટિમાઇઝ કરો."
+
+msgid "From Date"
+msgstr "તારીખથી"
+
+msgid "To Date"
+msgstr "તારીખ સુધી"
+
+msgid "Order Status"
+msgstr "ઓર્ડર સ્થિતિ"
+
+msgid "Sync Products"
+msgstr "ઉત્પાદનો સિંક"
+
+msgid ""
+"Initiate the synchronization of your WooCommerce products seamlessly with a single click. This ensures that your Google Sheet "
+"stays up-to-date with the latest product information, based on your configuration done above, providing you with real-time "
+"insights and streamlined data management. Before starting the sync, ensure that the products tab toggle is enabled to optimize "
+"your workflow with the convenience of synchronized product data."
+msgstr ""
+"તમારા WooCommerce ઉત્પાદનોનું સમન્વય એક જ ક્લિકથી સરળતાથી શરૂ કરો. આ સુનિશ્ચિત કરે છે કે તમારું Google Sheet તમારા ઉપરના કન્ફિગરેશનના આધારે તાજા "
+"ઉત્પાદન માહિતી સાથે અપડેટ રહે, તમને વાસ્તવિક-સમયની માહિતી અને સરળ ડેટા વ્યવસ્થાપન પ્રદાન કરે છે. સમન્વય શરૂ કરવા પહેલાં, ખાતરી કરો કે ઉત્પાદનો ટેબ "
+"ટોગલ સક્રિય છે જેથી સમન્વયિત ઉત્પાદન ડેટાની સુવિધા સાથે તમારા કાર્યપ્રવાહને વધુ સારી રીતે ઓપ્ટિમાઇઝ કરી શકાય."
+
+msgid "Sync Products Variation"
+msgstr "ઉત્પાદન ભેદ સિંક"
+
+msgid ""
+"Initiate the synchronization of your WooCommerce products variations seamlessly with a single click. This ensures that your "
+"Google Sheet stays up-to-date with the latest product information, based on your configuration done above. If you are using "
+"variable products, then only data will be shown in the sheet. Before starting the sync, ensure that the products variation tab "
+"toggle is enabled to optimize your workflow with the convenience of synchronized product data."
+msgstr ""
+"તમારા WooCommerce ઉત્પાદનોની ભિન્નતાઓનું સમન્વય એક જ ક્લિકથી સરળતાથી શરૂ કરો. આ સુનિશ્ચિત કરે છે કે તમારું Google Sheet તમારા ઉપરના કન્ફિગરેશનના "
+"આધારે તાજા ઉત્પાદન માહિતી સાથે અપડેટ રહે. જો તમે ચલણ ઉત્પાદનોનો ઉપયોગ કરી રહ્યા છો, તો જ ડેટા શીટમાં દર્શાવાશે. સમન્વય શરૂ કરવા પહેલાં, ખાતરી કરો "
+"કે ઉત્પાદનોની ભિન્નતા ટેબ ટોગલ સક્રિય છે જેથી સમન્વયિત ઉત્પાદન ડેટાની સુવિધા સાથે તમારા કાર્યપ્રવાહને વધુ સારી રીતે ઓપ્ટિમાઇઝ કરી શકાય."
+
+msgid "Sync Customers"
+msgstr "ગ્રાહકો સિંક"
+
+msgid ""
+"Initiate the synchronization of your WooCommerce Customers seamlessly with a single click. This ensures that your Google Sheet "
+"stays up-to-date with the latest order information, based on your configuration done above, providing you with real-time insights "
+"and streamlined data management. Optimize your workflow with the convenience of synchronized orders."
+msgstr ""
+"તમારા WooCommerce ગ્રાહકોનું સમન્વય એક જ ક્લિકથી સરળતાથી શરૂ કરો. આ સુનિશ્ચિત કરે છે કે તમારું Google Sheet તમારા ઉપરના કન્ફિગરેશનના આધારે તાજા "
+"ઓર્ડર માહિતી સાથે અપડેટ રહે, તમને વાસ્તવિક-સમયની માહિતી અને સરળ ડેટા વ્યવસ્થાપન પ્રદાન કરે છે. સમન્વયિત ઓર્ડરોની સુવિધા સાથે તમારા કાર્યપ્રવાહને વધુ "
+"સારી રીતે ઓપ્ટિમાઇઝ કરો."
+
+msgid "Sync Coupons"
+msgstr "કૂપન સિંક"
+
+msgid ""
+"Initiate the synchronization of your WooCommerce coupons seamlessly with a single click. This process ensures that your Google "
+"Sheet reflects the latest coupon information, following the configuration set above. Benefit from real-time insights and "
+"streamlined data management. Before starting the sync, confirm that the coupons tab toggle is enabled enhancing your workflow "
+"with the convenience of synchronized coupon data."
+msgstr ""
+"તમારા WooCommerce કૂપનનું સમન્વય એક જ ક્લિકથી સરળતાથી શરૂ કરો. આ પ્રક્રિયા સુનિશ્ચિત કરે છે કે તમારું Google Sheet ઉપર દર્શાવેલ કન્ફિગરેશનને અનુરૂપ "
+"તાજા કૂપન માહિતી દર્શાવે છે. વાસ્તવિક-સમયની માહિતી અને સરળ ડેટા વ્યવસ્થાપનનો લાભ લો. સમન્વય શરૂ કરવા પહેલાં, ખાતરી કરો કે કૂપન ટેબ ટોગલ સક્રિય છે, "
+"જે સમન્વયિત કૂપન ડેટાની સુવિધા સાથે તમારા કાર્યપ્રવાહને વધુ સારી રીતે સુધારે છે."
+
+msgid "Sync Subscriptions"
+msgstr "સબ્સ્ક્રિપ્શન સિંક"
+
+msgid "View Documentation"
+msgstr "દસ્તાવેજીકરણ જુઓ"
+
+msgid "Get Support"
+msgstr "સહાય મેળવો"
+
+msgid "GSheetConnector WooCommerce Add-on requires WooCommerce plugin to be installed and activated."
+msgstr "GSheetConnector WooCommerce એડ-ઓન માટે WooCommerce પ્લગિન સ્થાપિત અને સક્રિય હોવું જરૂરી છે."
+
+msgid "https://wordpress.org/plugins/wc-gsheetconnector/"
+msgstr "https://wordpress.org/plugins/wc-gsheetconnector/"
+
+msgid "Send your WooCommerce data to your Google Sheets spreadsheet."
+msgstr "તમારા WooCommerce ડેટાને તમારા Google Sheets સ્પ્રેડશીટમાં મોકલો."
+
+msgid "GSheetConnector"
+msgstr "GSheetConnector"
+
+msgid "https://www.gsheetconnector.com/"
+msgstr "https://www.gsheetconnector.com/"

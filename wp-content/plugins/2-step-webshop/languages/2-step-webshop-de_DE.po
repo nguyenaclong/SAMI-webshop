@@ -1,0 +1,444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Shop Plugin 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/2-step-webshop\n"
+"Last-Translator: AI Assistant <support@example.com>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: 2-step-webshop\n"
+
+msgid "Custom Shop Plugin"
+msgstr "Custom Shop Plugin"
+
+msgid "Standalone plugin for the Custom Shop Layout, independent of themes."
+msgstr "Eigenständiges Plugin für das Custom Shop Layout, unabhängig von Themes."
+
+msgid "AI Assistant"
+msgstr "KI-Assistent"
+
+msgid "Your Daily Fresh Products"
+msgstr "Ihre täglich frischen Produkte"
+
+msgid "Custom Shop Settings"
+msgstr "Custom Shop Einstellungen"
+
+msgid "Custom Shop"
+msgstr "Custom Shop"
+
+msgid "Sidebar Paragraph Text"
+msgstr "Sidebar Absatz-Text"
+
+msgid "The short tagline rendered below the logo on the custom shop sidebar."
+msgstr "Der kurze Slogan, der unter dem Logo in der Custom Shop Sidebar angezeigt wird."
+
+msgid "Please select all product options"
+msgstr "Bitte wählen Sie alle Produktoptionen aus"
+
+msgid "Please select valid product options."
+msgstr "Bitte wählen Sie gültige Produktoptionen aus."
+
+msgid "Error adding to cart"
+msgstr "Fehler beim Hinzufügen zum Warenkorb"
+
+msgid "Are you sure you want to clear the cart?"
+msgstr "Sind Sie sicher, dass Sie den Warenkorb leeren möchten?"
+
+msgid "Search"
+msgstr "Suche"
+
+msgid "Search products..."
+msgstr "Produkte suchen..."
+
+msgid "Categories"
+msgstr "Kategorien"
+
+msgid "Additives:"
+msgstr "Zusatzstoffe:"
+
+msgid "item"
+msgid_plural "items"
+msgstr[0] "Artikel"
+msgstr[1] "Artikel"
+
+msgid "Clear Cart"
+msgstr "Warenkorb leeren"
+
+msgid "Custom Shop Layout"
+msgstr "Custom Shop Layout"
+
+msgid "Customize the buttons and styles for the Custom Shop Layout."
+msgstr "Passen Sie die Schaltflächen und Stile für das Custom Shop Layout an."
+
+msgid "Button Background Color"
+msgstr "Schaltflächen-Hintergrundfarbe"
+
+msgid "Button Hover Background Color"
+msgstr "Schaltflächen-Hover-Hintergrundfarbe"
+
+msgid "Button Text Color"
+msgstr "Schaltflächen-Textfarbe"
+
+msgid "Button Hover Text Color"
+msgstr "Schaltflächen-Hover-Textfarbe"
+
+msgid "Button Border Radius (px)"
+msgstr "Schaltflächen-Rahmenradius (px)"
+
+msgid "Text Color"
+msgstr "Textfarbe"
+
+msgid "Link Color"
+msgstr "Linkfarbe"
+
+msgid "Link Hover Color"
+msgstr "Link-Hover-Farbe"
+
+msgid "Cash payment"
+msgstr "Barzahlung"
+
+msgid "Card payment (at restaurant)"
+msgstr "Kartenzahlung (im Restaurant)"
+
+msgid "Card payment is only available for orders over %d € and only with EC-Card"
+msgstr "Kartenzahlung nur ab %d € möglich und nur mit EC-Karte"
+
+msgid "Continue Shopping"
+msgstr "Weiter einkaufen"
+
+msgid "Back"
+msgstr "Zurück"
+
+msgid "Receipt and hospitality receipt will be issued upon payment at the restaurant."
+msgstr "Kassenbon und Bewirtungsbeleg werden bei der Zahlung im Restaurant ausgestellt."
+
+msgid "Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href=\"%s\" class=\"woocommerce-privacy-policy-link\" target=\"_blank\">privacy policy</a>."
+msgstr "Deine personenbezogenen Daten werden verwendet, um deine Bestellung zu verarbeiten, deine Erfahrung auf dieser Website zu unterstützen und für andere Zwecke, die in unserer <a href=\"%s\" class=\"woocommerce-privacy-policy-link\" target=\"_blank\">Datenschutzerklärung</a> beschrieben sind."
+
+msgid "required"
+msgstr "erforderlich"
+
+msgid "Street name and house number *"
+msgstr "Straße und Hausnummer *"
+
+msgid "Go to Cart"
+msgstr "zum Warenkorb"
+
+msgid "Cart"
+msgstr "Warenkorb"
+
+msgid "Your cart is empty."
+msgstr "Ihr Warenkorb ist leer."
+
+msgid "Most Popular"
+msgstr "Am Beliebtesten"
+
+msgid "Save & Continue"
+msgstr "Speichern & Weiter"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "Restaurant"
+msgstr "Restaurant"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Open categories"
+msgstr "Kategorien öffnen"
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Go to checkout"
+msgstr "Zur Kasse"
+
+msgid "Go to checkout · %s"
+msgstr "Zur Kasse · %s"
+
+msgid "Last Name"
+msgstr "Nachname"
+
+msgid "Last Name *"
+msgstr "Nachname *"
+
+msgid "First Name"
+msgstr "Vorname"
+
+msgid "First Name *"
+msgstr "Vorname *"
+
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+msgid "Phone Number *"
+msgstr "Telefonnummer *"
+
+msgid "Email Address"
+msgstr "E-Mail-Adresse"
+
+msgid "Email Address *"
+msgstr "E-Mail-Adresse *"
+
+msgid "Order Date"
+msgstr "Bestelldatum"
+
+msgid "Order Time"
+msgstr "Bestellzeit"
+
+msgid "Please choose a date."
+msgstr "Bitte wählen Sie ein Datum aus."
+
+msgid "Please choose a time."
+msgstr "Bitte wählen Sie eine Uhrzeit aus."
+
+msgid "Our restaurant is closed today. Orders are not possible."
+msgstr "Unser Restaurant ist heute geschlossen. Bestellungen sind nicht möglich."
+
+msgid "All time slots for today have passed. Local pickup is no longer possible today."
+msgstr "Alle Zeitfenster für heute sind bereits vergangen. Eine Abholung ist heute nicht mehr möglich."
+
+msgid "The selected order time is in the past. Please choose another time."
+msgstr "Die gewählte Bestellzeit liegt in der Vergangenheit. Bitte wählen Sie eine andere Uhrzeit."
+
+msgid "Special Request"
+msgstr "Besonderer Wunsch"
+
+msgid "Please let us know about any special dietary needs, allergies, or request notes."
+msgstr "Bitte teilen Sie uns eventuelle Wünsche, Allergien oder Anmerkungen mit."
+
+msgid "Today"
+msgstr "Heute"
+
+msgid "Tomorrow"
+msgstr "Morgen"
+
+msgid "Sunday"
+msgstr "Sonntag"
+
+msgid "Monday"
+msgstr "Montag"
+
+msgid "Tuesday"
+msgstr "Dienstag"
+
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+msgid "Thursday"
+msgstr "Donnerstag"
+
+msgid "Friday"
+msgstr "Freitag"
+
+msgid "Saturday"
+msgstr "Samstag"
+
+msgid "Select Order Date & Time"
+msgstr "Bestelldatum & -zeit wählen"
+
+msgid "Please select your order method, date and time to continue."
+msgstr "Bitte wählen Sie Ihre Bestellmethode, Datum und Uhrzeit aus, um fortzufahren."
+
+msgid "More Dates..."
+msgstr "Weitere Termine..."
+
+msgid "Select Time..."
+msgstr "Zeit wählen..."
+
+msgid "Open"
+msgstr "Offen"
+
+msgid "Opens at %s"
+msgstr "Öffnet um %s"
+
+msgid "Closed today"
+msgstr "Heute geschlossen"
+
+msgid "Product Info"
+msgstr "Produkt-Informationen"
+
+msgid "Ingredients, additives and allergens can be queried by requesting our service staff."
+msgstr "Zutaten, Zusatzstoffe und Allergene können bei unserem Servicepersonal erfragt werden."
+
+msgid "Special notes:"
+msgstr "Besondere Hinweise:"
+
+msgid "We'll try our best to accommodate requests, but can't make changes that affect pricing."
+msgstr "Wir bemühen uns, Ihre Wünsche zu erfüllen, können jedoch keine Änderungen vornehmen, die sich auf den Preis auswirken."
+
+msgid "Add special request"
+msgstr "Besonderen Wunsch hinzufügen"
+
+msgid "Menu"
+msgstr "Speisekarte"
+
+msgid "Store Info"
+msgstr "Filialinfo"
+
+msgid "Opening hours: Online ordering"
+msgstr "Öffnungszeiten: Online-Bestellung"
+
+msgid "Closed"
+msgstr "Geschlossen"
+
+msgid "Delivery costs"
+msgstr "Lieferkosten"
+
+msgid "Delivery zone 1"
+msgstr "Lieferzone 1"
+
+msgid "Min. amount - 300,00 €, Fee - 0,00 €"
+msgstr "Mindestbestellwert - 300,00 €, Gebühr - 0,00 €"
+
+msgid "Info"
+msgstr "Information"
+
+msgid "See hours"
+msgstr "Öffnungszeiten ansehen"
+
+msgid "Open Today"
+msgstr "Heute geöffnet"
+
+msgid "Opens Today %s"
+msgstr "Öffnet heute um %s"
+
+msgid "Select location"
+msgstr "Standort wählen"
+
+msgid "Schedule for later"
+msgstr "Für später planen"
+
+msgid "Change"
+msgstr "Ändern"
+
+msgid "View Menu"
+msgstr "Speisekarte ansehen"
+
+msgid "Scheduled Order"
+msgstr "Vorbestellung"
+
+msgid "Show more"
+msgstr "Mehr anzeigen"
+
+msgid "Show less"
+msgstr "Weniger anzeigen"
+
+msgid "Schedule Order"
+msgstr "Bestellung planen"
+
+msgid "Information"
+msgstr "Information"
+
+msgid "Pickup at %s"
+msgstr "Abholung in %s"
+
+msgid "Delivery to Stuttgart"
+msgstr "Lieferung nach Stuttgart"
+
+msgid "Delivery to %s"
+msgstr "Lieferung nach %s"
+
+msgid "Your basket is empty"
+msgstr "Ihr Warenkorb ist leer"
+
+msgid "Add items to get started"
+msgstr "Fügen Sie Artikel hinzu, um zu beginnen"
+
+msgid "Please enter a delivery address."
+msgstr "Bitte geben Sie eine Lieferadresse ein."
+
+msgid "Searching for address..."
+msgstr "Adresse wird gesucht..."
+
+msgid "Address found: %s (%s km)."
+msgstr "Adresse gefunden: %s (%s km)."
+
+msgid "Address not found. Please try adding more details (street number, city)."
+msgstr "Adresse nicht gefunden. Bitte geben Sie weitere Details an (Hausnummer, Stadt)."
+
+msgid "Error connecting to geocoder. Please check your connection."
+msgstr "Fehler beim Verbinden mit dem Geocoder. Bitte überprüfen Sie Ihre Verbindung."
+
+msgid "Unable to retrieve your location"
+msgstr "Ihr Standort konnte nicht ermittelt werden"
+
+msgid "Please select a date and time."
+msgstr "Bitte wählen Sie ein Datum und eine Uhrzeit aus."
+
+msgid "Adding..."
+msgstr "Wird hinzugefügt..."
+
+msgid "✓ Added!"
+msgstr "✓ Hinzugefügt!"
+
+msgid "Error adding to cart. Please try again."
+msgstr "Fehler beim Hinzufügen zum Warenkorb. Bitte versuchen Sie es erneut."
+
+msgid "Enter your delivery address"
+msgstr "Lieferadresse eingeben"
+
+msgid "Use my current position"
+msgstr "Meinen aktuellen Standort verwenden"
+
+msgid "Pickup"
+msgstr "Abholung"
+
+msgid "Delivery"
+msgstr "Lieferung"
+
+msgid "Email Form & Templates"
+msgstr "E-Mail Formular & Vorlagen"
+
+msgid "Admin Notification Recipients & Language"
+msgstr "Empfänger & Sprache der Admin-Benachrichtigungen"
+
+msgid "Admin Notification Email Recipients"
+msgstr "Empfänger der Admin-Benachrichtigungs-E-Mails"
+
+msgid "Enter one or multiple email addresses separated by commas to receive admin notifications."
+msgstr "Geben Sie eine oder mehrere E-Mail-Adressen kommagetrennt ein, um Admin-Benachrichtigungen zu erhalten."
+
+msgid "Available Template Placeholders / Variables"
+msgstr "Verfügbare Vorlagen-Platzhalter / Variablen"
+
+msgid "Custom Email Templates Enable/Disable"
+msgstr "Eigene E-Mail-Vorlagen aktivieren/deaktivieren"
+
+msgid "Enable Custom HTML Email Templates"
+msgstr "Eigene HTML-E-Mail-Vorlagen aktivieren"
+
+msgid "Customer Order Confirmation Email Template"
+msgstr "E-Mail-Vorlage für Kunden-Bestellbestätigung"
+
+msgid "Customer Email Subject"
+msgstr "E-Mail-Betreff für Kunden"
+
+msgid "Customer Email Body (HTML)"
+msgstr "E-Mail-Inhalt für Kunden (HTML)"
+
+msgid "Admin Order Notification Email Template"
+msgstr "E-Mail-Vorlage für Admin-Bestellbenachrichtigung"
+
+msgid "Admin Email Subject"
+msgstr "E-Mail-Betreff für Admin"
+
+msgid "Admin Email Body (HTML)"
+msgstr "E-Mail-Inhalt für Admin (HTML)"
+
+msgid "Use same opening & closing hours for all open days"
+msgstr "Gleiche Öffnungs- & Schließzeiten für alle geöffneten Tage verwenden"
+
+msgid "Opening Days & Per-Day Hours"
+msgstr "Öffnungstage & Zeiten pro Tag"
+
+
+
+
+
+

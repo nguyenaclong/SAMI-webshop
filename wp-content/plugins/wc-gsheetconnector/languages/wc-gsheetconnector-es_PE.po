@@ -1,0 +1,2449 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce GSheetConnector\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-16 10:56+0530\n"
+"PO-Revision-Date: 2026-07-30 19:13+0530\n"
+"Last-Translator: POForge <noreply@poforge.com>\n"
+"Language-Team: es_PE <noreply@poforge.com>\n"
+"Language: es_PE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+msgid "11"
+msgstr "11"
+
+msgid "12"
+msgstr "12"
+
+msgid "13"
+msgstr "13"
+
+msgid "14"
+msgstr "14"
+
+msgid "15"
+msgstr "15"
+
+msgid "16"
+msgstr "16"
+
+msgid "17"
+msgstr "17"
+
+msgid "18"
+msgstr "18"
+
+msgid "19"
+msgstr "19"
+
+msgid "20"
+msgstr "20"
+
+msgid "21"
+msgstr "21"
+
+msgid "Deactivate Plugin"
+msgstr "Desactivar plugin"
+
+msgid "Are you sure you want to deactivate this plugin?"
+msgstr "¿Está seguro de que desea desactivar este plugin?"
+
+msgid "You do not have permission to install plugin."
+msgstr "No tiene permiso para instalar el plugin."
+
+msgid "Missing required parameters."
+msgstr "Faltan parámetros obligatorios."
+
+msgid "Installation failed: "
+msgstr "La instalación falló: "
+
+msgid "Plugin installed successfully."
+msgstr "Plugin instalado correctamente."
+
+msgid "Invalid security token."
+msgstr "Token de seguridad inválido."
+
+msgid "You do not have permission to activate plugin."
+msgstr "No tiene permiso para activar el plugin."
+
+msgid "Plugin slug is missing."
+msgstr "Falta el slug del plugin."
+
+msgid "Plugin is already activated."
+msgstr "El plugin ya está activado."
+
+msgid "Plugin activated successfully."
+msgstr "Plugin activado correctamente."
+
+msgid "feed"
+msgstr "feed"
+
+msgid "feed6"
+msgstr "feed6"
+
+msgid "Invalid log table name."
+msgstr "Nombre de tabla de registro no válido."
+
+msgid "Log table not found."
+msgstr "No se encontró la tabla de registro."
+
+msgid "Error Log"
+msgstr "Registro de errores"
+
+msgid ""
+"Error logs are saved in the database. Please clear them regularly to avoid "
+"increasing the database size."
+msgstr ""
+"Los registros de errores se guardan en la base de datos. Por favor, límpialos "
+"regularmente para evitar aumentar el tamaño de la base de datos."
+
+msgid "Clear Logs"
+msgstr "Limpiar Registros"
+
+msgid "Download CSV"
+msgstr "Descargar CSV"
+
+msgid "Copy Logs"
+msgstr "Copiar registros"
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "Error ID"
+msgstr "ID del error"
+
+msgid "Code"
+msgstr "Código"
+
+msgid "Message"
+msgstr "Mensaje"
+
+msgid "Details"
+msgstr "Detalles"
+
+msgid "No logs found."
+msgstr "No se encontraron registros."
+
+msgid "Permission denied."
+msgstr "Permiso denegado."
+
+msgid "There's something wrong with your code..."
+msgstr "Hay algo mal con tu código..."
+
+msgid "Administrator"
+msgstr "Administrador"
+
+msgid "Please rate"
+msgstr "Por favor califica"
+
+msgid "GSheetConnector for WooCommerce"
+msgstr "GSheetConnector para WooCommerce"
+
+msgid "on"
+msgstr "en"
+
+msgid "WordPress.org"
+msgstr "WordPress.org"
+
+msgid "to help us spread the word."
+msgstr "para ayudarnos a difundir la palabra."
+
+msgid "Version: %s"
+msgstr "Versión: %s"
+
+msgid "Docs"
+msgstr "Docs"
+
+msgid "Plugins"
+msgstr "Plugins"
+
+msgid "Support"
+msgstr "Soporte"
+
+msgid "About GSheetConnector"
+msgstr "Acerca de GSheetConnector"
+
+msgid "Built by Experts. Trusted by Thousands."
+msgstr "Construido por Expertos. Confiado por Miles."
+
+msgid ""
+"Led by experienced developers and powered by a passionate team, GSheetConnector "
+"helps WordPress users automate their workflows with confidence."
+msgstr ""
+"Dirigido por desarrolladores experimentados y respaldado por un equipo apasionado, "
+"GSheetConnector ayuda a los usuarios de WordPress a automatizar sus flujos de "
+"trabajo con confianza."
+
+msgid ""
+"We focus on building tools that are fast, secure, and easy to use - so you can "
+"spend less time managing data."
+msgstr ""
+"Nos enfocamos en construir herramientas que sean rápidas, seguras y fáciles de "
+"usar, para que puedas dedicar menos tiempo a gestionar datos."
+
+msgid "Meet Our Core Team"
+msgstr "Conoce a Nuestro Equipo Central"
+
+msgid "Our Mission"
+msgstr "Nuestra Misión"
+
+msgid ""
+"Our mission is to make form automation simple, secure, and reliable for every "
+"WordPress user - from beginners to enterprise teams."
+msgstr ""
+"Nuestra misión es hacer que la automatización de formularios sea simple, segura y "
+"confiable para cada usuario de WordPress, desde principiantes hasta equipos "
+"empresariales."
+
+msgid "Fast & Reliable Data Sync"
+msgstr "Sincronización de Datos Rápida y Confiable"
+
+msgid "100% Secure Authentication"
+msgstr "Autenticación 100% Segura"
+
+msgid "Real-Time Google Sheets Updates"
+msgstr "Actualizaciones en Tiempo Real de Google Sheets"
+
+msgid "Easy Setup & Configuration"
+msgstr "Configuración y Configuración Fácil"
+
+msgid "Dedicated Support Team"
+msgstr "Equipo de Soporte Dedicado"
+
+msgid "Forms Successfully Synced"
+msgstr "Formularios Sincronizados Exitosamente"
+
+msgid "Trusted by Active Users"
+msgstr "Confiado por Usuarios Activos"
+
+msgid "Reliable Uptime"
+msgstr "Tiempo de Actividad Confiable"
+
+msgid "Dedicated Support"
+msgstr "Soporte Dedicado"
+
+msgid "Add-ons & Extensions"
+msgstr "Complementos y Extensiones"
+
+msgid ""
+"Extend your Google Sheets integration with powerful add-ons. Install, manage, and "
+"activate extensions to unlock advanced features."
+msgstr ""
+"Amplía tu integración de Google Sheets con potentes complementos. Instala, "
+"gestiona y activa extensiones para desbloquear funciones avanzadas."
+
+msgid "CF7 Google Sheet Connector"
+msgstr "Conector de Google Sheet para CF7"
+
+msgid ""
+"Easily connect Contact Form 7 to Google Sheets and automatically sync form "
+"submissions in real-time. Every entry is instantly added to your selected "
+"spreadsheet, helping you manage leads, inquiries, and customer data efficiently "
+"without manual export."
+msgstr ""
+"Conecta fácilmente Contact Form 7 a Google Sheets y sincroniza automáticamente las "
+"presentaciones de formularios en tiempo real. Cada entrada se agrega "
+"instantáneamente a tu hoja de cálculo seleccionada, ayudándote a gestionar "
+"clientes potenciales, consultas y datos de clientes de manera eficiente sin "
+"exportación manual."
+
+msgid "Install"
+msgstr "Instalar"
+
+msgid "PRO"
+msgstr "PRO"
+
+msgid "WPForms Google Sheet Connector"
+msgstr "Conector de Google Sheet para WPForms"
+
+msgid ""
+"Integrate WPForms with Google Sheets and send form entries directly to your "
+"spreadsheet automatically. Track leads, manage customer data, and streamline "
+"reporting with seamless Google Sheets integration and real-time sync."
+msgstr ""
+"Integra WPForms con Google Sheets y envía las entradas del formulario directamente "
+"a tu hoja de cálculo automáticamente. Realiza un seguimiento de clientes "
+"potenciales, gestiona datos de clientes y simplifica la elaboración de informes "
+"con una integración fluida de Google Sheets y sincronización en tiempo real."
+
+msgid "Gravity Forms Google Sheet Connector"
+msgstr "Conector de Google Sheet para Gravity Forms"
+
+msgid ""
+"Connect Gravity Forms to Google Sheets and automatically push form submissions to "
+"your spreadsheet. Simplify data management, improve workflow automation, and keep "
+"all entries organized in one secure location."
+msgstr ""
+"Conecta Gravity Forms a Google Sheets y envía automáticamente las presentaciones "
+"de formularios a tu hoja de cálculo. Simplifica la gestión de datos, mejora la "
+"automatización del flujo de trabajo y mantiene todas las entradas organizadas en "
+"un lugar seguro."
+
+msgid "Ninja Forms Google Sheet Connector"
+msgstr "Conector de Google Sheet para Ninja Forms"
+
+msgid ""
+"Automatically sync Ninja Forms submissions to Google Sheets with one-click "
+"integration. Capture leads, monitor responses, and manage data efficiently with "
+"instant spreadsheet updates and easy reporting."
+msgstr ""
+"Sincroniza automáticamente las presentaciones de Ninja Forms a Google Sheets con "
+"una integración de un clic. Captura clientes potenciales, monitorea respuestas y "
+"gestiona datos de manera eficiente con actualizaciones instantáneas de hojas de "
+"cálculo y elaboración de informes sencilla."
+
+msgid "Forminator Forms Google Sheet Connector"
+msgstr "Conector de Google Sheet para Forminator Forms"
+
+msgid ""
+"Integrate Forminator Forms with Google Sheets to automatically store form entries "
+"in your spreadsheet. Eliminate manual data entry and ensure accurate, real-time "
+"syncing for better data tracking and analysis."
+msgstr ""
+"Integra Forminator Forms con Google Sheets para almacenar automáticamente las "
+"entradas del formulario en tu hoja de cálculo. Elimina la entrada manual de datos "
+"y asegura una sincronización precisa en tiempo real para un mejor seguimiento y "
+"análisis de datos."
+
+msgid "Free"
+msgstr "Gratis"
+
+msgid "Formidable Forms Google Sheet Connector"
+msgstr "Conector de Google Sheet para Formidable Forms"
+
+msgid ""
+"Automatically sync Formidable Forms entries to Google Sheets. Manage leads, track "
+"submissions, and simplify data reporting with real-time integration."
+msgstr ""
+"Sincroniza automáticamente las entradas de Formidable Forms a Google Sheets. "
+"Gestiona clientes potenciales, realiza un seguimiento de las presentaciones y "
+"simplifica la elaboración de informes de datos con integración en tiempo real."
+
+msgid "Fluent Forms Google Sheet Connector"
+msgstr "Conector de Google Sheet para Fluent Forms"
+
+msgid ""
+"Automatically sync Fluent Forms submissions to Google Sheets in real-time. Every "
+"form entry is instantly added to your selected spreadsheet, helping you manage "
+"leads, customer inquiries, and business data without manual export. Streamline "
+"your workflow, improve reporting accuracy, and keep all submissions organized with "
+"seamless Google Sheets integration."
+msgstr ""
+"Sincroniza automáticamente las presentaciones de Fluent Forms a Google Sheets en "
+"tiempo real. Cada entrada de formulario se agrega instantáneamente a tu hoja de "
+"cálculo seleccionada, ayudándote a gestionar clientes potenciales, consultas de "
+"clientes y datos comerciales sin exportación manual. Optimiza tu flujo de trabajo, "
+"mejora la precisión de los informes y mantiene todas las presentaciones "
+"organizadas con una integración fluida de Google Sheets."
+
+msgid "Elementor Forms Google Sheet Connector"
+msgstr "Conector de Google Sheet para Elementor Forms"
+
+msgid ""
+"Sync Elementor Forms with Google Sheets instantly. Automatically add new form "
+"submissions to your spreadsheet, manage leads efficiently, and simplify reporting "
+"with real-time data synchronization."
+msgstr ""
+"Sincroniza Elementor Forms con Google Sheets al instante. Agrega automáticamente "
+"nuevas presentaciones de formularios a tu hoja de cálculo, gestiona clientes "
+"potenciales de manera eficiente y simplifica la elaboración de informes con "
+"sincronización de datos en tiempo real."
+
+msgid "Avada Forms Google Sheet Connector"
+msgstr "Conector de Google Sheet para Avada Forms"
+
+msgid ""
+"Connect Avada Forms to Google Sheets and automatically transfer form entries to "
+"your spreadsheet. Streamline lead management, automate data collection, and "
+"improve business reporting with seamless integration."
+msgstr ""
+"Conecta Avada Forms a Google Sheets y transfiere automáticamente las entradas del "
+"formulario a tu hoja de cálculo. Optimiza la gestión de clientes potenciales, "
+"automatiza la recolección de datos y mejora la elaboración de informes comerciales "
+"con una integración fluida."
+
+msgid "Available PRO Version"
+msgstr "Versión PRO Disponible"
+
+msgid "Divi Forms Google Sheet Connector"
+msgstr "Conector de Google Sheets para Divi Forms"
+
+msgid ""
+"Integrate Divi Forms with Google Sheets and automatically sync submissions in real-"
+"time. Store customer data securely, track inquiries efficiently, and eliminate "
+"manual spreadsheet updates."
+msgstr ""
+"Integra Divi Forms con Google Sheets y sincroniza automáticamente las "
+"presentaciones en tiempo real. Almacena los datos de los clientes de forma segura, "
+"rastrea consultas de manera eficiente y elimina las actualizaciones manuales de "
+"hojas de cálculo."
+
+msgid "WP Core Google Sheet Connector"
+msgstr "Conector de Google Sheets para WP Core"
+
+msgid ""
+"Automatically send WordPress core data (like comments or custom submissions) to "
+"Google Sheets. Simplify website data tracking, automate record keeping, and "
+"centralize important information in one organized spreadsheet."
+msgstr ""
+"Envía automáticamente datos del núcleo de WordPress (como comentarios o "
+"presentaciones personalizadas) a Google Sheets. Simplifica el seguimiento de datos "
+"del sitio web, automatiza el mantenimiento de registros y centraliza información "
+"importante en una hoja de cálculo organizada."
+
+msgid "WooCommerce Google Sheet Connector"
+msgstr "Conector de Google Sheets para WooCommerce"
+
+msgid ""
+"Sync WooCommerce orders with Google Sheets automatically. Store order details, "
+"customer information, and transaction data in real-time for easy reporting, "
+"accounting, and business analysis."
+msgstr ""
+"Sincroniza automáticamente los pedidos de WooCommerce con Google Sheets. Almacena "
+"detalles de pedidos, información del cliente y datos de transacciones en tiempo "
+"real para facilitar informes, contabilidad y análisis empresarial."
+
+msgid "Easy Digital Downloads Google Sheet Connector"
+msgstr "Conector de Google Sheets para Easy Digital Downloads"
+
+msgid ""
+"Automatically send Easy Digital Downloads (EDD) order details to Google Sheets. "
+"Track digital product sales, monitor transactions, and manage customer data "
+"effortlessly with real-time spreadsheet integration."
+msgstr ""
+"Envía automáticamente los detalles de pedidos de Easy Digital Downloads (EDD) a "
+"Google Sheets. Rastrear ventas de productos digitales, monitorear transacciones y "
+"gestionar datos de clientes sin esfuerzo con integración de hoja de cálculo en "
+"tiempo real."
+
+msgid "Installed & Active Plugins"
+msgstr "Plugins Instalados y Activos"
+
+msgid ""
+"View and manage all currently installed and active connectors on your site. You "
+"can activate, deactivate, or upgrade plugins from here."
+msgstr ""
+"Ver y gestionar todos los conectores instalados y activos en tu sitio. Puedes "
+"activar, desactivar o actualizar plugins desde aquí."
+
+msgid "Pro"
+msgstr "Pro"
+
+msgid "View Docs"
+msgstr "Ver Documentos"
+
+msgid "Deactivate"
+msgstr "Desactivar"
+
+msgid "Recommended Plugins"
+msgstr "Plugins Recomendados"
+
+msgid ""
+"Discover recommended plugins that enhance your workflow and help you get more "
+"value from your Google Sheets integration."
+msgstr ""
+"Descubre plugins recomendados que mejoran tu flujo de trabajo y te ayudan a "
+"obtener más valor de tu integración con Google Sheets."
+
+msgid "Activate"
+msgstr "Activar"
+
+msgid "Explore More Plugins"
+msgstr "Explorar Más Plugins"
+
+msgid "Discover the right connector for your workflow and automate data syncing."
+msgstr ""
+"Descubre el conector adecuado para tu flujo de trabajo y automatiza la "
+"sincronización de datos."
+
+msgid "All"
+msgstr "Todos"
+
+msgid "Forms"
+msgstr "Formularios"
+
+msgid "Page Builders"
+msgstr "Constructores de Páginas"
+
+msgid "eCommerce"
+msgstr "eCommerce"
+
+msgid "View Demo"
+msgstr "Ver Demo"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Sheet Sync Feeds"
+msgstr "Fuentes de Sincronización de Hoja"
+
+msgid ""
+"Create, connect, manage, and monitor how your form submissions are automatically "
+"synced to Google Sheets in real time."
+msgstr ""
+"Crea, conecta, gestiona y monitorea cómo se sincronizan automáticamente tus envíos "
+"de formularios a Google Sheets en tiempo real."
+
+msgid "- Close Feeds"
+msgstr "- Cerrar Feeds"
+
+msgid "Feed Name"
+msgstr "Nombre del Feed"
+
+msgid "Feed Type"
+msgstr "Tipo de Feed"
+
+msgid "Select Feed Type"
+msgstr "Seleccionar Tipo de Feed"
+
+msgid "Orders"
+msgstr "Órdenes"
+
+msgid "Products"
+msgstr "Productos"
+
+msgid "Products Variation"
+msgstr "Variación de Productos"
+
+msgid "Customers"
+msgstr "Clientes"
+
+msgid "Coupons"
+msgstr "Cupones"
+
+msgid "Subscriptions"
+msgstr "Suscripciones"
+
+msgid "Submit"
+msgstr "Enviar"
+
+msgid "Inactive"
+msgstr "Inactivo"
+
+msgid "Trash"
+msgstr "Papelera"
+
+msgid "Feed ID"
+msgstr "ID del feed"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Timestamp"
+msgstr "Marca de tiempo"
+
+msgid "Status"
+msgstr "Estado"
+
+msgid "Rename Feed"
+msgstr "Renombrar feed"
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "admin"
+msgstr "administrador"
+
+msgid "2026-04-27 09:30:53"
+msgstr "2026-04-27 09:30:53"
+
+msgid "feed1"
+msgstr "feed1"
+
+msgid "2026-04-27 09:31:18"
+msgstr "2026-04-27 09:31:18"
+
+msgid "feed2"
+msgstr "feed2"
+
+msgid "2026-04-27 09:31:35"
+msgstr "2026-04-27 09:31:35"
+
+msgid "feed3"
+msgstr "feed3"
+
+msgid "2026-04-27 09:31:47"
+msgstr "2026-04-27 09:31:47"
+
+msgid "feed4"
+msgstr "feed4"
+
+msgid "2026-04-27 09:32:00"
+msgstr "2026-04-27 09:32:00"
+
+msgid "feed5"
+msgstr "feed5"
+
+msgid "2026-04-27 09:32:17"
+msgstr "2026-04-27 09:32:17"
+
+msgid "2026-04-27 09:32:27"
+msgstr "2026-04-27 09:32:27"
+
+msgid "Integration"
+msgstr "Integración"
+
+msgid "WooCommerce Data Settings"
+msgstr "Configuraciones de Datos de WooCommerce"
+
+msgid "Settings"
+msgstr "Configuraciones"
+
+msgid "System Status"
+msgstr "Estado del Sistema"
+
+msgid "Extensions"
+msgstr "Extensiones"
+
+msgid "Form Feed Settings"
+msgstr "Configuraciones de Alimentación de Formularios"
+
+msgid ""
+"You`re using GSheetConnector for WooCommerce Lite. To unlock more features "
+"consider "
+msgstr ""
+"Estás usando GSheetConnector for WooCommerce Lite. Para desbloquear más funciones, "
+"considera "
+
+msgid "upgrading to Pro"
+msgstr "actualizar a Pro"
+
+msgid "Existing"
+msgstr "Existente"
+
+msgid "Auth Required"
+msgstr "Autenticación requerida"
+
+msgid "Authenticate with Your Google Account"
+msgstr "Autenticar con tu Cuenta de Google"
+
+msgid "Your connection has expired or hasn’t been set up yet."
+msgstr "Tu conexión ha expirado o aún no se ha configurado."
+
+msgid ""
+"Your Google connection is missing or expired. Please authenticate to continue "
+"syncing data without interruptions."
+msgstr ""
+"Tu conexión de Google falta o ha expirado. Autentícate para continuar "
+"sincronizando datos sin interrupciones."
+
+msgid "Authenticate Now"
+msgstr "Autenticar ahora"
+
+msgid "Learn How"
+msgstr "Aprende cómo"
+
+msgid "Enjoying the Plugin?"
+msgstr "¿Te está gustando el plugin?"
+
+msgid ""
+"If you are enjoying the plugin, please consider leaving a 5-star review. Your "
+"support helps us improve and grow."
+msgstr ""
+"Si te está gustando el plugin, considera dejar una reseña de 5 estrellas. Tu apoyo "
+"nos ayuda a mejorar y crecer."
+
+msgid "Ok, you deserve it!"
+msgstr "Ok, ¡te lo mereces!"
+
+msgid "I already did"
+msgstr "Ya lo hice"
+
+msgid "I need help"
+msgstr "Necesito ayuda"
+
+msgid "Maybe Later"
+msgstr "Quizá más tarde"
+
+msgid "Enhance Your Setup"
+msgstr "Mejora tu configuración"
+
+msgid "Extend your workflow with our add-ons."
+msgstr "Amplía tu flujo de trabajo con nuestros add-ons."
+
+msgid "Discover tools that integrate seamlessly and help you get more done."
+msgstr ""
+"Descubre herramientas que se integran sin problemas y te ayudan a hacer más cosas."
+
+msgid "Explore Add-ons"
+msgstr "Explorar add-ons"
+
+msgid "View Details"
+msgstr "Ver detalles"
+
+msgid "Unlock Advance Features of GSheetConnector for WooCommerce Pro"
+msgstr "Desbloquea funciones avanzadas de GSheetConnector for WooCommerce Pro"
+
+msgid ""
+"Use advanced features like Manual Authentication and automatic field mapping, no "
+"need to create columns in Google Sheets manually. Choose only the fields you need "
+"with simple toggles, use advanced tags, sync past form entries, and get priority "
+"support."
+msgstr ""
+"Usa funciones avanzadas como autenticación manual y asignación automática de "
+"campos, sin necesidad de crear columnas en Google Sheets manualmente. Elige solo "
+"los campos que necesitas con simples interruptores, usa etiquetas avanzadas, "
+"sincroniza entradas anteriores de formularios y obtén soporte prioritario."
+
+msgid "View License Types"
+msgstr "Ver tipos de licencia"
+
+msgid "Compare Features"
+msgstr "Comparar funciones"
+
+msgid "v"
+msgstr "v"
+
+msgid "Google Sheet"
+msgstr "Google Sheet"
+
+msgid "Dashboard"
+msgstr "Tablero"
+
+msgid "Feed Settings (PRO)"
+msgstr "Configuración de feed (PRO)"
+
+msgid "Advanced Tools for Easy Spreadsheet Control"
+msgstr "Herramientas Avanzadas para un Control Fácil de Hojas de Cálculo"
+
+msgid ""
+"Improve your sheet management with smart automation and flexible customization "
+"features."
+msgstr ""
+"Mejora la gestión de tus hojas con automatización inteligente y características de "
+"personalización flexibles."
+
+msgid "Google Sheets API v4"
+msgstr "Google Sheets API v4"
+
+msgid "One-Click Authentication"
+msgstr "Autenticación con un clic"
+
+msgid "Authenticated Email Display"
+msgstr "Visualización de Correo Electrónico Autenticado"
+
+msgid "Click & Fetch Automation"
+msgstr "Automatización de Clic & Fetch"
+
+msgid "Create New Spreadsheet"
+msgstr "Crear Nueva Hoja de Cálculo"
+
+msgid "Automated Sheet & Tab"
+msgstr "Hoja y Pestaña Automatizadas"
+
+msgid "Multiple Feeds to Sheets"
+msgstr "Múltiples Feeds a Hojas"
+
+msgid "Order Status Sheet Tabs"
+msgstr "Pestañas de Hoja de Estado de Pedido"
+
+msgid "Language Translation "
+msgstr "Traducción de Idioma"
+
+msgid "Custom Order Sheet Tabs"
+msgstr "Pestañas de Hoja de Pedido Personalizado"
+
+msgid "Sync Additional Sheet Tabs"
+msgstr "Sincronizar Pestañas de Hoja Adicionales"
+
+msgid "How Orders Are Synced"
+msgstr "Cómo se Sincronizan los Pedidos"
+
+msgid "Order & Product Category Filter"
+msgstr "Filtro de Pedido y Categoría de Producto"
+
+msgid "2-Way Sync"
+msgstr "Sincronización Bidireccional"
+
+msgid "Add Extra Google Sheet Columns"
+msgstr "Agregar Columnas Adicionales de Google Sheet"
+
+msgid "Cron Settings "
+msgstr "Configuraciones de Cron"
+
+msgid "Drag-and-Drop Column Order"
+msgstr "Orden de Columna por Arrastrar y Soltar"
+
+msgid "Freeze & Color Headers"
+msgstr "Congelar y Colorear Encabezados"
+
+msgid "Sync Past Entries"
+msgstr "Sincronizar Entradas Pasadas"
+
+msgid "Role Management"
+msgstr "Gestión de Roles"
+
+msgid "Quick Configuration"
+msgstr "Configuración rápida"
+
+msgid "Multi-Language Support"
+msgstr "Soporte Multilenguaje"
+
+msgid "Multi-Site Support"
+msgstr "Soporte Multisitio"
+
+msgid "Latest WP & PHP Support"
+msgstr "Último Soporte de WP y PHP"
+
+msgid "Upgrad Now"
+msgstr "Actualizar ahora"
+
+msgid "Free vs Pro"
+msgstr "Gratis vs Pro"
+
+msgid "WooCommerce - GSheetConnector"
+msgstr "WooCommerce - GSheetConnector"
+
+msgid "Select"
+msgstr "Seleccionar"
+
+msgid " Google Sheets Integration for WooCommerce"
+msgstr " Integración de Google Sheets para WooCommerce"
+
+msgid "Choose Google API Setting"
+msgstr "Elegir Configuración de API de Google"
+
+msgid "Existing Client / Secret Key (Auto Setup)"
+msgstr "Cliente Existente / Clave Secreta (Configuración Automática)"
+
+msgid "Manual Client/Secret Key (Use Your Google API Configuration)"
+msgstr "Clave Secreta/Cliente Manual (Usa tu Configuración de API de Google)"
+
+msgid "Service Account (Recommended)"
+msgstr "Cuenta de Servicio (Recomendado)"
+
+msgid "Google Account Connection"
+msgstr "Conexión de Cuenta de Google"
+
+msgid "Auto Setup"
+msgstr "Configuración Automática"
+
+msgid ""
+"Sign in with your Google account to connect WooCommerce with Google Sheets. Once "
+"connected, your data syncs based on your settings. Learn more in the documentation"
+msgstr ""
+"Inicia sesión con tu cuenta de Google para conectar WooCommerce con Google Sheets. "
+"Una vez conectado, tus datos se sincronizan según tu configuración. Obtén más "
+"información en la documentación"
+
+msgid "Click here"
+msgstr "Haz clic aquí"
+
+msgid "Click on the <strong>Sign in with Google</strong> button."
+msgstr "Haz clic en el botón <strong>Iniciar sesión con Google</strong>."
+
+msgid "Log in using your Google account."
+msgstr "Inicia sesión usando tu cuenta de Google."
+
+msgid "Select the Google account where your Sheets are stored."
+msgstr "Selecciona la cuenta de Google donde están almacenadas tus Sheets."
+
+msgid "Grant access to:"
+msgstr "Conceder acceso a:"
+
+msgid "Google Drive"
+msgstr "Google Drive"
+
+msgid "Google Sheets"
+msgstr "Google Sheets"
+
+msgid "Click <strong>Allow</strong> to finish authorization."
+msgstr "Haz clic en <strong>Permitir</strong> para finalizar la autorización."
+
+msgid "Save the authentication code if prompted."
+msgstr "Guarda el código de autenticación si se solicita."
+
+msgid "This allows the plugin to securely sync your form data with Google Sheets."
+msgstr ""
+"Esto permite que el plugin sincronice de forma segura los datos de tu formulario "
+"con Google Sheets."
+
+msgid ""
+"<p class=\"fw-400 text-dark\"><strong>Google Drive</strong> and <strong>Google "
+"Sheets</strong> permissions were not granted during authentication with Google.</"
+"p>\n"
+"                  <p class=\"fw-400 text-dark\"><strong>Refer to Step 4 in the "
+"Connection Guide shown alongside.</strong><br> Then, deactivate the connection and "
+"re-authorize it, ensuring both Google Drive and Google Sheets permissions are "
+"enabled.</p>"
+msgstr ""
+"<p class=\"fw-400 text-dark\"><strong>Google Drive</strong> y <strong>Google "
+"Sheets</strong> permisos no fueron otorgados durante la autenticación con Google.</"
+"p>\n"
+"                  <p class=\"fw-400 text-dark\"><strong>Consulta el paso 4 de la "
+"Guía de conexión que se muestra al lado.</strong><br> Luego, desactiva la conexión "
+"y vuelve a autorizarla, asegurándote de que los permisos de Google Drive y Google "
+"Sheets estén habilitados.</p>"
+
+msgid "Connected Google Account"
+msgstr "Cuenta de Google conectada"
+
+msgid "Connected"
+msgstr "Conectado"
+
+msgid ""
+"Authentication failed. Your Google access token may be expired or invalid. Please "
+"re-authenticate your account with the required permissions."
+msgstr ""
+"La autenticación falló. Tu token de acceso de Google puede haber expirado o ser "
+"inválido. Vuelve a autenticar tu cuenta con los permisos requeridos."
+
+msgid "Connect Your Google Account"
+msgstr "Conectar tu cuenta de Google"
+
+msgid ""
+"Securely link your Google account to start syncing form entries automatically."
+msgstr ""
+"Vincula de forma segura tu cuenta de Google para comenzar a sincronizar "
+"automáticamente las entradas del formulario."
+
+msgid "Sign in with Google"
+msgstr "Iniciar sesión con Google"
+
+msgid "Client Token"
+msgstr "Token del cliente"
+
+msgid "Save Client Token"
+msgstr "Guardar token de cliente"
+
+msgid ""
+"We do not store any of the data from your Google account on our servers, "
+"everything is processed & stored on your server. We take your privacy extremely "
+"seriously and ensure it is never misused. Learn more in the documentation"
+msgstr ""
+"No almacenamos ninguno de los datos de tu cuenta de Google en nuestros servidores, "
+"todo se procesa y almacena en tu servidor. Tomamos tu privacidad muy en serio y "
+"aseguramos que nunca se abuse de ella. Aprende más en la documentación"
+
+msgid "click here."
+msgstr "haz clic aquí."
+
+msgid "Connection Status & Next Steps"
+msgstr "Estado de la conexión y próximos pasos"
+
+msgid ""
+"Your Google account has been successfully connected. You are now ready to sync "
+"your WooCommerce data with Google Sheets securely and automatically."
+msgstr ""
+"Tu cuenta de Google se ha conectado con éxito. Ahora estás listo para sincronizar "
+"tus datos de WooCommerce con Google Sheets de forma segura y automática."
+
+msgid "Create New Feed"
+msgstr "Crear nuevo feed"
+
+msgid "Select Google Spreadsheet"
+msgstr "Seleccionar hoja de cálculo de Google"
+
+msgid "Map WooCommerce Fields"
+msgstr "Mapear campos de WooCommerce"
+
+msgid "Enable Order Sync"
+msgstr "Habilitar sincronización de pedidos"
+
+msgid "Upgrade to unlock"
+msgstr "Actualizar para desbloquear"
+
+msgid "Deactivate Integration"
+msgstr "Desactivar integración"
+
+msgid "Are you sure you want to deactivate Google Sheets integration?"
+msgstr "¿Estás seguro de que deseas desactivar la integración con Google Sheets?"
+
+msgid "Connection Guide"
+msgstr "Guía de conexión"
+
+msgid "Step-by-Step"
+msgstr "Paso a paso"
+
+msgid ""
+"Follow these steps to connect your Google account and start syncing your form data "
+"with Google Sheets."
+msgstr ""
+"Sigue estos pasos para conectar tu cuenta de Google y comenzar a sincronizar los "
+"datos de tu formulario con Google Sheets."
+
+msgid "Step-1 Connect Your Google Account"
+msgstr "Paso 1: Conectar tu cuenta de Google"
+
+msgid ""
+"Sign in with your Google account to start the automatic Google Sheets integration."
+msgstr ""
+"Inicia sesión con tu cuenta de Google para comenzar la integración automática con "
+"Google Sheets."
+
+msgid "Step-2 Choose Google Account"
+msgstr "Paso 2: Elegir cuenta de Google"
+
+msgid "Choose the Google account where your Sheets are stored."
+msgstr "Elige la cuenta de Google donde están almacenadas tus hojas."
+
+msgid "check our detailed guideline"
+msgstr "consulta nuestra guía detallada"
+
+msgid "Step-3 Review Access Information"
+msgstr "Paso 3: Revisar información de acceso"
+
+msgid "Google will show what information the plugin can access."
+msgstr "Google mostrará qué información puede acceder el plugin."
+
+msgid "Step-4 Grant Required Permissions"
+msgstr "Paso 4: Otorgar permisos requeridos"
+
+msgid "Allow required permissions for Google Sheets and Drive access."
+msgstr "Permitir los permisos requeridos para el acceso a Google Sheets y Drive."
+
+msgid "Step-5 Save Authentication Code"
+msgstr "Paso 5: Guardar código de autenticación"
+
+msgid "Save the authentication code to complete the Google account connection."
+msgstr ""
+"Guarda el código de autenticación para completar la conexión de la cuenta de "
+"Google."
+
+msgid "Step-6 Integration Completed"
+msgstr "Paso-6 Integración Completada"
+
+msgid "Your Google account is now successfully connected."
+msgstr "Tu cuenta de Google ahora está conectada exitosamente."
+
+msgid "Manual Google Sheets Integration"
+msgstr "Integración Manual de Google Sheets"
+
+msgid ""
+"Connect WooCommerce to Google Sheets using your own Google Cloud project. Ideal "
+"for advanced users who need full API control and custom OAuth setup."
+msgstr ""
+"Conecta WooCommerce a Google Sheets utilizando tu propio proyecto de Google Cloud. "
+"Ideal para usuarios avanzados que necesitan control total de la API y "
+"configuración personalizada de OAuth."
+
+msgid "Custom API Credentials"
+msgstr "Credenciales API Personalizadas"
+
+msgid ""
+"Connect using your own Google Cloud Client ID and Client Secret for full "
+"authentication control."
+msgstr ""
+"Conéctate utilizando tu propio ID de Cliente y Secreto de Cliente de Google Cloud "
+"para un control total de autenticación."
+
+msgid "Secure Authentication"
+msgstr "Autenticación Segura"
+
+msgid ""
+"Authenticate directly with Google using a secure Authentication flow without third-"
+"party dependency."
+msgstr ""
+"Autentica directamente con Google utilizando un flujo de autenticación seguro sin "
+"dependencia de terceros."
+
+msgid "Advanced Configuration"
+msgstr "Configuración Avanzada"
+
+msgid ""
+"Set custom Redirect URIs, manage scopes, and configure API settings based on your "
+"project needs."
+msgstr ""
+"Configura URIs de Redirección personalizadas, gestiona los alcances y configura "
+"los ajustes de la API según las necesidades de tu proyecto."
+
+msgid "Priority Technical Support"
+msgstr "Soporte Técnico Prioritario"
+
+msgid ""
+"Get fast assistance from our expert team for setup, troubleshooting, and "
+"optimization."
+msgstr ""
+"Obtén asistencia rápida de nuestro equipo de expertos para configuración, solución "
+"de problemas y optimización."
+
+msgid "Upgrade to Unlock"
+msgstr "Actualizar para desbloquear"
+
+msgid "View Pro Features"
+msgstr "Ver Características Pro"
+
+msgid "Service Account Google Sheets Integration"
+msgstr "Integración de Google Sheets con Cuenta de Servicio"
+
+msgid ""
+"Connect WooCommerce to Google Sheets using a Service Account for automated syncing "
+"without manual login."
+msgstr ""
+"Conecta WooCommerce a Google Sheets utilizando una Cuenta de Servicio para "
+"sincronización automatizada sin inicio de sesión manual."
+
+msgid "Secure JSON Authentication"
+msgstr "Autenticación JSON Segura"
+
+msgid ""
+"Authenticate using a secure Google Cloud JSON key file for direct and encrypted "
+"communication with Google Sheets."
+msgstr ""
+"Autentica utilizando un archivo de clave JSON seguro de Google Cloud para "
+"comunicación directa y encriptada con Google Sheets."
+
+msgid "No Authentication Login Required"
+msgstr "No se requiere inicio de sesión de autenticación"
+
+msgid ""
+"Enable automatic background syncing without requiring Google account sign-in "
+"during setup."
+msgstr ""
+"Habilita la sincronización automática en segundo plano sin requerir inicio de "
+"sesión en la cuenta de Google durante la configuración."
+
+msgid "Direct Spreadsheet Access"
+msgstr "Acceso Directo a la Hoja de Cálculo"
+
+msgid ""
+"Share your Google Sheet with the service account email to enable automatic data "
+"transfer."
+msgstr ""
+"Comparte tu Google Sheet con el correo electrónico de la cuenta de servicio para "
+"habilitar la transferencia automática de datos."
+
+msgid "Production-Ready & Reliable"
+msgstr "Listo para Producción y Confiable"
+
+msgid ""
+"Built for stable, uninterrupted syncing in professional and high-traffic "
+"environments."
+msgstr ""
+"Diseñado para sincronización estable y sin interrupciones en entornos "
+"profesionales y de alto tráfico."
+
+msgid "Permission Not Allowed"
+msgstr "Permiso No Permitido"
+
+msgid "Unlock Role-Based Access Control"
+msgstr "Desbloquear Control de Acceso Basado en Roles"
+
+msgid "Advanced options are available in PRO"
+msgstr "Las opciones avanzadas están disponibles en PRO"
+
+msgid "Role Permissions"
+msgstr "Permisos de Rol"
+
+msgid "Allow specific WordPress roles"
+msgstr "Permitir roles específicos de WordPress"
+
+msgid "Enable/disable integration access"
+msgstr "Habilitar/deshabilitar acceso a la integración"
+
+msgid "Control WooCommerce sync visibility"
+msgstr "Controlar la visibilidad de la sincronización de WooCommerce"
+
+msgid "Restrict settings management"
+msgstr "Restringir la gestión de configuraciones"
+
+msgid "Security Control"
+msgstr "Control de Seguridad"
+
+msgid "Prevent unauthorized changes"
+msgstr "Prevenir cambios no autorizados"
+
+msgid "Secure Google Sheet credentials"
+msgstr "Asegurar las credenciales de Google Sheet"
+
+msgid "Role-based configuration control"
+msgstr "Control de configuración basado en roles"
+
+msgid "Protect integration settings"
+msgstr "Proteger configuraciones de integración"
+
+msgid "Management Benefits"
+msgstr "Beneficios de Gestión"
+
+msgid "Grant access to trusted editors"
+msgstr "Conceder acceso a editores de confianza"
+
+msgid "Hide settings from subscribers"
+msgstr "Ocultar configuraciones de suscriptores"
+
+msgid "Team-based permission structure"
+msgstr "Estructura de permisos basada en equipos"
+
+msgid "Improved dashboard security"
+msgstr "Seguridad mejorada del panel"
+
+msgid "Audit & Monitoring"
+msgstr "Auditoría y Monitoreo"
+
+msgid "Track role-based changes"
+msgstr "Rastrear cambios basados en roles"
+
+msgid "Monitor integration access"
+msgstr "Monitorear acceso a la integración"
+
+msgid "Review permission updates"
+msgstr "Revisar actualizaciones de permisos"
+
+msgid "Maintain admin accountability"
+msgstr "Mantener la responsabilidad del administrador"
+
+msgid "Access Management"
+msgstr "Gestión de Acceso"
+
+msgid ""
+"Control which user roles can access and manage WooCommerce Google Sheets "
+"integration."
+msgstr ""
+"Controlar qué roles de usuario pueden acceder y gestionar la integración de "
+"WooCommerce con Google Sheets."
+
+msgid "Plugin Access Control"
+msgstr "Control de Acceso del Plugin"
+
+msgid "Permission Guidelines"
+msgstr "Directrices de Permisos"
+
+msgid "Control which user roles can access the GSheetConnector plugin"
+msgstr "Controla qué roles de usuario pueden acceder al plugin GSheetConnector"
+
+msgid "Allow selected users to manage Google Sheets integration settings"
+msgstr ""
+"Permite que los usuarios seleccionados gestionen la configuración de integración "
+"con Google Sheets"
+
+msgid "Restrict access to sensitive features like feeds, logs, and configurations"
+msgstr ""
+"Restringe el acceso a funciones sensibles como feeds, registros y configuraciones"
+
+msgid "Only enabled roles will see the plugin menu in the admin panel"
+msgstr ""
+"Solo los roles habilitados verán el menú del plugin en el panel de administración"
+
+msgid "Recommended: Allow only Administrators and trusted Editors"
+msgstr "Recomendado: Permitir solo a Administradores y Editores de confianza"
+
+msgid "Save Settings"
+msgstr "Guardar Configuraciones"
+
+msgid "General Settings"
+msgstr "Configuraciones Generales"
+
+msgid "Role Settings"
+msgstr "Configuraciones de Rol"
+
+msgid "Version Control"
+msgstr "Control de Versiones"
+
+msgid "Need more support? We're here to help."
+msgstr "¿Necesitas más soporte? Estamos aquí para ayudar."
+
+msgid "Submit a Support Ticket"
+msgstr "Enviar un Ticket de Soporte"
+
+msgid "Our fast and friendly support team is always happy to help!"
+msgstr "¡Nuestro equipo de soporte rápido y amigable siempre está feliz de ayudar!"
+
+msgid "Unlock Beta Version Control"
+msgstr "Desbloquear Control de Versión Beta"
+
+msgid "Test upcoming features before official release"
+msgstr "Prueba las próximas características antes del lanzamiento oficial"
+
+msgid "Early Access"
+msgstr "Acceso Anticipado"
+
+msgid "Get updates before public release"
+msgstr "Recibe actualizaciones antes del lanzamiento público"
+
+msgid "Test new features in advance"
+msgstr "Prueba nuevas funciones por adelantado"
+
+msgid "Try improvements early"
+msgstr "Prueba mejoras temprano"
+
+msgid "Stay ahead with new changes"
+msgstr "Mantente al día con los nuevos cambios"
+
+msgid "Testing Purpose"
+msgstr "Propósito de Prueba"
+
+msgid "Features may still be under testing"
+msgstr "Las funciones pueden estar aún en prueba"
+
+msgid "Some options may change later"
+msgstr "Algunas opciones pueden cambiar más tarde"
+
+msgid "Minor issues may occur"
+msgstr "Pueden ocurrir problemas menores"
+
+msgid "Used for feedback and improvements"
+msgstr "Usado para comentarios y mejoras"
+
+msgid "Safety Notice"
+msgstr "Aviso de Seguridad"
+
+msgid "Recommended for staging sites"
+msgstr "Recomendado para sitios de staging"
+
+msgid "Avoid enabling on live websites"
+msgstr "Evita habilitar en sitios web en vivo"
+
+msgid "Take backup before testing"
+msgstr "Haz una copia de seguridad antes de probar"
+
+msgid "Disable anytime if needed"
+msgstr "Desactiva en cualquier momento si es necesario"
+
+msgid "Update Control"
+msgstr "Control de Actualización"
+
+msgid "Receive beta notifications"
+msgstr "Recibe notificaciones beta"
+
+msgid "Updates are not installed automatically"
+msgstr "Las actualizaciones no se instalan automáticamente"
+
+msgid "You control when to update"
+msgstr "Tú controlas cuándo actualizar"
+
+msgid "Switch on/off anytime"
+msgstr "Activa/desactiva en cualquier momento"
+
+msgid "Beta Program Access"
+msgstr "Acceso al Programa Beta"
+
+msgid ""
+"Get early access to upcoming features and improvements before they are officially "
+"released. Beta versions may include experimental updates and should be used for "
+"testing purposes only."
+msgstr ""
+"Obtén acceso anticipado a las próximas funciones y mejoras antes de que se lancen "
+"oficialmente. Las versiones beta pueden incluir actualizaciones experimentales y "
+"deben usarse solo con fines de prueba."
+
+msgid "Enable Beta Updates"
+msgstr "Habilitar Actualizaciones Beta"
+
+msgid ""
+"Receive notifications and access to beta releases. Updates will not be installed "
+"automatically."
+msgstr ""
+"Recibe notificaciones y acceso a lanzamientos beta. Las actualizaciones no se "
+"instalarán automáticamente."
+
+msgid "Beta Usage Notice"
+msgstr "Aviso de Uso Beta"
+
+msgid "Beta versions may include unfinished or experimental features"
+msgstr "Las versiones beta pueden incluir funciones inacabadas o experimentales"
+
+msgid "Some features may change or be removed in future updates"
+msgstr "Algunas funciones pueden cambiar o ser eliminadas en futuras actualizaciones"
+
+msgid "Minor bugs or performance issues may occur"
+msgstr "Pueden ocurrir errores menores o problemas de rendimiento"
+
+msgid "We recommend enabling beta only on test or staging sites"
+msgstr "Recomendamos habilitar beta solo en sitios de prueba o staging"
+
+msgid "Do not enable on live production websites without proper backups."
+msgstr ""
+"No habilites en sitios web de producción en vivo sin copias de seguridad adecuadas."
+
+msgid "Plugin Preferences"
+msgstr "Preferencias del plugin"
+
+msgid ""
+"Manage how plugin settings and data are handled when the plugin is uninstalled."
+msgstr ""
+"Gestiona cómo se manejan la configuración y los datos del plugin cuando se "
+"desinstala."
+
+msgid "Delete Plugin Data on Uninstall"
+msgstr "Eliminar datos del plugin al desinstalar"
+
+msgid "Removes all plugin data (options, metadata) when the plugin is deleted."
+msgstr ""
+"Elimina todos los datos del plugin (opciones, metadatos) cuando el plugin se borra."
+
+msgid "Uninstall Data Notice"
+msgstr "Aviso de datos al desinstalar"
+
+msgid "Enable this option only if you want a complete cleanup"
+msgstr "Habilita esta opción solo si deseas una limpieza completa"
+
+msgid "All plugin settings and data will be permanently removed"
+msgstr ""
+"Toda la configuración y los datos del plugin se eliminarán de forma permanente"
+
+msgid "Incorrect settings can delete all sensitive form and user data"
+msgstr ""
+"Una configuración incorrecta puede eliminar todos los datos sensibles de "
+"formularios y usuarios"
+
+msgid "Confirm Data Deletion"
+msgstr "Confirmar eliminación de datos"
+
+msgid ""
+"Enabling this option will permanently delete all plugin data, including settings "
+"and integrations, when the plugin is uninstalled."
+msgstr ""
+"Habilitar esta opción eliminará de forma permanente todos los datos del plugin, "
+"incluidas la configuración y las integraciones, cuando el plugin se desinstale."
+
+msgid ""
+"If you plan to upgrade from Free to Pro, you may lose your existing configuration "
+"data."
+msgstr ""
+"Si planeas pasar de Free a Pro, podrías perder los datos de tu configuración "
+"existente."
+
+msgid "Proceed only if you want a complete cleanup. This action cannot be undone."
+msgstr ""
+"Continúa solo si deseas una limpieza completa. Esta acción no se puede deshacer."
+
+msgid "Enable Deletion"
+msgstr "Habilitar eliminación"
+
+msgid "Description Input Format Settings"
+msgstr "Configuración del formato de entrada de la descripción"
+
+msgid ""
+"Enable this option to allow HTML formatting in Product Description and Short "
+"Description fields. When enabled, HTML content from the sheet will be imported as "
+"is. Disable it to use plain text only."
+msgstr ""
+"Habilita esta opción para permitir formato HTML en los campos Descripción del "
+"producto y Descripción corta. Cuando esté habilitada, el contenido HTML de la hoja "
+"se importará tal como está. Desactívala para usar solo texto plano."
+
+msgid "Enable HTML Formatting for Description Fields"
+msgstr "Habilitar formato HTML para los campos de descripción"
+
+msgid ""
+"Allow HTML content in Product Description and Short Description fields during "
+"import."
+msgstr ""
+"Permite contenido HTML en los campos Descripción del producto y Descripción corta "
+"durante la importación."
+
+msgid "HTML Formatting Guide"
+msgstr "Guía de formato HTML"
+
+msgid ""
+"Enable this option to allow HTML content in Product Description and Short "
+"Description fields."
+msgstr ""
+"Habilita esta opción para permitir contenido HTML en los campos Descripción del "
+"producto y Descripción corta."
+
+msgid ""
+"When enabled, HTML tags from the sheet (e.g., <p>, <br>, <strong>) will be "
+"imported as is."
+msgstr ""
+"Cuando esté habilitada, las etiquetas HTML de la hoja (p. ej., <p>, <br>, "
+"<strong>) se importarán tal como están."
+
+msgid "Disable this option to import plain text without HTML formatting."
+msgstr "Desactiva esta opción para importar solo texto plano sin formato HTML."
+
+msgid "Use this option only if your sheet contains valid HTML content."
+msgstr "Usa esta opción solo si tu hoja contiene contenido HTML válido."
+
+msgid "Permission not allowed."
+msgstr "Permiso no permitido."
+
+msgid "Roles that can access Google Sheet Page"
+msgstr "Roles que pueden acceder a la página de Google Sheet"
+
+msgid "You do not have permission to access this page."
+msgstr "No tienes permiso para acceder a esta página."
+
+msgid "System Information"
+msgstr "Información del sistema"
+
+msgid ""
+"View detailed information about your plugin, server, and WordPress setup for "
+"troubleshooting and support.\n"
+"        "
+msgstr ""
+"Consulta información detallada sobre tu plugin, servidor y configuración de "
+"WordPress para solución de problemas y soporte.\n"
+"        "
+
+msgid "Copy System Info"
+msgstr "Copiar Información del Sistema"
+
+msgid "GSheetConnector Status"
+msgstr "Estado de GSheetConnector"
+
+msgid "Plugin Name"
+msgstr "Nombre del plugin"
+
+msgid "Plugin Version"
+msgstr "Versión del plugin"
+
+msgid "Plugin Subscription Plan"
+msgstr "Plan de suscripción del plugin"
+
+msgid "Connected Email Account"
+msgstr "Cuenta de correo electrónico conectada"
+
+msgid "Authentication method for connecting to Google Sheets"
+msgstr "Método de autenticación para conectar con Google Sheets"
+
+msgid "Google Drive Permission"
+msgstr "Permiso de Google Drive"
+
+msgid "Google Sheet Permission"
+msgstr "Permiso de Google Sheet"
+
+msgid "WordPress"
+msgstr "WordPress"
+
+msgid "Version"
+msgstr "Versión"
+
+msgid "Site Language"
+msgstr "Idioma del sitio"
+
+msgid "Debug Mode"
+msgstr "Modo de depuración"
+
+msgid "Enabled"
+msgstr "Habilitado"
+
+msgid "Disabled"
+msgstr "Deshabilitado"
+
+msgid "Home URL"
+msgstr "URL de inicio"
+
+msgid "Site URL"
+msgstr "URL del sitio"
+
+msgid "Permalink structure"
+msgstr "Estructura de enlaces permanentes"
+
+msgid "Is this site using HTTPS?"
+msgstr "¿Este sitio usa HTTPS?"
+
+msgid "Yes"
+msgstr "Sí"
+
+msgid "No"
+msgstr "No"
+
+msgid "Is this a multisite?"
+msgstr "¿Es un multisitio?"
+
+msgid "Can anyone register on this site?"
+msgstr "¿Cualquiera puede registrarse en este sitio?"
+
+msgid "Is this site discouraging search engines?"
+msgstr "¿Este sitio disuade a los motores de búsqueda?"
+
+msgid "Default comment status"
+msgstr "Estado predeterminado de los comentarios"
+
+msgid "Unknown"
+msgstr "Desconocido"
+
+msgid "Localhost"
+msgstr "Localhost"
+
+msgid "Production"
+msgstr "Producción"
+
+msgid "Environment type"
+msgstr "Tipo de entorno"
+
+msgid "User Count"
+msgstr "Cantidad de usuarios"
+
+msgid "Communication with WordPress.org"
+msgstr "Comunicación con WordPress.org"
+
+msgid "Active Theme"
+msgstr "Tema activo"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Author website"
+msgstr "Sitio web del autor"
+
+msgid "Theme directory location"
+msgstr "Ubicación del directorio del tema"
+
+msgid "Active Plugins"
+msgstr "Plugins activos"
+
+msgid "Server"
+msgstr "Servidor"
+
+msgid ""
+"The options shown below relate to your server setup. If changes are required, you "
+"may need your web host’s assistance."
+msgstr ""
+"Las opciones que se muestran a continuación se relacionan con la configuración de "
+"tu servidor. Si se requieren cambios, puede que necesites la ayuda de tu proveedor "
+"de hosting."
+
+msgid "Server Architecture"
+msgstr "Arquitectura del servidor"
+
+msgid "Web Server"
+msgstr "Servidor web"
+
+msgid "PHP Version"
+msgstr "Versión de PHP"
+
+msgid "PHP SAPI"
+msgstr "SAPI de PHP"
+
+msgid "PHP Max Input Variables"
+msgstr "Máximo de variables de entrada de PHP"
+
+msgid "PHP Time Limit"
+msgstr "Límite de tiempo de PHP"
+
+msgid "seconds"
+msgstr "segundos"
+
+msgid "PHP Memory Limit"
+msgstr "Límite de memoria de PHP"
+
+msgid "Max Input Time"
+msgstr "Tiempo máximo de entrada"
+
+msgid "Upload Max Filesize"
+msgstr "Tamaño máximo de carga"
+
+msgid "PHP Post Max Size"
+msgstr "Tamaño máximo de post de PHP"
+
+msgid "Not Installed"
+msgstr "No instalado"
+
+msgid "cURL Version"
+msgstr "Versión de cURL"
+
+msgid "Is SUHOSIN Installed?"
+msgstr "¿SUHOSIN está instalado?"
+
+msgid "Is the Imagick Library Available?"
+msgstr "¿La biblioteca Imagick está disponible?"
+
+msgid "Are Pretty Permalinks Supported?"
+msgstr "¿Se admiten enlaces permanentes bonitos?"
+
+msgid ".htaccess Rules"
+msgstr "Reglas .htaccess"
+
+msgid "Writable"
+msgstr "Escribible"
+
+msgid "Not Writable"
+msgstr "No escribible"
+
+msgid "Current Time"
+msgstr "Hora actual"
+
+msgid "Current UTC Time"
+msgstr "Hora UTC actual"
+
+msgid "Current Server Time"
+msgstr "Hora actual del servidor"
+
+msgid "Database"
+msgstr "Base de datos"
+
+msgid "Extension"
+msgstr "Extensión"
+
+msgid "Server Version"
+msgstr "Versión del servidor"
+
+msgid "Client Version"
+msgstr "Versión del cliente"
+
+msgid "Database Username"
+msgstr "Nombre de usuario de la base de datos"
+
+msgid "Database Host"
+msgstr "Host de la base de datos"
+
+msgid "Database Name"
+msgstr "Nombre de la base de datos"
+
+msgid "Table Prefix"
+msgstr "Prefijo de tabla"
+
+msgid "Database Charset"
+msgstr "Charset de la base de datos"
+
+msgid "Database Collation"
+msgstr "Intercalación de la base de datos"
+
+msgid "Max Allowed Packet Size"
+msgstr "Tamaño máximo de paquete permitido"
+
+msgid "Max Connections Number"
+msgstr "Número máximo de conexiones"
+
+msgid "WordPress Constants"
+msgstr "Constantes de WordPress"
+
+msgid "Filesystem Permission"
+msgstr "Permiso del sistema de archivos"
+
+msgid ""
+"Shows whether WordPress is able to write to the directories it needs access to."
+msgstr ""
+"Muestra si WordPress puede escribir en los directorios a los que necesita acceso."
+
+msgid "The main WordPress directory"
+msgstr "El directorio principal de WordPress"
+
+msgid "The wp-content directory"
+msgstr "El directorio wp-content"
+
+msgid "The uploads directory"
+msgstr "El directorio de uploads"
+
+msgid "The plugins directory"
+msgstr "El directorio de plugins"
+
+msgid "The themes directory"
+msgstr "El directorio de temas"
+
+msgid "No error logs found."
+msgstr "No se encontraron registros de error."
+
+msgid "Welcome To GSheetConnector"
+msgstr "Bienvenido a GSheetConnector"
+
+msgid ""
+"GSheetConnector is a powerful automation plugin that syncs WordPress data with "
+"Google Sheets in real time. It supports WooCommerce, Easy Digital Downloads, and "
+"popular form plugins such as Contact Form 7, Gravity Forms, Elementor Forms, along "
+"with 10+ additional WordPress integrations for efficient data management."
+msgstr ""
+"GSheetConnector es un potente plugin de automatización que sincroniza datos de "
+"WordPress con Google Sheets en tiempo real. Soporta WooCommerce, Easy Digital "
+"Downloads, y plugins de formularios populares como Contact Form 7, Gravity Forms, "
+"Elementor Forms, junto con más de 10 integraciones adicionales de WordPress para "
+"una gestión eficiente de datos."
+
+msgid "Let's Connect"
+msgstr "Conectemos"
+
+msgid "Setup Guide & Troubleshooting"
+msgstr "Guía de Configuración y Solución de Problemas"
+
+msgid ""
+"Sync WooCommerce data with Google Sheets in real-time effortlessly and accurately."
+msgstr ""
+"Sincroniza los datos de WooCommerce con Google Sheets en tiempo real de manera "
+"fácil y precisa."
+
+msgid "Getting Started"
+msgstr "Empezando"
+
+msgid "Installation Process"
+msgstr "Proceso de Instalación"
+
+msgid "Integration with Google (Existing Method)"
+msgstr "Integración con Google (Método Existente)"
+
+msgid "Integration of WooCommerce with Google Sheet"
+msgstr "Integración de WooCommerce con Google Sheet"
+
+msgid "Docs & Troubleshooting"
+msgstr "Documentos y Solución de Problemas"
+
+msgid "How to Enable Debugging in WordPress"
+msgstr "Cómo Habilitar la Depuración en WordPress"
+
+msgid "Invalid OAuth2 token"
+msgstr "Token OAuth2 inválido"
+
+msgid "Change Date/Time Format and Time Zone in Google Sheets"
+msgstr "Cambiar Formato de Fecha/Hora y Zona Horaria en Google Sheets"
+
+msgid "Additional Resources"
+msgstr "Recursos Adicionales"
+
+msgid "Integration with Google (Manual Method)"
+msgstr "Integración con Google (Método Manual)"
+
+msgid "Integration with Google (Service Method)"
+msgstr "Integración con Google (Método de Servicio)"
+
+msgid "WooCommerce Data Settings – PRO Version"
+msgstr "Configuraciones de Datos de WooCommerce – Versión PRO"
+
+msgid "Feed Settings  – PRO Version"
+msgstr "Configuraciones de Feed – Versión PRO"
+
+msgid "Settings Tab – PRO Version"
+msgstr "Pestaña de Configuraciones – Versión PRO"
+
+msgid "Role Settings – PRO Version"
+msgstr "Configuraciones de Roles – Versión PRO"
+
+msgid "2-Way Sync - PRO Version"
+msgstr "Sincronización Bidireccional - Versión PRO"
+
+msgid "Third-Party Plugins Compatibility"
+msgstr "Compatibilidad con Plugins de Terceros"
+
+msgid "Plugins by Category"
+msgstr "Plugins por Categoría"
+
+msgid "Find the perfect connector for your WordPress workflow."
+msgstr "Encuentra el conector perfecto para tu flujo de trabajo en WordPress."
+
+msgid "Contact Form Connectors"
+msgstr "Conectores de Formularios de Contacto"
+
+msgid "6 plugins available"
+msgstr "6 plugins disponibles"
+
+msgid "eCommerce Connectors"
+msgstr "Conectores de eCommerce"
+
+msgid "2 plugins available"
+msgstr "2 plugins disponibles"
+
+msgid "Page Builder Forms"
+msgstr "Formularios de Page Builder"
+
+msgid "3 plugins available"
+msgstr "3 plugins disponibles"
+
+msgid "WP Core Connector"
+msgstr "Conector WP Core"
+
+msgid "1 plugin available"
+msgstr "1 plugin disponible"
+
+msgid "Free Plugins"
+msgstr "Plugins Gratuitos"
+
+msgid "12 plugins available"
+msgstr "12 plugins disponibles"
+
+msgid "Amazing Key Features"
+msgstr "Características Clave Asombrosas"
+
+msgid "Everything You Need to Sync Data"
+msgstr "Todo lo que Necesitas para Sincronizar Datos"
+
+msgid ""
+"Common features shared across every GSheetConnector Pro add-on built for "
+"reliability, flexibility, and scale."
+msgstr ""
+"Características comunes compartidas en cada complemento de GSheetConnector Pro, "
+"diseñadas para confiabilidad, flexibilidad y escalabilidad."
+
+msgid "Manual Sheet / Tab Name"
+msgstr "Nombre de Hoja / Pestaña Manual"
+
+msgid "Headers On / Off + Rename"
+msgstr "Encabezados Activar / Desactivar + Renombrar"
+
+msgid "Image / PDF Attachment Link"
+msgstr "Enlace de Archivo de Imagen / PDF"
+
+msgid "Upgrade to Pro"
+msgstr "Actualizar a Pro"
+
+msgid "View Full Features"
+msgstr "Ver Características Completas"
+
+msgid "Form"
+msgstr "Formulario"
+
+msgid "Processing"
+msgstr "Procesando"
+
+msgid "Sheet"
+msgstr "Hoja"
+
+msgid "Instant"
+msgstr "Instantáneo"
+
+msgid "Real-time updates"
+msgstr "Actualizaciones en tiempo real"
+
+msgid "100%"
+msgstr "100%"
+
+msgid "Accuracy"
+msgstr "Precisión"
+
+msgid "Flexible"
+msgstr "Flexible"
+
+msgid "Custom mapping"
+msgstr "Mapeo personalizado"
+
+msgid "Video Tutorials"
+msgstr "Tutoriales en Video"
+
+msgid "Google Sheet Not Connected"
+msgstr "Google Sheet No Conectado"
+
+msgid "Sheet URL"
+msgstr "URL de la Hoja"
+
+msgid "Permission To Access GSheetConnector WooCommerce"
+msgstr "Permiso para Acceder a GSheetConnector WooCommerce"
+
+msgid "Google Sheet to WooCommerce Sync Configuration"
+msgstr "Configuración de Sincronización de Google Sheet a WooCommerce"
+
+msgid "Connected WooCommerce Google Sheet"
+msgstr "Google Sheet de WooCommerce Conectado"
+
+msgid "Google Spreadsheet Name"
+msgstr "Nombre de la Hoja de Cálculo de Google"
+
+msgid "Google Spreadsheet URL"
+msgstr "URL de la Hoja de Cálculo de Google"
+
+msgid "View Spreadsheet"
+msgstr "Ver Hoja de Cálculo"
+
+msgid "Sync Settings for Two-Way Sync - Insert & Updates"
+msgstr ""
+"Configuraciones de Sincronización para Sincronización Bidireccional - Inserciones "
+"y Actualizaciones"
+
+msgid "Enter Rows Range - from"
+msgstr "Ingresa el Rango de Filas - desde"
+
+msgid "to"
+msgstr "hasta"
+
+msgid "Click to Sync Insert"
+msgstr "Haz clic para Sincronizar Inserción"
+
+msgid "Click to Sync Update"
+msgstr "Haz clic para Sincronizar Actualización"
+
+msgid "Sync Settings for Two-Way Sync - Order Status Updates"
+msgstr ""
+"Configuraciones de Sincronización para Sincronización Bidireccional - "
+"Actualizaciones de Estado de Pedido"
+
+msgid "Click to Order Status Sync Update"
+msgstr "Haga clic para actualizar el estado de sincronización del pedido"
+
+msgid "Sync Settings for Two-Way Sync - Insert Orders"
+msgstr ""
+"Configuraciones de sincronización para sincronización bidireccional - Insertar "
+"pedidos"
+
+msgid "Click to Sync Order"
+msgstr "Haga clic para sincronizar el pedido"
+
+msgid "WooCommerce Data Settings saved successfully."
+msgstr "Configuraciones de Datos de WooCommerce guardadas exitosamente."
+
+msgid "Please select Google Sheet Name and Check Atleast on Google Sheet Tab !"
+msgstr ""
+"¡Por favor selecciona el Nombre de la Hoja de Google y verifica al menos en la "
+"pestaña de Google Sheet!"
+
+msgid "Google Sheets Setup Required"
+msgstr "Configuración de Google Sheets Requerida"
+
+msgid "Your selected method is: "
+msgstr "Tu método seleccionado es: "
+
+msgid "Go to Integration Setup"
+msgstr "Ir a Configuración de Integración"
+
+msgid "Choose Google Spreadsheet"
+msgstr "Elegir Hoja de Cálculo de Google"
+
+msgid ""
+"Select a Google Sheets to connect your data. If your sheet is not listed, fetch "
+"the latest sheets or create a new one. Then complete the setup and save your "
+"changes to start syncing."
+msgstr ""
+"Selecciona un Google Sheets para conectar tus datos. Si tu hoja no está listada, "
+"obtén las hojas más recientes o crea una nueva. Luego completa la configuración y "
+"guarda tus cambios para comenzar a sincronizar."
+
+msgid "Sheet Name"
+msgstr "Nombre de la Hoja"
+
+msgid "Fetch Sheets"
+msgstr "Obtener hojas"
+
+msgid "If your sheets is not listed,  %s to fetch all Google Sheets. "
+msgstr "Si tus hojas no están listadas, %s para obtener todas las Hojas de Google."
+
+msgid "Last synced :"
+msgstr "Última sincronización :"
+
+msgid ""
+"Choose which order statuses should create separate tabs in your Google Sheet; when "
+"enabled, a new tab will be created for each selected status to help organize your "
+"data more clearly."
+msgstr ""
+"Elige qué estados de pedido deben crear pestañas separadas en tu Hoja de Google; "
+"cuando está habilitado, se creará una nueva pestaña para cada estado seleccionado "
+"para ayudar a organizar tus datos de manera más clara."
+
+msgid "All Orders"
+msgstr "Todos los Pedidos"
+
+msgid "Upgrade To Pro"
+msgstr "Actualizar a Pro"
+
+msgid "Translate Google Sheets Tab Names"
+msgstr "Traducir nombres de pestañas de Google Sheets"
+
+msgid "This setting displays tab names according to your WordPress site language."
+msgstr ""
+"Esta configuración muestra los nombres de las pestañas según el idioma de tu sitio "
+"de WordPress."
+
+msgid "Enable Language Translation"
+msgstr "Habilitar traducción de idioma"
+
+msgid ""
+"When enabled, Google Sheet tab names will be displayed in the language selected "
+"for your WordPress site."
+msgstr ""
+"Cuando esté habilitada, los nombres de las pestañas de Google Sheets se mostrarán "
+"en el idioma seleccionado para tu sitio de WordPress."
+
+msgid "Headers"
+msgstr "Encabezados"
+
+msgid ""
+"Custom order statuses will appear here. Turn them on to create a new tab for each "
+"in your Google Sheet."
+msgstr ""
+"Los estados de pedido personalizados aparecerán aquí. Actívalos para crear una "
+"nueva pestaña para cada uno en tu Hoja de Google."
+
+msgid "No custom order statuses are currently available."
+msgstr "Actualmente no hay estados de pedido personalizados disponibles."
+
+msgid ""
+"Enable additional Sheet tabs to sync more WooCommerce information to your Google "
+"Sheet. Each selected option will create and update its own tab automatically."
+msgstr ""
+"Habilita pestañas adicionales de Hoja para sincronizar más información de "
+"WooCommerce a tu Hoja de Google. Cada opción seleccionada creará y actualizará su "
+"propia pestaña automáticamente."
+
+msgid "All Products"
+msgstr "Todos los Productos"
+
+msgid "All Products Variation"
+msgstr "Todas las Variaciones de Productos"
+
+msgid "All Customers"
+msgstr "Todos los Clientes"
+
+msgid "All Coupons"
+msgstr "Todos los Cupones"
+
+msgid "All Subscriptions"
+msgstr "Todas las Suscripciones"
+
+msgid "Choose how orders should appear in your Google Sheet:"
+msgstr "Elige cómo deben aparecer los pedidos en tu Hoja de Google:"
+
+msgid "Order Wise :"
+msgstr "Por Pedido:"
+
+msgid "Each order is added as a single row, even if it contains multiple products."
+msgstr ""
+"Cada pedido se añade como una sola fila, incluso si contiene múltiples productos."
+
+msgid "Product Wise :"
+msgstr "Por Producto:"
+
+msgid ""
+"Each product in an order is added as a separate row, so you can see details for "
+"every item."
+msgstr ""
+"Cada producto en un pedido se añade como una fila separada, para que puedas ver "
+"los detalles de cada artículo."
+
+msgid ""
+"You can also choose how the entries are sorted (ascending or descending). Your "
+"selected format and sorting will be applied across all tabs in the sheet."
+msgstr ""
+"También puedes elegir cómo se ordenan las entradas (ascendente o descendente). Tu "
+"formato y orden seleccionado se aplicarán en todas las pestañas de la hoja."
+
+msgid "Select Sync Format"
+msgstr "Seleccionar Formato de Sincronización"
+
+msgid "Order Wise"
+msgstr "Por Pedido"
+
+msgid "Product Wise"
+msgstr "Por Producto"
+
+msgid "Sorting"
+msgstr "Ordenamiento"
+
+msgid "Ascending"
+msgstr "Ascendente"
+
+msgid "Descending"
+msgstr "Descendente"
+
+msgid "Order Category Filter"
+msgstr "Filtro de Categoría de Pedido"
+
+msgid ""
+"Filter orders by category before syncing to your Google Sheet. When enabled, only "
+"selected categories will be synced. When disabled, all orders will be included. "
+"This applies to adding, updating, and syncing orders."
+msgstr ""
+"Filtra los pedidos por categoría antes de sincronizarlos con tu Google Sheet. "
+"Cuando está habilitado, solo se sincronizarán las categorías seleccionadas. Cuando "
+"está deshabilitado, se incluirán todos los pedidos. Esto se aplica a agregar, "
+"actualizar y sincronizar pedidos."
+
+msgid "Select Category"
+msgstr "Seleccionar Categoría"
+
+msgid "Product Category Filter"
+msgstr "Filtro de Categoría de Producto"
+
+msgid ""
+"Filter products by category before syncing to your Google Sheet. When enabled, "
+"only selected categories will be synced. When disabled, all products will be "
+"included. This applies to adding, updating, and syncing products."
+msgstr ""
+"Filtra los productos por categoría antes de sincronizarlos con tu Google Sheet. "
+"Cuando está habilitado, solo se sincronizarán las categorías seleccionadas. Cuando "
+"está deshabilitado, se incluirán todos los productos. Esto se aplica a agregar, "
+"actualizar y sincronizar productos."
+
+msgid ""
+"Sync data between WooCommerce and Google Sheets in real-time. Enable this feature "
+"to manage orders, products, and more directly from your spreadsheet."
+msgstr ""
+"Sincroniza datos entre WooCommerce y Google Sheets en tiempo real. Habilita esta "
+"función para gestionar pedidos, productos y más directamente desde tu hoja de "
+"cálculo."
+
+msgid "Enable 2-Way Sync"
+msgstr "Habilitar Sincronización Bidireccional"
+
+msgid "Allow Google Sheets to update WooCommerce data."
+msgstr "Permitir que Google Sheets actualice los datos de WooCommerce."
+
+msgid "Select Sync Modules"
+msgstr "Seleccionar Módulos de Sincronización"
+
+msgid "Allowed Actions"
+msgstr "Acciones Permitidas"
+
+msgid "Insert"
+msgstr "Insertar"
+
+msgid "Update"
+msgstr "Actualizar"
+
+msgid "Delete"
+msgstr "Eliminar"
+
+msgid ""
+"Select fields to add as new columns in your sheet. Enter a column name for each "
+"field. These columns will be included when your data syncs."
+msgstr ""
+"Selecciona los campos para agregar como nuevas columnas en tu hoja. Ingresa un "
+"nombre de columna para cada campo. Estas columnas se incluirán cuando tus datos se "
+"sincronicen."
+
+msgid "Product Variation"
+msgstr "Variación de Producto"
+
+msgid "Additional Order Columns"
+msgstr "Columnas Adicionales de Pedido"
+
+msgid "Enter Column Name"
+msgstr "Ingresa Nombre de Columna"
+
+msgid "Add"
+msgstr "Agregar"
+
+msgid " Upgrade To Pro"
+msgstr "Actualizar a Pro"
+
+msgid "Additional Product Columns"
+msgstr "Columnas Adicionales de Producto"
+
+msgid "Additional Custom Columns"
+msgstr "Columnas Personalizadas Adicionales"
+
+msgid "Additional Empty Columns"
+msgstr "Columnas Vacías Adicionales"
+
+msgid "Enable All Columns"
+msgstr "Habilitar Todas las Columnas"
+
+msgid "Additional Product Variation Columns"
+msgstr "Columnas Adicionales de Variación de Producto"
+
+msgid "Cron Settings"
+msgstr "Configuraciones de Cron"
+
+msgid "Enable Cron Sync"
+msgstr "Habilitar Sincronización de Cron"
+
+msgid "Turn on automatic scheduling"
+msgstr "Activar programación automática"
+
+msgid "Set Schedule"
+msgstr "Establecer Horario"
+
+msgid "No Schedule"
+msgstr "Sin Horario"
+
+msgid "Choose Schedule Type"
+msgstr "Elegir Tipo de Horario"
+
+msgid "Repeat Weekly"
+msgstr "Repetir Semanalmente"
+
+msgid "Run Once"
+msgstr "Ejecutar una vez"
+
+msgid "How Often"
+msgstr "Con qué frecuencia"
+
+msgid "Select Day"
+msgstr "Seleccionar día"
+
+msgid "Time"
+msgstr "Hora"
+
+msgid "Real-Time Sync"
+msgstr "Sincronización en tiempo real"
+
+msgid "Sync instantly when new orders are created"
+msgstr "Sincronizar instantáneamente cuando se crean nuevos pedidos"
+
+msgid "Header Settings"
+msgstr "Configuraciones de encabezado"
+
+msgid ""
+"Customize the appearance and behavior of your sheet headers and rows for better "
+"readability and organization."
+msgstr ""
+"Personaliza la apariencia y el comportamiento de tus encabezados y filas para una "
+"mejor legibilidad y organización."
+
+msgid "Header Behavior"
+msgstr "Comportamiento del encabezado"
+
+msgid "Freeze Header"
+msgstr "Congelar encabezado"
+
+msgid "Header Style"
+msgstr "Estilo del encabezado"
+
+msgid "Header Appearance"
+msgstr "Apariencia del encabezado"
+
+msgid "Font Style"
+msgstr "Estilo de fuente"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Italic"
+msgstr "Cursiva"
+
+msgid "Bold"
+msgstr "Negrita"
+
+msgid "Font Size"
+msgstr "Tamaño de fuente"
+
+msgid "Select size"
+msgstr "Seleccionar tamaño"
+
+msgid "Font Color"
+msgstr "Color de fuente"
+
+msgid "Header Background"
+msgstr "Fondo del encabezado"
+
+msgid "Row Style"
+msgstr "Estilo de fila"
+
+msgid "Row Appearance"
+msgstr "Apariencia de fila"
+
+msgid "Odd Row Color"
+msgstr "Color de fila impar"
+
+msgid "Even Row Color"
+msgstr "Color de fila par"
+
+msgid "Spreadsheet Download"
+msgstr "Descarga de hoja de cálculo"
+
+msgid "Download"
+msgstr "Descargar"
+
+msgid "Google Sheets Data Sync"
+msgstr "Sincronización de datos de Google Sheets"
+
+msgid ""
+"Effortlessly sync your WooCommerce data with Google Sheets. Available options "
+"include Orders, Products, Product Variations, Customers, Coupons, and "
+"Subscriptions. Select only the sync types that best suit your needs. This ensures "
+"seamless integration and real-time updates for efficient data management."
+msgstr ""
+"Sincroniza sin esfuerzo tus datos de WooCommerce con Google Sheets. Las opciones "
+"disponibles incluyen Pedidos, Productos, Variaciones de Productos, Clientes, "
+"Cupones y Suscripciones. Selecciona solo los tipos de sincronización que mejor se "
+"adapten a tus necesidades. Esto garantiza una integración fluida y actualizaciones "
+"en tiempo real para una gestión de datos eficiente."
+
+msgid "Sync Orders"
+msgstr "Sincronizar Pedidos"
+
+msgid ""
+"Initiate the synchronization of your WooCommerce orders seamlessly with a single "
+"click. This ensures that your Google Sheet stays up-to-date with the latest order "
+"information, based on your configuration done above, providing you with real-time "
+"insights and streamlined data management. Optimize your workflow with the "
+"convenience of synchronized orders."
+msgstr ""
+"Inicia la sincronización de tus pedidos de WooCommerce sin problemas con un solo "
+"clic. Esto asegura que tu Google Sheet esté actualizado con la información más "
+"reciente de los pedidos, según la configuración que realizaste arriba, "
+"proporcionándote información en tiempo real y una gestión de datos optimizada. "
+"Optimiza tu flujo de trabajo con la conveniencia de pedidos sincronizados."
+
+msgid "From Date"
+msgstr "Desde Fecha"
+
+msgid "To Date"
+msgstr "Hasta Fecha"
+
+msgid "Order Status"
+msgstr "Estado del Pedido"
+
+msgid "Sync Products"
+msgstr "Sincronizar Productos"
+
+msgid ""
+"Initiate the synchronization of your WooCommerce products seamlessly with a single "
+"click. This ensures that your Google Sheet stays up-to-date with the latest "
+"product information, based on your configuration done above, providing you with "
+"real-time insights and streamlined data management. Before starting the sync, "
+"ensure that the products tab toggle is enabled to optimize your workflow with the "
+"convenience of synchronized product data."
+msgstr ""
+"Inicia la sincronización de tus productos de WooCommerce sin problemas con un solo "
+"clic. Esto asegura que tu Google Sheet esté actualizado con la información más "
+"reciente de los productos, según la configuración que realizaste arriba, "
+"proporcionándote información en tiempo real y una gestión de datos optimizada. "
+"Antes de comenzar la sincronización, asegúrate de que el interruptor de la pestaña "
+"de productos esté habilitado para optimizar tu flujo de trabajo con la "
+"conveniencia de datos de productos sincronizados."
+
+msgid "Sync Products Variation"
+msgstr "Sincronizar Variaciones de Productos"
+
+msgid ""
+"Initiate the synchronization of your WooCommerce products variations seamlessly "
+"with a single click. This ensures that your Google Sheet stays up-to-date with the "
+"latest product information, based on your configuration done above. If you are "
+"using variable products, then only data will be shown in the sheet. Before "
+"starting the sync, ensure that the products variation tab toggle is enabled to "
+"optimize your workflow with the convenience of synchronized product data."
+msgstr ""
+"Inicia la sincronización de tus variaciones de productos de WooCommerce sin "
+"problemas con un solo clic. Esto asegura que tu Google Sheet esté actualizado con "
+"la información más reciente de los productos, según la configuración que "
+"realizaste arriba. Si estás utilizando productos variables, solo se mostrarán "
+"datos en la hoja. Antes de comenzar la sincronización, asegúrate de que el "
+"interruptor de la pestaña de variaciones de productos esté habilitado para "
+"optimizar tu flujo de trabajo con la conveniencia de datos de productos "
+"sincronizados."
+
+msgid "Sync Customers"
+msgstr "Sincronizar Clientes"
+
+msgid ""
+"Initiate the synchronization of your WooCommerce Customers seamlessly with a "
+"single click. This ensures that your Google Sheet stays up-to-date with the latest "
+"order information, based on your configuration done above, providing you with real-"
+"time insights and streamlined data management. Optimize your workflow with the "
+"convenience of synchronized orders."
+msgstr ""
+"Inicia la sincronización de tus Clientes de WooCommerce sin problemas con un solo "
+"clic. Esto asegura que tu Google Sheet esté actualizado con la información más "
+"reciente de los pedidos, según la configuración que realizaste arriba, "
+"proporcionándote información en tiempo real y una gestión de datos optimizada. "
+"Optimiza tu flujo de trabajo con la conveniencia de pedidos sincronizados."
+
+msgid "Sync Coupons"
+msgstr "Sincronizar Cupones"
+
+msgid ""
+"Initiate the synchronization of your WooCommerce coupons seamlessly with a single "
+"click. This process ensures that your Google Sheet reflects the latest coupon "
+"information, following the configuration set above. Benefit from real-time "
+"insights and streamlined data management. Before starting the sync, confirm that "
+"the coupons tab toggle is enabled enhancing your workflow with the convenience of "
+"synchronized coupon data."
+msgstr ""
+"Inicia la sincronización de tus cupones de WooCommerce sin problemas con un solo "
+"clic. Este proceso asegura que tu Google Sheet refleje la información más reciente "
+"de los cupones, siguiendo la configuración establecida arriba. Benefíciate de "
+"información en tiempo real y una gestión de datos optimizada. Antes de comenzar la "
+"sincronización, confirma que el interruptor de la pestaña de cupones esté "
+"habilitado, mejorando tu flujo de trabajo con la conveniencia de datos de cupones "
+"sincronizados."
+
+msgid "Sync Subscriptions"
+msgstr "Sincronizar Suscripciones"
+
+msgid "View Documentation"
+msgstr "Ver Documentación"
+
+msgid "Get Support"
+msgstr "Obtener Soporte"
+
+msgid ""
+"GSheetConnector WooCommerce Add-on requires WooCommerce plugin to be installed and "
+"activated."
+msgstr ""
+"GSheetConnector WooCommerce Add-on requiere que el plugin de WooCommerce esté "
+"instalado y activado."
+
+msgid "https://wordpress.org/plugins/wc-gsheetconnector/"
+msgstr "https://wordpress.org/plugins/wc-gsheetconnector/"
+
+msgid "Send your WooCommerce data to your Google Sheets spreadsheet."
+msgstr "Envía tus datos de WooCommerce a tu hoja de cálculo de Google Sheets."
+
+msgid "GSheetConnector"
+msgstr "GSheetConnector"
+
+msgid "https://www.gsheetconnector.com/"
+msgstr "https://www.gsheetconnector.com/"

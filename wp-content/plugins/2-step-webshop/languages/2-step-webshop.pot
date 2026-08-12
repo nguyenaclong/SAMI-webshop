@@ -1,0 +1,138 @@
+# Copyright (C) 2026 AI Assistant
+# This file is distributed under the same license as the Custom Shop Plugin plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Shop Plugin 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/2-step-webshop\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-01T14:01:39+07:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: 2-step-webshop\n"
+
+#. Plugin Name of the plugin
+#: 2-step-webshop.php
+msgid "Custom Shop Plugin"
+msgstr ""
+
+#. Description of the plugin
+#: 2-step-webshop.php
+msgid "Standalone plugin for the Custom Shop Layout, independent of themes."
+msgstr ""
+
+#. Author of the plugin
+#: 2-step-webshop.php
+msgid "AI Assistant"
+msgstr ""
+
+#: 2-step-webshop.php:55
+#: includes/class-settings.php:31
+#: includes/class-settings.php:49
+#: templates/custom-shop-layout.php:24
+msgid "Your Daily Fresh Products"
+msgstr ""
+
+#: includes/class-customizer.php:148
+msgid "Custom Shop Layout"
+msgstr ""
+
+#: includes/class-customizer.php:149
+msgid "Customize the buttons and styles for the Custom Shop Layout."
+msgstr ""
+
+#: includes/class-customizer.php:164
+msgid "Button Background Color"
+msgstr ""
+
+#: includes/class-customizer.php:176
+msgid "Button Hover Background Color"
+msgstr ""
+
+#: includes/class-customizer.php:188
+msgid "Button Text Color"
+msgstr ""
+
+#: includes/class-customizer.php:200
+msgid "Button Hover Text Color"
+msgstr ""
+
+#: includes/class-customizer.php:212
+msgid "Button Border Radius (px)"
+msgstr ""
+
+#: includes/class-customizer.php:234
+msgid "Text Color"
+msgstr ""
+
+#: includes/class-customizer.php:250
+msgid "Link Color"
+msgstr ""
+
+#: includes/class-customizer.php:262
+msgid "Link Hover Color"
+msgstr ""
+
+#: includes/class-settings.php:16
+#: includes/class-settings.php:39
+msgid "Custom Shop Settings"
+msgstr ""
+
+#: includes/class-settings.php:17
+msgid "Custom Shop"
+msgstr ""
+
+#: includes/class-settings.php:47
+msgid "Sidebar Paragraph Text"
+msgstr ""
+
+#: includes/class-settings.php:50
+msgid "The short tagline rendered below the logo on the custom shop sidebar."
+msgstr ""
+
+#: includes/class-shortcode.php:22
+msgid "Please select all product options"
+msgstr ""
+
+#: includes/class-shortcode.php:23
+msgid "Please select valid product options."
+msgstr ""
+
+#: includes/class-shortcode.php:24
+msgid "Error adding to cart"
+msgstr ""
+
+#: includes/class-shortcode.php:25
+msgid "Are you sure you want to clear the cart?"
+msgstr ""
+
+#: templates/custom-shop-layout.php:31
+#: templates/custom-shop-layout.php:188
+msgid "Search"
+msgstr ""
+
+#: templates/custom-shop-layout.php:33
+msgid "Search products..."
+msgstr ""
+
+#: templates/custom-shop-layout.php:43
+#: templates/custom-shop-layout.php:191
+msgid "Categories"
+msgstr ""
+
+#: templates/custom-shop-layout.php:119
+msgid "Additives:"
+msgstr ""
+
+#: templates/custom-shop-layout.php:203
+msgid "item"
+msgid_plural "items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/custom-shop-layout.php:207
+msgid "Clear Cart"
+msgstr ""
