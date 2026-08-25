@@ -1333,7 +1333,7 @@ if ( ! class_exists( 'cmplz_cookiebanner' ) ) {
 
 			$store_consent         = cmplz_ab_testing_enabled() || cmplz_get_option( 'a_b_testing' ) || cmplz_get_option( 'records_of_consent' ) === 'yes';
 			$this->dismiss_timeout = $this->dismiss_on_timeout ? 1000 * $this->dismiss_timeout : false;
-			$upload_url            = is_ssl() ? str_replace( 'http://', 'https://', cmplz_upload_url() ) : cmplz_upload_url();
+			$upload_url            = cmplz_https_upload_url();
 			// check if the css file exists. if not, use default.
 			$css_file  = $upload_url . 'css/banner-{banner_id}-{type}.css';
 			$banner_id = $this->ID;

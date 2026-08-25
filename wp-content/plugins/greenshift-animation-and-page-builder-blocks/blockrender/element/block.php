@@ -886,7 +886,7 @@ class Element
 			}
 			if(!empty($overrides)){
 				if(!empty($overrides['textContent'])){
-					$html = str_replace($block['attrs']['textContent'], esc_html($overrides['textContent']), $html);
+					$html = str_replace($block['attrs']['textContent'], wp_kses_post($overrides['textContent']), $html);
 				}
 				if(!empty($overrides['src']) || !empty($overrides['alt']) || !empty($overrides['href']) || !empty($overrides['title']) || !empty($overrides['poster']) || !empty($overrides['className'])){
 					$p = new \WP_HTML_Tag_Processor( $html );

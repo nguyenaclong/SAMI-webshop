@@ -1023,54 +1023,20 @@ class TSW_Checkout {
     public static function get_translated_shop_url() {
         $lang = function_exists( 'pll_current_language' ) ? pll_current_language() : '';
         if ( function_exists( 'pll_get_post' ) && $lang ) {
-            $webshop_page = get_page_by_path( 'webshop' );
-            if ( $webshop_page ) {
-                $translated_id = pll_get_post( $webshop_page->ID, $lang );
-                if ( $translated_id ) {
-                    return get_permalink( $translated_id );
-                }
-            }
-        }
-
-        $custom_url = get_option( 'pickup_return_to_shop_url' );
         if ( ! empty( $custom_url ) ) {
-            return esc_url( $custom_url );
-        }
-
-        $page = get_page_by_path( 'webshop' );
-        if ( $page ) {
-            if ( function_exists( 'pll_get_post' ) ) {
-                $translated_id = pll_get_post( $page->ID );
-                if ( $translated_id ) {
                     return get_permalink( $translated_id );
                 }
-            }
             return get_permalink( $page->ID );
         }
 
-        if ( function_exists( 'pll_home_url' ) ) {
             return user_trailingslashit( pll_home_url() . 'webshop' );
         }
         return home_url( '/webshop/' );
     }
 
     /**
-     * Custom admin notification email recipient filter
-     */
-    public function custom_admin_email_recipients( $recipient, $order, $email ) {
-        $custom_recipients = get_option( 'tsw_admin_notification_emails', '' );
-        if ( ! empty( $custom_recipients ) ) {
-            return $custom_recipients;
-        }
-        return $recipient;
-    }
-
-    /**
-     * Helper to determine order/locale language code ('de' or 'en')
-     */
     protected function tsw_get_order_language_code( $order ) {
         $locale = get_locale();
-        if ( $order && is_a( $order, 'WC_Order' ) ) {
             $order_lang = $order->get_meta( '_order_language' );
             if ( ! empty( $order_lang ) ) {
                 $locale = $order_lang;
@@ -1084,8 +1050,6 @@ class TSW_Checkout {
      */
     public function filter_customer_email_subject( $subject, $order ) {
         if ( get_option( 'tsw_email_enable_custom_templates', 'no' ) === 'yes' ) {
-            $lang = $this->tsw_get_order_language_code( $order );
-            $custom_subject = get_option( 'tsw_customer_email_subject_' . $lang );
             if ( empty( $custom_subject ) ) {
                 $custom_subject = get_option( 'tsw_customer_email_subject', tsw_get_default_customer_email_subject( $lang ) );
             }

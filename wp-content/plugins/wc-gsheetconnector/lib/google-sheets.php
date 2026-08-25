@@ -9,6 +9,7 @@ class GSCWOO_googlesheet
 	
 	private $spreadsheet;
 	private $worksheet;
+	private $header_row_cache = array();
 
 
 
@@ -22,6 +23,43 @@ private static function creds()
 	return is_multisite()
 	? get_site_option('wcgsc_api_free_creds')
 	: get_option('wcgsc_api_free_creds');
+}
+
+/**
+ * Perform an HTTP request with a bounded retry on 429 (rate-limited) responses.
+ *
+ * Behaves identically to a single wp_remote_get()/wp_remote_post()/wp_remote_request()
+ * call for any non-429 outcome (success or any other error) — same arguments, same
+ * return shape. Only a 429 response triggers a short wait (honoring the Retry-After
+ * header when present) and a retry, capped at $max_retries additional attempts.
+ *
+ * @since 1.4.10
+ *
+ * @param string $method      'get', 'post', or 'request' (for wp_remote_request, e.g. PUT).
+ * @param string $url         Request URL.
+ * @param array  $args        Arguments passed through to the underlying wp_remote_* call.
+ * @param int    $max_retries Maximum number of retries after the initial attempt.
+ * @return array|WP_Error Same return shape as the underlying wp_remote_* function.
+ */
+private function wp_remote_with_retry( $method, $url, $args = array(), $max_retries = 2 ) {
+	for ( $attempt = 0; $attempt <= $max_retries; $attempt++ ) {
+		if ( 'post' === $method ) {
+			$response = wp_remote_post( $url, $args );
+		} elseif ( 'get' === $method ) {
+			$response = wp_remote_get( $url, $args );
+		} else {
+			$response = wp_remote_request( $url, $args );
+		}
+
+		if ( is_wp_error( $response ) || 429 !== wp_remote_retrieve_response_code( $response ) || $attempt === $max_retries ) {
+			return $response;
+		}
+
+		$retry_after = wp_remote_retrieve_header( $response, 'retry-after' );
+		sleep( min( is_numeric( $retry_after ) ? (int) $retry_after : ( 2 ** $attempt ), 5 ) );
+	}
+
+	return $response;
 }
 
 /**
@@ -312,6 +350,8 @@ private function token()
  * @return void
  */
 public static function updateToken( $tokenData ) {
+	delete_transient( 'wcgsc_email_account_cache' );
+
   // Invalid token response
 	if (empty($tokenData['access_token'])) {
 
@@ -447,7 +487,8 @@ public function get_worktabs($spreadsheet_id)
 			return [];
 		}
 
-		$response = wp_remote_get(
+		$response = $this->wp_remote_with_retry(
+			'get',
 			"https://sheets.googleapis.com/v4/spreadsheets/{$spreadsheet_id}",
 			[
 				'headers' => [
@@ -865,11 +906,11 @@ public function remove_row_by_order_id( $spreadsheet_id, $tab_name, $order_id, $
 			return false;
 		}
 
-        // 3. FETCH SHEET DATA (A1:Z)
+        // 3. FETCH SHEET DATA (A1:ZZ)
 		$url = "https://sheets.googleapis.com/v4/spreadsheets/{$spreadsheet_id}/values/"
-		. rawurlencode( $tab_name . '!A1:Z' );
+		. rawurlencode( $tab_name . '!A1:ZZ' );
 
-		$response = wp_remote_get( $url, [
+		$response = $this->wp_remote_with_retry( 'get', $url, [
 			'headers' => [
 				'Authorization' => 'Bearer ' . $token,
 			],
@@ -920,7 +961,7 @@ public function remove_row_by_order_id( $spreadsheet_id, $tab_name, $order_id, $
 			],
 		];
 
-		$delete_response = wp_remote_post( $delete_url, [
+		$delete_response = $this->wp_remote_with_retry( 'post', $delete_url, [
 			'headers' => [
 				'Authorization' => 'Bearer ' . $token,
 				'Content-Type'  => 'application/json',
@@ -1026,8 +1067,9 @@ public function update_row_by_order_id( $spreadsheet_id, $tab_name, $row_data, $
          * GET SHEET DATA
          * ===============================
          */
-        $full_range_response = wp_remote_get(
-        	"https://sheets.googleapis.com/v4/spreadsheets/{$spreadsheet_id}/values/" . urlencode( $tab_name . '!A1:Z' ),
+        $full_range_response = $this->wp_remote_with_retry(
+        	'get',
+        	"https://sheets.googleapis.com/v4/spreadsheets/{$spreadsheet_id}/values/" . urlencode( $tab_name . '!A1:ZZ' ),
         	[
         		'headers' => [
         			'Authorization' => 'Bearer ' . $token,
@@ -1104,9 +1146,10 @@ public function update_row_by_order_id( $spreadsheet_id, $tab_name, $row_data, $
              * DESC INSERT
              */
             if ( $asc_desc_sorting === 'DESC' ) {
-            	$range = $tab_name . '!A2:Z';
+            	$range = $tab_name . '!A2:ZZ';
 
-            	$response = wp_remote_request(
+            	$response = $this->wp_remote_with_retry(
+            		'request',
             		"https://sheets.googleapis.com/v4/spreadsheets/{$spreadsheet_id}/values/" . urlencode( $range ) . '?valueInputOption=USER_ENTERED',
             		[
             			'method'  => 'PUT',
@@ -1129,7 +1172,8 @@ public function update_row_by_order_id( $spreadsheet_id, $tab_name, $row_data, $
                  */
                 $range = $tab_name;
 
-                $response = wp_remote_post(
+                $response = $this->wp_remote_with_retry(
+                	'post',
                 	"https://sheets.googleapis.com/v4/spreadsheets/{$spreadsheet_id}/values/" . urlencode( $range ) . ":append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS",
                 	[
                 		'headers' => [
@@ -1166,9 +1210,10 @@ public function update_row_by_order_id( $spreadsheet_id, $tab_name, $row_data, $
         		$row++;
         	}
 
-        	$range = $tab_name . '!A' . $row . ':Z';
+        	$range = $tab_name . '!A' . $row . ':ZZ';
 
-        	$response = wp_remote_request(
+        	$response = $this->wp_remote_with_retry(
+        		'request',
         		"https://sheets.googleapis.com/v4/spreadsheets/{$spreadsheet_id}/values/" . urlencode( $range ) . '?valueInputOption=USER_ENTERED',
         		[
         			'method'  => 'PUT',
@@ -1239,8 +1284,6 @@ public function add_row_to_sheet( $spreadsheet_id, $tab_name, $row_data, $order,
 			return false;
 		}
 
-		$tab_id = $this->getTabId( $spreadsheet_id, $tab_name );
-
 		$asc_desc_sorting = get_option( 'asc_desc_sorting', 'ASC' );
 
     /*
@@ -1248,7 +1291,8 @@ public function add_row_to_sheet( $spreadsheet_id, $tab_name, $row_data, $order,
      * GET HEADER ROW
      * =========================
      */
-    $header_response = wp_remote_get(
+    $header_response = $this->wp_remote_with_retry(
+    	'get',
     	"https://sheets.googleapis.com/v4/spreadsheets/{$spreadsheet_id}/values/" . urlencode( $tab_name . '!1:1' ),
     	[
     		'headers' => [
@@ -1287,7 +1331,8 @@ public function add_row_to_sheet( $spreadsheet_id, $tab_name, $row_data, $order,
 
     	$row_data = str_replace( '&#039;', "'", $row_data );
 
-    	$response = wp_remote_request(
+    	$response = $this->wp_remote_with_retry(
+    		'request',
     		"https://sheets.googleapis.com/v4/spreadsheets/{$spreadsheet_id}/values/" .
     		urlencode( $tab_name . '!1:1' ) .
     		'?valueInputOption=RAW',
@@ -1320,9 +1365,10 @@ public function add_row_to_sheet( $spreadsheet_id, $tab_name, $row_data, $order,
      * GET SHEET DATA
      * =========================
      */
-    $full_range_response = wp_remote_get(
+    $full_range_response = $this->wp_remote_with_retry(
+    	'get',
     	"https://sheets.googleapis.com/v4/spreadsheets/{$spreadsheet_id}/values/" .
-    	urlencode( $tab_name . '!A1:Z' ),
+    	urlencode( $tab_name . '!A1:ZZ' ),
     	[
     		'headers' => [
     			'Authorization' => 'Bearer ' . $token,
@@ -1377,7 +1423,10 @@ public function add_row_to_sheet( $spreadsheet_id, $tab_name, $row_data, $order,
      */
     if ( $asc_desc_sorting === 'DESC' ) {
 
-    	wp_remote_post(
+    	$tab_id = $this->getTabId( $spreadsheet_id, $tab_name );
+
+    	$insert_dimension_response = $this->wp_remote_with_retry(
+    		'post',
     		"https://sheets.googleapis.com/v4/spreadsheets/{$spreadsheet_id}:batchUpdate",
     		[
     			'headers' => [
@@ -1401,6 +1450,22 @@ public function add_row_to_sheet( $spreadsheet_id, $tab_name, $row_data, $order,
     			]),
     		]
     	);
+
+    	if ( is_wp_error( $insert_dimension_response ) ) {
+    		wc_gsheetconnector_utility::gs_debug_log(
+    			'Insert dimension failed: ' . $insert_dimension_response->get_error_message()
+    		);
+    		return false;
+    	}
+
+    	$insert_dimension_code = wp_remote_retrieve_response_code( $insert_dimension_response );
+
+    	if ( ! in_array( $insert_dimension_code, [ 200, 201 ], true ) ) {
+    		wc_gsheetconnector_utility::gs_debug_log(
+    			'Insert dimension failed: ' . wp_remote_retrieve_body( $insert_dimension_response )
+    		);
+    		return false;
+    	}
     }
 
     /*
@@ -1410,9 +1475,10 @@ public function add_row_to_sheet( $spreadsheet_id, $tab_name, $row_data, $order,
      */
     if ( $asc_desc_sorting === 'DESC' ) {
 
-    	$range = $tab_name . '!A2:Z';
+    	$range = $tab_name . '!A2:ZZ';
 
-    	$response = wp_remote_request(
+    	$response = $this->wp_remote_with_retry(
+    		'request',
     		"https://sheets.googleapis.com/v4/spreadsheets/{$spreadsheet_id}/values/" .
     		urlencode( $range ) .
     		'?valueInputOption=USER_ENTERED',
@@ -1432,7 +1498,8 @@ public function add_row_to_sheet( $spreadsheet_id, $tab_name, $row_data, $order,
 
     	$range = $tab_name;
 
-    	$response = wp_remote_post(
+    	$response = $this->wp_remote_with_retry(
+    		'post',
     		"https://sheets.googleapis.com/v4/spreadsheets/{$spreadsheet_id}/values/" .
     		urlencode( $range ) .
     		":append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS",
@@ -1494,6 +1561,30 @@ public function add_row_to_sheet( $spreadsheet_id, $tab_name, $row_data, $order,
  */
 public function get_header_row( $spreadsheet_id, $tab_name ) {
 
+	$cache_key = $spreadsheet_id . '|' . $tab_name;
+
+	if ( array_key_exists( $cache_key, $this->header_row_cache ) ) {
+		return $this->header_row_cache[ $cache_key ];
+	}
+
+	$header_cells = $this->fetch_header_row( $spreadsheet_id, $tab_name );
+
+	$this->header_row_cache[ $cache_key ] = $header_cells;
+
+	return $header_cells;
+}
+
+/**
+ * Fetch header row cells from a worksheet tab via the Google Sheets API.
+ *
+ * Unmemoized implementation; called by get_header_row() on a cache miss.
+ *
+ * @param string $spreadsheet_id Google Spreadsheet ID.
+ * @param string $tab_name Worksheet tab title/ID.
+ * @return array Header row values.
+ */
+private function fetch_header_row( $spreadsheet_id, $tab_name ) {
+
 	$header_cells = [];
 
 	try {
@@ -1507,7 +1598,8 @@ public function get_header_row( $spreadsheet_id, $tab_name ) {
     /*
      * STEP 1: GET SHEET META
      */
-    $meta_response = wp_remote_get(
+    $meta_response = $this->wp_remote_with_retry(
+    	'get',
     	"https://sheets.googleapis.com/v4/spreadsheets/{$spreadsheet_id}",
     	[
     		'headers' => [
@@ -1544,7 +1636,8 @@ public function get_header_row( $spreadsheet_id, $tab_name ) {
          */
         $range = $title . '!1:1';
 
-        $header_response = wp_remote_get(
+        $header_response = $this->wp_remote_with_retry(
+        	'get',
         	"https://sheets.googleapis.com/v4/spreadsheets/{$spreadsheet_id}/values/" . urlencode($range),
         	[
         		'headers' => [
@@ -1599,6 +1692,12 @@ public function gsheet_print_google_account_email()
 {
 	try {
 
+		$cached_email = get_transient( 'wcgsc_email_account_cache' );
+
+		if ( false !== $cached_email ) {
+			return $cached_email;
+		}
+
 		$token = $this->token();
 
 		if (!$token) {
@@ -1646,6 +1745,8 @@ public function gsheet_print_google_account_email()
 			'wcgsc_email_account',
 			$email
 		);
+
+		set_transient( 'wcgsc_email_account_cache', $email, HOUR_IN_SECONDS );
 
 		return $email;
 

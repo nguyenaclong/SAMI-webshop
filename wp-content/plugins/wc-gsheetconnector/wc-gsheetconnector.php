@@ -6,11 +6,10 @@
  * Description: Send your WooCommerce data to your Google Sheets spreadsheet.
  * Author: GSheetConnector
  * Author URI: https://www.gsheetconnector.com/
- * Version: 1.4.9
+ * Version: 1.4.10
  * Text Domain: wc-gsheetconnector
  * Domain Path: /languages
  * WooCommerce requires at least: 3.2.0
- * Requires Plugins: woocommerce
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
@@ -22,6 +21,13 @@ if (!defined('ABSPATH')) {
 if (wc_gsheetconnector_Init::wcgsc_is_plugin_active('wc_gsheetconnector_Init_Pro')) {
     return;
 }
+
+// Declare HPOS (High-Performance Order Storage) compatibility.
+add_action('before_woocommerce_init', function () {
+    if (class_exists(\Automattic\WooCommerce\Utilities\FeaturesUtil::class)) {
+        \Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility('custom_order_tables', __FILE__, true);
+    }
+});
 
 /*freemius*/
 if (function_exists('is_plugin_active') && is_plugin_active('wc-gsheetconnector/wc-gsheetconnector.php')) {
@@ -71,8 +77,8 @@ if (function_exists('is_plugin_active') && is_plugin_active('wc-gsheetconnector/
 /*freemius*/
 
 // Declare some global constants
-define('WC_GSHEETCONNECTOR_VERSION', '1.4.9');
-define('WC_GSHEETCONNECTOR_DB_VERSION', '1.4.9');
+define('WC_GSHEETCONNECTOR_VERSION', '1.4.10');
+define('WC_GSHEETCONNECTOR_DB_VERSION', '1.4.10');
 define('WC_GSHEETCONNECTOR_ROOT', dirname(__FILE__));
 define('WC_GSHEETCONNECTOR_URL', plugins_url('/', __FILE__));
 define('WC_GSHEETCONNECTOR_BASE_FILE', basename(dirname(__FILE__)) . '/wc-gsheetconnector.php');

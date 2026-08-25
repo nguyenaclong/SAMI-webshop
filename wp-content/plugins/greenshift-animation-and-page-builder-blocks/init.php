@@ -9,6 +9,77 @@ if (!defined('ABSPATH')) {
 // Functions to render conditional styles
 //////////////////////////////////////////////////////////////////
 $global_gs_options = get_option('gspb_global_settings');
+
+// WordPress 7.1+ themes can define custom responsive breakpoints in theme.json
+// (settings.viewport). Values there are inclusive upper boundaries of a device
+// range (`width <= value`), so theme.json "mobile" matches the GreenShift
+// Tablet point and theme.json "tablet" matches the GreenShift Desktop point.
+function gspb_get_theme_json_breakpoints()
+{
+	static $theme_breakpoints = null;
+	if (null !== $theme_breakpoints) {
+		return $theme_breakpoints;
+	}
+
+	$theme_breakpoints = array();
+
+	if (!function_exists('wp_get_global_settings')) {
+		return $theme_breakpoints;
+	}
+
+	$viewport = wp_get_global_settings(array('viewport'));
+	if (empty($viewport) || !is_array($viewport)) {
+		$theme_breakpoints = apply_filters('gspb_theme_json_breakpoints', $theme_breakpoints);
+		return $theme_breakpoints;
+	}
+
+	// Same validation as WP_Theme_JSON: numeric px/em/rem only, 16px base for em/rem.
+	$to_px = function ($value) {
+		if (!is_string($value) || !preg_match('/^\s*(\d+|\d*\.\d+)(px|em|rem)\s*$/', $value, $matches)) {
+			return null;
+		}
+		return ('px' === $matches[2]) ? (float) $matches[1] : (float) $matches[1] * 16;
+	};
+
+	$mobile_px = isset($viewport['mobile']) ? $to_px($viewport['mobile']) : null;
+	$tablet_px = isset($viewport['tablet']) ? $to_px($viewport['tablet']) : null;
+
+	// GreenShift points are exclusive range starts and its max-width queries
+	// subtract 0.02, so shift the inclusive theme.json boundary up by 0.02.
+	if (null !== $mobile_px) {
+		$theme_breakpoints['tablet'] = (int) round($mobile_px + 0.02);
+	}
+	if (null !== $tablet_px && (null === $mobile_px || $tablet_px > $mobile_px)) {
+		$theme_breakpoints['desktop'] = (int) round($tablet_px + 0.02);
+	}
+
+	$theme_breakpoints = apply_filters('gspb_theme_json_breakpoints', $theme_breakpoints);
+
+	return $theme_breakpoints;
+}
+
+function gspb_apply_theme_json_breakpoints($breakpoints)
+{
+	$theme_breakpoints = gspb_get_theme_json_breakpoints();
+	if (empty($theme_breakpoints)) {
+		return $breakpoints;
+	}
+
+	if (!empty($theme_breakpoints['tablet'])) {
+		$breakpoints['tablet'] = $theme_breakpoints['tablet'];
+	}
+	if (!empty($theme_breakpoints['desktop'])) {
+		$breakpoints['desktop'] = $theme_breakpoints['desktop'];
+	}
+	// The portrait mobile point has no theme.json counterpart; keep it below the
+	// tablet point so device ranges stay ordered.
+	if (intval($breakpoints['mobile']) > intval($breakpoints['tablet'])) {
+		$breakpoints['mobile'] = intval($breakpoints['tablet']);
+	}
+
+	return $breakpoints;
+}
+
 function gspb_get_breakpoints()
 {
 	// defaults breakpoints.
@@ -33,6 +104,10 @@ function gspb_get_breakpoints()
 
 		if (!empty($gsbp_custom_breakpoints['desktop'])) {
 			$gsbp_breakpoints['desktop'] = trim($gsbp_custom_breakpoints['desktop']);
+		}
+
+		if (!empty($gs_settings['breakpoints_theme_json'])) {
+			$gsbp_breakpoints = gspb_apply_theme_json_breakpoints($gsbp_breakpoints);
 		}
 	}
 
@@ -756,25 +831,25 @@ function gspb_greenShift_register_scripts_blocks(){
 		'greenShift-library-editor',
 		GREENSHIFT_DIR_URL . 'build/gspbLibrary.css',
 		'',
-		'13.1.4'
+		'13.1.7'
 	);
 	wp_register_style(
 		'greenShift-block-css', // Handle.
 		GREENSHIFT_DIR_URL . 'build/index.css', // Block editor CSS.
 		array('greenShift-library-editor', 'wp-edit-blocks'),
-		'13.1.4'
+		'13.1.7'
 	);
 	wp_register_style(
 		'greenShift-stylebook-css', // Handle.
 		GREENSHIFT_DIR_URL . 'build/gspbStylebook.css', // Block editor CSS.
 		array(),
-		'13.1.4'
+		'13.1.7'
 	);
 	wp_register_style(
 		'greenShift-admin-css', // Handle.
 		GREENSHIFT_DIR_URL . 'templates/admin/style.css', // admin css
 		array(),
-		'13.1.4'
+		'13.1.7'
 	);
 
 	//Script for ajax reusable loading
@@ -1838,6 +1913,7 @@ function gspb_greenShift_editor_assets()
 
 	$index_asset_file = include(GREENSHIFT_DIR_PATH . 'build/index.asset.php');
 	$library_asset_file = include(GREENSHIFT_DIR_PATH . 'build/gspbLibrary.asset.php');
+	$custom_editor_asset_file = include(GREENSHIFT_DIR_PATH . 'build/gspbCustomEditor.asset.php');
 
 	wp_register_script(
 		'greenShift-site-editor-js',
@@ -1864,7 +1940,7 @@ function gspb_greenShift_editor_assets()
 		'greenShift-editor-js',
 		GREENSHIFT_DIR_URL . 'build/gspbCustomEditor.js',
 		array('greenShift-library-script', 'jquery', 'wp-data', 'wp-element'),
-		$index_asset_file['version'],
+		$custom_editor_asset_file['version'],
 		true
 	);
 	wp_set_script_translations('greenShift-editor-js', 'greenshift-animation-and-page-builder-blocks');
@@ -2083,11 +2159,24 @@ function gspb_greenShift_editor_assets()
 	$disabled_blocks = array_unique($disabled_blocks);
 	$disabled_variations = array_unique($disabled_variations);
 
+	// Editor previews follow theme.json viewport breakpoints by default (WP 7.1+),
+	// so GreenShift device previews match the core responsive engine. On frontend
+	// theme.json values apply only with the "Overwrite breakpoints by theme.json"
+	// option, which gspb_get_breakpoints() already handles.
+	$editor_breakpoints = gspb_apply_theme_json_breakpoints(gspb_get_breakpoints());
+
 	//$updatelink = str_replace('greenshift_dashboard-addons', 'greenshift_dashboard-pricing', $addonlink);
 	$localize_array = 		array(
 		'ajaxUrl' => admin_url('admin-ajax.php'),
 		'pluginURL' => GREENSHIFT_DIR_URL,
 		'rowDefault' => apply_filters('gspb_default_row_width_px', $row),
+		'breakpoints' => array(
+			'mobile' => intval($editor_breakpoints['mobile']),
+			'tablet' => intval($editor_breakpoints['tablet']),
+			'desktop' => intval($editor_breakpoints['desktop']),
+			'themeJson' => !empty(gspb_get_theme_json_breakpoints()),
+			'themeJsonOverride' => !empty($sitesettings['breakpoints_theme_json']),
+		),
 		'theme' => $themename,
 		'isRehub' => ($themename == 'rehub-theme'),
 		'isSaveInline' => (!empty($gspb_css_save) && $gspb_css_save == 'inlineblock') ? '1' : '',

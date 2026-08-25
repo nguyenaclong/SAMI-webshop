@@ -60,6 +60,10 @@ public function wcgsc_free_paginate_feed_list() {
 
   check_ajax_referer( 'wcgsc-pagination', 'security' );
 
+  if ( ! current_user_can( 'manage_options' ) ) {
+    wp_send_json_error( 'Unauthorized', 403 );
+  }
+
   $result = $this->wcgsc_render_feed_page();
 
   wp_send_json_success( $result );
@@ -143,6 +147,10 @@ public function wcgsc_log_systeminfo() {
         // nonce check
  check_ajax_referer( 'wcgsc-ajax-nonce', 'security' );
 
+ if ( ! current_user_can( 'manage_options' ) ) {
+  wp_send_json_error( 'Unauthorized', 403 );
+ }
+
  $wp_filesystem = $this->wcgsc_init_filesystem();
 
  $log_file = WP_CONTENT_DIR . '/debug.log';
@@ -190,6 +198,10 @@ return $wp_filesystem;
 public function wcgsc_clear_logs() {
 	    // nonce check
  check_ajax_referer( 'wcgsc-ajax-nonce', 'security' );
+
+ if ( ! current_user_can( 'manage_options' ) ) {
+  wp_send_json_error( 'Unauthorized', 403 );
+ }
 
  $wcexistDebugFile = get_option('wcfgs_debug_log_file');
  $clear_file_msg = '';
@@ -266,6 +278,10 @@ public function wcgsc_verify_integration($Code = "") {
 			// nonce check
  check_ajax_referer( 'wcgsc-ajax-nonce', 'security' );
 
+ if ( ! current_user_can( 'manage_options' ) ) {
+  wp_send_json_error( 'Unauthorized', 403 );
+ }
+
  /* validate and sanitize incoming data */
  if ( isset( $_POST['code'] ) ) {
   $Code = sanitize_text_field( wp_unslash( $_POST['code'] ) );
@@ -312,12 +328,17 @@ public function wcgsc_deactivate_integration() {
 		// nonce check
  check_ajax_referer( 'wcgsc-ajax-nonce', 'security' );
 
+ if ( ! current_user_can( 'manage_options' ) ) {
+  wp_send_json_error( 'Unauthorized', 403 );
+ }
+
  if ( get_option( 'wcgsc_token' ) !== '' ) {
   delete_option( 'wcgsc_feeds' );
   delete_option( 'wcgsc_sheetId' );
   delete_option( 'wcgsc_token' );
   delete_option( 'wcgsc_access_code' );
   delete_option( 'wcgsc_verify' );
+  delete_transient( 'wcgsc_email_account_cache' );
 
   wp_send_json_success();
 } else {
@@ -343,6 +364,10 @@ public function wcgsc_sync_google_account() {
  if ( isset( $_POST['isajax'] ) && sanitize_text_field( wp_unslash( $_POST['isajax'] ) ) === 'yes' ) {
 				// nonce check
   check_ajax_referer( 'wcgsc-ajax-nonce', 'security' );
+
+  if ( ! current_user_can( 'manage_options' ) ) {
+   wp_send_json_error( 'Unauthorized', 403 );
+  }
 
   if ( isset( $_POST['isinit'] ) ) {
    $init = sanitize_text_field( wp_unslash( $_POST['isinit'] ) );
@@ -404,6 +429,10 @@ if ( $return_ajax === true ) {
 public function wcgsc_get_tab_list_by_sheetname() {
 		// nonce check
  check_ajax_referer( 'wcgsc-ajax-nonce', 'security' );
+
+ if ( ! current_user_can( 'manage_options' ) ) {
+  wp_send_json_error( 'Unauthorized', 403 );
+ }
 
  if ( ! isset( $_POST['sheetname'] ) ) {
   wp_send_json_error( 'Missing sheetname' );

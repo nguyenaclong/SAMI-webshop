@@ -301,7 +301,9 @@ function cmplz_add_hide_cookiebanner_meta_box($post_type)
 	if ( !is_post_type_viewable( $post_type )) return;
 	if ( !cmplz_user_can_manage() ) return;
 
-	add_meta_box('cmplz_hide_banner_meta_box', __('Cookiebanner', 'complianz-gdpr'), 'cmplz_hide_cookiebanner_metabox', null, 'side', 'default', array());
+	// Flag the metabox as RTC-compatible so WordPress Real Time Collaboration
+	// stays enabled on the block-editor screen when Complianz is active.
+	add_meta_box('cmplz_hide_banner_meta_box', __('Cookiebanner', 'complianz-gdpr'), 'cmplz_hide_cookiebanner_metabox', null, 'side', 'default', array( '__rtc_compatible_meta_box' => true ));
 }
 add_action('add_meta_boxes', 'cmplz_add_hide_cookiebanner_meta_box');
 

@@ -1,12 +1,11 @@
-=== GSheetConnector for WooCommerce – Send your Orders and Products to Google Sheet in Real-Time ===
-Contributors: westerndeal, abdullah17, gsheetconnector
+=== GSheetConnector – WooCommerce Google Sheets Connector, Export Orders & Products to Google Sheets in Real-Time ===
+Contributors: westerndeal, abdullah17
 Author URI: https://www.gsheetconnector.com/
 Tags: woocommerce, google sheets, woocommerce export, order export, integration
-Tested up to: 7.0
 Requires at least: 5.3
+Tested up to: 7.1
 Requires PHP: 7.4
-Requires Plugins: woocommerce
-Stable tag: 1.4.9
+Stable tag: 1.4.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -131,6 +130,21 @@ Make sure to <a href="https://www.gsheetconnector.com/how-to-enable-debugging-in
 
 == Changelog ==
 
+= 1.4.10 (06-08-2026) =
+* Added: HPOS compatibility support for WooCommerce order data handling.
+* Improved: Enhanced error handling across the WooCommerce sync process for better stability.
+* Improved: Added additional validation to prevent potential runtime notices during order synchronization.
+* Improved: Optimized Google Sheets API interactions by reducing redundant requests.
+* Improved: Enhanced caching for Google Sheets header and account data to improve performance.
+* Improved: Added capability checks to privileged AJAX actions for improved security.
+* Fixed: Improved handling of order trash and restore events for both HPOS and legacy order storage.
+* Fixed: Resolved compatibility issues with PHP 8.1 and WordPress 7.x.
+* Fixed: Corrected Google Sheet permission badge rendering on the System Status page.
+* Fixed: Removed invalid markup from the System Status page.
+* Fixed: Corrected the download URL for the Fluent Forms extension.
+* Fixed: Removed unused legacy debug log JavaScript code.
+* Fixed: Various code quality, compatibility, and stability improvements.
+
 = 1.4.9 (30-07-2026) =
 * Added: Connected feeds table to the Dashboard for quick access to Google Sheet connections.
 * Refactored: Improved overall code quality by removing unused code, consolidating duplicate logic, and updating inline documentation.
@@ -227,20 +241,18 @@ Make sure to <a href="https://www.gsheetconnector.com/how-to-enable-debugging-in
 * Fixed : Undefined image path issue resolved.
 
 = 1.3.8 (13-10-2023) =
-* Fixed : Solved Conflict CSS Issue in Google Sheet Tab Settings.
+* Fixed: Resolved the CSS conflict issue in the Google Sheet Settings tab.
 
-= Version 1.3.8 (09-10-2023) =
-= Key Highlights: =
-* Client library updated : Google API V-2.12.6 . 
-* Authorization Form Settings: Alerts for Unauthorized Access.
-* Streamlined Authentication: Replaced "Get Code" button with "Sign in with Google" for ease of use.
-* Permissions Alert: Users lacking Google Drive and Sheets permissions now receive a clear alert during authentication.
-* Enhanced System Status: Redesigned System Status and Error Log for improved functionality.
-* Pro-Version Feature Expansion: Extended a Pro-Version feature tab for added capabilities.
-= Bug Fixes and Updates: =
-* Deprecation Fixes: Resolved deprecated function errors related to Freemius integration.
-* Multi-Site Optimization: Freemius optimized for multi-site compatibility.
-* UI Enhancements: Several user interface fixes and additions to the Integration Page.
+= 1.3.8 (09-10-2023) =
+* Added: Updated the Google API Client Library to version 2.12.6.
+* Added: Unauthorized access alerts in the Authorization Settings.
+* Added: Replaced the "Get Code" button with "Sign in with Google" for a simplified authentication process.
+* Added: Alerts for missing Google Drive and Google Sheets permissions during authentication.
+* Added: Redesigned the System Status and Error Log pages.
+* Added: Extended the Pro version feature section with additional capabilities.
+* Fixed: Resolved deprecated function issues related to Freemius integration.
+* Fixed: Improved Freemius compatibility for Multisite installations.
+* Fixed: Several UI improvements and enhancements on the Integration page.
 
 = 1.3.6 (07-08-2023) =
 * Fixed : Vulnerabilities issues.

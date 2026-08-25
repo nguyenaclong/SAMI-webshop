@@ -2437,7 +2437,7 @@
       #199436,
       #3ad06f,
       transparent
-      );
+    );
     animation: gsc-border-flow 2.5s linear infinite;
     z-index: 2;
   }
@@ -2642,10 +2642,10 @@
   .gswc-free .wcgsc-cards1 {
     margin: 0px;
     text-align: center;
-    position: relative;
+    /*position: relative;*/
     font-size: 14px;
     border-color: white;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
     width: 30%;
@@ -2663,6 +2663,7 @@
     flex-wrap: wrap;
     align-items: center;
     box-sizing: border-box;
+    margin: 2px;
   }
   .gswc-free .button-wcgsc-toggle {
     position: relative;

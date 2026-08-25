@@ -9,6 +9,7 @@ function cmplz_twitter_script( $tags ) {
 		'category' => 'marketing',
 		'urls' => array(
 			'platform.twitter.com',
+			'platform.x.com',
 			'twitter-widgets.js',
 			'ads-twitter.com',
 		),

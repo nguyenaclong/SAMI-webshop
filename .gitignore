@@ -3,8 +3,10 @@
 # Local Environment & Server Configurations
 .ddev/
 wp-config-ddev.php
+wp-config-local.php
 .env
 .env.*
+!.env.example
 
 # IDE, Editor & Tooling Files
 .vscode/
@@ -15,9 +17,9 @@ wp-config-ddev.php
 # Project Tooling, Workflow & Documentation Folders
 Workflow/
 docs/
-scripts/
 
-# Compressed Archives & Bundles
+# Backup Directories & Archives
+backups/
 *.zip
 *.tar
 *.gz

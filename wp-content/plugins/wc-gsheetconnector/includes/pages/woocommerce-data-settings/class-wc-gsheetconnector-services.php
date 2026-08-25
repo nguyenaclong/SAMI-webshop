@@ -28,6 +28,9 @@ class wc_gsheetconnector_Service
 	public $coupons_headers_pro;
 	public $subscriptions_headers_pro;
 	public $_gfgsc_googlesheet;
+	public $processed_trash_order_ids = array();
+	public $processed_untrash_order_ids = array();
+	public $processed_status_transitions = array();
 
 	public function __construct()
 	{
@@ -418,12 +421,23 @@ class wc_gsheetconnector_Service
 			add_action('woocommerce_order_status_changed', array($this, 'woocommerce_order_status_changed'), 10, 4);
 			add_action('woocommerce_process_shop_order_meta', array($this, 'woocommerce_process_shop_order_meta'), 1000, 2);
 			
-			add_action('wp_trash_post', array($this, 'wp_trash_post'), 10, 1);
-			add_action('transition_post_status', array($this, 'transition_post_status'), 10, 3);
+			// HPOS-safe trash/restore sync.
+			// wp_trash_post fires for legacy admin-UI trash actions (which call wp_trash_post()
+			// directly, bypassing $order->delete()) and, when HPOS data-sync is enabled, also
+			// fires on the mirrored post. woocommerce_trash_order fires for both legacy and HPOS
+			// trash performed via $order->delete(). Both point to the same handler; a per-request
+			// guard prevents double-processing when both fire for the same event.
+			add_action('wp_trash_post', array($this, 'wc_order_trashed'), 10, 1);
+			add_action('woocommerce_trash_order', array($this, 'wc_order_trashed'), 10, 1);
+			// untrashed_post fires for legacy restore; woocommerce_untrash_order fires for HPOS restore.
+			// Only one of the two is ever authoritative for a given order, but both are registered
+			// to the same handler with a per-request guard as defensive insurance.
+			add_action('untrashed_post', array($this, 'wc_order_untrashed'), 10, 2);
+			add_action('woocommerce_untrash_order', array($this, 'wc_order_untrashed'), 10, 2);
 
 			add_filter('gscwoo_row_values', array($this, 'change_status_to_uppercase'), 10, 2);
 
-		} catch (Exception $e) {
+		} catch (\Throwable $e) {
 			wc_gsheetconnector_utility::gs_debug_log($e->getMessage());
 			return;
 		}
@@ -447,6 +461,10 @@ public function wcgsc_dismiss_pro_notice()
 
 	if (! wp_verify_nonce($nonce, 'wcgsc-ajax-nonce')) {
 		wp_send_json_error('Invalid nonce');
+	}
+
+	if ( ! current_user_can( 'manage_options' ) ) {
+		wp_send_json_error( 'Unauthorized', 403 );
 	}
 
 	setcookie(
@@ -477,6 +495,10 @@ public function wcgsc_dismiss_notice_callback()
 
 	check_ajax_referer('wcgsc-ajax-nonce', 'security');
 
+	if ( ! current_user_can( 'manage_options' ) ) {
+		wp_send_json_error( 'Unauthorized', 403 );
+	}
+
 	if (! isset($_POST['key'])) {
 		wp_send_json_error('Missing key');
 		return;
@@ -503,6 +525,10 @@ public function wcgsc_snooze_notice_callback()
 {
 
 	check_ajax_referer('wcgsc-ajax-nonce', 'security');
+
+	if ( ! current_user_can( 'manage_options' ) ) {
+		wp_send_json_error( 'Unauthorized', 403 );
+	}
 
 	if (! isset($_POST['key'])) {
 		wp_send_json_error('Missing key');
@@ -571,74 +597,102 @@ public function woocommerce_process_shop_order_meta($order_id, $order)
 		$order = new WC_Order($order_id);
 		$current_status = $order->get_status();
 		$this->woocommerce_order_status_changed($order_id, $current_status, $current_status, $order);
-	} catch (Exception $e) {
+	} catch (\Throwable $e) {
 		wc_gsheetconnector_utility::gs_debug_log($e->getMessage());
 		
 	}
 }
 
 /**
- * Handle order status transitions when a trashed order
- * is restored and sync the status change.
+ * Handle WooCommerce order trash action (HPOS and legacy storage)
+ * and trigger order status synchronization.
  *
- * @param string  $new_status New post status.
- * @param string  $old_status Previous post status.
- * @param WP_Post $post       Post object.
- */
-public function transition_post_status($new_status, $old_status, $post) {
-	try {
-		global $post_type;
-
-		if ( $post_type !== 'shop_order' ) {
-			return;
-		}
-
-			// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- Safe usage, verifying action during trash restore
-		$action = isset($_GET['action']) ? sanitize_key(wp_unslash($_GET['action'])) : '';
-
-		if ($action !== 'untrash') {
-			return;
-		}
-
-		if ( $old_status === 'trash' || $old_status === 'wc-trash' ) {
-			$order_id = $post->ID;
-			$order = wc_get_order($order_id);
-
-			$old_status = str_replace('wc-', '', $old_status);
-			$new_status = str_replace('wc-', '', $new_status);
-
-			$this->woocommerce_order_status_changed($order_id, $old_status, $new_status, $order);
-		}
-	} catch ( Exception $e ) {
-		wc_gsheetconnector_utility::gs_debug_log($e->getMessage());
-		return;
-		
-	}
-}
-
-/**
- * Handle WooCommerce order trash action and trigger
- * order status synchronization.
+ * Hooked to both `wp_trash_post` (fires for legacy admin-UI trash
+ * actions, and on the mirrored post when HPOS data-sync is enabled)
+ * and `woocommerce_trash_order` (fires for legacy and HPOS trash
+ * performed via $order->delete()) — only one of the two may fire
+ * for a given event, or both may fire for the same event; a
+ * per-request, per-order-ID guard prevents a duplicate sync call
+ * either way. The pre-trash status is recovered from the
+ * `_wp_trash_meta_status` meta key, which both storage backends
+ * persist before (or, for the legacy admin-UI path, immediately
+ * after) this handler runs, and is applied back to a local,
+ * unsaved copy of the order object so downstream row-building sees
+ * the same "last real status" that the previous handler saw.
  *
  * @param int $order_id WooCommerce order ID.
  */
-public function wp_trash_post($order_id)
+public function wc_order_trashed($order_id)
 {
 	try {
-		if (get_post_type($order_id) !== 'shop_order') {
+		if (isset($this->processed_trash_order_ids[$order_id])) {
 			return;
 		}
 
 		$order = wc_get_order($order_id);
 
-		$new_status = 'trash';
-		$current_status = $order->get_status();
+		if (!$order instanceof WC_Order) {
+			return;
+		}
 
-		$this->woocommerce_order_status_changed($order_id, $current_status, $new_status, $order);
-	} catch (Exception $e) {
+		$previous_status = str_replace('wc-', '', (string) $order->get_meta('_wp_trash_meta_status'));
+
+		if ('' !== $previous_status) {
+			$order->set_status($previous_status);
+		} else {
+			$previous_status = $order->get_status();
+		}
+
+		$this->processed_trash_order_ids[$order_id] = true;
+
+		$this->woocommerce_order_status_changed($order_id, $previous_status, 'trash', $order);
+	} catch (\Throwable $e) {
 		wc_gsheetconnector_utility::gs_debug_log($e->getMessage());
 		return;
-		
+
+	}
+}
+
+/**
+ * Handle order status transitions when a trashed order is restored
+ * (HPOS and legacy storage) and sync the status change.
+ *
+ * Hooked to both `untrashed_post` (fires only on legacy wp_posts
+ * storage) and `woocommerce_untrash_order` (fires only on HPOS
+ * storage) — only one of the two ever fires for a given order,
+ * since only one storage mode is authoritative at a time. A
+ * per-request, per-order-ID guard prevents a duplicate sync call
+ * in case both were ever to fire for the same event.
+ *
+ * @param int    $order_id        WooCommerce order ID.
+ * @param string $previous_status The order's status before it was trashed (with or without the "wc-" prefix).
+ */
+public function wc_order_untrashed($order_id, $previous_status = '')
+{
+	try {
+		if (isset($this->processed_untrash_order_ids[$order_id])) {
+			return;
+		}
+
+		$order = wc_get_order($order_id);
+
+		if (!$order instanceof WC_Order) {
+			return;
+		}
+
+		$new_status = '' !== $previous_status ? str_replace('wc-', '', $previous_status) : $order->get_status();
+
+		if ('' !== $new_status) {
+			$order->set_status($new_status);
+		}
+
+		$this->processed_untrash_order_ids[$order_id] = true;
+
+		$this->woocommerce_order_status_changed($order_id, 'trash', $new_status, $order);
+	} catch (\Throwable $e) {
+		wc_gsheetconnector_utility::gs_debug_log($e->getMessage());
+		return;
+
 	}
 }
 
@@ -718,7 +772,7 @@ public function execute_post_data() {
 		} else {
 			add_action('admin_notices', array($this, 'error_message'));
 		}
-	} catch (Exception $e) {
+	} catch (\Throwable $e) {
 		wc_gsheetconnector_utility::gs_debug_log($e->getMessage());
 		return;
 		
@@ -823,7 +877,7 @@ public function create_remove_sheet_and_headers($spreadsheet_id, $order_states)
 			$header_names = array_keys($headers);
 			$gscwoo_client->add_row_to_sheet($spreadsheet_id, $associated_tab, $header_names, '', true);
 		}
-	} catch (Exception $e) {
+	} catch (\Throwable $e) {
 		wc_gsheetconnector_utility::gs_debug_log($e->getMessage());
 		return;
 		
@@ -847,7 +901,7 @@ public function add_status_header_in_all_orders($headers, $wc_status)
 		}
 
 		return $headers;
-	} catch (Exception $e) {
+	} catch (\Throwable $e) {
 		wc_gsheetconnector_utility::gs_debug_log($e->getMessage());
 		return;
 		
@@ -872,7 +926,7 @@ public function change_status_to_uppercase($header_value, $cell_name)
 		}
 
 		return $header_value;
-	} catch (Exception $e) {
+	} catch (\Throwable $e) {
 		wc_gsheetconnector_utility::gs_debug_log($e->getMessage());
 		return;
 		
@@ -982,7 +1036,7 @@ public function create_save_array($order, $header_cells, $custom_status = false)
 
 		return $send_row_data;
 
-	} catch (Exception $e) {
+	} catch (\Throwable $e) {
 		wc_gsheetconnector_utility::gs_debug_log($e->getMessage());
 		return;
 		
@@ -1007,6 +1061,14 @@ public function woocommerce_order_status_changed($order_id, $old_status, $new_st
 {
 
 	try {
+		$transition_key = $order_id . '|' . $old_status . '|' . $new_status;
+
+		if (isset($this->processed_status_transitions[$transition_key])) {
+			return;
+		}
+
+		$this->processed_status_transitions[$transition_key] = true;
+
 		$new_wc_status = 'wc-' . $new_status;
 		$old_wc_status = 'wc-' . $old_status;
 
@@ -1059,7 +1121,7 @@ public function woocommerce_order_status_changed($order_id, $old_status, $new_st
 			$gscwoo_client->update_row_by_order_id($spreadsheet_id, $adding_sheet, $insert_row, $order_id, $order_id_key);
 		}
 
-		if ($this->status_is_enabled('all')) {
+		if ($this->status_is_enabled('all') && isset($this->status_and_sheets['all'])) {
 			$all_sheet = $this->status_and_sheets['all'];
 			$header_all_row = $gscwoo_client->get_header_row($spreadsheet_id, $all_sheet);
 			// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- Existing hook kept for backward compatibility.
@@ -1070,7 +1132,7 @@ public function woocommerce_order_status_changed($order_id, $old_status, $new_st
 		}
 
 		remove_action('woocommerce_process_shop_order_meta', array($this, 'woocommerce_process_shop_order_meta'), 1000, 2);
-	} catch (Exception $e) {
+	} catch (\Throwable $e) {
 		wc_gsheetconnector_utility::gs_debug_log($e->getMessage());
 		return;
 		
@@ -1095,7 +1157,7 @@ public function status_is_enabled($wc_status)
 		}
 
 		return;
-	} catch (Exception $e) {
+	} catch (\Throwable $e) {
 		wc_gsheetconnector_utility::gs_debug_log($e->getMessage());
 		return;
 		
@@ -1123,7 +1185,7 @@ public function get_googlesheet_object()
 
 		$this->_gfgsc_googlesheet = $google_sheet;
 		return $google_sheet;
-	} catch (Exception $e) {
+	} catch (\Throwable $e) {
 		wc_gsheetconnector_utility::gs_debug_log($e->getMessage());
 		return;
 	}
@@ -1141,7 +1203,7 @@ public function get_googlesheet_object()
  *
  * @return string Comma-separated product list.
  */
-public function extract_product_qty_sku($order, $order_data = false)
+public static function extract_product_qty_sku($order, $order_data = false)
 {
 
 	try {
@@ -1166,7 +1228,7 @@ public function extract_product_qty_sku($order, $order_data = false)
 
 		$value = implode(', ', $value);
 		return $value;
-	} catch (Exception $e) {
+	} catch (\Throwable $e) {
 		wc_gsheetconnector_utility::gs_debug_log($e->getMessage());
 		return;
 	}
@@ -1184,7 +1246,7 @@ public function extract_product_qty_sku($order, $order_data = false)
  */
 public function get_adding_extra_order_row() {
 
-	$extra_rows = wp_cache_get( 'gsc_extra_order_meta_keys', 'gsc_cache' );
+	$extra_rows = get_transient( 'gsc_extra_order_meta_keys' );
 	if ( false !== $extra_rows ) {
 		return $extra_rows;
 	}
@@ -1213,18 +1275,36 @@ public function get_adding_extra_order_row() {
 		'return' => 'ids',
 	));
 
+	$hpos_enabled = class_exists( '\Automattic\WooCommerce\Utilities\OrderUtil' )
+		&& \Automattic\WooCommerce\Utilities\OrderUtil::custom_orders_table_usage_is_enabled();
+
 	foreach ( $orders as $order_id ) {
-		$order_meta = get_post_meta( $order_id );
-		foreach ( array_keys($order_meta) as $key ) {
-			if ( ! in_array( $key, $excluded_keys, true ) ) {
-				$meta_keys[ $key ] = true;
+		if ( $hpos_enabled ) {
+			// get_post_meta() returns empty under HPOS (order meta lives outside wp_postmeta);
+			// get_meta_data() is WooCommerce's storage-agnostic replacement.
+			$order = wc_get_order( $order_id );
+			if ( ! $order ) {
+				continue;
+			}
+			foreach ( $order->get_meta_data() as $meta ) {
+				$key = $meta->key;
+				if ( ! in_array( $key, $excluded_keys, true ) ) {
+					$meta_keys[ $key ] = true;
+				}
+			}
+		} else {
+			$order_meta = get_post_meta( $order_id );
+			foreach ( array_keys($order_meta) as $key ) {
+				if ( ! in_array( $key, $excluded_keys, true ) ) {
+					$meta_keys[ $key ] = true;
+				}
 			}
 		}
 	}
 
 	$extra_rows = array_keys( $meta_keys );
 
-	wp_cache_set( 'gsc_extra_order_meta_keys', $extra_rows, 'gsc_cache', 1800 );
+	set_transient( 'gsc_extra_order_meta_keys', $extra_rows, 1800 );
 
 	return $extra_rows;
 }
@@ -1242,7 +1322,7 @@ public function get_adding_extra_order_row() {
 public function get_adding_extra_product_item_row() {
 
 	$cache_key = 'gsc_extra_product_item_meta_keys';
-	$extra_rows = wp_cache_get( $cache_key, 'gsc_cache' );
+	$extra_rows = get_transient( $cache_key );
 	if ( false !== $extra_rows ) {
 		return $extra_rows;
 	}
@@ -1290,7 +1370,7 @@ public function get_adding_extra_product_item_row() {
 	}
 
 	$extra_rows = array_keys( $meta_keys );
-	wp_cache_set( $cache_key, $extra_rows, 'gsc_cache', 1800 );
+	set_transient( $cache_key, $extra_rows, 1800 );
 
 	return $extra_rows;
 }
@@ -1308,7 +1388,7 @@ public function get_adding_extra_product_item_row() {
 public function get_adding_extra_product_row() {
 
 	$cache_key  = 'gsc_extra_product_postmeta_keys';
-	$extra_rows = wp_cache_get( $cache_key, 'gsc_cache' );
+	$extra_rows = get_transient( $cache_key );
 
 	if ( false !== $extra_rows ) {
 		return $extra_rows;
@@ -1337,7 +1417,7 @@ public function get_adding_extra_product_row() {
 	}
 
 	$extra_rows = array_keys( $meta_keys );
-	wp_cache_set( $cache_key, $extra_rows, 'gsc_cache', 1800 );
+	set_transient( $cache_key, $extra_rows, 1800 );
 
 	return $extra_rows;
 }

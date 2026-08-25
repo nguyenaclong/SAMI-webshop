@@ -262,6 +262,25 @@ if ( ! function_exists('cmplz_upload_url')) {
 	}
 }
 
+if ( ! function_exists( 'cmplz_https_upload_url' ) ) {
+	/**
+	 * Get the upload url, normalized to https on SSL pages.
+	 *
+	 * The cmplz_upload_url() helper inherits the siteurl/WP_CONTENT_URL scheme,
+	 * which may be http:// on sites served over https via a proxy. Enqueuing an
+	 * http:// asset on an https page triggers a browser mixed-content block. Use
+	 * this wherever the upload URL is emitted to the frontend (e.g. banner CSS).
+	 *
+	 * @param string $path Optional sub-path appended under the complianz uploads directory.
+	 *
+	 * @return string
+	 */
+	function cmplz_https_upload_url( string $path = '' ): string {
+		$url = cmplz_upload_url( $path );
+		return is_ssl() ? str_replace( 'http://', 'https://', $url ) : $url;
+	}
+}
+
 if ( ! function_exists( 'cmplz_uses_social_media' ) ) {
 
 	/**
@@ -1414,6 +1433,32 @@ if (!function_exists('cmplz_set_transient')) {
 				'expires' => time() + (int) $expiration,
 		);
 		update_option( 'cmplz_transients', $transients, false );
+	}
+}
+if ( !function_exists('cmplz_delete_transients_by_prefix') ) {
+	/**
+	 * Delete all cmplz transients whose name starts with the given prefix.
+	 * Used to invalidate grouped caches such as page_links_{banner_id}_{locale}.
+	 *
+	 * @param string $prefix
+	 *
+	 * @return void
+	 */
+	function cmplz_delete_transients_by_prefix( string $prefix ): void {
+		$transients = get_option( 'cmplz_transients', array() );
+		if ( ! is_array( $transients ) ) {
+			return;
+		}
+		$changed = false;
+		foreach ( array_keys( $transients ) as $name ) {
+			if ( strpos( $name, $prefix ) === 0 ) {
+				unset( $transients[ $name ] );
+				$changed = true;
+			}
+		}
+		if ( $changed ) {
+			update_option( 'cmplz_transients', $transients, false );
+		}
 	}
 }
 

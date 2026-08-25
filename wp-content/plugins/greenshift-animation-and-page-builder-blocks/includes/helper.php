@@ -1616,18 +1616,27 @@ function gspb_render_style_attributes($style_attributes, $selector, $final_css =
         return $final_css;
     }
 
-    // Helper function to generate device values
+    // Helper function to generate device values.
+    // Each device value is wrapped in its own array so multi part values can be
+    // concatenated, matching generateDeviceValues() in
+    // src/gspb-library/utilitiesnew/styletabs_css_generator/index.js
     $gspb_generate_device_values = function($value, $enable_specificity = false) {
+        $suffix = $enable_specificity ? ' !important' : '';
+        // JS keeps a value when (v || v === 0), so 0 and '0' survive but null, false and '' do not.
+        $keep = function($v) {
+            return $v !== null && $v !== false && $v !== '';
+        };
+
         if (is_array($value)) {
-            return [
-                (isset($value[0]) && $value[0] !== null && $value[0] !== '') ? $value[0] . ($enable_specificity ? ' !important' : '') : null,
-                (isset($value[1]) && $value[1] !== null && $value[1] !== '') ? $value[1] . ($enable_specificity ? ' !important' : '') : null,
-                (isset($value[2]) && $value[2] !== null && $value[2] !== '') ? $value[2] . ($enable_specificity ? ' !important' : '') : null,
-                (isset($value[3]) && $value[3] !== null && $value[3] !== '') ? $value[3] . ($enable_specificity ? ' !important' : '') : null,
-            ];
-        } else {
-            return [$value . ($enable_specificity ? ' !important' : '')];
+            $device_values = [];
+            for ($i = 0; $i < 4; $i++) {
+                $device_value = $value[$i] ?? null;
+                $device_values[] = $keep($device_value) ? [$device_value . $suffix] : [null];
+            }
+            return $device_values;
         }
+
+        return [$value . $suffix];
     };
 
     // Helper function to clean body from selector
@@ -1642,53 +1651,131 @@ function gspb_render_style_attributes($style_attributes, $selector, $final_css =
         return 'calc(' . $width . '% - (' . $gap . ' * (' . $columns . ' - 1) / ' . $columns . '))';
     };
 
-    // Helper function to get device inherit values
-    $gspb_get_device_inherit_values = function($value, $index) {
-        if (is_array($value) && isset($value[$index])) {
-            return $value[$index];
+    // Helper function to get device inherit values.
+    // Mirrors getDeviceInheritValues() in
+    // src/gspb-library/componentsnew/updatevalues/index.js: when the requested
+    // device has no value of its own it walks back up to three levels to inherit one.
+    $gspb_get_device_inherit_values = function($value, $index, $returnvalue = '', $zero_allowed = true) {
+        if ($value === null) {
+            return $returnvalue;
         }
-        return $value;
+        if (!is_array($value)) {
+            return $value;
+        }
+
+        $defined = function($v) {
+            return $v !== null && $v !== '';
+        };
+
+        $current = $returnvalue;
+        if (isset($value[$index]) && $defined($value[$index])) {
+            $current = $value[$index];
+        } else {
+            for ($back = 1; $back <= 3; $back++) {
+                $probe = $index - $back;
+                if ($probe < 0) {
+                    break;
+                }
+                if (isset($value[$probe]) && $defined($value[$probe])) {
+                    $current = $value[$probe];
+                    break;
+                }
+            }
+        }
+
+        if ($current === 0 || $current === '0') {
+            return $zero_allowed ? $current : $returnvalue;
+        }
+
+        return $current;
     };
 
-    // Helper function to generate CSS
-    $gspb_generate_css = function($selector, $properties, $values, $final_css) {
+    // Helper function to build a single declaration.
+    // Mirrors one_line_css_rule() in src/gspb-library/helpers/css-generator/index.js:
+    // a value split into several parts is concatenated, and any empty part voids
+    // the whole declaration.
+    $gspb_one_line_css_rule = function($property, $value) {
+        if (empty($property)) {
+            return '';
+        }
+        if ($value === null || $value === false || $value === '') {
+            return '';
+        }
+        if (!is_array($value)) {
+            return $property . ':' . $value . ';';
+        }
+        if (empty($value)) {
+            return '';
+        }
+
+        $result = '';
+        foreach ($value as $part) {
+            if ($part === null || $part === false || $part === '') {
+                return '';
+            }
+            $result .= $part;
+        }
+
+        return $property . ':' . $result . ';';
+    };
+
+    // Helper function to generate CSS.
+    // Breakpoints are cascading (max-width only) to match gspb_cssGen() in
+    // src/gspb-library/helpers/css-generator/index.js, so a tablet value keeps
+    // applying to narrower screens until a narrower breakpoint overrides it.
+    $gspb_generate_css = function($selector, $properties, $values, $final_css) use ($gspb_one_line_css_rule) {
         if (empty($properties) || empty($values)) {
             return $final_css;
         }
 
-        $css_rules = [];
-        $devices = ['desktop', 'tablet', 'landscape-mobile', 'portrait-mobile'];
         $breakpoints = [
-            '(min-width: 992px)',
-            '(min-width: 768px) and (max-width: 991.98px)',
-            '(min-width: 576px) and (max-width: 767.98px)',
-            '(max-width: 575.98px)'
+            '',
+            '@media (max-width: 991.98px)',
+            '@media (max-width: 767.98px)',
+            '@media (max-width: 575.98px)',
         ];
 
-        // Generate CSS for each device
-        for ($device_index = 0; $device_index < 4; $device_index++) {
-            $device_css = '';
-            $has_properties = false;
+        $device_css = ['', '', '', ''];
+        $count = min(count($properties), count($values));
 
-            for ($i = 0; $i < count($properties); $i++) {
-                if (isset($values[$i]) && is_array($values[$i]) && isset($values[$i][$device_index]) && $values[$i][$device_index] !== null) {
-                    $device_css .= $properties[$i] . ':' . $values[$i][$device_index] . ';';
-                    $has_properties = true;
+        for ($i = 0; $i < $count; $i++) {
+            if (empty($properties[$i])) {
+                return $final_css;
+            }
+
+            $value = $values[$i];
+
+            // A value is per device only when it is exactly four arrays, one per
+            // breakpoint. Anything else is a single value for the default device.
+            $per_device = is_array($value) && count($value) === 4;
+            if ($per_device) {
+                foreach ($value as $entry) {
+                    if (!is_array($entry)) {
+                        $per_device = false;
+                        break;
+                    }
                 }
             }
 
-            if ($has_properties) {
-                if ($device_index === 0) {
-                    // Desktop (default) - no media query
-                    $css_rules[] = $selector . '{' . $device_css . '}';
-                } else {
-                    // Other devices - with media query
-                    $css_rules[] = '@media ' . $breakpoints[$device_index] . ' {' . $selector . '{' . $device_css . '}}';
+            if ($per_device) {
+                for ($device_index = 0; $device_index < 4; $device_index++) {
+                    $device_css[$device_index] .= $gspb_one_line_css_rule($properties[$i], $value[$device_index]);
                 }
+            } else {
+                $device_css[0] .= $gspb_one_line_css_rule($properties[$i], $value);
             }
         }
 
-        return $final_css . implode('', $css_rules);
+        foreach ($device_css as $device_index => $rules) {
+            if ($rules === '') {
+                continue;
+            }
+            $final_css .= (0 === $device_index)
+                ? $selector . '{' . $rules . '}'
+                : $breakpoints[$device_index] . '{' . $selector . '{' . $rules . '}}';
+        }
+
+        return $final_css;
     };
 
     // Group attributes by type
@@ -1741,6 +1828,10 @@ function gspb_render_style_attributes($style_attributes, $selector, $final_css =
                 $clamp_properties = ['display', '-webkit-box-orient', 'overflow', 'text-overflow', '-webkit-line-clamp'];
                 $clamp_values = ['-webkit-box', 'vertical', 'hidden', 'ellipsis', $gspb_generate_device_values($value, $enable_specificity)];
                 $final_css = $gspb_generate_css($css_selector, $clamp_properties, $clamp_values, $final_css);
+            } elseif ($property == 'text-stroke') {
+                $text_stroke_properties = ['-webkit-text-stroke'];
+                $text_stroke_values = [$gspb_generate_device_values($value, $enable_specificity)];
+                $final_css = $gspb_generate_css($css_selector, $text_stroke_properties, $text_stroke_values, $final_css);
             } else {
                 $properties[] = $property;
                 $values[] = $gspb_generate_device_values($value, $enable_specificity);
@@ -1883,7 +1974,7 @@ function gspb_render_style_attributes($style_attributes, $selector, $final_css =
                 
                 for ($i = 1; $i <= $number_columns; $i++) {
                     $property = ['width'];
-                    $css_selector = $selector . '>*:not(style):nth-of-type(' . $number_columns . 'n+' . $i . ')';
+                    $css_selector = $selector . ' > *:nth-child(' . $number_columns . 'n+' . $i . ' of :not(style))';
                     $values = [[
                         [$gspb_calculate_width($style_attributes['flexWidths_Extra']['desktop']['widths'][$i-1], $gspb_get_device_inherit_values($gap, 0), $number_columns)],
                         [$gspb_calculate_width($style_attributes['flexWidths_Extra']['tablet']['widths'][$i-1], $gspb_get_device_inherit_values($gap, 1), $number_columns)],
@@ -1905,7 +1996,7 @@ function gspb_render_style_attributes($style_attributes, $selector, $final_css =
                     $layout = $style_attributes['gridLayout_Extra'][$device];
                     if ($layout && isset($layout['layouts'])) {
                         foreach ($layout['layouts'] as $index => $item) {
-                            $css_selector = $selector . '>*:not(style):nth-of-type(' . ($index + 1) . ')';
+                            $css_selector = $selector . ' > *:nth-child(' . ($index + 1) . ' of :not(style))';
                             $properties = ['grid-area'];
                             $values = [
                                 [

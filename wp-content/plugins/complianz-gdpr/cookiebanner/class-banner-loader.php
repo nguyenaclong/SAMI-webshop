@@ -245,7 +245,9 @@ if ( ! class_exists( 'cmplz_banner_loader' ) ) {
 		}
 
 		/**
-		 * When special data is processed, Canada requires optin consenttype
+		 * Canada/Australia require opt-in when special data is processed. The US can be
+		 * switched to opt-in region-wide (all US visitors, not per state) when a site
+		 * targets California and enables it in the wizard.
 		 *
 		 * @param string $consenttype The current consent type (e.g. 'optin', 'optout').
 		 * @param string $region The region code (e.g. 'ca', 'us', 'au').
@@ -266,6 +268,14 @@ if ( ! class_exists( 'cmplz_banner_loader' ) ) {
 				&& cmplz_site_shares_data()
 				&& cmplz_get_option( 'sensitive_information_processed' ) === 'yes'
 				&& cmplz_uses_marketing_cookies()
+			) {
+				$consenttype = 'optin';
+			}
+
+			// Optional opt-in for the US region when a site targets California and enables
+			// it in the wizard. Applies region-wide to all US visitors, not per state.
+			if ( 'us' === $region
+				&& cmplz_get_option( 'us_california_optin' ) === 'yes'
 			) {
 				$consenttype = 'optin';
 			}
@@ -438,7 +448,7 @@ if ( ! class_exists( 'cmplz_banner_loader' ) ) {
 
 			wp_enqueue_style(
 				"cmplz-banner-{$banner_id}-{$consent_type}",
-				cmplz_upload_url() . $relative,
+				cmplz_https_upload_url() . $relative,
 				array(),
 				(string) filemtime( $absolute )
 			);
@@ -716,7 +726,7 @@ if ( ! class_exists( 'cmplz_banner_loader' ) ) {
 			$added_scripts = array_filter(
 				$scripts['add_script'],
 				function ( $script ) {
-					return true === $script['enable'];
+					return true === (bool) $script['enable'];
 				}
 			);
 
@@ -727,7 +737,7 @@ if ( ! class_exists( 'cmplz_banner_loader' ) ) {
 				}
 
 				echo "<!-- Script Center {$script['category']} script Complianz GDPR/CCPA -->\n";
-				$async = true === $script['async'] ? 'async' : '';
+				$async = true === (bool) $script['async'] ? 'async' : '';
 				?>
 				<script <?php echo $async; ?> type="text/plain"
 											data-category="<?php echo esc_attr( $script['category'] ); ?>">

@@ -424,7 +424,7 @@ msgstr "Bộ đếm ngược giữ giỏ hàng"
 
 #: framework/helpers/exts-configs.php:404
 msgid "Display a countdown timer for reserved cart items, encouraging users to complete their purchase before the timer expires."
-msgstr "Hiển thị đồng hồ đếm ngược cho các món hàng đang được giữ chỗ, thúc đẩy người dùng hoàn tất mua hàng trước khi hết giờ."
+msgstr "Hiển thị đồng hồ đếm ngược cho các món hàng đang được giữ chỗ, thúc đẩy người dùng hoàn tất mua hàng trước khi hết gi��."
 
 #: framework/extensions/cookies-consent/config.php:6
 msgid "Display a simple consent banner to inform users about the use of cookies on the website."
@@ -608,7 +608,7 @@ msgstr "Nhập WordPress"
 #. translators: %s is the new version number.
 #: framework/features/demo-install/wp-importer.php:1468
 msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
-msgstr "Đã có phiên bản mới của trình nhập này. Vui lòng cập nhật lên phiên bản %s để đảm bảo tương thích với các t��p xuất mới hơn."
+msgstr "Đã có phiên bản mới của trình nhập này. Vui lòng cập nhật lên phiên bản %s để đảm bảo tương thích với các tệp xuất mới hơn."
 
 #: framework/features/demo-install/wp-importer.php:1489
 msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
@@ -1261,7 +1261,7 @@ msgstr "Xem thêm thông tin về cách tạo danh sách trong FluentCRM %stại
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/AllFonts.js:123
 msgid "Modern Font Stack"
-msgstr "Bộ phông chữ hiện đại"
+msgstr "Bộ phông chữ hi��n đại"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/CustomFonts.js:142
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:330
@@ -4076,7 +4076,7 @@ msgstr "Thanh vận chuyển miễn phí"
 
 #: framework/premium/extensions/woocommerce-extra/features/shipping-progress/feature.php:212
 msgid "Show if cart is empty"
-msgstr "Hiển thị nếu giỏ h��ng trống"
+msgstr "Hiển thị nếu giỏ hàng trống"
 
 #: framework/premium/extensions/woocommerce-extra/features/shipping-progress/feature.php:445,
 #: framework/premium/extensions/woocommerce-extra/features/shipping-progress/options.php:180
@@ -11172,7 +11172,7 @@ msgstr "Quay lại đăng nhập"
 
 #: framework/features/header/header-options.php:11
 msgid "Sticky Functionality"
-msgstr "Chức năng ghim"
+msgstr "Ch��c năng ghim"
 
 #: framework/features/header/header-options.php:37
 msgid "Only Main Row"

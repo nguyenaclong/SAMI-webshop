@@ -266,7 +266,7 @@ msgstr "Сообщество в Facebook"
 
 #: static/js/dashboard/helpers/SubmitSupport.js:35
 msgid "Share ideas, help others, ask questions and discuss your next project in our friendly community."
-msgstr "Делитесь идеями, помогайте другим, задавайт�� вопросы и обсуждайте свой следующий проект в нашем дружелюбном сообществе."
+msgstr "Делитесь идеями, помогайте другим, задавайте вопросы и обсуждайте свой следующий проект в нашем дружелюбном сообществе."
 
 #: static/js/dashboard/helpers/SubmitSupport.js:43
 msgid "Join Our Community"
@@ -344,7 +344,7 @@ msgstr "Это поле является обязательным"
 
 #: framework/theme-integration.php:90
 msgid "Please fix this field."
-msgstr "Исправьте содержимое этого поля."
+msgstr "��справьте содержимое этого поля."
 
 #: framework/theme-integration.php:91
 msgid "Please enter a valid email address."
@@ -380,7 +380,7 @@ msgstr "Введите то же значение ещё раз."
 
 #: framework/theme-integration.php:99
 msgid "Please enter no more than {0} characters."
-msgstr "Введите не более {0} символов."
+msgstr "Введите ��е более {0} символов."
 
 #: framework/theme-integration.php:100
 msgid "Please enter at least {0} characters."
@@ -436,7 +436,7 @@ msgstr "Отображает простой баннер согласия, ин�
 #: framework/features/demo-install/parsers.php:99,
 #: framework/features/demo-install/parsers.php:107
 msgid "There was an error when reading this WXR file"
-msgstr "При чтении да��ного WXR-файла произошла ошибка!"
+msgstr "При чтении данног�� WXR-файла произошла ошибка!"
 
 #: framework/features/demo-install/parsers.php:56
 msgid "Details are shown above. The importer will now try again with a different parser..."
@@ -1020,7 +1020,7 @@ msgstr "Количество дней до того, как модальное �
 
 #: framework/premium/features/content-blocks/options/popup.php:279
 msgid "Days before the popup relaunches after the additional close trigger is activated."
-msgstr "Дней до повторного запуска модального окна после активации дополнительного триггера закрытия."
+msgstr "Дней до повторного запуска модального окна после активации дополнительного триггера закр��тия."
 
 #: framework/premium/features/content-blocks/options/popup.php:295
 msgid "Close Actions"
@@ -1133,7 +1133,7 @@ msgstr "Система показа скрытых при превышении �
 
 #: framework/premium/extensions/woocommerce-extra/features/swatches/options.php:611
 msgid "Out of Stock Swatch Type"
-msgstr "Тип образца отсутствующего на складе"
+msgstr "Тип о��разца отсутствующего на складе"
 
 #: framework/premium/extensions/woocommerce-extra/features/swatches/options.php:618
 msgid "Faded"
@@ -1462,7 +1462,7 @@ msgstr "Вы уже включены в список ожидания"
 
 #: framework/premium/extensions/woocommerce-extra/features/product-waitlist/includes/waitlist-dashboard.php:303
 msgid "You have been added to the waitlist"
-msgstr "Вы добавлены в список ожидания"
+msgstr "Вы добавлены в ��писок ожидания"
 
 #: framework/premium/extensions/woocommerce-extra/features/product-waitlist/includes/waitlist-dashboard.php:333
 msgid "You have been removed from the waitlist"
@@ -1544,7 +1544,7 @@ msgstr "Товар, который вы ждёте, снова в наличии
 
 #: framework/premium/extensions/woocommerce-extra/features/product-waitlist/includes/emails/back-in-stock.php:11
 msgid "Good news! The product you have been waiting for is now back in stock!"
-msgstr "Хорошие н��вости! Товар, который вы так долго ждали, снова в наличии!"
+msgstr "Хорошие новости! Товар, который вы так долго ждали, снова в наличии!"
 
 #: framework/premium/extensions/woocommerce-extra/features/product-waitlist/includes/emails/confirm-subscription.php:8
 msgid "Waitlist - Confirm Subscription"
@@ -2859,7 +2859,7 @@ msgstr "Записи - макет 2"
 
 #: framework/features/blocks/query/block-patterns/posts-layout-3.php:4
 msgid "Posts - Layout 3"
-msgstr "Записи - м��кет 3"
+msgstr "Записи - макет 3"
 
 #: framework/features/blocks/query/block-patterns/posts-layout-4.php:4
 msgid "Posts - Layout 4"
@@ -3329,7 +3329,7 @@ msgstr "Расширенный режим"
 
 #: static/js/options/ConditionsManager/SingleCondition.js:152
 msgid "Select product"
-msgstr "Выбрать товар"
+msgstr "Выбрать то��ар"
 
 #: static/js/options/ConditionsManager/ScheduleDate.js:149
 msgid "Monday"
@@ -3429,7 +3429,7 @@ msgstr "Это профессиональный стартовый сайт"
 
 #: static/js/dashboard/screens/DemoInstall/SingleDemo.js:54
 msgid "Upgrade to any pro plan and get instant access to this starter site and many other features."
-msgstr "Перейдите на любой профессио��альный тариф и получите мгновенный доступ к этому стартовому сайту и многим другим функциям."
+msgstr "Перейдите на любой профессиональный тариф и получите мгновенный доступ к этому стартовому сайту и многим другим функциям."
 
 #: static/js/dashboard/screens/DemoInstall/SingleDemo.js:61
 msgid "Upgrade to the business or agency plan and get instant access to this starter site and many other features."
@@ -3664,7 +3664,7 @@ msgstr "Адрес доставки"
 
 #: framework/premium/extensions/woocommerce-extra/static/js/blocks/ct-order/OrderDetails.js:64
 msgid "Subtotal"
-msgstr "Под��тог"
+msgstr "Подытог"
 
 #: framework/premium/extensions/woocommerce-extra/static/js/blocks/ct-order/OrderDetails.js:77
 msgid "Shipping"
@@ -4541,7 +4541,7 @@ msgstr "Заголовок партнёрской ссылки"
 #: framework/premium/extensions/woocommerce-extra/features/affiliate/options.php:57,
 #: framework/premium/extensions/woocommerce-extra/features/affiliate/options.php:90
 msgid "Open Button Link In New Tab"
-msgstr "Открывать кнопкой ��овую вкладку"
+msgstr "Открывать кнопкой новую вкладку"
 
 #: framework/premium/extensions/woocommerce-extra/features/cart-page/options.php:14
 msgid "Quantity Auto Update"
@@ -8350,7 +8350,7 @@ msgstr "Страница списка желаний"
 
 #: framework/premium/extensions/woocommerce-extra/features/wish-list/options.php:46
 msgid "The page you select here will display the wish list for your logged out users."
-msgstr " На странице, которую вы выберете здес��, будет отображаться список желаний для невошедших в систему пользователей."
+msgstr " На с��ра��ице, которую вы выберете здесь, будет отображаться список желаний для невошедших в систему пользователей."
 
 #: framework/premium/extensions/woocommerce-extra/features/added-to-cart-popup/customizer-options.php:25
 msgid "Archive Page"
@@ -8673,7 +8673,7 @@ msgstr "Фильтр записей"
 
 #: framework/premium/extensions/post-types-extra/features/filtering/customizer.php:59
 msgid "Filtering Behavior"
-msgstr "��оведение фильтрации"
+msgstr "Поведение фильтрации"
 
 #: framework/premium/extensions/post-types-extra/features/filtering/customizer.php:67
 msgid "Instant Reload"
@@ -9013,7 +9013,7 @@ msgstr "Курсивный"
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/RegularTab.js:30
 msgid "Upload only the %s.woff2%s or %s.ttf%s font file formats (see browser coverage %shere%s). Use %sthis converter tool%s if you don't have these font formats."
-msgstr "Загружайте только файлы шрифтов в форматах %s.woff2%s или %s.ttf%s (смотрите покрытие браузера %sздесь%s). Используйте %sэтот конвертер%s, если у вас нет таких форматов шрифтов."
+msgstr "Загружайте только файлы шрифтов в форматах %s.woff2%s или %s.ttf%s (смотрите покрытие браузера %sздесь%s). Используйте %sэтот конвертер%s, если у вас нет таких фо��ма��ов шрифтов."
 
 #: framework/premium/extensions/custom-fonts/dashboard-static/js/Uploader.js:91
 msgid "Font Name"

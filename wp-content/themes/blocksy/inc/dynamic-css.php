@@ -11,6 +11,11 @@ class ThemeDynamicCss {
 
 	public function __construct() {
 		add_action('customize_save_after', function () {
+			/**
+			 * Fires when the dynamic CSS caches need to be regenerated.
+			 *
+			 * @since 1.8.0
+			 */
 			do_action('blocksy:dynamic-css:refresh-caches');
 		});
 
@@ -223,7 +228,7 @@ class ThemeDynamicCss {
 
 		$styles_descriptor = blocksy_akg('styles_descriptor', $post_atts, null);
 
-		$current_saved_version = $this->get_css_version();
+		$current_saved_version = '__DEFAULT__';
 
 		if ($styles_descriptor && isset($styles_descriptor['version'])) {
 			$current_saved_version = intval($styles_descriptor['version']);
@@ -413,6 +418,20 @@ class ThemeDynamicCss {
 			'chunk' => 'admin'
 		]);
 
+		/**
+		 * Fires when the global dynamic CSS is generated for the block editor.
+		 *
+		 * @since 2.0.88
+		 *
+		 * @param array $args {
+		 *     Dynamic CSS descriptor.
+		 *
+		 *     @type string $context    Output context. Default 'inline'.
+		 *     @type object $css        Desktop CSS injector.
+		 *     @type object $tablet_css Tablet CSS injector.
+		 *     @type object $mobile_css Mobile CSS injector.
+		 * }
+		 */
 		do_action(
 			'blocksy:global-dynamic-css:enqueue:admin',
 			[
@@ -434,13 +453,13 @@ class ThemeDynamicCss {
 		$css = $all_global_css;
 
 		if (! empty($all_tablet_css)) {
-			$css .= "\n@media (max-width: 800px) {\n";
+			$css .= "\n@media (max-width: 999.98px) {\n";
 			$css .= $all_tablet_css;
 			$css .= "}\n";
 		}
 
 		if (! empty($all_mobile_css)) {
-			$css .= "\n@media (max-width: 370px) {\n";
+			$css .= "\n@media (max-width: 689.98px) {\n";
 			$css .= $all_mobile_css;
 			$css .= "}\n";
 		}
@@ -457,4 +476,3 @@ class ThemeDynamicCss {
 		return $css;
 	}
 }
-

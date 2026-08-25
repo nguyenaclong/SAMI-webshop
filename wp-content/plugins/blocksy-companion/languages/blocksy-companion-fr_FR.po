@@ -617,7 +617,7 @@ msgstr "Bonjour ! Téléversez votre fichier WordPress eXtended RSS (WXR) et no
 
 #: framework/features/demo-install/wp-importer.php:1490
 msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
-msgstr "Choisissez un fichier WXR (.xml) à t��léverser, puis cliquez sur « Téléverser le fichier et l’importer »."
+msgstr "Choisissez un fichier WXR (.xml) à téléverser, puis cliquez sur « Téléverser le fichier et l’importer »."
 
 #. translators: %1$s is the error message, %2$s is the line number
 #: framework/premium/features/code-editor.php:116
@@ -1211,7 +1211,7 @@ msgstr "4 étoiles"
 #: framework/premium/extensions/woocommerce-extra/features/filters/filter-types/rating.php:120
 #: framework/premium/extensions/woocommerce-extra/static/js/blocks/woocommerce-filters/rating-filter/Preview.js:25
 msgid "5 stars"
-msgstr "5 étoiles"
+msgstr "5 ��toiles"
 
 #: framework/premium/extensions/woocommerce-extra/features/filters/filter-types/status.php:147
 msgid "On sale"

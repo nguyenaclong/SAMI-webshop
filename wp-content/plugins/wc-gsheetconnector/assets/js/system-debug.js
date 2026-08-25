@@ -302,25 +302,3 @@ jQuery(document).ready(function ($) {
     document.body.removeChild(link);
   });
 });
-
- /** Functin for using clear log  */
-    jQuery(document).on('click', '.wcgsc-clear-content-system-logs', function () {
-    jQuery(".wcgsc-clear-loading-sign-system-logs").addClass("loading");
-    var data = {
-      action: 'wcgsc_clear_system_debug_log',
-      security: jQuery('#gs-ajax-nonce').val()
-    };
-    jQuery.post(ajaxurl, data, function (response) {
-     if (response == -1) {
-            return false; // Invalid nonce
-          }
-
-          if (response.success) {
-            jQuery(".wcgsc-clear-loading-sign-system-logs").removeClass("loading");
-            jQuery('.wcgsc-clear-content-system-logs-msg').html('Logs are cleared.');
-            setTimeout(function () {
-             location.reload();
-           }, 1000);
-          }
-        });
-  });

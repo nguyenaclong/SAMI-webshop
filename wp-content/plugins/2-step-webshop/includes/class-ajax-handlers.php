@@ -15,59 +15,8 @@ class TSW_Ajax_Handlers {
 
         add_action( 'wp_ajax_save_pickup_time_session', array( $this, 'save_pickup_time_session' ) );
         add_action( 'wp_ajax_nopriv_save_pickup_time_session', array( $this, 'save_pickup_time_session' ) );
-    }
-
-    public function clear_cart() {
         check_ajax_referer( 'tsw_ajax_nonce', 'security' );
 
-        if ( function_exists( 'WC' ) && WC()->cart ) {
-            WC()->cart->empty_cart();
-        }
-        wp_send_json_success();
-    }
-
-    public function update_cart_item_qty() {
-        check_ajax_referer( 'tsw_ajax_nonce', 'security' );
-
-        if ( ! isset( $_POST['cart_item_key'] ) || ! isset( $_POST['qty'] ) ) {
-            wp_send_json_error( 'Invalid request' );
-            return;
-        }
-
-        $cart_item_key = sanitize_text_field( $_POST['cart_item_key'] );
-        $qty = intval( $_POST['qty'] );
-
-        if ( function_exists( 'WC' ) && WC()->cart ) {
-            if ( $qty <= 0 ) {
-                WC()->cart->remove_cart_item( $cart_item_key );
-            } else {
-                WC()->cart->set_quantity( $cart_item_key, $qty );
-            }
-
-            // Bug #3 fix: build fragments manually and return proper JSON
-            // instead of calling WC_AJAX::get_refreshed_fragments() which exits
-            $fragments = apply_filters( 'woocommerce_add_to_cart_fragments', array() );
-            wp_send_json_success( array(
-                'fragments' => $fragments,
-                'cart_hash' => WC()->cart->get_cart_hash(),
-            ) );
-        }
-        wp_send_json_error( 'Cart unavailable' );
-    }
-
-    /**
-     * Save Cart pickup selection to WooCommerce Session
-     */
-    public function save_pickup_time_session() {
-        check_ajax_referer( 'tsw_ajax_nonce', 'security' );
-
-        if ( WC()->session ) {
-            if ( isset( $_POST['pickup_time'] ) ) {
-                WC()->session->set( 'pickup_time', sanitize_text_field( $_POST['pickup_time'] ) );
-            }
-            if ( isset( $_POST['pickup_date'] ) ) {
-                WC()->session->set( 'pickup_date', sanitize_text_field( $_POST['pickup_date'] ) );
-            }
             if ( isset( $_POST['shipping_method'] ) ) {
                 $method = sanitize_text_field( $_POST['shipping_method'] );
                 $matching_rate_id = '';

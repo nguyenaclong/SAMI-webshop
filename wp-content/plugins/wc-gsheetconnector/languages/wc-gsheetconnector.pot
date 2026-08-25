@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce GSheetConnector\n"
-"POT-Creation-Date: 2026-07-30 19:12+0530\n"
+"POT-Creation-Date: 2026-08-06 19:13+0530\n"
 "PO-Revision-Date: 2024-02-20 18:46+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -29,7 +29,7 @@ msgid "Log table not found."
 msgstr ""
 
 #: includes/class-wc-gsheetconnector-error-logs.php:266
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:879
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:878
 msgid "Error Log"
 msgstr ""
 
@@ -40,17 +40,17 @@ msgid ""
 msgstr ""
 
 #: includes/class-wc-gsheetconnector-error-logs.php:278
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:887
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:886
 msgid "Clear Logs"
 msgstr ""
 
 #: includes/class-wc-gsheetconnector-error-logs.php:287
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:892
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:891
 msgid "Download CSV"
 msgstr ""
 
 #: includes/class-wc-gsheetconnector-error-logs.php:291
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:897
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:896
 msgid "Copy Logs"
 msgstr ""
 
@@ -79,7 +79,7 @@ msgstr ""
 msgid "No logs found."
 msgstr ""
 
-#: includes/class-wc-gsheetconnector-error-logs.php:502
+#: includes/class-wc-gsheetconnector-error-logs.php:507
 msgid "Permission denied."
 msgstr ""
 
@@ -121,7 +121,7 @@ msgstr ""
 msgid "Version: %s"
 msgstr ""
 
-#: includes/pages/admin-footer.php:128 wc-gsheetconnector.php:184
+#: includes/pages/admin-footer.php:128 wc-gsheetconnector.php:191
 msgid "Docs"
 msgstr ""
 
@@ -129,7 +129,7 @@ msgstr ""
 msgid "Plugins"
 msgstr ""
 
-#: includes/pages/admin-footer.php:148 wc-gsheetconnector.php:185
+#: includes/pages/admin-footer.php:148 wc-gsheetconnector.php:192
 msgid "Support"
 msgstr ""
 
@@ -795,12 +795,12 @@ msgstr ""
 
 #: includes/pages/google-sheet-settings.php:31
 #: includes/pages/google-sheet-settings.php:395
-#: includes/pages/integration/class-wc-gsheetconnector-processes.php:101
+#: includes/pages/integration/class-wc-gsheetconnector-processes.php:105
 msgid "WooCommerce Data Settings"
 msgstr ""
 
 #: includes/pages/google-sheet-settings.php:33
-#: includes/pages/google-sheet-settings.php:397 wc-gsheetconnector.php:825
+#: includes/pages/google-sheet-settings.php:397 wc-gsheetconnector.php:832
 msgid "Settings"
 msgstr ""
 
@@ -1079,20 +1079,20 @@ msgstr ""
 msgid "Free vs Pro"
 msgstr ""
 
-#: includes/pages/integration/class-wc-gsheetconnector-processes.php:87
+#: includes/pages/integration/class-wc-gsheetconnector-processes.php:91
 #: includes/pages/wc-gsheetconnector-dashboard-widget.php:21
 msgid "Google Sheet Not Connected"
 msgstr ""
 
-#: includes/pages/integration/class-wc-gsheetconnector-processes.php:114
+#: includes/pages/integration/class-wc-gsheetconnector-processes.php:118
 msgid "Not connected"
 msgstr ""
 
-#: includes/pages/integration/class-wc-gsheetconnector-processes.php:231
+#: includes/pages/integration/class-wc-gsheetconnector-processes.php:243
 msgid "WooCommerce - GSheetConnector"
 msgstr ""
 
-#: includes/pages/integration/class-wc-gsheetconnector-processes.php:423
+#: includes/pages/integration/class-wc-gsheetconnector-processes.php:452
 #: includes/pages/woocommerce-data-settings/wc-gsheetconnector-setting.php:86
 msgid "Select"
 msgstr ""
@@ -1959,17 +1959,17 @@ msgstr ""
 #: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:206
 #: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:214
 #: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:261
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:498
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:506
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:514
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:715
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:722
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:729
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:736
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:743
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:750
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:757
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:775
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:497
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:505
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:513
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:714
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:721
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:728
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:735
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:742
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:749
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:756
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:774
 msgid "Yes"
 msgstr ""
 
@@ -1978,17 +1978,17 @@ msgstr ""
 #: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:206
 #: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:214
 #: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:261
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:498
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:506
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:514
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:715
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:722
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:729
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:736
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:743
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:750
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:757
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:775
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:497
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:505
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:513
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:714
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:721
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:728
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:735
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:742
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:749
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:756
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:774
 msgid "No"
 msgstr ""
 
@@ -2052,194 +2052,194 @@ msgstr ""
 msgid "Network Active plugins"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:355
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:354
 msgid "Active Plugins"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:407
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:406
 msgid "Server"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:416
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:415
 msgid ""
 "The options shown below relate to your server setup. If changes are "
 "required, you may need your web host’s assistance."
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:424
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:423
 msgid "Server Architecture"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:435
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:434
 msgid "Web Server"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:440
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:439
 msgid "PHP Version"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:445
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:444
 msgid "PHP SAPI"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:450
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:449
 msgid "PHP Max Input Variables"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:455
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:454
 msgid "PHP Time Limit"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:458
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:471
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:457
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:470
 msgid "seconds"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:463
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:462
 msgid "PHP Memory Limit"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:468
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:467
 msgid "Max Input Time"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:476
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:475
 msgid "Upload Max Filesize"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:481
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:480
 msgid "PHP Post Max Size"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:487
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:486
 msgid "Not Installed"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:491
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:490
 msgid "cURL Version"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:496
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:495
 msgid "Is SUHOSIN Installed?"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:503
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:502
 msgid "Is the Imagick Library Available?"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:511
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:510
 msgid "Are Pretty Permalinks Supported?"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:531
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:530
 msgid ".htaccess Rules"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:533
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:846
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:532
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:845
 msgid "Writable"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:533
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:847
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:532
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:846
 msgid "Not Writable"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:538
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:537
 msgid "Current Time"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:543
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:542
 msgid "Current UTC Time"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:548
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:547
 msgid "Current Server Time"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:559
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:558
 msgid "Database"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:583
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:582
 msgid "Extension"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:590
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:589
 msgid "Server Version"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:597
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:596
 msgid "Client Version"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:604
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:603
 msgid "Database Username"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:611
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:610
 msgid "Database Host"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:618
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:617
 msgid "Database Name"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:625
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:624
 msgid "Table Prefix"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:632
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:631
 msgid "Database Charset"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:639
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:638
 msgid "Database Collation"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:646
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:645
 msgid "Max Allowed Packet Size"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:653
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:652
 msgid "Max Connections Number"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:667
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:666
 msgid "WordPress Constants"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:797
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:796
 msgid "Filesystem Permission"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:806
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:805
 msgid ""
 "Shows whether WordPress is able to write to the directories it needs access "
 "to."
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:825
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:824
 msgid "The main WordPress directory"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:826
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:825
 msgid "The wp-content directory"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:827
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:826
 msgid "The uploads directory"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:828
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:827
 msgid "The plugins directory"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:829
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:828
 msgid "The themes directory"
 msgstr ""
 
-#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:957
+#: includes/pages/system-status/wc-gsheetconnector-systeminfo.php:956
 msgid "No error logs found."
 msgstr ""
 
@@ -2425,7 +2425,7 @@ msgstr ""
 msgid "Image / PDF Attachment Link"
 msgstr ""
 
-#: includes/pages/wc-dashboard.php:539 wc-gsheetconnector.php:835
+#: includes/pages/wc-dashboard.php:539 wc-gsheetconnector.php:842
 msgid "Upgrade to Pro"
 msgstr ""
 
@@ -2544,11 +2544,11 @@ msgstr ""
 msgid "Click to Sync Order"
 msgstr ""
 
-#: includes/pages/woocommerce-data-settings/class-wc-gsheetconnector-services.php:653
+#: includes/pages/woocommerce-data-settings/class-wc-gsheetconnector-services.php:707
 msgid "WooCommerce Data Settings saved successfully."
 msgstr ""
 
-#: includes/pages/woocommerce-data-settings/class-wc-gsheetconnector-services.php:741
+#: includes/pages/woocommerce-data-settings/class-wc-gsheetconnector-services.php:795
 msgid "Please select Google Sheet Name and Check Atleast on Google Sheet Tab !"
 msgstr ""
 
@@ -3163,15 +3163,15 @@ msgstr ""
 msgid "Sync Subscriptions"
 msgstr ""
 
-#: wc-gsheetconnector.php:184
+#: wc-gsheetconnector.php:191
 msgid "View Documentation"
 msgstr ""
 
-#: wc-gsheetconnector.php:185
+#: wc-gsheetconnector.php:192
 msgid "Get Support"
 msgstr ""
 
-#: wc-gsheetconnector.php:541
+#: wc-gsheetconnector.php:548
 msgid ""
 "GSheetConnector WooCommerce Add-on requires WooCommerce plugin to be "
 "installed and activated."

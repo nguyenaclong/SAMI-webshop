@@ -118,14 +118,14 @@ if (! current_user_can('manage_options')) {
 
                     <tr>
                         <td> <?php echo esc_html__('Google Drive Permission', 'wc-gsheetconnector'); ?></td>
-                        <td class="fw-700 permission-badge ' <?php echo esc_attr($wcgsc_permission_class); ?>">
+                        <td class="fw-700 permission-badge <?php echo esc_attr($wcgsc_permission_class); ?>">
                             <?php echo esc_html($wcgsc_search_permission); ?>
                         </td>
                     </tr>
 
                     <tr>
                         <td><?php echo esc_html__('Google Sheet Permission', 'wc-gsheetconnector'); ?></td>
-                        <td class="fw-700 permission-badge ' . esc_attr($wcgsc_permission_class) . '">
+                        <td class="fw-700 permission-badge <?php echo esc_attr($wcgsc_permission_class); ?>">
                             <?php echo  esc_html($wcgsc_search_permission); ?>
                         </td>
                     </tr>
@@ -328,9 +328,8 @@ if (is_multisite()) {
     $wcgsc_network_active_plugins = get_site_option('active_sitewide_plugins', array());
     if (!empty($wcgsc_network_active_plugins)) { ?>
         <div class="mb-20 mt-20"><button id="wcgsc-show-netplug-info-button" class="info-button"><?php echo esc_html__('Network Active plugins', 'wc-gsheetconnector'); ?>
-        <span class="dashicons dashicons-arrow-down"></span></button></div>';
+        <span class="dashicons dashicons-arrow-down"></span></button></div>
         <div id="netplug-info-container" class="info-content shadow-box pt-20 pb-20 pl-30 pr-30 d-none">
-            ';
             <table>
                 <?php
                 foreach ( $wcgsc_network_active_plugins as $wcgsc_plugin => $wcgsc_plugin_data ) {

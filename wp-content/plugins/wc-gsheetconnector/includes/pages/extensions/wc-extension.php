@@ -282,7 +282,7 @@ if (!defined('ABSPATH')) {
                         'button' => __('Install', 'wc-gsheetconnector'),
                         'badge' => __('Free', 'wc-gsheetconnector'),
                         'freeLink' => 'https://wordpress.org/plugins/wc-gsheetconnector/',
-                        'downloadLink' => '"https://downloads.wordpress.org/plugin/wc-gsheetconnector.1.0.8.zip"',
+                        'downloadLink' => 'https://downloads.wordpress.org/plugin/wc-gsheetconnector.1.0.8.zip',
                         'buyLink' => 'https://www.gsheetconnector.com/fluent-forms-google-sheet-connector-pro',
                         'mainPlugin' => 'fluentform/fluentform.php',
                         'theme' => '',

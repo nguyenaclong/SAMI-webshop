@@ -472,7 +472,12 @@ if (!class_exists('wcgsc_error_logs')) {
          */
         public static function log_js_error()
         {
-           // phpcs:ignore WordPress.Security.NonceVerification.Missing -- Client-side error logging endpoint.
+            check_ajax_referer( 'wcgsc-ajax-nonce', 'security' );
+
+            if ( ! current_user_can( 'manage_options' ) ) {
+                wp_send_json_error( 'Unauthorized', 403 );
+            }
+
             $log = sanitize_text_field( wp_unslash( $_POST['log'] ?? '' ) );
 
             self::log_to_db(
